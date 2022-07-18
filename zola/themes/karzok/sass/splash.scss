@@ -1,0 +1,75 @@
+
+
+#splash1 {
+    color: #e60000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* IE8 */
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#circle {
+     top:25%;
+     left:37.5%;
+    background: transparent;
+    border: 4px solid #e60000;
+    height: 0;
+    width: 15%;
+
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+      
+}
+
+#yes {
+   /* position:fixed;
+    width:50%;
+    top:50%;
+    left:0;*/
+    /**/
+    position: fixed;
+    width:100%;
+    top: 26%;
+    left:0%;/**/
+    text-decoration: none;
+   // font-family: 'Ruslan Display', cursive;
+    color: #cc0000;
+    -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
+            animation: myOrbit 10s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+    
+    
+    
+}
+
+ 
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}

@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  min-height: 10px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: var(--background);
+  border-top: 1px solid;
+  border-color: var(--foreground);
+  font-size: 16px;
+  color: var(--foreground);
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+li {
+    margin: 0 auto;
+  }
+  span {
+    padding-left: 1em;
+    font-size: 16px;
+    
+  }
+  a {
+    color: var(--foreground);
+  }
+}

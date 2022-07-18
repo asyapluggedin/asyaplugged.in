@@ -1,0 +1,147 @@
+@import 'base';
+
+@import 'macros/header';
+@import 'macros/footer';
+
+:root {
+  --black: #111111;
+  --white: #ffffff;
+  --light2: #bbbbbb;
+  --light3: #dddddd;
+  --green: #2ecc40;
+  --red: #FF0101;
+  --teal: #40FFF4;
+  // --green: #2ecc40; 383FFF; 0001FF;
+}
+
+* {
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: 'Inter';
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: var(--foreground);
+  &:hover {
+    color: var(--foreground);
+  }
+}
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body[data-theme="black"] {
+    --background: var(--black);
+    --foreground: var(--teal);
+    --blogtext: var(--white);
+}
+
+body[data-theme="light"] {
+    --foreground: var(--red);
+    --background: var(--white);
+    --blogtext: var(--black);
+}
+
+body {
+    background: var(--background);
+    --foreground: var(--red);
+    --background: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+    --background: var(--black);
+    --foreground: var(--teal);
+}
+}
+
+// flex space between basic styles
+header > nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 0.25fr;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+
+/*
+
+THIS IS WHERE THE SPLASH PAGE CODE LIVES
+
+*/
+
+
+#circle {
+  position: relative;
+  
+ background: transparent;
+ border: 4px solid var(--foreground);
+ height: 0;
+ width: 15%;
+ padding-bottom: 15%;
+
+ border-radius: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ margin: auto;
+   
+}
+
+#yes {
+/* position:fixed;
+ width:50%;
+ top:50%;
+ left:0;*/
+ position: absolute;
+ width:100%;
+ top:45%;
+ font-size: 26px;
+ text-decoration: none;
+ color: var(--foreground);
+ // font-family: 'Ruslan Display', cursive;
+ -webkit-animation: myOrbit 5s linear infinite; /* Chrome, Safari 5 */
+    -moz-animation: myOrbit 5s linear infinite; /* Firefox 5-15 */
+      -o-animation: myOrbit 5s linear infinite; /* Opera 12+ */
+         animation: myOrbit 5s linear infinite; /* Chrome, Firefox 16+, 
+                                                   IE 10+, Safari 5 */
+ 
+ 
+ 
+}
+
+
+@-webkit-keyframes myOrbit {
+ from { -webkit-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+ to   { -webkit-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+ from { -moz-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+ to   { -moz-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+ from { -o-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
+ to   { -o-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+ from { transform: rotate(0deg) translateX(50%) rotate(0deg); }
+ to   { transform: rotate(360deg) translateX(50%) rotate(-360deg); }
+}

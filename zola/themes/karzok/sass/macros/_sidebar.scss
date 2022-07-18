@@ -1,0 +1,93 @@
+main > nav {
+  padding-left: 0;
+  max-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  border-right: 1px solid $dark1;
+  li {
+    margin-left: 0.5rem;
+    margin-top: 1em;
+    a {
+      margin-top: 1em;
+    }
+  }
+  li.subsection {
+    margin-left: 0.5rem;
+    svg {
+      position: relative;
+      cursor: pointer;
+      top: 0.15rem;
+      left: -0.15rem;
+    }
+    input[type='checkbox'] {
+      position: absolute;
+      opacity: 0;
+      overflow: hidden;
+      cursor: pointer;
+      z-index: 2;
+    }
+    input[type='checkbox'] ~ ul.subsection {
+      display: none;
+    }
+    input[type='checkbox']:checked ~ ul.subsection {
+      display: block;
+    }
+    input[type='checkbox'] ~ nav > li > svg {
+      transform: rotate(0deg);
+      transition: 0.2s ease-in-out;
+    }
+    input[type='checkbox']:checked ~ svg {
+      transform: rotate(90deg);
+      transition: 0.2s ease-in-out;
+    }
+    &:hover {
+      color: var(--foreground);
+      border-right: none;
+    }
+  }
+  ul.subsection {
+    padding-left: 0.5em;
+    margin-top: 1em;
+    color: $dark3;
+    li {
+      display: flex;
+      text-align: left;
+      a {
+        margin-top: 0em;
+      }
+      &::before {
+        content: '';
+        padding-left: 1.5rem;
+      }
+    }
+  }
+  li.active,
+  li:hover {
+    color: var(--foreground);
+    border-right: 1px solid var(--foreground);
+  }
+  a.active {
+    color: var(--foreground);
+  }
+}
+
+@media (max-width: 1000px) {
+  main > nav {
+    display: none;
+    .active,
+    li:hover,
+    a:hover {
+      color: var(--foreground);
+      border: none;
+    }
+  }
+  #sidebar {
+    display: block;
+    left: 0;
+    transform: translateX(-100%);
+    &:target {
+      transform: translateX(0);
+      z-index: 6;
+    }
+  }
+}

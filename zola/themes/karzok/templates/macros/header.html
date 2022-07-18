@@ -1,0 +1,111 @@
+{# header component  #}
+{% macro header(current_url) %}
+{% set current_link = current_url | safe | trim_end_matches(pat="/")  %}
+<header>
+    <nav aria-label="section navigation" itemscope itemtype="http://shema.org/SiteNavigationElement">
+        <ul>
+            
+            <li>
+                <a class="{% if current_link == config.base_url %} active {% endif %} {% if config.extra.logotype %} {%endif%}" href="{{ config.base_url | safe }}">
+                    {% if config.extra.logotype %}
+                    <div class="logotype">
+                      <img width="31" height="31" alt="favicon" src="{{ get_url(path=config.extra.logotype)}}" />
+                    </div>
+                    {% else %}
+                    <span> {{ config.extra.header.name | default(value="Home") }}</span>
+                    {% endif %}
+                </a>
+            </li>
+            
+        </ul>
+        	
+
+        <form class="headline">
+            <ul><li>
+            {% if config.extra.header_left %}
+            {% for item in config.extra.header_left %}
+            {% set val_link = item.link  | replace(from="$base_url", to=config.base_url) %}
+            
+                
+                
+                <a itemprop="url" class="{% if current_link == val_link %} active {% endif %}" href="{{ val_link | safe }}">
+                    <span > {{ item.text }} </span>
+                </a>
+            
+           
+            
+            {% endfor %}
+            {% endif %}
+        </li></ul>
+        </form>
+<!--
+        <form class="headline">
+                <a class="{% if current_link == config.base_url %} active {% endif %} {% if config.extra.logotype %} {%endif%}" href="{{ config.base_url | safe }}">
+                    {% if config.extra.logotype %}
+                    <div class="logotype">
+                      <img width="31" height="31" alt="favicon" src="{{ get_url(path=config.extra.logotype)}}" />
+                    </div>
+                    {% else %}
+                    <span> {{ config.extra.header.name | default(value="Home") }}</span>
+                    {% endif %}
+                </a>
+            </form>
+        -->
+            
+            {% if config.build_search_index %}
+            <form class="search">
+                <input id="userinput" type="search" placeholder="search"
+						aria-label="search" autocomplete="off">
+                {#
+                <!-- <button type="submit" title="Submit your search query.">
+                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M29 27.586l-7.552-7.552a11.018 11.018 0 1 0-1.414 1.414L27.586 29zM4 13a9 9 0 1 1 9 9a9.01 9.01 0 0 1-9-9z" fill="currentColor"></path></svg>
+                </button>
+                -->
+                #}
+                <div id="suggestions"></div>
+				</form>
+			{% endif %}
+        {% if config.extra.header_right %}
+        <ul>
+            {% for item in config.extra.header_right %}
+            {% set item_link = item.link | replace(from = "$base_url", to=config.base_url) %}
+                <li>
+                    <a  aria-label="{% if item.alt %} {{ item.alt }} {% else %} {{ item.link }} {%endif%}" itemprop="url" class="vector" href=" {{ item_link | safe }} ">
+                    {% if item.svg %}
+                        <span class="svg">
+                            {{ item.svg | safe }}
+                        </span>
+                    {% endif %}
+                    {% if item.text %}
+                        <span> {{ item.text }} </span>
+                    {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+                <li class="separator">
+                 <button class="toggle vector" type="button" aria-label="Toggle mode">
+                 <span class="svg">
+                     <svg class="toggle-light" fill = "currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>asleep</title><path d="M13.5025,5.4136A15.0755,15.0755,0,0,0,25.096,23.6082a11.1134,11.1134,0,0,1-7.9749,3.3893c-.1385,0-.2782.0051-.4178,0A11.0944,11.0944,0,0,1,13.5025,5.4136M14.98,3a1.0024,1.0024,0,0,0-.1746.0156A13.0959,13.0959,0,0,0,16.63,28.9973c.1641.006.3282,0,.4909,0a13.0724,13.0724,0,0,0,10.702-5.5556,1.0094,1.0094,0,0,0-.7833-1.5644A13.08,13.08,0,0,1,15.8892,4.38,1.0149,1.0149,0,0,0,14.98,3Z"/></svg>
+                 <svg class="toggle-black" fill = "currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>asleep_black</title><path d="M14.98,3a1.0024,1.0024,0,0,0-.1746.0156A13.0959,13.0959,0,0,0,16.63,28.9973c.1641.006.3282,0,.4909,0a13.0724,13.0724,0,0,0,10.702-5.5556,1.0094,1.0094,0,0,0-.7833-1.5644A13.08,13.08,0,0,1,15.8892,4.38,1.0149,1.0149,0,0,0,14.98,3Z"/></svg>
+                 </span>
+             </button>
+        </li>
+    </ul>
+        {% endif %}
+    </nav>
+</header>
+
+{% if config.extra.devmode %}
+<div class="header__container flex-between">
+    <a itemprop="url" class="header__container-link" href="/zero">
+    <span class="header__container-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--simple-line-icons" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M768 0H416q-27 0-45.5 18.5T352 64h352v256h256v512H736v64h224q27 0 45.5-18.5T1024 832V256zm0 256V90l165 166H768zM64 128q-27 0-45.5 18.5T0 192v768q0 27 18.5 45.5T64 1024h544q27 0 45.5-18.5T672 960V384L416 128H64zm544 832H64V192h288v256h256v512zM416 384V218l165 166H416z" fill="currentColor"></path></svg>
+    </span>
+     <div class="header__container-column">
+     <h3 class="header__container-title"> zero </h3>
+     <p class="header__container-description"> is a number </p>
+     </div>
+    </a>
+</div>
+{% endif %}
+{% endmacro %}

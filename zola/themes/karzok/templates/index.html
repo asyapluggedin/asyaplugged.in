@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block styles %}
+{{ macros::styles(file='section.css') }}
+{% endblock styles %}
+    <body>
+        {% block body %}
+            {% block content %}
+            {% block welcome %}
+            <div class="welcome">
+                <div id="circle" style="text-align: center;"> 
+
+                    <div id="yes">
+                        <a href="/you">YES</a>
+                    </div>
+            
+                </div>
+            {% if config.description %}
+            <p>
+                {{ config.description }}
+            </p>
+            {% endif %}
+            </div>
+            {% endblock welcome %}
+            <section>
+                {% if config.extra.menu %}
+                {% for link in config.extra.menu %}
+                {% set item_link = link.link  | replace(from="$base_url", to=config.base_url) %}
+                        <a  href="{{ item_link | safe }}">
+                            <span> {{ link.text }} </span>
+                    </a>
+                    {% endfor %}
+                {% endif %}
+            </section>
+            {% endblock content %}
+        {% endblock body %}
+    </body>
+</html>

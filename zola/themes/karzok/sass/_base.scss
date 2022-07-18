@@ -1,0 +1,24 @@
+// Color system variables
+$dark3: #333333 !default;
+$dark2: #555555 !default;
+$dark1: #777777 !default;
+$light4: #f9f9f9 !default;
+$red: #FF0101 !default;
+$red3: #a80000 !default;
+
+
+$orange: #ff851b !default;
+$yellow: #ffdc00 !default;
+$aqua: #7fdbff !default;
+$teal: #40FFF4 !default;
+$blue: #0074d9 !default; // #0001FF
+$purple: #b10dc9 !default;
+$brown: #85144b !default;
+
+$light2: var(--red); //light2
+$light3: var(--red3); //
+
+// for a11y 100% in ligthouse use
+//:root {
+//--green: #176620;
+//}
