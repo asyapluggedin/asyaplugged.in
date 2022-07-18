@@ -156,9 +156,7 @@ x_3
 \%
 $$
 
-{% katex(block=true) %}
-1\% \\ x 
-{%end %}
+
 
 # Media
 
