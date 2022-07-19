@@ -65,6 +65,7 @@
         <script src="{{ config.extra.assets_url }}/search.js" defer></script>
         <script src="{{ config.extra.assets_url }}/mode-switch.js"></script>
       {% else %}
+      <script src="{{ get_url(path='mode-switch.js') | safe }}"></script>
         <script src="{{ get_url(path="search.js") | safe }}" defer></script>
 
       {% endif %}
