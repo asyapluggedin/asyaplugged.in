@@ -11,6 +11,7 @@
   --green: #2ecc40;
   --red: #FF0101;
   --teal: #40FFF4;
+  --red4: #DB1414;
   // --green: #2ecc40; 383FFF; 0001FF;
 }
 
@@ -45,14 +46,14 @@ body[data-theme="black"] {
 }
 
 body[data-theme="light"] {
-    --foreground: var(--red);
+    --foreground: var(--red4);
     --background: var(--white);
     --blogtext: var(--black);
 }
 
 body {
     background: var(--background);
-    --foreground: var(--red);
+    --foreground: var(--red4);
     --background: var(--white);
 }
 
