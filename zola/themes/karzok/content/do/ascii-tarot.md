@@ -12,6 +12,9 @@ authors = ["Asya Davydova Lewis"]
 ![Deck of cards with blue ascii art design shrink-wrapped in plastic](deck.jpg)
 ![Deck of cards with blue ascii art design shrink-wrapped in plastic](deck.png)
 
+![Deck of cards with blue ascii art design shrink-wrapped in plastic](ascii-tarot/deck.jpg)
+![Deck of cards with blue ascii art design shrink-wrapped in plastic](ascii-tarot/deck.png)
+
 <!-- more -->
 # *
 The Tarot has always been practiced IRL - only through the tactile motions of shuffling, through the candlelight flickers that ignite our anticipation, through our belief that the material will translate something from the corporeal - are we able to find out fate, and believe the narrative that is drawn. 
