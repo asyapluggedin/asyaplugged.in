@@ -1,6 +1,6 @@
 # On every push this script is executed
 on: push
-name: Build and deploy GH Pages
+name: Build and deploy GH Pages (zola)
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +12,6 @@ jobs:
         uses: shalzz/zola-deploy-action@v0.14.1
         env:
           # Target branch
-          PAGES_BRANCH: main
+          PAGES_BRANCH: gh-pages
           # Provide personal access token
           TOKEN: ${{ secrets.TOKEN }}
