@@ -2,17 +2,33 @@
 {% block styles %}
 {{ macros::styles(file='section.css') }}
 {% endblock styles %}
+ 
     <body>
         {% block body %}
             {% block content %}
             {% block welcome %}
             <div class="welcome">
                 <div id="circle" style="text-align: center;"> 
-
+                    <a id="counter"></a>
                     <div id="yes">
-                        <a href="/you">YES</a>
+                        <a onclick="increment()">YES</a>
+
+                        <script>
+                            var count= document.getElementById("counter");
+                            let value = 0;
+                            count.innerHTML = value;
+
+                            increment = function() {
+                            count.innerHTML=++value;
+                            }
+                        </script>
+
+
+
+
+
                     </div>
-            
+                
                 </div>
             {% if config.description %}
             <p>
