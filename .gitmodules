@@ -1,0 +1,3 @@
+[submodule "karzok-upstream"]
+	path = themes/karzok-upstream
+	url = git@github.com:kogeletey/karzok.git
