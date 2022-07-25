@@ -17,7 +17,34 @@
 </script>
 {%endif%}
 <footer>
- <ul><li>made by asya with &lt;3</li></ul>
+
+  <div>
+    <span class="{% if config.extra.logotype %} {%endif%}" href="{{ config.base_url | safe }}">{{ config.extra.header.name | default(value="Home") }}</span>
+    <ul>
+      <li><br></li>
+      <li><a href="/do">do – portfolio</a></li>
+      <li><a href="/you">you – info + contact</a></li>
+      <li><a href="/know">know – blog</a></li>
+      <li><a href="/love">love – love</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <ul>
+      <li>Credits</li>
+      <li><br></li>
+      <li>Design and engineering</li>
+      <li>Anastasia Davydova Lewis</li>
+      <li><br></li>
+      <li>Built with Zola and modified Karzok</li>
+    </ul>
+  </div>
+
+  <div>
+    <a href="#top">Top ↑</a>
+  </div>
+
+ <div>made by asya with &lt;3</div>
         
 </footer>
 {% endmacro %}

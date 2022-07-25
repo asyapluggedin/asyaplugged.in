@@ -8,20 +8,48 @@ footer {
   border-color: var(--foreground);
   font-size: 16px;
   color: var(--foreground);
+
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 1px;
+  div {
+    margin: -1;
+    padding: 15px;
+    border: 1px solid;
+    border-color: var(--foreground);
+
+
+    &:nth-child(3) {
+      grid-column: span 3;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+
+  
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 li {
-    margin: 0 auto;
+    margin: 5 auto;
   }
   span {
-    padding-left: 1em;
+    //padding-left: 1em;
+    padding-bottom: 3px;
     font-size: 16px;
+
+    &:hover{
+      
+      border-bottom: 2px solid;
+      border-color: var(--foreground);
+    }
     
   }
   a {
     color: var(--foreground);
   }
+  
 }
