@@ -16,3 +16,7 @@
 ## current
 
 - you
+
+## new to do
+
+- fix what appears in sidear
