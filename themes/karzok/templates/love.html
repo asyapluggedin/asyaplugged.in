@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{# import styles for page #}
+{% block styles %} 
+    {{ macros::styles(file='you.css')}} 
+{% endblock styles %}
+{# page title #}
+{% block htmltitle %} 
+    {{ page.title }} 
+{% endblock htmltitle %}
+{% block content %}
+
+
+  <article>
+    <h1 class="title">{{ page.title }}</h1>
+    {% block sections %}
+    <ul class="sections">
+        {{ page::date() }}
+        {{ page::taxonomies_authors() }}
+    </ul>
+    {% endblock sections %}
+    <div class ="you">
+    {{ page.content | safe }}
+</div>
+  </article>
+
+{% endblock content %}
