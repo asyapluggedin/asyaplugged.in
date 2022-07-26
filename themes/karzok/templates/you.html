@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {# import styles for page #}
-{% block styles %} {{ macros::styles(file='page.css')}} {% endblock styles %}
+{% block styles %} 
+    {{ macros::styles(file='you.css')}} 
+{% endblock styles %}
 {# page title #}
-{% block htmltitle %} {{ page.title }} {% endblock htmltitle %}
+{% block htmltitle %} 
+    {{ page.title }} 
+{% endblock htmltitle %}
 {% block content %}
 <main>
   <div class="show-bar">
