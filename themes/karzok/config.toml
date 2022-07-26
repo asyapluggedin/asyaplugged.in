@@ -1,7 +1,7 @@
-title = "Asya DL : Home"
+title = "Asya Davydova Lewis"
 
 base_url = "http://localhost:8080"
-#base_url = "/zola"
+#base_url = "asyaplugged.in"
 
 description = " "
 
@@ -17,10 +17,14 @@ compile_sass = true
 
 taxonomies = [
     {name = "authors"},
+    {name = "tags"},
+    {name = "categories"},
 ]
 
 [slugify]
 paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [markdown]
 highlight_code = true
@@ -65,12 +69,6 @@ link = "$base_url/know"
 text = "love"
 link = "$base_url/love"
 
-
-# experiments in container header, disabled
-#[[extra.meta.container]]
-#title = "Meta"
-#description = "meta"
-#url  = "/home"
 
 [[extra.header_right]]
 link = "https://github.com/asyapluggedin/"
