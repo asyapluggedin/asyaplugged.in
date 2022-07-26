@@ -1,9 +1,9 @@
 +++
-title = "Youu"
+title = "You"
+template = "you.html"
 date = "2022-07-18"
-description= "youu"
-sort_by = "weight"
-weight = 2
+description= "You – About"
+
 
 [extra]
 
