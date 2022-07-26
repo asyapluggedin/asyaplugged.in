@@ -2,6 +2,7 @@
 {% macro header(current_url) %}
 {% set current_link = current_url | safe | trim_end_matches(pat="/")  %}
 <header>
+    <a id="top"></a>
     <nav aria-label="section navigation" itemscope itemtype="http://shema.org/SiteNavigationElement">
         <ul>
             
