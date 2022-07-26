@@ -126,6 +126,13 @@ THIS IS WHERE THE SPLASH PAGE CODE LIVES
  
 }
 
+#counter {
+position: absolute;
+text-align: center;
+top:45%;
+left: 50%;
+transform: translate(-50%, 0%);
+}
 
 @-webkit-keyframes myOrbit {
  from { -webkit-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
