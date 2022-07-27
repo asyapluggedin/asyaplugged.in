@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block styles %} 
+    {{macros::styles(file='know.css') }} 
+{% endblock styles %}
+
+{% block htmltitle%} 
+    {{ macros::title_or_last(component=section) }} - {{ config.title }} 
+{%endblock htmltitle %}
+{% block title %} 
+    {{macros::title_or_last(component=section) }} 
+{% endblock title %}
+
+{% block math%} 
+    {{ macros::math() }}
+{% endblock math %}
+
+{% block content %}
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" class=" dir-d ">Date</th>
+                    <th scope="col" class="">Title</th>
+                    <th scope="col" class="">Tags</th>
+                    <th scope="col" class="no-sort">Category</th>
+                </tr>
+            </thead>
+        
+        <tbody>
+            {% for page in section.pages %}
+        <tr>
+            <td>
+                {% if page.date %}
+            <time> {{page.date}} </time>
+            {% endif %}
+            </td>
+            <td>
+                <a href="{{ page.permalink }}"></a>
+                <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
+            </td>
+            <td>
+            page.taxonomies_tags
+            </td>
+            <td>
+            page.taxonomies_category
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+       
+    </table>
+</section>
+    
+{% endblock content %}
