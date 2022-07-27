@@ -11,7 +11,7 @@ description= "You – About"
 
 ## About me
 
-<img src="assets/ditherpfp.png" alt="Portrait" width="300"/>
+<img src="asyaplugged.in/assets/ditherpfp.png" alt="Portrait" width="300">
 
 I’m a Russian-American interface designer based in Pasadena, California. I was born and primarily raised in Moscow, and moved to California in 2014.
 
