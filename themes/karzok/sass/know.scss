@@ -36,6 +36,10 @@ table {
     border-right: 1px solid;
     border-top: 1px solid;
     }
+
+    tr:hover{
+        background-color: var(--foreground,0);
+    }
 }
 
 sttection {

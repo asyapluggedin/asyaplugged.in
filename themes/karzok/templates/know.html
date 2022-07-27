@@ -35,10 +35,11 @@
             <time> {{page.date}} </time>
             {% endif %}
             </td>
-            <td>
-                <a href="{{ page.permalink }}"></a>
+           <td>
+            <a href="{{ page.permalink }}">
                 <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
-            </td>
+            </a>
+            </td> 
             <td>
             page.taxonomies_tags
             </td>
