@@ -12,6 +12,10 @@
   --red: #FF0101;
   --teal: #40FFF4;
   --red4: #DB1414;
+  --redhover: #ffc4c4;
+  --tealhover: #0E3535;
+  --pinkhover: #FC32FC;
+
   // --green: #2ecc40; 383FFF; 0001FF;
 }
 
@@ -43,22 +47,22 @@ body[data-theme="black"] {
     --background: var(--black);
     --foreground: var(--teal);
     --blogtext: var(--white);
-    --hover: var(--tealhover);
+    --hovercolor: var(--tealhover);
 }
 
 body[data-theme="light"] {
     --foreground: var(--red4);
     --background: var(--white);
     --blogtext: var(--black);
-    --hover: var(--redhover);
+    --hovercolor: var(--redhover);
 }
 
 body {
     background: var(--background);
     --foreground: var(--red4);
     --background: var(--white);
-    --blogtext: var(--black);
-    --hover: var(--redhover);
+    //--blogtext: var(--black);
+    --hovercolor: var(--pinkhover);
 }
 
 @media (prefers-color-scheme: dark) {

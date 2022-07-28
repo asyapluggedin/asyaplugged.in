@@ -2,11 +2,11 @@
 
 @import 'special-pages';
 
-body[data-theme="black"] > section a {
+/*body[data-theme="black"] > section a {
     border: 2px solid $teal;
 }
 
-/*body:not([data-theme="dark"]) > section a {
+body:not([data-theme="dark"]) > section a {
     border: 2px solid var(--foreground);
 }*/
 
@@ -40,8 +40,8 @@ table {
 
     tr:hover,
     & tr a:hover {
-        background-color: var(--hover);
-        color: var(--background);
+        background-color: var(--hovercolor);
+        // color: var(--background);
     }
 }
 
