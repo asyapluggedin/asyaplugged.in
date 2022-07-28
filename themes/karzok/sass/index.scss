@@ -87,7 +87,10 @@ THIS IS WHERE THE SPLASH PAGE CODE LIVES
 
 */
 
-
+.welcome {
+  -webkit-user-select: none;
+ user-select: none;
+}
 #circle {
   position: relative;
   
