@@ -43,18 +43,22 @@ body[data-theme="black"] {
     --background: var(--black);
     --foreground: var(--teal);
     --blogtext: var(--white);
+    --hover: var(--tealhover);
 }
 
 body[data-theme="light"] {
     --foreground: var(--red4);
     --background: var(--white);
     --blogtext: var(--black);
+    --hover: var(--redhover);
 }
 
 body {
     background: var(--background);
     --foreground: var(--red4);
     --background: var(--white);
+    --blogtext: var(--black);
+    --hover: var(--redhover);
 }
 
 @media (prefers-color-scheme: dark) {

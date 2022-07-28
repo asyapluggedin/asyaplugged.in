@@ -19,7 +19,7 @@ table {
     border-left: 1px solid var(--foreground);
     border-collapse: separate;
     border-spacing: 0;
-    table-layout: fixed;
+    // table-layout: fixed;
     width: 95%;
     color: var(--foreground);
 
@@ -37,8 +37,11 @@ table {
     border-top: 1px solid;
     }
 
-    tr:hover{
-        background-color: var(--foreground,0);
+
+    tr:hover,
+    & tr a:hover {
+        background-color: var(--hover);
+        color: var(--background);
     }
 }
 
