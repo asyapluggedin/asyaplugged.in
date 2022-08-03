@@ -152,7 +152,7 @@ article {
     }
     li {
         border: var(--foreground) solid 1px;
-        padding: 0.75em;
+        padding: 0.5em;
     }
     li:hover {
         background: skyblue;
@@ -190,6 +190,20 @@ article {
 @media (max-width: 1000px) {
     article {
         padding: 2rem;
-        max-width: 80%;
+        //max-width: 80vw;
+
+        .title {
+          font-size: 2em;
+        }
+    }
+
+    .you {
+
+      ul {
+        padding: 0px;
+        margin: 0 auto;
+        width:80vw;
+        text-align: center;
+      }
     }
 }

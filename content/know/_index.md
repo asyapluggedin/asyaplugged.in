@@ -4,7 +4,7 @@ template = "know.html"
 
 description= "You – About"
 
-sort_by = "weight"
+sort_by = "date"
 weight = 3
 +++
 

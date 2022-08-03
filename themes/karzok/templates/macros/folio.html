@@ -112,6 +112,14 @@
 {% endif %}
 {% endmacro %}
 
+{% macro updatedDate() %}
+{% if page.date %}
+    <li><time> last updated: {{ page.date | date(format="%F") }}</time></li>
+{% endif %}
+{% endmacro %}
+
+
+
 {% macro updated() %}
 {% if page.updated %}
   <li><time> updated: {{ page.updated | date(format="%F") }}</time></li>

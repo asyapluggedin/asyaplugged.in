@@ -1,13 +1,12 @@
 +++
-title = "Second Post"
-date = "2022-07-26"
-description= "Reflection on my first half of the Summer 2022 2 batch at the Recurse Center."
-weight = 2
+title = "Index"
+date = "2022-07-28"
+description= "Education Index Post"
 
 [extra]
 math = true
-tags = ["recurse-center","reflection"]
-category = ["blog"]
+tags = ["education"]
+category = ["education"]
 
 +++
 

@@ -2,7 +2,7 @@
 title = "Recurse Center Report: Half Batch"
 date = "2022-07-28"
 description= "Reflection on my first half of the Summer 2022 2 batch at the Recurse Center."
-weight = 2
+weight = 1
 
 [extra]
 math = true

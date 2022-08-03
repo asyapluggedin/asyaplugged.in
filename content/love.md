@@ -2,6 +2,8 @@
 title = "just some things i love"
 template = "love.html"
 date = "2022-07-18"
+updated = "2022-08-02"
+
 description= "asyapluggedin – love"
 
 
