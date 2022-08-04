@@ -1,6 +1,7 @@
 +++
-title = "Creative Coding at Recurse Center"
+title = "Creative Coding at the Recurse Center"
 date = "2022-08-04"
+updated = "2022-08-04"
 description= "Guide to the Creative Coding Meetup at the Virtual Recurse Center"
 weight = 1
 
@@ -11,12 +12,15 @@ tags = ["recurse-center","creative-coding"]
 category = ["blog"]
 
 +++
+## Introduction
 
-This is my guide to the Creative Coding Meetup at the Virtual Recurse Center.
+Welcome to the guide for the Creative Coding Meetup at the Virtual Recurse Center.
+
 <!--more-->
-The recurring Thursday meetup was started by[Ray Fong](http://rfong.github.io/), then led by [Andrew Joseph Turley](https://github.com/aturley), who passed the torch to [Howard Halim](https://github.com/Plasma-Vortex), who finally passed it to me.
+The recurring Thursday meetup was started by [Ray Fong](http://rfong.github.io/), then led by [Andrew Joseph Turley](https://github.com/aturley), who passed the torch to [Howard Halim](https://github.com/Plasma-Vortex), who finally passed it to me.
 
-However, the creative-coding stream in Zulip has messages going all the way back to February 20, with the first one from[Sol Sarratea](https://solsarratea.world/).
+
+However, the creative-coding stream in Zulip has messages going all the way back to February 20, with the first one from [Sol Sarratea](https://solsarratea.world/).
 
 ## Event Description
 
@@ -26,16 +30,28 @@ Here are some of the generators we have used to produce creative prompts:
 
 - [Oblique Strategies](http://stoney.sb.org/eno/oblique.html)
 - [Random Shakespeare Quote Generator](https://codepen.io/jacob4/full/EVqeWM)
-- [perchance Random Emoji Generator](https://perchance.org/emoji)(set amount to 3, check "unique?" box)
+- [perchance Random Emoji Generator](https://perchance.org/emoji) (set amount to 3, check "unique?" box)
 
 You can use whatever language or tools you are comfortable or uncomfortable with. Creativity manifests in different ways, so don't feel restricted to making something visual, "artistic", or even related to the chosen prompt. This is the place to make whatever your heart and mind desires!
 
 Here are some common choices:
 
-- [https://editor.p5js.org/](https://editor.p5js.org/)
-- https://codepen.io/
-- https://www.shadertoy.com/
-- https://glitch.com/
+- [editor.p5js.org](https://editor.p5js.org/)
+- [codepen.io](https://codepen.io/)
+- [shadertoy.com](https://www.shadertoy.com/)
+- [glitch.com](https://glitch.com/)
 
-Coordinate in the[Creative Coding Zulip topic](https://recurse.zulipchat.com/#narrow/stream/19042-397-Bridge/topic/Creative.20Coding.20Meetup).
+Coordinate in the [Creative Coding Zulip topic](https://recurse.zulipchat.com/#narrow/stream/19042-397-Bridge/topic/Creative.20Coding.20Meetup).
 Showing off your work is encouraged!
+
+## Past Examples
+
+tktktk
+
+## Sources of Inspiration
+
+tktktk
+
+## Sources of Education
+
+tktktk

@@ -106,6 +106,36 @@
 {% endif %}
 {% endmacro %}
 
+{% macro taxonomies_tags() %}
+{% if page.extra.tags %}
+    <li>
+    <span> Tags:  </span>
+    {% for tag in page.extra.tags %}
+      <li>
+        <a href="hmm">
+        <span>{{ tag }}</span>
+        </a>
+      </li>
+    {% endfor %}
+    </li>
+{% endif %}
+{% endmacro %}
+
+{% macro taxonomies_category() %}
+{% if page.extra.category %}
+    <li>
+    <span>Category: </span>
+    {% for category in page.extra.category %}
+      <li>
+        <a href="hmm">
+        <span>{{ category }}</span>
+        </a>
+      </li>
+    {% endfor %}
+    </li>
+{% endif %}
+{% endmacro %}
+
 {% macro date() %}
 {% if page.date %}
     <li><time> date: {{ page.date | date(format="%F") }}</time></li>
