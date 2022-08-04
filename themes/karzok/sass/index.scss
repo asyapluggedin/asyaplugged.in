@@ -144,7 +144,7 @@ top:45%;
 left: 50%;
 transform: translate(-50%, 0%);
 }
-
+/*
 @-webkit-keyframes myOrbit {
  from { -webkit-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
  to   { -webkit-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
@@ -158,7 +158,7 @@ transform: translate(-50%, 0%);
 @-o-keyframes myOrbit {
  from { -o-transform: rotate(0deg) translateX(12.5%) rotate(0deg); }
  to   { -o-transform: rotate(360deg) translateX(12.5%) rotate(-360deg); }
-}
+}*/
 
 @keyframes myOrbit {
  from { transform: rotate(0deg) translateX(50%) rotate(0deg); }
