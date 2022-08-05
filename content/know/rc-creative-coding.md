@@ -42,6 +42,7 @@ Here are some common choices:
 - [codepen.io](https://codepen.io/)
 - [shadertoy.com](https://www.shadertoy.com/)
 - [glitch.com](https://glitch.com/)
+- [arcade.makecode.com](https://arcade.makecode.com/)
 
 Coordinate in the [Creative Coding Zulip topic](https://recurse.zulipchat.com/#narrow/stream/19042-397-Bridge/topic/Creative.20Coding.20Meetup).
 Showing off your work is encouraged!
