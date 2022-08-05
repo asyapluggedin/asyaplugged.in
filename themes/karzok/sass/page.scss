@@ -10,12 +10,15 @@
 .show-bar {
   display: none;
 }
-
+main {
+  // overflow-x: hidden;
+}
 @media (max-width: 1000px) {
+
   main {
     margin-top: 0px;
     grid-template-columns: 1fr;
-    overflow-x: hidden;
+    
   }
   .show-bar {
     display: inline-grid;

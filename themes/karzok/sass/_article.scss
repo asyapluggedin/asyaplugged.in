@@ -16,7 +16,7 @@ body[data-theme="light"] {
 article {
   padding: 3.5rem;
   max-width: 50em;
-  overflow-x: auto;
+  // overflow-x: auto;
   color: var(--blogtext);
   background: var(--background);
   .title {
@@ -104,6 +104,7 @@ article {
   }
   ul {
     list-style-type: square;
+    padding-left: 1.2rem;
     ol {
       padding-left: 15px;
     }
@@ -129,15 +130,16 @@ article {
 }
 
 .sections {
+  font-size: .9rem;
   display: flex;
   flex-wrap: wrap;
   ul {
     display: inline-grid;
   }
   li {
-    display: flex;
+    //display: flex;
     list-style: none;
-    padding-right: 1em;
+    padding-right: .2em;
   }
   &-no-padding {
     padding-right: 0 !important;
@@ -176,7 +178,17 @@ nav.navigation {
 }
 
 @media (max-width: 1000px) {
+
     article {
-        padding-top: 2.5rem;
+      max-width: 70rem;
+      padding: 2rem;
+      .title {
+        font-size: 1.75rem;
+        //margin-block-start: 0.5em;
+        //margin-block-end: 0.5em;
+      }
+     
+      }
     }
-}
+    
+    

@@ -32,7 +32,9 @@ Here are some of the generators we have used to produce creative prompts:
 - [Random Shakespeare Quote Generator](https://codepen.io/jacob4/full/EVqeWM)
 - [perchance Random Emoji Generator](https://perchance.org/emoji) (set amount to 3, check "unique?" box)
 
-You can use whatever language or tools you are comfortable or uncomfortable with. Creativity manifests in different ways, so don't feel restricted to making something visual, "artistic", or even related to the chosen prompt. This is the place to make whatever your heart and mind desires!
+You can use whatever language or tools you are comfortable or uncomfortable with.
+
+Creativity manifests in different ways, so don't feel restricted to making something visual, "artistic", or even related to the chosen prompt. This is the place to make whatever your heart and mind desires!
 
 Here are some common choices:
 
