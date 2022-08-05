@@ -1,5 +1,5 @@
 +++
-title = "Creative Coding at the Recurse Center"
+title = "Creative Coding at RC"
 date = "2022-08-04"
 updated = "2022-08-04"
 description= "Guide to the Creative Coding Meetup at the Virtual Recurse Center"
