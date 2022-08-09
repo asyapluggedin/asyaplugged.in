@@ -1,5 +1,5 @@
 +++
-title = "asya, who are you?"
+title = "info"
 template = "you.html"
 date = "2022-07-18"
 description= "You – About"
