@@ -1,5 +1,9 @@
 # progress doc
 
+- 8/8
+- found that header.sccss doesnt connect to header.html
+- (which is why i have issue with the top nav centering properly)
+
 ## to do
 
 

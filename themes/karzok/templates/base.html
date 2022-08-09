@@ -18,6 +18,7 @@
           {{ macros::math() }}
         {% endblock math %}
           {{ macros::styles(file='index.css') }}
+          {{ macros::styles(file='header.css') }}
         {% block styles %}
         {% endblock styles %}
         <title>{% block htmltitle %} {{ config.title }}{% endblock htmltitle %}</title>
