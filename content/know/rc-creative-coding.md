@@ -53,8 +53,9 @@ tktktk
 
 ## Sources of Inspiration
 
-tktktk
+- [Haskell](https://paytonturnage.com/writing/generating-art-with-haskell/)
+- [Chrome Experiments](https://experiments.withgoogle.com/collection/chrome)
 
 ## Sources of Education
 
-tktktk
+- [I am amalgamating a lot of materials on an Are.na page here.](https://www.are.na/anastasia-davydova-lewis/creative-coding-for-all)
