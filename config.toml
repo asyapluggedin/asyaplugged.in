@@ -12,13 +12,16 @@ build_search_index = false
 
 minify_html = true
 
+# Whether to build an RSS feed
+generate_feed = true
+
 #hard_link_static = true
 
 compile_sass = true
 
 taxonomies = [
     {name = "authors"},
-    {name = "tags"},
+    {name = "tags", feed = true},
     {name = "category"},
 ]
 

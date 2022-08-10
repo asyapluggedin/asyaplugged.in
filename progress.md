@@ -3,7 +3,12 @@
 ## 8/10
 
 - make taxonomy macros have proper links in them eh
-- hhh
+- create proper links for tag taxonomy
+- create proper link for category taxonomy
+
+
+- caused some potential problems in both .html files contained inside of templates/tags
+- trying to have proper links 
 
 ## to do
 

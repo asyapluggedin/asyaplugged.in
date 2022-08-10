@@ -106,13 +106,14 @@
 {% endif %}
 {% endmacro %}
 
+
 {% macro taxonomies_tags() %}
 {% if page.extra.tags %}
     <li>
     <span> Tags:  </span>
     {% for tag in page.extra.tags %}
       <li>
-        <a href="hmm"> <!-- edit this on 8/10 or die-->
+        <a href="swag">
         <span>{{ tag }}</span>
         </a>
       </li>
@@ -120,6 +121,18 @@
     </li>
 {% endif %}
 {% endmacro %}
+
+{% macro taxonomies_know_tags() %}
+{% if page.extra.tags %}
+          {% for tag in page.taxonomies.tags %}
+           <a href="bruv">
+            <span>{{ tag }}</span>
+            </a>
+          {% endfor %}
+{% endif %}
+{% endmacro %}
+
+
 
 {% macro taxonomies_category() %}
 {% if page.extra.category %}

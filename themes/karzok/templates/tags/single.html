@@ -1,0 +1,31 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Tags > {{ term.name }}</h1>
+
+    <ul>
+        {% for page in term.pages %}
+        <li>
+            <article>
+                <p>
+                    <span>
+                        {% if "do" in page.path %}
+                            <a href="/do">Work</a>
+                        {% elif "know" in page.path %}
+                            <a href="/know">Blog</a>
+                        {% endif %}
+                        >
+                    </span>
+                    <time itemprop="datePublished" datetime="{{ page.date }}">
+                        {{ page.date }}
+                    </time> 
+                    | 
+                    <a class="preview-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                    </p>
+            </article>
+            {% endfor %}
+        </li>
+    </ul>
+{% endblock content %}
