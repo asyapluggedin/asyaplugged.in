@@ -5,11 +5,13 @@ updated = "2022-08-04"
 description= "Guide to the Creative Coding Meetup at the Virtual Recurse Center"
 weight = 1
 
+[taxonomies]
+tags = ["recurse-center","creative-coding"]
+category = ["blog"]
+
 [extra]
 
 math = true
-tags = ["recurse-center","creative-coding"]
-category = ["blog"]
 
 +++
 ## Introduction

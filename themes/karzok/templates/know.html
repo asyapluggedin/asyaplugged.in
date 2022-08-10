@@ -41,13 +41,21 @@
             </a>
             </td> 
             <td>
-                {{ page::taxonomies_know_tags() }}
+                {% if page.taxonomies.tags %}
+                    {% for tag in page.taxonomies.tags %}
+                    <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                        <span>{{ tag }}</span>
+                    </a>
+                    {% endfor %}
+                {% endif %}
             </td>
             <td>
                 {% if page.taxonomies.category %}
-                <a class="category" href="/category/{{ category | safe }}"">
-                {{ page::taxonomies_category() }}
-                </a>
+                    {% for category in page.taxonomies.category %}
+                    <a href="{{get_taxonomy_url(kind='category', name=category) | safe}}">
+                        <span>{{ category }}</span>
+                    </a>
+                    {% endfor %}
                 {% endif %}
             </td>
         </tr>
