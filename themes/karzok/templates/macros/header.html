@@ -20,26 +20,6 @@
             
         </ul>
         	
-<!--
-        <form class="headline">
-            <ul><li>
-            {% if config.extra.header_left %}
-            {% for item in config.extra.header_left %}
-            {% set val_link = item.link  | replace(from="$base_url", to=config.base_url) %}
-            
-                
-                
-                <a itemprop="url" class="{% if current_link == val_link %} active {% endif %}" href="{{ val_link | safe }}">
-                    <span > {{ item.text }} </span>
-                </a>
-            
-           
-            
-            {% endfor %}
-            {% endif %}
-        </li></ul>
-        </form>
-    -->
     
 
         <form class="headline">
@@ -53,19 +33,7 @@
 
 
 
-<!--
-        <form class="headline">
-                <a class="{% if current_link == config.base_url %} active {% endif %} {% if config.extra.logotype %} {%endif%}" href="{{ config.base_url | safe }}">
-                    {% if config.extra.logotype %}
-                    <div class="logotype">
-                      <img width="31" height="31" alt="favicon" src="{{ get_url(path=config.extra.logotype)}}" />
-                    </div>
-                    {% else %}
-                    <span> {{ config.extra.header.name | default(value="Home") }}</span>
-                    {% endif %}
-                </a>
-            </form>
-        -->
+
             
             {% if config.build_search_index %}
             <form class="search">
