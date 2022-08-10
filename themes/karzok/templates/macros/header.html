@@ -4,7 +4,7 @@
 <header>
     <a id="top"></a>
     <nav aria-label="section navigation" itemscope itemtype="http://shema.org/SiteNavigationElement">
-        <ul>
+        <ul id="sitetitle">
             
             <li>
                 <a class="{% if current_link == config.base_url %} active {% endif %} {% if config.extra.logotype %} {%endif%}" href="{{ config.base_url | safe }}">
