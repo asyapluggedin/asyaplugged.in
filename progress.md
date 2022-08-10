@@ -1,6 +1,12 @@
 # progress doc
 
-- 8/8
+## 8/10
+
+- make taxonomy macros have proper links in them eh
+- 
+
+
+## 8/8
 - found that header.sccss doesnt connect to header.html
 - (which is why i have issue with the top nav centering properly)
 
