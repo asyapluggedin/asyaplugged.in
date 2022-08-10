@@ -59,3 +59,13 @@ tktktk
 ## Sources of Education
 
 - [I am amalgamating a lot of materials on an Are.na page here.](https://www.are.na/anastasia-davydova-lewis/creative-coding-for-all)
+
+## Some helpful CSS generator tools
+
+- [CSS text gradient generator](https://colorffy.com/text-gradient-generator)
+- [CSS box shadow generator](https://shadows.brumm.af/)
+- [9elements – Fancy border radius generator](https://9elements.github.io/fancy-border-radius/)
+- [Haikei – SVG generator](https://haikei.app/)
+- [Mesh Gradients by CSS Hero](https://haikei.app/)
+- [9elements – Fluid Typography without media queries via min-max value](https://min-max-calculator.9elements.com/)
+- [Glassmorphism generator](https://ui.glass/generator/)
