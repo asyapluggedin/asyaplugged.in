@@ -71,9 +71,9 @@ I am leisurely amalgamating a lot of materials on an [Are.na page, creative-codi
 - [50 Years of Software Artists: Plotter Drawings to Non-fungible Tokens](https://classes.dma.ucla.edu/Fall21/289-2/)
 - [Tangible Media](https://classes.dma.ucla.edu/Fall21/152/resources) – intro to working creatively with electronics.
 - [Interactivity](https://classes.dma.ucla.edu/Winter21/28/) – intro Processing class taught by Casey Reas, co-creator of Processing.
-– [Network Media](https://classes.dma.ucla.edu/Fall19/161/#resources) – html+css+js+p5.js taught by Lauren McCarthy, creator of p5.js.
+- [Network Media](https://classes.dma.ucla.edu/Fall19/161/#resources) – html+css+js+p5.js taught by Lauren McCarthy, creator of p5.js.
 
-I reccommend checking out the [past versions of core DMA classes](https://classes.dma.ucla.edu/?cTerm=Winter&cYear=2021), as each one has its own website with varying resource lists.
+I recommend checking out the [past versions of core DMA classes](https://classes.dma.ucla.edu/?cTerm=Winter&cYear=2021), as each one has its own website with varying resource lists.
 
 ### History, Context of Media Art, Generative Art, Creative Coding
 
@@ -86,7 +86,11 @@ I reccommend checking out the [past versions of core DMA classes](https://classe
 
 - [Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
 - Harold Cohen's AARON
-– [Silver Buffalo on Native American IT](http://web.archive.org/web/20161103091706/http://silverbuffalo.org/NAA-NativeIT.html)
+- [Silver Buffalo on Native American IT](http://web.archive.org/web/20161103091706/http://silverbuffalo.org/NAA-NativeIT.html)
+- [The Black Trans Archive](https://blacktransarchive.com/)
+- [Spider Language](https://web.archive.org/web/20020323214647/http://neutralground.sk.ca/artistprojects/spiderlanguage/index.html) – a First Nations contemporary art web
+- [super sad googles](https://super-sad-googles.glitch.me/)
+- [facework.app](https://facework.app/)
 
 ## Want to contribute to this guide?
 
