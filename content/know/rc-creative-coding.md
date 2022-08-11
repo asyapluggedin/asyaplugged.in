@@ -100,7 +100,7 @@ I recommend checking out the [past versions of core DMA classes](https://classes
 - [Never Alone on Steam](https://store.steampowered.com/app/295790/Never_Alone_Kisima_Ingitchuna/) inspired by Donna Haraway's [Staying with the Trouble: Making Kin in the Chthulucene](https://www.dukeupress.edu/staying-with-the-trouble)
 - [Damon Zucconi](https://www.damonzucconi.com/)
 - [Brutalist Websites](https://brutalistwebsites.com/)
-- [https://lynnandtonic.com/](Lynn Fisher)
+- [Lynn Fisher](https://lynnandtonic.com/)
 - [a website is a room](https://a-website-is-a-room.net/) archive of websites exploring the browser as a space
 - [Werkplaatz Typographie Vitrine Archive](https://www.werkplaatstypografie.org/#vitrine:https://www.werkplaatstypografie.org/vitrine/archive/)
 - [x20xx.com](https://x20xx.com/)
