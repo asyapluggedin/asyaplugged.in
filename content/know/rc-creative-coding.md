@@ -64,8 +64,14 @@ I am leisurely amalgamating a lot of materials on an [Are.na page, creative-codi
 - [9elements – Fluid Typography without media queries via min-max value](https://min-max-calculator.9elements.com/)
 - [Glassmorphism generator](https://ui.glass/generator/)
 
+### ML Art Resources
+
+- Kadenze [Creative Applications of Deep Learning with TensorFlow](https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info) class
+- l
+
 ### Some UCLA Design | Media Class Websites with their own resource / reference collections
 
+- [Cultural Appropriation with Machine Learning](http://pkmital.com/home/2021/09/01/ucla-course-on-cultural-appropriation-with-machine-learning/)
 - [Interactive Animation in Unity3D](https://classes.dma.ucla.edu/Fall21/172/?page_id=101)
 - [Disability, Design, and the Web](https://lmccart.github.io/DMA171-disability-design-web/#resources)
 - [50 Years of Software Artists: Plotter Drawings to Non-fungible Tokens](https://classes.dma.ucla.edu/Fall21/289-2/)
@@ -91,6 +97,13 @@ I recommend checking out the [past versions of core DMA classes](https://classes
 - [Spider Language](https://web.archive.org/web/20020323214647/http://neutralground.sk.ca/artistprojects/spiderlanguage/index.html) – a First Nations contemporary art web
 - [super sad googles](https://super-sad-googles.glitch.me/)
 - [facework.app](https://facework.app/)
+- [Never Alone on Steam](https://store.steampowered.com/app/295790/Never_Alone_Kisima_Ingitchuna/) inspired by Donna Haraway's [Staying with the Trouble: Making Kin in the Chthulucene](https://www.dukeupress.edu/staying-with-the-trouble)
+- [Damon Zucconi](https://www.damonzucconi.com/)
+- [Brutalist Websites](https://brutalistwebsites.com/)
+- [https://lynnandtonic.com/](Lynn Fisher)
+- [a website is a room](https://a-website-is-a-room.net/) archive of websites exploring the browser as a space
+- [Werkplaatz Typographie Vitrine Archive](https://www.werkplaatstypografie.org/#vitrine:https://www.werkplaatstypografie.org/vitrine/archive/)
+- [x20xx.com](https://x20xx.com/)
 
 ## Want to contribute to this guide?
 
