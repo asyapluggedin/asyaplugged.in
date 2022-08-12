@@ -80,6 +80,7 @@ I am leisurely amalgamating a lot of materials on an [Are.na page, creative-codi
 - [Network Media](https://classes.dma.ucla.edu/Fall19/161/#resources) – html+css+js+p5.js taught by Lauren McCarthy, creator of p5.js.
 
 I recommend checking out the [past versions of core DMA classes](https://classes.dma.ucla.edu/?cTerm=Winter&cYear=2021), as each one has its own website with varying resource lists.
+<br><br>
 
 ### History, Context of Media Art, Generative Art, Creative Coding
 
