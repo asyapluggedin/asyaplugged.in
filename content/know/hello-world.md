@@ -1,12 +1,14 @@
 +++
-title = "Welcome to Asya's blog"
+title = "Hello World: Welcome to Asya's blog"
 date = "2022-07-11"
-description= "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description= "First post on the blog."
 weight = 3
+[taxonomies]
+tags = ["writing"]
+category = ["blog"]
 
 [extra]
 math = true
-authors = ["Konrad Geletey","Hugo Authors"]
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo

@@ -1,11 +1,11 @@
 +++
-title = "Recurse Center Report: Half Batch"
-date = "2022-07-28"
-description= "Reflection on my first half of the Summer 2022 2 batch at the Recurse Center."
-weight = 1
+title = "How to Make Telegram Stickers"
+date = "2022-08-13"
+description= "How to Make Telegram Stickers"
+weight = 2
 
 [taxonomies]
-tags = ["recurse-center","education"]
+tags = ["tutorial","telegram"]
 category = ["blog"]
 
 [extra]
@@ -13,17 +13,10 @@ math = true
 
 
 +++
-
-This Friday marks the mid-point of my batch at the Recurse Center.
-
-<!--more-->
-
+This Friday I visited Apex Electronics Surplus in Sun Valley, CA.
 ## Week 1
 
 The first 
-
-
-
 
 #### Blockquote with attribution
 

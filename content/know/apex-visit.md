@@ -1,26 +1,22 @@
 +++
-title = "Second Post"
-date = "2022-07-26"
-description= "Reflection on my first half of the Summer 2022 2 batch at the Recurse Center."
+title = "Visiting Apex Electronics Surplus"
+date = "2022-08-13"
+description= "Visiting Apex Electronics Surplus"
 weight = 2
+
+[taxonomies]
+tags = ["hardware","solarpunk","think-thonk"]
+category = ["blog"]
 
 [extra]
 math = true
-tags = ["recurse-center","reflection"]
-category = ["blog"]
+
 
 +++
-
-This Friday marks the mid-point of my batch at the Recurse Center.
-
-<!--more-->
-
+This Friday I visited Apex Electronics Surplus in Sun Valley, CA.
 ## Week 1
 
 The first 
-
-
-
 
 #### Blockquote with attribution
 
