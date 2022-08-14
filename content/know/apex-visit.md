@@ -14,27 +14,11 @@ math = true
 
 +++
 This Friday I visited Apex Electronics Surplus in Sun Valley, CA.
-## Week 1
 
-The first 
+## The Store
 
-#### Blockquote with attribution
+It was cool.
 
-> Don't communicate by sharing memory, share memory by communicating.</p> —
-> <cite>Rob Pike[^1]</cite>
+## The Thoughts
 
-
-
-## Images
-
-![Image Backgorund](../assets/test.png) 
-![Another Media]()
-
-![Media CDN](https://plchldr.co/i/1280x720?bg=2ecc40)
-
-{% hint style="warning" %} 123 {% endhint %}
-
-[^1]:
-The above quote is excerpted from Rob Pike's
-[talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest,
-November 18, 2015.
+Reminded me of Claire L. Evans' blog post [Does Future Fact Depend on Present Fiction](https://www.uncubemagazine.com/blog/12291851)
