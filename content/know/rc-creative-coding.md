@@ -67,7 +67,6 @@ I am leisurely amalgamating a lot of materials on an [Are.na page, creative-codi
 ### ML Art Resources
 
 - Kadenze [Creative Applications of Deep Learning with TensorFlow](https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info) class
-- l
 
 ### Some UCLA Design | Media Class Websites with their own resource / reference collections
 
