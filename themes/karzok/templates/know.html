@@ -17,29 +17,65 @@
 
 {% block content %}
     <section>
+        <div class="tab">
+            
+        {% set categories = get_taxonomy(kind="category") %}
+        {% for cat in categories.items %} <!-- no idea why this works, what categories.items is or what cat is -->
+        <button  class="tablinks" onclick="toggleCategory(event, '{{ cat.name }}')"><a>{{ cat.name }}</a></button>
+        
+        <!-- i would lik eto figure out why i cant put the js at the top of the doc like normal, weird scoping issue here -->
+         <script>
+            toggleCategory = function(evt, catName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+            
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                }
+            
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+            
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(catName).style.display = "block";
+                evt.currentTarget.className += " active";
+            };
+           // document.getElementsByClassName("tabcontent")[0].style.display = "block";
+        </script>
+        {% endfor %}
+        </div>
+
+    <div id="blog" class="tabcontent">
         <table>
             <thead>
                 <tr>
-                    <th scope="col" class=" dir-d ">Date</th>
-                    <th scope="col" class="">Title</th>
-                    <th scope="col" class="">Tags</th>
-                    <th scope="col" class="no-sort">Category</th>
+                    <th scope="col" class="col-date">Date</th>
+                    <th scope="col" class="col-title">Title</th>
+                    <th scope="col" class="col-tags">Tags</th>
                 </tr>
             </thead>
         
-        <tbody>
+             <tbody>
             {% for page in section.pages %}
         <tr>
+            <!-- date -->
             <td>
                 {% if page.date %}
             <time> {{page.date}} </time>
             {% endif %}
             </td>
+           <!-- title -->
            <td>
             <a href="{{ page.permalink }}">
                 <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
             </a>
             </td> 
+            <!-- tags -->
             <td>
                 {% if page.taxonomies.tags %}
                     {% for tag in page.taxonomies.tags %}
@@ -50,20 +86,56 @@
                     
                 {% endif %}
             </td>
-            <td>
-                {% if page.taxonomies.category %}
-                    {% for category in page.taxonomies.category %}
-                    <a href="{{get_taxonomy_url(kind='category', name=category) | safe}}">
-                        <span>{{ category }}</span>
-                    </a>
-                    {% endfor %}
-                {% endif %}
-            </td>
         </tr>
         {% endfor %}
-    </tbody>
-       
-    </table>
+            </tbody>
+         </table>
+    </div>
+
+    <div id="essays" class="tabcontent">
+        <a> hey guys this tab switcher thingy isn't working right now but it will soon thanks!</a>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" class="col-date">Date</th>
+                    <th scope="col" class="col-title">Title</th>
+                    <th scope="col" class="col-tags">Tags</th>
+                </tr>
+            </thead>
+        
+             <tbody>
+                {% for page in section.pages %}
+                {% if page.taxonomies.category %}
+                    <tr>
+                        <!-- date -->
+                        <td>
+                            {% if page.date %}
+                        <time> {{page.date}} </time>
+                        {% endif %}
+                        </td>
+                    <!-- title -->
+                    <td>
+                        <a href="{{ page.permalink }}">
+                            <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
+                        </a>
+                        </td> 
+                        <!-- tags -->
+                        <td>
+                            {% if page.taxonomies.tags %}
+                                {% for tag in page.taxonomies.tags %}
+                                <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                                    <span>{{ tag }}</span>
+                                </a>
+                                {% endfor %}
+                                
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+         </table>
+    </div>
 </section>
     
 {% endblock content %}

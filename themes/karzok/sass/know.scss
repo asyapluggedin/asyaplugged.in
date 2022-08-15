@@ -10,13 +10,57 @@ body:not([data-theme="dark"]) > section a {
     border: 2px solid var(--foreground);
 }*/
 
+/* Style the tab */
+.tab {
+  height:36px;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--foreground);
+  padding-top: 15px;
+
+  button:first-child {
+    margin-left: 3rem;
+  } 
+  
+  button {
+    background-color: transparent;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1rem;
+    color:  var(--foreground);
+    
+  }
+
+  button a {
+    border: 1px solid var(--foreground);
+    padding: 2px 5px;
+    width: 175px;
+    text-align: center;
+  }
+
+  button:hover a {
+    background-color: var(--hovercolor);
+  }
+
+  button.active  a{
+    background-color: var(--background);
+    border-bottom-color: var(--background);
+  }
+}
+
+.tabcontent {
+  display: none;
+}
+
+#blog {
+  display: block;
+}
+
 
 table {
-    padding-top: 1rem;
-    margin: 0 auto;
-    
-    border-bottom: 1px solid var(--foreground);
-    border-left: 1px solid var(--foreground);
+    margin: 1rem auto;
+    border: 1px solid var(--foreground);
+    // border-top: none;
     border-collapse: separate;
     border-spacing: 0;
     // table-layout: fixed;
@@ -24,8 +68,11 @@ table {
     color: var(--foreground);
 
     th {
-            padding: 1rem;
+            padding: 1rem 1rem .5rem 1rem;
+            margin-bottom: .25rem;
+            margin-top: .25rem;
             text-align: left;
+            background-color: var(--hovercolor);
         }
 
     tbody {
@@ -38,10 +85,18 @@ table {
     border-top: 1px solid;
     }
 
+    td:last-child {
+      border-right: none;
+    }
 
-    tr:hover,
-    & tr a:hover {
+
+    tr:hover {
         background-color: var(--hovercolor);
+    }
+
+    tr a:hover {
+      background-color: var(--foreground);
+      color: var(--background);
     }
 }
 
