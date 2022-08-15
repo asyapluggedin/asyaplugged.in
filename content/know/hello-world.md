@@ -11,45 +11,23 @@ category = ["blog"]
 math = true
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo
-content files, also it shows whether basic HTML elements are decorated with CSS
-in a Hugo theme.
+Hello, and welcome to my website, specifically my blog.
 
 <!--more-->
+## What's going on with the whole "do you know love" thing?
 
-# Headings
+So, when I was first learning programming, I made a [game](https://github.com/asyapluggedin/process) in Processing. I wanted to make a peculiar online psychology quiz, so one of the questions was "Do you know love?" with the only answer being an hard-to-click "YES". I was inspired by Lacan's contention that jouissance is a phenomenon unknowable to humans, but as I needed some sort of "click" interaction to trigger the next question screen, I asked the question not about jouissance, but rather something more people are familiar with, love.
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section
-headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+<img src="https://asyaplugged.in/assets/process-love-level.png" alt="Level Image" width="300">
 
-# H1
+Shortly thereafter, I put the graphic from that quiz on the splash page of my old website, [xnast.asia](https://web.archive.org/web/20220000000000*/http://xnast.asia/). You could only enter the website if you successfully clicked "YES". This was back in 2016. In 2022, I decided to make the website that you are currently on. I knew I wanted to have four different sections:
 
-## H2
+1. info / about me
+2. portfolio / work case studies
+3. blog
+4. page of things that i love.
 
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum,
-voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma
-dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as
-cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin
-porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur?
-Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
-ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda
-veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore
-eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata
-tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne
-sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
+I had an epiphany while gathering the inspiration and ideas for the design and development of [asyaplugged.in](https://asyaplugged.in/)
 # Blockquotes
 
 The blockquote element represents content that is quoted from another source,
