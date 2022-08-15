@@ -110,6 +110,7 @@ Concrete accomplishments, however:
 - Shipped a static website
 - Learned a lot of new things about JavaScript, Sass, Go, Rust, Tera, SQL, and shaders.
 
+I'm very grateful for the chance to make so many new friends, too. Next week, the incoming batch will arrive. I am excited to show them around and host some events. I do not at all feel ready to take a senior post, but nonetheless I am curious how it will go in any event.
 
 [^1]:
 What is the Recurse Center? You'd probably learn best from their own [website](https://www.recurse.com/).
