@@ -29,8 +29,7 @@ section {
     background-color: var(--background);
     text-decoration: none;
     text-align:center;
-    padding-top: 1em;
-    padding-left: 1em;
+    padding:1em;
 
     overflow: hidden;
     & span {
@@ -59,12 +58,16 @@ section {
       display: block;
       position: relative;
       opacity: 0.8;
+      padding-top:1.5rem;
     }
   }
   & a:hover {
     outline: 1px solid var(--foreground);
-    transform: scale(-1, -1);
     box-shadow: 0px 0px 5px 5px var(--foreground);
+
+    span {
+    transform: scale(-1,-1) translate(50%, -65%);
+    }
   }
 }
 

@@ -4,6 +4,7 @@ main > nav {
   background: var(--background);
   color: var(--foreground);
   border-right: 1px solid $dark1;
+  font-size: 14px;
   li {
     margin-left: 0.5rem;
     margin-top: 1em;
@@ -57,7 +58,7 @@ main > nav {
       }
       &::before {
         content: '';
-        padding-left: 1.5rem;
+        padding-left: .5rem;
       }
     }
   }

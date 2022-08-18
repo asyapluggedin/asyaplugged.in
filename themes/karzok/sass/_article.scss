@@ -15,7 +15,7 @@ body[data-theme="light"] {
 
 article {
   padding: 3.5rem;
-  max-width: 50em;
+  max-width: 45rem;
   // overflow-x: auto;
   color: var(--blogtext);
   background: var(--background);
@@ -34,8 +34,8 @@ article {
   h5,
   h6,
   p {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   a {
     color: var(--foreground); //green
@@ -75,8 +75,8 @@ article {
     }
   }
   table {
-    margin-top: 1rem;
-    width: 100%;
+    margin-top: 1.25rem;
+    width: 80%;
     border-collapse: collapse;
     overflow-x: auto;
     td,
@@ -123,9 +123,30 @@ article {
   img {
     height: auto;
     max-width: 70%;
-    padding: 0%;
+    padding: 1px;
     border: 1px solid var(--foreground);
-    text-align: center;
+    margin: 0 auto;
+  }
+
+  figure {
+    border: 1px solid var(--foreground);
+    padding: 2rem;
+    max-width: 100;;
+
+    img{
+     
+      height: auto;
+      max-width: 100%;
+      border: none;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      border: 1px solid var(--foreground);
+      padding: .5rem;
+      margin-top: 1rem;
+
+    }
   }
 }
 

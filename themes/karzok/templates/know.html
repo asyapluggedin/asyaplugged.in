@@ -79,7 +79,7 @@
             <td>
                 {% if page.taxonomies.tags %}
                     {% for tag in page.taxonomies.tags %}
-                    <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                    <a class="onetag" href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
                         <span>{{ tag }}</span>
                     </a>
                     {% endfor %}

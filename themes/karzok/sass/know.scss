@@ -83,12 +83,15 @@ table {
     padding: 1em 1em;
     border-right: 1px solid;
     border-top: 1px solid;
+
+    .onetag ~ .onetag::before {
+      content: ', '; 
+    }
     }
 
     td:last-child {
       border-right: none;
     }
-
 
     tr:hover {
         background-color: var(--hovercolor);
