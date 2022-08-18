@@ -23,7 +23,7 @@ compile_sass = true
 taxonomies = [
     {name = "authors"},
     {name = "tags", feed = true},
-    {name = "category"},
+    {name = "category", feed = true}
 ]
 
 [slugify]
