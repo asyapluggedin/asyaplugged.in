@@ -165,4 +165,11 @@ stection {
   section {
     grid-template-columns: 1fr;
   }
+
+  table {
+    td:first-child {
+      font-size: 14px;
+      padding: .5rem;
+    }
+  }
 }

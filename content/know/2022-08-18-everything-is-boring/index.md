@@ -12,7 +12,7 @@ category = ["blog"]
 math = true
 
 +++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n94J-9YxZPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/n94J-9YxZPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 These are my notes on Robin Arnott's presentation "Everything is Boring" that he gave at the BDYHAX conference in In February 24th, 2019 in which he uses a psychological framework to analyze the wellness economy's own relative "health". I summarize the talk's main points and add several comments of my own.
 
@@ -76,8 +76,8 @@ Body - Mind is an expression of Truth.
 Music, entertainment, and socializing are healing economy models.
 They do not have a "should quality and your soul is open to them.
 
-|                          | medicine        | wellness                                          |                                             |
+|                          | medicine        | wellness                                          |     the new economy ??                                        |
 |:-------------------------|:----------------|:--------------------------------------------------|:--------------------------------------------|
-| identity                 | individual      | pluralistic global data point in a large database | spirit                                      |
-| achievement              | systematization | access                                            | integrated wisdom                           |
-| relationship to the body | mechanical      | purging trauma                                    | maladaptive body patterns begin to dissolve |  
+| **identity**                 | individual      | pluralistic global data point in a large database | spirit                                      |
+| **achievement**              | systematization | access                                            | integrated wisdom                           |
+| **relationship to the body** | mechanical      | purging trauma                                    | maladaptive body patterns begin to dissolve |  
