@@ -12,7 +12,9 @@ category = ["blog"]
 math = true
 
 +++
-<iframe height="315" src="https://www.youtube.com/embed/n94J-9YxZPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n94J-9YxZPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 These are my notes on Robin Arnott's presentation "Everything is Boring" that he gave at the BDYHAX conference in In February 24th, 2019 in which he uses a psychological framework to analyze the wellness economy's own relative "health". I summarize the talk's main points and add several comments of my own.
 

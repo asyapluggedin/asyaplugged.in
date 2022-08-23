@@ -44,13 +44,6 @@ favicon = "assets/favicon.ico"
 # header title
 header.name = "asyaplugged.in"
 
-# change default cdn
-#cdnurl = "https://get.re128.net/"
-
-# special parameter for develop
-#assets_url = "https://get.re128.net/_/karzok"
-#devmode = true
-
 #localcdn = true
 
 show_word_count = true

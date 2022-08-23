@@ -1,5 +1,5 @@
 +++
-title = "blog"
+title = "know"
 template = "know.html"
 
 description= "You – About"

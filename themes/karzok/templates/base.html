@@ -1,4 +1,4 @@
-{% import 'macros/common.html' as macros -%}
+{% import 'macros/footer.html' as macros -%}
 <!DOCTYPE html>
 <html lang="{{ lang | default(value="en")}}">
     <head>
@@ -20,7 +20,7 @@
           {{ macros::math() }}
         {% endblock math %}
           {{ macros::styles(file='index.css') }}
-          {{ macros::styles(file='header.css') }}
+          {{ macros::styles(file='topnav.css') }}
         {% block styles %}
         {% endblock styles %}
         <title>{% block htmltitle %} {{ config.title }}{% endblock htmltitle %}</title>

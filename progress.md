@@ -1,4 +1,6 @@
 # progress doc
+## 8/22
+common --> footer
 
 ## 8/10
 
