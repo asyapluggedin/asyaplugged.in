@@ -69,6 +69,18 @@ section {
     transform: scale(-1,-1) translate(50%, -65%);
     }
   }
+
+  a:nth-child(2) {
+    display: block;
+    position: relative;
+    color: var(--foreground);
+    background-size: cover;
+    background-color: var(--background);
+    text-decoration: none;
+    text-align:center;
+    padding:1em;
+
+  }
 }
 
 @media (max-width: 1000px) {

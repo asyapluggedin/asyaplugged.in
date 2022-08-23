@@ -1,6 +1,8 @@
 # progress doc
 ## 8/22
-common --> footer
+common --> footer ()
+folio --> blogelements (page)
+header --> topnav (top_nav)
 
 ## 8/10
 
