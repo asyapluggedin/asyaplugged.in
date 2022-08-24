@@ -47,6 +47,15 @@
     <script>
       document.body.dataset.theme = localStorage.getItem("theme") || "auto";
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP2E6WPB16"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EP2E6WPB16');
+    </script>
     {% block header%}
         {{ top_nav::header(current_url=current_url) }}
     {% endblock header%}
