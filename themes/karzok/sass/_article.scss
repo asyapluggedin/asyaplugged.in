@@ -14,8 +14,9 @@ body[data-theme="light"] {
 }
 
 article {
-  padding: 1rem;
-  max-width: 45rem;
+  padding: 3rem;
+  max-width: calc(100% - 10rem);
+  //  calc (100% - 700px)
   // overflow-x: auto;
   color: var(--blogtext);
   background: var(--background);
@@ -130,22 +131,24 @@ article {
   }
 
   figure {
-    border: 1px solid var(--foreground);
-    padding: 2rem;
-    max-width: 100;;
+    max-width: 110%;
+    display: flex;
 
-    img{
-     
+    img {
       height: auto;
-      max-width: 100%;
+      max-width: 90%;
       border: none;
-      margin: 0 auto;
+      padding: 2rem;
     }
 
     figcaption {
-      border: 1px solid var(--foreground);
-      padding: .5rem;
-      margin-top: 1rem;
+      // position: relative;
+      background-color: var(--hovercolor);
+      text-align: left;
+      //top: calc(0px - 100%);
+      //left: calc(65% + 10px);
+      writing-mode: vertical-rl;
+
 
     }
   }
