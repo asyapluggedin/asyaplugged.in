@@ -125,9 +125,9 @@
 {% macro taxonomies_bags() %}
 {% if page.taxonomies.tags %}
     <li>
-    <span> Tags:  </span>
+    <span> Tags:   </span>
     {% for tag in page.taxonomies.tags %}
-      <li>
+      <li class="onetag">
         <a href="swag">
         <span>{{ tag }}</span>
         </a>
@@ -140,7 +140,7 @@
 {% macro taxonomies_bategory() %}
 {% if page.taxonomies.category %}
     <li>
-    <span>Category: </span>
+    <span class="margin-left-1rem">Category:  </span>
     {% for category in page.taxonomies.category %}
       <li>
         <a href="hmm">
@@ -169,13 +169,13 @@
 
 {% macro date() %}
 {% if page.date %}
-    <li><time> date: {{ page.date | date(format="%F") }}</time></li>
+    <li><time> Date posted: {{ page.date | date(format="%B %e, %Y") }}</time></li>
 {% endif %}
 {% endmacro %}
 
 {% macro updatedDate() %}
 {% if page.date %}
-    <li><time> last updated: {{ page.date | date(format="%F") }}</time></li>
+    <li><time> Last updated: {{ page.date | date(format="%F") }}</time></li>
 {% endif %}
 {% endmacro %}
 
@@ -183,7 +183,7 @@
 
 {% macro updated() %}
 {% if page.updated %}
-  <li><time> updated: {{ page.updated | date(format="%F") }}</time></li>
+  <li><time> Last updated: {{ page.updated | date(format="%B %e, %Y") }}</time></li>
 {% endif %}
 {% endmacro %}
 
@@ -195,7 +195,7 @@
 
 {% macro reading_time() %}
 {% if config.extra.show_reading_time %}
-    <li> <span> {% if page.reading_time > 1  %} {{ page.reading_time}} minutes {% elif page.reading_time == 0  %} less minute {% else %} {{ page.reading_time}} minute {% endif %} to read </span></li>
+    <li> <span class="margin-left-1rem"> {% if page.reading_time > 1  %} {{ page.reading_time}} minutes {% elif page.reading_time == 0  %} less minute {% else %} {{ page.reading_time}} minute {% endif %} to read </span></li>
 {% endif %}
 {% endmacro %}
 
