@@ -84,8 +84,12 @@ table {
     border-right: 1px solid;
     border-top: 1px solid;
 
+    a {
+      width:min-content;
+    }
+
     .onetag ~ .onetag::before {
-      content: ', '; 
+      content:', '; 
     }
     }
 
@@ -97,9 +101,14 @@ table {
         background-color: var(--hovercolor);
     }
 
-    tr span:hover {
+    tr {
+      span {
+        margin-right: -.25rem;
+      }
+      span:hover {
       background-color: var(--foreground);
       color: var(--background);
+      }
     }
 }
 
