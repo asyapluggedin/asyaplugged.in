@@ -206,9 +206,11 @@ details[open]{
 }
 summary {
   list-style: none;
+  display: block;
   -webkit-transition: all .375s;
         transition: all .375s;
 }
+summary::-webkit-details-marker { display: none; }
 details[open] summary {
   font-weight: bold;
   -webkit-transition: all .375s;
@@ -285,9 +287,6 @@ nav.navigation {
         font-size: 1.75rem;
         //margin-block-start: 0.5em;
         //margin-block-end: 0.5em;
-      }
-      summary {
-        list-style: none;
       }
 
        /* Force table to not be like tables anymore */
