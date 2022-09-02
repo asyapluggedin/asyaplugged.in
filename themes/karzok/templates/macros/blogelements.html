@@ -169,13 +169,13 @@
 
 {% macro date() %}
 {% if page.date %}
-    <li><time> Date posted: {{ page.date | date(format="%B %e, %Y") }}</time></li>
+    <li><time> Published: {{ page.date | date(format="%B %e, %Y") }}</time></li>
 {% endif %}
 {% endmacro %}
 
 {% macro updatedDate() %}
 {% if page.date %}
-    <li><time> Last updated: {{ page.date | date(format="%F") }}</time></li>
+    <li><time> Updated: {{ page.date | date(format="%F") }}</time></li>
 {% endif %}
 {% endmacro %}
 
@@ -183,7 +183,7 @@
 
 {% macro updated() %}
 {% if page.updated %}
-  <li><time> Last updated: {{ page.updated | date(format="%B %e, %Y") }}</time></li>
+  <li><time> Updated: {{ page.updated | date(format="%B %e, %Y") }}</time></li>
 {% endif %}
 {% endmacro %}
 
