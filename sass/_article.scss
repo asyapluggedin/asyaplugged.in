@@ -286,6 +286,9 @@ nav.navigation {
         //margin-block-start: 0.5em;
         //margin-block-end: 0.5em;
       }
+      summary {
+        list-style: none;
+      }
 
        /* Force table to not be like tables anymore */
     table { 
