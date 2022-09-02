@@ -26,16 +26,15 @@ article {
     font-size: 2.5rem;
     font-weight: 700;
   }
+  h1{
+    //font-family: 'Suisse Works';
+  }
   h1,
   h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
   }
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
+  h3,h4,h5,h6,p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: calc(100% - 5rem);
@@ -185,11 +184,38 @@ article {
 }
 /* taxonomy information styling, reading time, tags, categories */
 
-.allsections {
-  border: var(--hovercolor) solid 3px;
+details {
+  border: var(--foreground) solid 2px;
+  border-radius: 48% 52% 43% 57% / 56% 35% 65% 44%;
   padding: .2rem .5rem;
   width:fit-content;
+  -webkit-transition: all .375s;
+        transition: all .375s;
 }
+
+details:hover {
+  border: var(--foreground) solid 2px;
+  background: var(--hovercolor);
+}
+
+details[open]{
+  border-radius: 42% 64% 90% 37% / 70% 84% 59% 61% ;
+  padding: .2rem 1.5rem 1.2rem 1.5rem;
+  -webkit-transition: all .375s;
+        transition: all .375s;
+}
+summary {
+  list-style: none;
+  -webkit-transition: all .375s;
+        transition: all .375s;
+}
+details[open] summary {
+  font-weight: bold;
+  -webkit-transition: all .375s;
+        transition: all .375s;
+}
+
+
 .sections {
   font-size: .9rem;
   display: flex;
@@ -254,7 +280,7 @@ nav.navigation {
 
     article {
       max-width: 70rem;
-      padding: 1rem;
+      padding: 1rem 2rem;
       .title {
         font-size: 1.75rem;
         //margin-block-start: 0.5em;

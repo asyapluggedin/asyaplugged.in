@@ -42,14 +42,16 @@
   <article>
     <h1 class="title">{{ page.title }}</h1>
     {% block sections %}
-    <div class="allsections">
-    <ul class="sections">
+  <details class="allsections">
+    <summary>
+      <ul class="sections">
       {%- if page.updated %}
       {{ page::updated() }}
       {% else %}
       {{ page::date() }}
       {% endif -%}
     </ul>
+  </summary>
       <ul class="sections">
       <!-- {{ page::relative_path() }} -->
       {{ page::word_count() }}
@@ -59,7 +61,10 @@
       {{ page::taxonomies_bags() }}
       {{ page::taxonomies_bategory() }}
     </ul>
-  </div>
+  
+  </details>
+
+
     {% endblock sections %}
     {{ page.content | safe }}
     {%- if page.heavier or page.lighter %}

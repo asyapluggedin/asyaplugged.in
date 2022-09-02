@@ -1,6 +1,5 @@
 # The URL the site will be built for
 base_url = "https://asyaplugged.in"
-theme = "karzok"
 
 title = "Asya Davydova Lewis"
 
