@@ -73,6 +73,10 @@ section {
 
 @media (max-width: 1000px) {
   section {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(31%, 1fr));
+
+    a:last-child:nth-child(3n - 2) {
+      grid-column: span 3;
+    }
   }
 }

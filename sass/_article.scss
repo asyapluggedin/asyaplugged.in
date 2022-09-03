@@ -210,7 +210,10 @@ summary {
   -webkit-transition: all .375s;
         transition: all .375s;
 }
-summary::-webkit-details-marker { display: none; }
+summary::-webkit-details-marker {
+   display: none;
+  }
+
 details[open] summary {
   font-weight: bold;
   -webkit-transition: all .375s;
