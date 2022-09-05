@@ -14,6 +14,7 @@ body[data-theme="light"] {
 }
 
 article {
+  margin:0 auto;
   padding: 3rem;
   max-width: calc(100% - 5rem);
   //  calc (100% - 700px)
@@ -28,6 +29,8 @@ article {
   }
   h1{
     //font-family: 'Suisse Works';
+    
+    // text-align: center;
   }
   h1,
   h2 {
@@ -130,12 +133,16 @@ article {
     vertical-align: middle;
     border-radius: 2px;
   }
+  p:has(img) {
+    text-align: center;
+  }
   img {
     height: auto;
     max-width: 70%;
     padding: 1px;
     border: 1px solid var(--foreground);
     margin: 0 auto;
+    text-align: center;
   }
 
   figure {
