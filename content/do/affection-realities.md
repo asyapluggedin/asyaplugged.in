@@ -12,6 +12,8 @@ authors = ["Asya Davydova Lewis"]
 image go here
 
 <!-- more -->
+
+
 # Curating
 In November 2015, I curated a group exhibition featuring ten international artists. I scouted the artists from social media, spanning all different platforms, from Yelp to Last.fm, from OkCupid to Tumblr. Instead of making my curatorial selection based on reputation or portfolio, I tried to choose people without (much) prior experience exhibiting their work, relying on my online aesthetic intution. 
 
