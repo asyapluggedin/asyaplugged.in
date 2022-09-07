@@ -113,4 +113,9 @@ section {
   section {
     grid-template-columns: 1fr;
   }
+
+  img.pika {
+    transform: scale(10, 10);;
+    max-width: 20px !important;
+  }
 }
