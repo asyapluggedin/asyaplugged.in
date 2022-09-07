@@ -1,0 +1,52 @@
+
+
+{% macro portfolio_image() %}
+            {% if post.extra.feature_image is matching("[.](jpg|jpeg|png|gif)$") %}
+                {% set post_relative_path_array = post.relative_path | split(pat="/")  %}
+                {%- if lang == config.default_language %}
+                    {% set feature_image = post_relative_path_array[0] ~ "/" ~ post_relative_path_array[1] ~ "/" ~ post_relative_path_array[2] ~ "/" ~ post.extra.feature_image %}
+                    {% set feature_image_300 = resize_image(path=feature_image, width=300, height=150, format="webp") %}
+                    {% set feature_image_600 = resize_image(path=feature_image, width=600, height=300, format="webp") %}
+                    {% set feature_image_900 = resize_image(path=feature_image, width=900, height=450, format="webp") %}
+                    {% set feature_image_1200 = resize_image(path=feature_image, width=1200, height=600, format="webp") %}
+                    {% set feature_image_1500 = resize_image(path=feature_image, width=1500, height=750, format="webp") %}
+                    {% set feature_image_1800 = resize_image(path=feature_image, width=1800, height=900, format="webp") %}
+                    {% set feature_image_2100 = resize_image(path=feature_image, width=2100, height=1050, format="webp") %}
+                
+                {% else %}
+                    {% set feature_image = post.components[1] ~ "/" ~ post.year ~ "/" ~ post.date ~ "-" ~ post.title ~ "/" ~ post.extra.feature_image %}
+                {% endif %}
+                <img class="image" loading="lazy" alt="{{ post.title }}"
+                srcset="{{ feature_image_300.url | safe }} 300w,
+                        {{ feature_image_600.url | safe }} 600w,
+                        {{ feature_image_900.url | safe }} 900w,
+                        {{ feature_image_1200.url | safe }} 1200w,
+                        {{ feature_image_1500.url | safe }} 1500w,
+                        {{ feature_image_1800.url | safe }} 1800w,
+                        {{ feature_image_2100.url | safe }} 2100w,"
+                sizes="(max-width: 500px) 90vw,
+                        (max-width: 700px) 200px,
+                        (max-width: 900px) 300px,
+                        (max-width: 1000px) 200px,
+                        (max-width: 1200px) 300px,
+                        400px">
+            {% elif post.extra.feature_image is matching("[.](svg)$") %}
+                <img class="image" loading="lazy" alt="{{ post.title }}" src="{{ post.permalink | safe }}{{ post.extra.feature_image }}">
+            {% else %}
+                <img class="image" loading="lazy" alt="{{ post.title }}"
+                    srcset="https://source.unsplash.com/300x300/?{{ post.title | slugify }} 300w,
+                            https://source.unsplash.com/600x600/?{{ post.title | slugify }} 600w,
+                            https://source.unsplash.com/900x900/?{{ post.title | slugify }} 900w,
+                            https://source.unsplash.com/1200x1200/?{{ post.title | slugify }} 1200w,
+                            https://source.unsplash.com/1500x1500/?{{ post.title | slugify }} 1500w,
+                            https://source.unsplash.com/1800x1800/?{{ post.title | slugify }} 1800w,
+                            https://source.unsplash.com/2100x2100/?{{ post.title | slugify }} 2100w,"
+                    sizes="(max-width: 500px) 90vw,
+                        (max-width: 700px) 200px,
+                        (max-width: 900px) 300px,
+                        (max-width: 1000px) 200px,
+                        (max-width: 1200px) 300px,
+                        400px">
+            {% endif %}
+           
+{% endmacro portfolio_image %}

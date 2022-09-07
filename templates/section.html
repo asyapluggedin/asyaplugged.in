@@ -15,14 +15,18 @@
 {% block content %}
 <section>
   {% for page in section.pages %}
+ 
+ 
+
   <a href="{{ page.permalink }}">
+    {{ page::portfolio_image(page=page)}}
     <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
     <div>
       {% if page.description %}
       <p>{{ page.description }}</p>
       {% endif %}
-    </div>
-  </a>
+    </div> 
+</a>
   {% endfor %}
 </section>
 {% endblock content %}

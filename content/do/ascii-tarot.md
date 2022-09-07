@@ -9,10 +9,12 @@ weight = 3
 [extra]
 math = true
 authors = ["Asya Davydova Lewis"]
+feature_image = "https://asyaplugged.in/assets/deck.png"
+feature = true
 +++
 ![Deck of cards with blue ascii art design shrink-wrapped in plastic](/do/deck.png)
 
-Three years after I was first introduced to the Tarot, I designed a Tarot deck myself (and was able to finish it within a month thanks to the motivation to submit it as part of my 2016 UCLA Media Arts application). While I initially learned the Tarot using physical cards and used them to structure conversations with my friends about challenging decisions we had to make, I spent a majority of my time consulting the cards in a digital format. My first deck was the [Enchanted Tarot](https://www.theenchantedworld.net/enchanted-tarot) by Amy Zerner and Monte Farber, which not only had beautiful custom art riffing on the Rider-Waithe deck, a book of explications, but also an [iOS app](https://apps.apple.com/us/app/enchanted-tarot/id674639952), which I used very frequently. It is said that if one carries their Tarot deck with them, the cards will hold the energy of their owner's experiences and provide more relevant insights. I became intrigued by how this principle could be manifesting technologically, so I decided to pare down the digital Tarot to it's most simple, bare, form.
+Three years after I was first introduced to the Tarot, I designed a [Tarot deck](https://www.behance.net/gallery/42369763/ASCII-TAROT?locale=en_US) myself (and was able to finish it within a month thanks to the motivation to submit it as part of my 2016 UCLA Media Arts application). While I initially learned the Tarot using physical cards and used them to structure conversations with my friends about challenging decisions we had to make, I spent a majority of my time consulting the cards in a digital format. My first deck was the [Enchanted Tarot](https://www.theenchantedworld.net/enchanted-tarot) by Amy Zerner and Monte Farber, which not only had beautiful custom art riffing on the Rider-Waithe deck, a book of explications, but also an [iOS app](https://apps.apple.com/us/app/enchanted-tarot/id674639952), which I used very frequently. It is said that if one carries their Tarot deck with them, the cards will hold the energy of their owner's experiences and provide more relevant insights. I became intrigued by how this principle could be manifesting technologically, so I decided to pare down the digital Tarot to it's most simple, bare, form.
 <!-- more -->
 ## ASCII as an aesthetic, symbolic, and functional choice
 

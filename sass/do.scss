@@ -32,6 +32,14 @@ section {
     padding:1em;
 
     overflow: hidden;
+    & img {
+      max-width: 250%;
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+
+    }
     & span {
       display: block;
       position: absolute;
@@ -64,9 +72,18 @@ section {
   & a:hover {
     outline: 1px solid var(--foreground);
     box-shadow: 0px 0px 5px 5px var(--foreground);
+    img{
+      filter: blur(10px) opacity(90%);
+      //background-color: var(--foreground);
+    }
 
     span {
     transform: scale(-1,-1) translate(50%, -65%);
+    text-shadow: 0px 0px 5px var(--background);
+    }
+
+    p{
+      text-shadow: 0px 0px 5px var(--background);
     }
   }
 
