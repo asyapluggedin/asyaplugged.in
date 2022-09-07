@@ -2,7 +2,7 @@
 title = "gestalt.sh/ift"
 date = "2021-06-11"
 updated = "2022-06-03"
-description= "2021 UCLA DMA Senior Exhibit"
+description= "2021 UCLA DMA Senior Exhibition Website"
 sort_by = "weight"
 weight = 3
 

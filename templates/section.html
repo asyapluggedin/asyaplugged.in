@@ -13,11 +13,13 @@
 
 {% block math%} {{ macros::math() }} {% endblock math %}
 {% block content %}
+
+<img class="pika" src="https://64.media.tumblr.com/f0da7c50d726e64c6c0d8a985240b6f4/dfbbb68a95adf2d4-ce/s250x400/afe73dd5883647200c53408018ed3be99b567b80.gif">
+
 <section>
+
   {% for page in section.pages %}
  
- 
-
   <a href="{{ page.permalink }}">
     {{ page::portfolio_image(page=page)}}
     <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
