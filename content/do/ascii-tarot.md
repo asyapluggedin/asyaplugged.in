@@ -2,7 +2,7 @@
 title = "ASCII Tarot"
 date = "2019-03-11"
 updated = "2022-08-31"
-description= "I designed a Tarot card deck in the ASCII art style."
+description= "Tarot card deck in the ASCII art style."
 sort_by = "weight"
 weight = 3
 
