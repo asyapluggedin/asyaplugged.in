@@ -23,9 +23,15 @@ My role in this project adapted over the course of the academic quarter. I origi
 
 For context: traditionally, the graduating class is divided into three sections, each one led by a separate professor who assists the students in developing their senior thesis as well and helps produce the exhibition. In 2021, we did not have access to the physical EDA gallery space at UCLA nor classrooms to meet in. The meetings took place on Discord, a platform to which many were still only getting used to.
 
+I took initiative to ensure that all the exhibition subcommittee members regularly met for discussions, and to facilitate reasonable production deadlines.
+
+## Design Process
+
+For a class full of graduating students fatigued from remote instruction, designing the exhibition website around a visual riff on the Zoom screen was a decision made from a place of catharsis.
+
 ## Production Process
 
-See our collaborative [Figma file here](https://www.figma.com/file/gxxEelPY5ETKjiybAK4okM/gestalt.sh-web-design?node-id=290%3A70).
+See the collaborative [Figma file here](https://www.figma.com/file/gxxEelPY5ETKjiybAK4okM/gestalt.sh-web-design?node-id=290%3A70).
 
 ## Development
 
