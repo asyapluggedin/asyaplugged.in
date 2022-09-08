@@ -11,6 +11,8 @@ category = ["blog"]
 
 [extra]
 math = true
+feature_image = "https://asyaplugged.in/assets/deepdenial.gif"
+feature = true
 +++
 
 I was invited to the Hackers and Designers Summer Academy (a program run out of the Sandberg Institute, the postgraduate programme of the Gerrit Rietveld Academie in Amsterdam) to teach a one-day creative coding workshop.
