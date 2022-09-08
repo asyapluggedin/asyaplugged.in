@@ -1,5 +1,5 @@
 +++
-title = "Mindpet"
+title = "Meditation Game"
 date = "2015-09-11"
 description= "user interface"
 sort_by = "weight"
