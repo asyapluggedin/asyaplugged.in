@@ -8,6 +8,8 @@ weight = 100
 [extra]
 math = true
 authors = ["Asya Davydova Lewis"]
+feature_image = "https://asyaplugged.in/assets/covers/affection.png"
+feature = true
 +++
 image go here
 
