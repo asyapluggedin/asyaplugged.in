@@ -11,7 +11,7 @@ category = ["blog"]
 
 [extra]
 math = true
-feature_image = "https://asyaplugged.in/assets/deepdenial.gif"
+feature_image = "https://asyaplugged.in/assets/covers/deepdenialcover.png"
 feature = true
 +++
 
@@ -24,3 +24,5 @@ _DeepDenial_ is a ML art workshop designed for students of varied technical or n
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YANEHZd-MbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can find more information [here](https://hackersanddesigners.nl/s/Summer_Academy_2018/p/DeepDenial).
+
+Reference materials for the workshop are collected on this [Are.na Channel](https://www.are.na/anastasia-davydova-lewis/hdsa2018-deepdenial).

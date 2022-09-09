@@ -9,7 +9,7 @@ weight = 3
 [extra]
 math = true
 authors = ["Asya Davydova Lewis"]
-feature_image = "https://asyaplugged.in/assets/deck.png"
+feature_image = "https://asyaplugged.in/assets/covers/ascii.png"
 feature = true
 +++
 ![Deck of cards with blue ascii art design shrink-wrapped in plastic](/do/deck.png)
