@@ -9,7 +9,7 @@ weight = 3
 [extra]
 math = true
 authors = ["Asya Davydova Lewis"]
-feature_image = "https://asyaplugged.in/assets/gestalt-shift.png"
+feature_image = "https://asyaplugged.in/assets/covers/gestalt-square.png"
 feature = true
 +++
 
