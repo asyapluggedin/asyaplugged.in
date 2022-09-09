@@ -33,7 +33,7 @@ section {
   a {
     display: block;
     position: relative;
-   color: var(--foreground);
+    color: rgba(0,0,0,0) !important;
     background-size: cover;
     background-color: var(--background);
     text-decoration: none;
@@ -42,10 +42,10 @@ section {
 
     overflow: hidden;
     & img {
-      max-width: 250%;
+      max-width: 110%;
       position: absolute;
       top: 50%;
-      left: 55%;
+      left: 50%;
       transform: translate(-50%, -50%);
 
     }
