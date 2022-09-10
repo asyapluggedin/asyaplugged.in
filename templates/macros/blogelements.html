@@ -200,12 +200,14 @@
 {% endmacro %}
 
 {% macro portfolio_image(page) %}
-  {% if page.extra.feature_image%}
+{% if page.extra.feature_image%}
     
-    <img class="image" loading="lazy" alt="{{ page.title }}" 
-          src="{{ page.extra.feature_image }}">
+<img class="image" loading="lazy" alt="{{ page.title }}" 
+      src="{{ page.extra.feature_image }}">
+<span class="invisibletext">{{ macros::title_or_last(component=page, offset=0) }}</span>
 
-  {% else %}
-  {% endif %}
+{% else %}
+<span>{{ macros::title_or_last(component=page, offset=0) }}</span>
+{% endif %}
            
 {% endmacro portfolio_image %}

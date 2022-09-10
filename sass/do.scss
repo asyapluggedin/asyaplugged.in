@@ -59,6 +59,9 @@ section {
       // margin-bottom: 10px;
      color: var(--foreground);
     }
+    & span.invisibletext{
+      color: rgba(0,0,0,0);
+    }
     & div {
       opacity: 0;
       transform: translateY(40px);
@@ -91,6 +94,10 @@ section {
     text-shadow: 0px 0px 5px var(--background);
     }
 
+    & span.invisibletext{
+      color: var(--foreground);
+    }
+
     p{
       text-shadow: 0px 0px 5px var(--background);
     }
@@ -111,11 +118,16 @@ section {
 
 @media (max-width: 1000px) {
   section {
-    grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(32%, 2fr));
+  grid-auto-rows: 34.5vw;
+  width: 98%;
+  //grid-gap: 10px 10px;
+  padding: 0 10px;
   }
 
   img.pika {
     transform: scale(10, 10);;
     max-width: 20px !important;
+    top:40%;
   }
 }
