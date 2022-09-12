@@ -138,6 +138,7 @@ article {
   }
   img {
     height: auto;
+  
     max-width: 70%;
     padding: 1px;
     border: 1px solid var(--foreground);
@@ -151,7 +152,7 @@ article {
 
     img {
       height: auto;
-      max-width: 90%;
+      max-width: 100%;
       border: none;
       padding: 2rem;
     }
