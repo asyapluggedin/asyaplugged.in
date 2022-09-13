@@ -24,7 +24,7 @@ I hold a Design | Media Arts degree from UCLA. I was one of the only two interns
 
 - [@ asyapluggedin](https://twitter.com/asyapluggedin) on Twitter
 - [@ asyapluggedin](https://github.com/asyapluggedin) on Github
-- [My profile index page](https://www.are.na/anastasia-davydova-lewis/index)
+- [My profile index page on Are.na](https://www.are.na/anastasia-davydova-lewis/index)
 - [@asyapluggedin](https://www.instagram.com/asyapluggedin/) on Instagram
 - [@ xnastasia](https://www.tiktok.com/@xnastasia/) on TikTok
 - [My playlists](https://open.spotify.com/user/1117495726?si=TKcbbx10QnqTFTvgA1Teqg) on Spotify
