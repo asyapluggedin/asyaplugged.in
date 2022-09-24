@@ -8,6 +8,7 @@
   --white: #ffffff;
   --light2: #bbbbbb;
   --light3: #dddddd;
+  --light4: #5E5E5E;
   --green: #2ecc40;
   --red: #FF0101;
   --teal: #40FFF4;
@@ -62,7 +63,7 @@ body {
     --foreground: var(--red4);
     --background: var(--white);
     //--blogtext: var(--black);
-    --hovercolor: var(--light2);
+    --hovercolor: var(--light4);
 }
 
 @media (prefers-color-scheme: dark) {
