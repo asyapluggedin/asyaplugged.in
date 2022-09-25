@@ -28,6 +28,8 @@ article {
     font-weight: 700;
   }
   h1{
+    font-family: 'Marcellus';
+    color: var(--foreground);
     //font-family: 'Suisse Works';
     
     // text-align: center;
@@ -36,12 +38,18 @@ article {
   h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+   
   }
+  h1,h2,h3,h4,h5,h6{
+    color: var(--foreground);
+  }
+
   h3,h4,h5,h6,p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: calc(100% - 5rem);
     line-height: 1.3rem;
+    
   }
   a {
     color: var(--foreground); //green

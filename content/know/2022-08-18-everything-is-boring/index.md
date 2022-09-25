@@ -1,6 +1,7 @@
 +++
-title = "Notes on Everything is Boring"
+title = "Meditation & Gaming Lecture notes: Robin Arnott"
 date = "2022-08-18"
+updated = "2022-09-25"
 description= "Notes on Robin Arnott's Everything is Boring presentation at BDYHAX 2019."
 weight = 2
 
@@ -16,9 +17,11 @@ math = true
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n94J-9YxZPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-These are my notes on Robin Arnott's presentation "Everything is Boring" that he gave at the BDYHAX conference in In February 24th, 2019 in which he uses a psychological framework to analyze the wellness economy's own relative "health". I summarize the talk's main points and add several comments of my own.
+I experienced a rather significant personal paradigm shift after Robin Arnott's presentation "Everything is Boring" at the BDYHAX conference on February 24th, 2019. I have several versions of hand-written notes on it, and have spent countless late nights gesticulating on and on about the premise, so I figured to publish my notes (something between an inaccurate summary and personal comments) and suavely drop a hyperlink any time the itch to transmute this paradigm strikes, instead of acting like [this](https://knowyourmeme.com/memes/pepe-silvia). 
 
-Robin, if you're reading this, please respond to my emails – I would love to have access to the slides from this talk. It influenced me profoundly, but unfortunately I have never been able to actually convey that to you, as in person at BDYHAX you were swarmed with fans on each arm, and online, well, you seem to not respond to email.
+The talk focuses on the issue at the center of the wellness-meditation economy: everything is boring. Using a psychological framework from Ken Wilber, it analyzes the wellness economy's own relative "health", and demonstrates that both wellness and successful consumer interfaces have a much stronger connection to passion-based areas like entertainment, music and gaming, rather than mass infrastructure like medicine or workforce training.
+
+Robin: if you're reading this, please respond to my emails – I would love to have access to the slides from this talk. It's great that there's now a video recording available, but I am struggling to find the proper chart images the talk is based on.
 
 ## Introduction
 
