@@ -107,4 +107,4 @@ I recommend checking out the [past versions of core DMA classes](https://classes
 
 ## Want to contribute to this guide?
 
-Submit [a pull request in the github repo](https://github.com/asyapluggedin/asyaplugged.in/blob/main/content/know/rc-creative-coding.md) for this blog.
+Submit [a pull request in the github repo](https://github.com/asyapluggedin/asyaplugged.in/blob/main/content/know/2022-08-04-rc-creative-coding.md) for this blog.

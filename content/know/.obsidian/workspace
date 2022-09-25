@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-18-everything-is-boring/index.md",
+            "file": "2022-08-04-rc-creative-coding.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-18-everything-is-boring/index.md",
+                "file": "2022-08-04-rc-creative-coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-08-18-everything-is-boring/index.md",
+                "file": "2022-08-04-rc-creative-coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-18-everything-is-boring/index.md"
+                "file": "2022-08-04-rc-creative-coding.md"
               }
             }
           }
@@ -129,5 +129,7 @@
     "collapsed": true
   },
   "active": "d7a7362ce4dfb8b9",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "2022-08-18-everything-is-boring/index.md"
+  ]
 }
