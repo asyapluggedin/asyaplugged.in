@@ -2,6 +2,19 @@
 {% block styles %}
 {{ macros::styles(file='section.css') }}
 {% endblock styles %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@asyapluggedin">
+<meta name="twitter:creator" content="@asyapluggedin">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{config.base_url | safe}}/{{current_path | safe}}" />
+<meta property="og:site_name" content="asyaplugged.in —&nbsp;blog" />
+
+{% block meta_content %}
+<title>Asya Davydova Lewis –&nbsp;blog</title>
+<meta name="twitter:title" content="Asya Davydova Lewis –&nbsp;blog">
+<meta property="og:title" content="Asya Davydova Lewis –&nbsp;blog" />
+{% endblock meta_content %}
  
     <body>
         {% block body %}

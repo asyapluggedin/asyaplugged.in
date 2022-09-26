@@ -1,6 +1,22 @@
 {% extends "head.html" %}
 {# import styles for page #}
 {% block styles %} {{ macros::styles(file='page.css')}} {% endblock styles %}
+{% block meta_content %}
+    {% if page.title %}
+    <title>{{page.title}} —&nbsp;asyaplugged.in</title>
+    <meta name="twitter:title" content="{{page.title}} —&nbsp;asyaplugged.in">
+    <meta property="og:title" content="{{page.title}} —&nbsp;asyaplugged.in" />
+    {% else %}
+    <title>asyaplugged.in –&nbsp;blog</title>
+    <meta name="twitter:title" content="asyaplugged.in —&nbsp;blog">
+    <meta property="og:title" content="asyaplugged.in —&nbsp;blog" />
+    {% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | safe }}" />
+    <meta name="twitter:description" content="{{ page.description | safe }}">
+    <meta property="og:description" content="{{ page.description | safe }}" />
+    {% endif %}
+{% endblock meta_content %}
 {# page title #}
 {% block htmltitle %} {{ page.title }} {% endblock htmltitle %}
 {% block content %}
