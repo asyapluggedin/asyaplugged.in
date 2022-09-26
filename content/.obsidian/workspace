@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "4b72b2818edc6409",
+    "id": "e4e68ec1fff823f4",
     "type": "split",
     "children": [
       {
-        "id": "d7a7362ce4dfb8b9",
+        "id": "0fa4245c00cd1328",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-04-rc-creative-coding.md",
+            "file": "do/deepdenial.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "33fc1e1369eb25fe",
+    "id": "f82e6dbb9bb4b795",
     "type": "split",
     "children": [
       {
-        "id": "af2fb518a97b44d7",
+        "id": "26126b5c3a40e79e",
         "type": "tabs",
         "children": [
           {
-            "id": "812d875d5c8f2657",
+            "id": "7eeb00b022b7581f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "2f186a37994c8ca9",
+            "id": "f382bcbfcb90f641",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "d54dbe337b4b2713",
+            "id": "8a5ccb5d0c1b65a0",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,20 +64,20 @@
     "width": 300
   },
   "right": {
-    "id": "0215606bf51b8d37",
+    "id": "1333eca6df1a52f6",
     "type": "split",
     "children": [
       {
-        "id": "10f0286d3c152221",
+        "id": "5d89cea320f455fa",
         "type": "tabs",
         "children": [
           {
-            "id": "de214b5c1440a8db",
+            "id": "1fb0470f317c03a6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-04-rc-creative-coding.md",
+                "file": "do/deepdenial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +89,19 @@
             }
           },
           {
-            "id": "964b19a9741c4452",
+            "id": "d9da572ea96a728b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-08-04-rc-creative-coding.md",
+                "file": "do/deepdenial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7bde7910dcee2e86",
+            "id": "da231f46e2552f45",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "3f981900928ceec2",
+            "id": "4857c4752117c8e6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-04-rc-creative-coding.md"
+                "file": "do/deepdenial.md"
               }
             }
           }
@@ -128,8 +128,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d7a7362ce4dfb8b9",
-  "lastOpenFiles": [
-    "2022-08-18-everything-is-boring/index.md"
-  ]
+  "active": "0fa4245c00cd1328",
+  "lastOpenFiles": []
 }

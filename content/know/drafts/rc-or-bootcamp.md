@@ -1,5 +1,5 @@
 +++
-title = "Should I go to a bootcamp, self study, or apply to the Recurse Center?"
+title = "Why and how you should apply to the Recurse Center"
 date = "2022-08-16"
 description= "Should I go to a bootcamp, self study, or apply to the Recurse Center?"
 weight = 2
@@ -27,6 +27,10 @@ At Moscow Coding School, I learned introductory HTML, CSS, JavaScript, and WebGL
 ## Bootcamp
 
 ## Self Study
+
+## Recurse Center Application
+
+I have pubilished [my own application to rc on my github](https://github.com/asyapluggedin/rc/blob/master/application/application-2022.md).
 
 ## Recurse Center
 
