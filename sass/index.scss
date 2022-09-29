@@ -4,11 +4,13 @@
 @import 'macros/footer';
 
 :root {
-  --black: #111111;
+  --black: #080808;
   --white: #ffffff;
   --light2: #bbbbbb;
   --light3: #dddddd;
   --light4: #5E5E5E;
+  --twitterborder: #2F3336;
+  --blackhover: #101010;
   --green: #2ecc40;
   --red: #FF0101;
   --teal: #40FFF4;
@@ -60,10 +62,11 @@ body[data-theme="light"] {
 
 body {
     background: var(--background);
-    --foreground: var(--red4);
+    //--foreground: var(--red4);
+    --foreground: var( --twitterborder);
     --background: var(--white);
     //--blogtext: var(--black);
-    --hovercolor: var(--light4);
+    --hovercolor: var(--blackhover);
 }
 
 @media (prefers-color-scheme: dark) {

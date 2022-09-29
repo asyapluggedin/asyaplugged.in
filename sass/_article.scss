@@ -24,7 +24,7 @@ article {
   
   .title {
     margin: 0 0 1rem;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
   }
   h1{
@@ -47,7 +47,6 @@ article {
   h3,h4,h5,h6,p {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-width: calc(100% - 5rem);
     line-height: 1.3rem;
     
   }
@@ -89,7 +88,7 @@ article {
     }
   }
   table {
-    margin-top: 1.25rem;
+    margin: 1.25rem auto 0 auto;
     width: 80%;
     max-width: 80vw;
     border-collapse: collapse;
@@ -204,6 +203,7 @@ details {
   border: var(--foreground) solid 2px;
   border-radius: 48% 52% 43% 57% / 56% 35% 65% 44%;
   padding: .2rem .5rem;
+  margin: 0 0 1rem;
   width:fit-content;
   -webkit-transition: all .375s;
         transition: all .375s;
@@ -301,9 +301,12 @@ nav.navigation {
 
     article {
       max-width: 70rem;
-      padding: 1rem 2rem;
+      padding: 1rem 0rem;
+      details,h1,h2,h3,h4,h5,h6,p,li,ul,ol {
+        margin: 1rem 1.5rem;
+      }
       .title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         //margin-block-start: 0.5em;
         //margin-block-end: 0.5em;
       }

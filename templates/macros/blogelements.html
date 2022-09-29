@@ -14,15 +14,16 @@
         </li>
     </ul>
     {% endif %}
-    <span> Table of Contents: </span>
+    
     <ul>
+        <li><span>Table of Contents</span></li>
         {% for h1 in page.toc %}
         <li>
-            <a aria-label="{{ h1.id }}" href="{{ h1.permalink | safe }}"> # {{ h1.title }} </a>
+            <a aria-label="{{ h1.id }}" href="{{ h1.permalink | safe }}">{{ h1.title }} </a>
         </li>
             {% for h2 in h1.children %}
                 <li class="children">
-                    <a aria-label="{{ h2.id }}" href="{{ h2.permalink | safe }}"> ## {{ h2.title }} </a>
+                    <a aria-label="{{ h2.id }}" href="{{ h2.permalink | safe }}">– {{ h2.title }} </a>
                 </li>
                 
             {% endfor %}

@@ -1,18 +1,22 @@
 aside {
   // background: var(--background);
-  padding-top: 1rem;
+  // padding-top: 1rem;
+  padding-right: 0;
+  max-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  border-left: 1px solid $dark1;
+  font-size: 14px;
   span {
-    color: var(--blogtext);
     font-weight: bold;
-    font-size: 17px;
+    margin: 0 auto;
   }
   ul {
     position: sticky;
-    border-left: 1px solid;
-    border-color: $dark1;
     padding-left: 0;
-    padding-right: 1rem;
+    padding-right: .5rem;
     max-width: 100%;
+    max-height: 100vh;
   }
   li {
     display: grid;
@@ -21,7 +25,8 @@ aside {
     padding-top: 0.345rem;
     &.children {
         a {
-          margin-left: 2.5rem;
+          margin-left: 1.5rem;
+          font-size: 13px;
         }
     }
     &.edit-page {
@@ -33,19 +38,21 @@ aside {
   a {
     display: inline-block;
     letter-spacing: normal;
-    margin-left: 24px;
-    padding: 8px 0;
-    font-size: 15px;
-    line-height: 16px;
+    margin-left: .75rem;
+    padding: 4px 0;
+    color: var(--blogtext);
+    &:hover {
+      color: var(--foreground);
+    }
   }
   li:hover::before,
-  .active::before {
+  .active::before{
     position: absolute;
     left: -2px;
     height: 100%;
     content: '';
-    border-left: 2px solid;
-    border-color: var(--blogtext);
+    border-left: 3px solid;
+    border-color: var(--foreground);
   }
 }
 
