@@ -67,11 +67,11 @@ main > nav {
   }
   li.active,
   li:hover {
-    color: var(--foreground);
+    color: var(--blogtext);
     border-right: 1px solid var(--foreground);
   }
   a.active {
-    color: var(--foreground);
+    color: var(--blogtext);
   }
 }
 

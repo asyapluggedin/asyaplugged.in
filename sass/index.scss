@@ -73,6 +73,7 @@ body {
 body:not([data-theme="light"]) {
     --background: var(--black);
     --foreground: var(--teal);
+    --blogtext: var(--white);
 }
 }
 

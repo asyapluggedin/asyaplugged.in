@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "you.md",
+            "file": "assets/_index.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "you.md",
+                "file": "assets/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "you.md",
+                "file": "assets/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "you.md"
+                "file": "assets/_index.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "0fa4245c00cd1328",
   "lastOpenFiles": [
+    "you.md",
     "know/2022-08-18-everything-is-boring/index.md",
     "_index.md",
     "know/_index.md",
