@@ -23,18 +23,19 @@ article {
   background: var(--background);
   
   .title {
-    margin: 0 0 1rem;
+    margin: 0 auto 1.25rem auto;
+    //margin:0 auto;
     font-size: 1.75rem;
     font-weight: 700;
-  }
-  h1{
     font-family: 'Marcellus';
     color: var(--foreground);
+    text-align: center;
+  }
+  h1{
     //font-family: 'Suisse Works';
     
     // text-align: center;
   }
-  h1,
   h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;

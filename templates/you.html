@@ -1,23 +1,28 @@
 {% extends "head.html" %}
 {# import styles for page #}
 {% block styles %} 
-    {{ macros::styles(file='you.css')}} 
+    {{ macros::styles(file='love.css')}} 
 {% endblock styles %}
 {# page title #}
+{% if page.title %}
 {% block htmltitle %} 
     {{ page.title }} 
 {% endblock htmltitle %}
+{% endif %}
 {% block content %}
 
 
   <article>
+    {% if page.title %}
     <h1 class="title">{{ page.title }}</h1>
+    {% endif %}
+    {#
     {% block sections %}
     <ul class="sections">
         {{ page::date() }}
-        {{ page::taxonomies_authors() }}
     </ul>
     {% endblock sections %}
+    #}
     <div class ="you">
     {{ page.content | safe }}
 </div>
