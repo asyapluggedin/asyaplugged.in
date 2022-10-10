@@ -148,8 +148,9 @@ article {
     height: auto;
   
     max-width: 70%;
-    padding: 1px;
+    //padding: calc(-10px);
     border: 1px solid var(--foreground);
+    border-radius: 15px;
     margin: 0 auto;
     text-align: center;
   }
