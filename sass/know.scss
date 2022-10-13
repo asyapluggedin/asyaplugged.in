@@ -12,10 +12,12 @@ body:not([data-theme="dark"]) > section a {
 
 /* Style the tab */
 .tab {
-  height:36px;
+  //height:23px; //for safari
+  height: 23.5px; //for chrome
   background-color: var(--background);
   border-bottom: 1px solid var(--foreground);
   padding-top: 15px;
+  padding-bottom: 0px;
 
   button:first-child {
     margin-left: 3rem;
@@ -24,27 +26,32 @@ body:not([data-theme="dark"]) > section a {
   button {
     background-color: transparent;
     float: left;
-    outline: none;
-    cursor: pointer;
+    //outline: none;
+    //cursor: pointer;
     margin: 0 1rem;
     color:  var(--foreground);
-    
+    //align-items: flex-end;
+    //writing-mode: sideways-lr;
+    border: 1px solid var(--foreground);
+    padding: 2px 5px;
   }
 
   button a {
-    border: 1px solid var(--foreground);
-    padding: 2px 5px;
+    //border: 1px solid var(--foreground);
+    //padding: 2px 5px;
     width: 175px;
     text-align: center;
+    font-size: 16px;
   }
 
-  button:hover a {
+  button:hover {
     background-color: var(--hovercolor);
   }
 
-  button.active  a{
+  button.active  {
     background-color: var(--background);
-    border-bottom-color: var(--background);
+    //border-bottom-color: var(--background);
+    border-bottom: 2px solid var(--background);
   }
 }
 
@@ -176,9 +183,10 @@ stection {
   }
 
   table {
-    td:first-child {
+    th:first-child,td:first-child {
       font-size: 14px;
       padding: .5rem;
+      display:none;
     }
   }
 
