@@ -13,7 +13,9 @@ body:not([data-theme="dark"]) > section a {
 /* Style the tab */
 .tab {
   //height:23px; //for safari
-  height: 23.5px; //for chrome
+  //height: 23.5px; //for chrome
+  height:39.3px;
+  //height:2.5rem;
   background-color: var(--background);
   border-bottom: 1px solid var(--foreground);
   padding-top: 15px;
