@@ -22,3 +22,5 @@ While it may be a little on-the-nose to start a personal accountability blog ser
 - went from DB bench press to short bar 
 - ate 60-90g protein / day 
 - settled on a gym uniform that feels cute
+
+#### February Goals
