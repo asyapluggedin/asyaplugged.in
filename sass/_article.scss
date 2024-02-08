@@ -4,7 +4,6 @@ body[data-theme="light"] {
     }
 }
 
-
 @media (prefers-color-scheme: light) {
   body:not([data-theme="black"]) {
     article > pre {
@@ -31,11 +30,11 @@ article {
     color: var(--foreground);
     text-align: center;
   }
-  h1{
+  //h1 {
     //font-family: 'Suisse Works';
     
     // text-align: center;
-  }
+ // }
   h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
