@@ -24,3 +24,9 @@ While it may be a little on-the-nose to start a personal accountability blog ser
 - settled on a gym uniform that feels cute
 
 #### February Goals
+
+- continue recomp progress
+- bench the 35 long bar
+- improve VO2 max via kettlebell swings after each training session
+- eat 80-135g protein / day
+- spend less money on vegan protein shakes from the grocery store and try some protein powders for homemade protein shakes
