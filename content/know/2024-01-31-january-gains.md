@@ -6,7 +6,7 @@ description= "Description"
 
 [taxonomies]
 tags = ["journal"]
-category = ["blog","productivity"]
+category = ["blog",]
 
 [extra]
 math = true
