@@ -5,7 +5,7 @@ updated = "2022-11-15"
 description= "Description"
 
 [taxonomies]
-tags = [""]
+tags = ["thinkthonk"]
 category = ["blog"]
 
 [extra]
