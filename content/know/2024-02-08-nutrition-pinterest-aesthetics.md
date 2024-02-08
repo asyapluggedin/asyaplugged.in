@@ -1,5 +1,5 @@
 +++
-title = "Blog Post Title"
+title = "Nutrition Pinterest Aesthetics"
 date = "2024-02-08"
 updated = "2024-02-08 13:00"
 description= "Description"
