@@ -4,7 +4,7 @@ date = "2024-02-08"
 description= "Description"
 
 [taxonomies]
-tags = [""]
+tags = ["aesthetics"]
 category = ["blog"]
 
 [extra]

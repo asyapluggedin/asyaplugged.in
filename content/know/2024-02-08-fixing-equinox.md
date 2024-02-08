@@ -5,7 +5,7 @@ updated = "2024-02-08 12:58"
 description= "Description"
 
 [taxonomies]
-tags = [""]
+tags = ["product"]
 category = ["blog"]
 
 [extra]
