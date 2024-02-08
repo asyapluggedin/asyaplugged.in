@@ -1,7 +1,7 @@
 +++
 title = "Blog Post Title"
 date = "{{date}}"
-updated = "{{date}} {{time}}"
+updated = "{{date}}"
 description= "Description"
 
 [taxonomies]

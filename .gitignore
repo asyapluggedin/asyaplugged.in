@@ -147,3 +147,4 @@ dist
 .svelte-kit
 
 public/
+content/know/templates/{{date}}-blog-post-template.md
