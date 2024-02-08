@@ -1,7 +1,7 @@
 +++
 title = "Feeling Like a Space"
 date = "2022-11-15"
-updated = "2022-11-15 15:41"
+updated = "2022-11-15"
 description= "Description"
 
 [taxonomies]
