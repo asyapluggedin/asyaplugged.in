@@ -1,7 +1,7 @@
 +++
 title = "January Gains"
-date = "{{2024-01-31}}"
-updated = "{{2024-02-02}} {{22:57}}"
+date = "2024-01-31"
+updated = "2024-02-02"
 description= "Description"
 
 [taxonomies]
