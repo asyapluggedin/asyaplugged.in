@@ -40,6 +40,7 @@
         <rect x="6" y="4" width="2" height="24" />
       </svg>
     </a>
+    <!-- pretty sure this isn't important -->
     <a href="#toc" role="button">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -55,6 +56,7 @@
         <rect x="24" y="4" width="2" height="24" />
       </svg>
     </a>
+  
   </div>
   {{ page::sidebar(current_url=current_url) }}
   <article>
@@ -102,8 +104,6 @@
     </nav>
     {% endif -%}
   </article>
-  
   {{ page::toc(page=page) }}
-  
 </main>
 {% endblock content %}

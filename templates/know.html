@@ -20,10 +20,10 @@
         <div class="tab">
             
         {% set categories = get_taxonomy(kind="category") %}
-        {% for cat in categories.items %} <!-- no idea why this works, what categories.items is or what cat is -->
+        {% for cat in categories.items %} <!-- unknown why this works, what categories.items is, what cat is -->
         <button  class="tablinks" onclick="toggleCategory(event, '{{ cat.name }}')"><a>{{ cat.name }}</a></button>
         
-        <!-- i would lik eto figure out why i cant put the js at the top of the doc like normal, weird scoping issue here -->
+        <!-- unknown scoping issue: js does not work if placed at top of page according to convention-->
          <script>
             toggleCategory = function(evt, catName) {
                 // Declare all variables
