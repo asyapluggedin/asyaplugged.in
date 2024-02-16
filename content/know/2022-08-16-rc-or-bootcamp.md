@@ -6,7 +6,7 @@ weight = 2
 
 [taxonomies]
 tags = ["learning","recurse-center"]
-category = ["blog"]
+category = ["stubs"]
 
 [extra]
 math = true

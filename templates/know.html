@@ -19,12 +19,13 @@
     <section>
         <div class="tab">
             
-        {% set categories = get_taxonomy(kind="category") %}
-        {% for cat in categories.items %} <!-- unknown why this works, what categories.items is, what cat is -->
+        {% set categories = get_taxonomy(kind="category") %} <!-- fetches all categories as a taxonomy object from Zola -->
+        {% for cat in categories.items %} 
+        <!-- categories.items refers to the list of category items within that taxonomy. 
+            each cat in the loop represents a single category item, from which we can access properties like cat.name -->
         <button  class="tablinks" onclick="toggleCategory(event, '{{ cat.name }}')"><a>{{ cat.name }}</a></button>
-        
-        <!-- unknown scoping issue: js does not work if placed at top of page according to convention-->
-         <script>
+        {% endfor %}
+        <script>
             toggleCategory = function(evt, catName) {
                 // Declare all variables
                 var i, tabcontent, tablinks;
@@ -41,14 +42,24 @@
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
             
-                // Show the current tab, and add an "active" class to the button that opened the tab
+                // Show the current tab and add an "active" class to the button that opened the tab
                 document.getElementById(catName).style.display = "block";
                 evt.currentTarget.className += " active";
-            };
-           // document.getElementsByClassName("tabcontent")[0].style.display = "block";
+            }
+          // document.getElementsByClassName("tabcontent")[0].style.display = "block";
         </script>
-        {% endfor %}
         </div>
+
+         <!-- Initialization Script -->
+        <script>
+        window.onload = function() {
+            var tablinks = document.getElementsByClassName("tablinks");
+            if (tablinks.length > 0) {
+                // Simulate a click on the first tab link
+                tablinks[0].click();
+            }
+        };
+        </script>
 
     <div id="blog" class="tabcontent">
         <table>
@@ -61,38 +72,40 @@
             </thead>
         
              <tbody>
-            {% for page in section.pages %}
-        <tr>
-            <!-- date -->
-            <td>
-                {% if page.date %}
-            <time> {{page.date}} </time>
-            {% endif %}
-            </td>
-           <!-- title -->
-           <td>
-            <a href="{{ page.permalink }}">
-                <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
-            </a>
-            </td> 
-            <!-- tags -->
-            <td>
-                {% if page.taxonomies.tags %}
-                    {% for tag in page.taxonomies.tags %}
-                    <a class="onetag" href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
-                        <span>{{ tag }}</span>
+                {% for page in section.pages %}
+                {% if page.taxonomies.category %}
+                {% if "blog" in page.taxonomies.category %}
+                <tr>
+                    <!-- date -->
+                    <td>
+                        {% if page.date %}
+                    <time> {{page.date}} </time>
+                    {% endif %}
+                    </td>
+                <!-- title -->
+                <td>
+                    <a href="{{ page.permalink }}">
+                        <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
                     </a>
-                    {% endfor %}
-                {% endif %}
-            </td>
-        </tr>
-        {% endfor %}
+                    </td> 
+                    <!-- tags -->
+                    <td>
+                        {% if page.taxonomies.tags %}
+                            {% for tag in page.taxonomies.tags %}
+                            <a class="onetag" href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                                <span>{{ tag }}</span>
+                            </a>
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %} {% endif %}
+                {% endfor %}
             </tbody>
          </table>
     </div>
 
     <div id="essays" class="tabcontent">
-        <a> hey guys this tab switcher thingy isn't working right now but it will soon thanks!</a>
         <table>
             <thead>
                 <tr>
@@ -105,6 +118,7 @@
              <tbody>
                 {% for page in section.pages %}
                 {% if page.taxonomies.category %}
+                {% if "essays" in page.taxonomies.category %}
                     <tr>
                         <!-- date -->
                         <td>
@@ -130,7 +144,51 @@
                             {% endif %}
                         </td>
                     </tr>
-                {% endif %}
+                {% endif %}  {% endif %}
+                {% endfor %}
+            </tbody>
+         </table>
+    </div>
+    <div id="stubs" class="tabcontent">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" class="col-date">Date</th>
+                    <th scope="col" class="col-title">Title</th>
+                    <th scope="col" class="col-tags">Tags</th>
+                </tr>
+            </thead>
+        
+             <tbody>
+                {% for page in section.pages %}
+                {% if page.taxonomies.category %}
+                {% if "stubs" in page.taxonomies.category %}
+                    <tr>
+                        <!-- date -->
+                        <td>
+                            {% if page.date %}
+                        <time> {{page.date}} </time>
+                        {% endif %}
+                        </td>
+                    <!-- title -->
+                    <td>
+                        <a href="{{ page.permalink }}">
+                            <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
+                        </a>
+                        </td> 
+                        <!-- tags -->
+                        <td>
+                            {% if page.taxonomies.tags %}
+                                {% for tag in page.taxonomies.tags %}
+                                <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                                    <span>{{ tag }}</span>
+                                </a>
+                                {% endfor %}
+                                
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endif %}  {% endif %}
                 {% endfor %}
             </tbody>
          </table>
