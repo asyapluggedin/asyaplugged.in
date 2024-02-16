@@ -1,3 +1,5 @@
+ignored_content = ["content/know/templates/*"]
+
 # The URL the site will be built for
 base_url = "https://asyaplugged.in"
 
@@ -89,3 +91,5 @@ link = "$base_url/know/"
 [[extra.menu]]
 text = "Love"
 link = "$base_url/love/"
+
+

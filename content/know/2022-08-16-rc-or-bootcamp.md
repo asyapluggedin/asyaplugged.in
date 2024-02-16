@@ -1,17 +1,18 @@
 +++
-title = "Why and how you should apply to the Recurse Center"
+title = "Recurse Center or Bootcamp?"
 date = "2022-08-16"
 description= "Should I go to a bootcamp, self study, or apply to the Recurse Center?"
 weight = 2
 
 [taxonomies]
-tags = ["learning","recurse-center"]
+tags = ["recurse-center","education"]
 category = ["stubs"]
 
 [extra]
 math = true
 
 +++
+Why and how you should apply to the Recurse Center
 My friend Priya made a blog post called "Should I go to a coding bootcamp or self-study", which inspired me to share my own experiences and thoughts on the matter.
 
 ## My experience – to expose what I am biased towards

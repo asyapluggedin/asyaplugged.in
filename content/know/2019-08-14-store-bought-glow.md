@@ -6,7 +6,7 @@ weight = 2
 
 [taxonomies]
 tags = ["culture"]
-category = ["essays"]
+category = ["stubs"]
 
 [extra]
 math = true
