@@ -81,8 +81,8 @@ Body - Mind is an expression of Truth.
 Music, entertainment, and socializing are healing economy models.
 They do not have a "should quality and your soul is open to them.
 
-|                          | medicine        | wellness                                          |     the new economy ??                                        |
+|                          | Medicine        | Wellness                                          |     A new modality                                         |
 |:-------------------------|:----------------|:--------------------------------------------------|:--------------------------------------------|
-| **identity**                 | individual      | pluralistic global data point in a large database | spirit                                      |
-| **achievement**              | systematization | access                                            | integrated wisdom                           |
-| **relationship to the body** | mechanical      | purging trauma                                    | maladaptive body patterns begin to dissolve |  
+| **Identity**                 | individual      | pluralistic data point in global database | spirit                                      |
+| **Achievement**              | systematization | access                                            | integrated wisdom                           |
+| **Relationship to Body** | mechanical      | purging trauma                                    | maladaptive body patterns begin to dissolve |  
