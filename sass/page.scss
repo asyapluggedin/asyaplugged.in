@@ -27,7 +27,7 @@ main {
     justify-content: space-around;
     background: var(--backgorund);
     width: 100%;
-    border-bottom: 1px solid $dark1;
+    border-bottom: 1px solid var(--foreground);
     a {
       padding-left: 0.5rem;
       &:last-child{

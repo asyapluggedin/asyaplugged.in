@@ -1,7 +1,9 @@
 body[data-theme="light"] {
-    article > pre {
+  
+  article > pre {
         background-color: #f6f7f6 !important;
     }
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,21 +22,16 @@ article {
   // overflow-x: auto;
   color: var(--blogtext);
   background: var(--background);
+  //font-family: 'Jjannon';
   
   .title {
     margin: 0 auto 1.25rem auto;
-    //margin:0 auto;
     font-size: 1.75rem;
-    font-weight: 700;
-    font-family: 'Marcellus';
+    font-family: 'Jjannon';
     color: var(--foreground);
     text-align: center;
   }
-  //h1 {
-    //font-family: 'Suisse Works';
-    
-    // text-align: center;
- // }
+  
   h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -42,7 +39,9 @@ article {
   }
   h1,h2,h3,h4,h5,h6{
     color: var(--foreground);
+    font-family: 'Jjannon';
   }
+
 
   h3,h4,h5,h6,p {
     margin-top: 1rem;
@@ -329,7 +328,7 @@ nav.navigation {
     article {
       max-width: 70rem;
       padding: 1rem 0rem;
-      details,h1,h2,h3,h4,h5,h6,p,li,ul,ol {
+      h1,h2,h3,h4,h5,h6,p,ul,ol,table {
         margin: 1rem 1.5rem;
       }
       .title {
@@ -341,6 +340,9 @@ nav.navigation {
        /* Force table to not be like tables anymore */
     table { 
       font-size: 12px;
+      width: 80%;
+    max-width: 80vw;
+    margin: 0 auto;
     
       thead, tbody, th, td, tr {
         padding:5px 5px;
