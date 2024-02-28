@@ -1,5 +1,5 @@
 +++
-title = "Lecture Notes: Robin Arnott on Meditation & Gaming"
+title = "Everything is Boring: Robin Arnott on Meditation & Gaming"
 date = "2022-08-18"
 updated = "2022-09-25"
 description= "Notes on Robin Arnott's Everything is Boring presentation at BDYHAX 2019."
