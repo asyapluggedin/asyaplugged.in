@@ -13,26 +13,32 @@ math = true
 
 +++
 
-#### February Intentions vs Accomplishments
+### February Progress
+
+I set some intentions at the beginning of the month, so it is now time to compare them with my actual accomplishments. I tried to set varied intentions so that there would be areas to look towards for improvement / appreciation other than simple scale numbers. 
 
 | Intention                                         | Accomplishment                                                                                                                                                                           |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| continue recomp progress                          |                                                                                                                                                                                          |
+| continue recomp progress                          | lost muscle, then regained it (evened out arms tho) however i did lose ~4 lbs of fat                                                                                                     |
 | bench the 45 or 35 bar                            | benching 45lbs for reps, up to 9 reps now.                                                                                                                                               |
-| improve vo2 max w cardio                          | slacking.                                                                                                                                                                                |
+| improve vo2 max w cardio                          | slacking. did some stairmaster, did some kettlebell swings, felt like dying, gave up.                                                                                                    |
 | 80-135 protein / day                              | above 100g except for 4 intermittent fasting days                                                                                                                                        |
 | save $ on protein shakes by buying protein powder | bought boba tea protein milk tea no caffeine, also bought trader joes collagen peptides... stopped buying so many rebbls and auras, haven't done the math but the viebs are all right :) |
 | figure out calorie tracking for recomp            | paying $12/mo for Macrofactor so I don't have to worry about this (aiming for a deficit of around 200 tho)                                                                               |
 | settle on 6-month training split                  | got it!! just added delts in ;)                                                                                                                                                          |
 | settle on 6-month nutritional plan                | see above 200 cal deficit – committing to a light cut until ~august.                                                                                                                     |
+### Nutrition Reflections 
+
 <figure>
 <img src="feb-protein.jpeg" alt="apple health protein intake for feb 2024" style="width:60%">
 <figcaption>Apple Health, data imported via Macrofactor.</figcaption>
 </figure>
 
 
-totototo
-#### Personal Training Reflections
+I switched from the Spelt nutrition tracker to Macrofactor, which was going to be fine... except my silly mind decided to argue with Macrofactor's original estimation of my TDEE (~1800 cal) and instead I input ~1600 cal, which pushed the app to suggest I eat around 1250-1350 cal a day. I really shouldn't have followed this suggestion, because predictably, I lost way too much weight, including muscle, in that one week. Feb 11-17 I averaged 1,281 calories, which caused my bodyweight to drop from a pretty constant fluctuation of 159-161 lbs down to 154-156 lbs. The problem was that my muscle mass (as measured by Withings, so bodyweight minus bone and fat) fell from ~98 to 95 lbs, which only in this last week has recuperated back up to 97. Thankfully the numbers for fat have slid down from ~58 to ~55 lbs, and today I'm actually down at ~53 lbs.
+
+I stopped buying an ungodly amount of Rebbl protein shakes (and GT's aura collagen teas), thank god – and got myself a cheap little protein shaker bottle from GNC that has two sections for powders, as well as a little pill compartment as well. This shaker bottle has had a huge impact on my daily routines – not only do I now have a simple set of directions to follow in order to ensure I get my protein and pre-workout in, but I also have the added bonus of a habit stack that supports my morning and evening supplement intake, improving my consistency with nootropic supplementation, i.e. really strengthening my confidence and commitment to the biohacker / bodyhacker identities I have at times felt like I wasn't doing enough to deserve.
+### Personal Training Reflections
 
 ##### January 30
 
@@ -66,19 +72,25 @@ leg extension
 
 ##### March 5
 
-leg press
-bulgarian split squat
-lateral raise
-reverse fly (rear delt machine)
-cable crunch form?
-updated split review (volume, order, etc)
+- leg press
+- bulgarian split squat
+- lateral raise
+- reverse fly (rear delt machine)
+- cable crunch form?
+- updated split review (volume, order, etc)
 
 
-#### March Intentions
+### March Intentions
 
-- do yoga at siv
+- do more yoga
+- plan yoga teacher training
+- learn how to squat properly
+- continue gym consistency
+- continue diet consistency
+- buy another scale, another hairbrush, more toe socks
+- add to gains blog posts weekly vs monthly to track progress closer
 
 
-#### Post-March... etc... Intentions.
+### Post-March... etc... Intentions.
 
 - start bringing my functional goals into the horizon: calisthenics and breaking (did this stop being cool when I turned 11 though?)
