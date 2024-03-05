@@ -5,7 +5,7 @@ updated = "2024-02-27"
 description= ""
 
 [taxonomies]
-tags = [""]
+tags = ["bodyhacking"]
 category = ["stubs"]
 
 [extra]
