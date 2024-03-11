@@ -187,7 +187,7 @@ article {
       height: auto;
       max-width: 100%;
       border: none;
-      padding: 2rem;
+      padding: 1rem;
     }
 
     figcaption {
@@ -348,10 +348,26 @@ nav.navigation {
         padding:5px 5px;
       }
     }
+
+    figure {
+      max-width: 110%;
+      display: flex;
+  
+      img {
+        height: auto;
+        max-width: 100%;
+        border: none;
+        padding: .25rem;
+      }
+  
+      figcaption {
+        writing-mode:sideways-lr;
+      }
+    }
      
       }
   
-   
+      
   
     }
     

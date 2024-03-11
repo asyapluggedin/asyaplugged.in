@@ -29,8 +29,8 @@ I set some intentions at the beginning of the month, so it is now time to compar
 | settle on 6-month nutritional plan                | see above 200 cal deficit – committing to a light cut until ~august.                                                                                                                     |
 ## Nutrition Reflections 
 
-<figure>
-<img src="feb-protein.jpeg" alt="apple health protein intake for feb 2024" style="width:60%">
+<figure style="width:60%; margin: 0 auto;">
+<img src="feb-protein.jpeg" alt="apple health protein intake for feb 2024" >
 <figcaption>Apple Health, data imported via Macrofactor.</figcaption>
 </figure>
 

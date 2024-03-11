@@ -1,11 +1,12 @@
 +++
 totle = "info"
 template = "you.html"
-dote = "2022-07-18"
-updoted = "2022-09-06"
+date = "2022-07-18"
+updated = "2022-09-06"
 description= "You – About"
 
-
+sort_by = "date"
+weight = 3
 [extra]
 
 +++

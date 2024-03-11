@@ -6,9 +6,10 @@ updated = "2022-08-02"
 
 description= "asyapluggedin – love"
 
+sort_by = "date"
+weight = 3
 
 [extra]
-
 +++
 
 ## Playlists I've Made
