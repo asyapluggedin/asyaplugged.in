@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - do</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/do/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-08-31T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/do/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Sunshine Act</title>
+        <published>2022-08-15T00:00:00+00:00</published>
+        <updated>2022-08-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/sunshine-act/"/>
+        <id>https://asyaplugged.in/do/sunshine-act/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/do/sunshine-act/">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;why-2022&quot;&gt;Why 2022?&lt;&#x2F;h2&gt;
+&lt;p&gt;This is something I made so I could graduate from UCLA lol.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>gestalt.sh&#x2F;ift</title>
+        <published>2021-06-11T00:00:00+00:00</published>
+        <updated>2022-06-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/gestalt-shift/"/>
+        <id>https://asyaplugged.in/do/gestalt-shift/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/do/gestalt-shift/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;assets&#x2F;gestalt.png&quot; alt=&quot;Screenshot of gestalt.sh webpage&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The 2021 UCLA Design | Media Arts Senior Exhibition took place online, at a website collaboratively designed &amp;amp; developed by the graduating class.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;design-leadership-roles&quot;&gt;Design &amp;amp; Leadership Roles&lt;&#x2F;h2&gt;
+&lt;p&gt;My role in this project adapted over the course of the academic quarter. I originally self-selected into a development role, but ended up contributing mostly in design and project management.&lt;&#x2F;p&gt;
+&lt;p&gt;For context: traditionally, the graduating class is divided into three sections, each one led by a separate professor who assists the students in developing their senior thesis as well and helps produce the exhibition. In 2021, we did not have access to the physical EDA gallery space at UCLA nor classrooms to meet in. The meetings took place on Discord, a platform to which many were still only getting used to.&lt;&#x2F;p&gt;
+&lt;p&gt;I took initiative to ensure that all the exhibition subcommittee members regularly met for discussions, and to facilitate reasonable production deadlines.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;design-process&quot;&gt;Design Process&lt;&#x2F;h2&gt;
+&lt;p&gt;For a class full of graduating students fatigued from remote instruction, designing the exhibition website around a visual riff on the Zoom screen was a decision made from a place of catharsis.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;production-process&quot;&gt;Production Process&lt;&#x2F;h2&gt;
+&lt;p&gt;See the collaborative &lt;a href=&quot;https:&#x2F;&#x2F;www.figma.com&#x2F;file&#x2F;gxxEelPY5ETKjiybAK4okM&#x2F;gestalt.sh-web-design?node-id=290%3A70&quot;&gt;Figma file here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;&#x2F;h2&gt;
+&lt;p&gt;The website (possibly still available at &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;do&#x2F;gestalt-shift&#x2F;gestalt.sh&#x2F;ift&quot;&gt;gestalt.sh&lt;&#x2F;a&gt; ) was developed using Wordpress and a custom Twig theme by &lt;a href=&quot;https:&#x2F;&#x2F;chandlermcwilliams.com&#x2F;&quot;&gt;Chandler McWilliams&lt;&#x2F;a&gt; and Wiley Wiggins. I was not directly involved in the development process due to time constraints, but I was able to deploy some last-minute front-end changes via a pull request.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Type Tap Go</title>
+        <published>2020-08-15T00:00:00+00:00</published>
+        <updated>2020-08-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/typetapgo/"/>
+        <id>https://asyaplugged.in/do/typetapgo/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/do/typetapgo/">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;quack&quot;&gt;Quack!&lt;&#x2F;h2&gt;
+&lt;p&gt;Type Tap Go is a mobile game made to teach people how to type efficiently on the phone, and compete with friends.&lt;&#x2F;p&gt;
+&lt;p&gt;I came up with the idea in the summer of 2020 during the first Covid-19 lockdowns with Benjamin Bascom.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ASCII Tarot</title>
+        <published>2019-03-11T00:00:00+00:00</published>
+        <updated>2022-08-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/ascii-tarot/"/>
+        <id>https://asyaplugged.in/do/ascii-tarot/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;do&#x2F;deck.png&quot; alt=&quot;Deck of cards with blue ascii art design shrink-wrapped in plastic&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Three years after I was first introduced to the Tarot, I designed a &lt;a href=&quot;https:&#x2F;&#x2F;www.behance.net&#x2F;gallery&#x2F;42369763&#x2F;ASCII-TAROT?locale=en_US&quot;&gt;Tarot deck&lt;&#x2F;a&gt; myself (and was able to finish it within a month thanks to the motivation to submit it as part of my 2016 UCLA Media Arts application). While I initially learned the Tarot using physical cards and used them to structure conversations with my friends about challenging decisions we had to make, I spent a majority of my time consulting the cards in a digital format. My first deck was the &lt;a href=&quot;https:&#x2F;&#x2F;www.theenchantedworld.net&#x2F;enchanted-tarot&quot;&gt;Enchanted Tarot&lt;&#x2F;a&gt; by Amy Zerner and Monte Farber, which not only had beautiful custom art riffing on the Rider-Waithe deck, a book of explications, but also an &lt;a href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;enchanted-tarot&#x2F;id674639952&quot;&gt;iOS app&lt;&#x2F;a&gt;, which I used very frequently. It is said that if one carries their Tarot deck with them, the cards will hold the energy of their owner&#x27;s experiences and provide more relevant insights. I became intrigued by how this principle could be manifesting technologically, so I decided to pare down the digital Tarot to it&#x27;s most simple, bare, form.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DeepDenial</title>
+        <published>2018-07-10T00:00:00+00:00</published>
+        <updated>2018-07-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/deepdenial/"/>
+        <id>https://asyaplugged.in/do/deepdenial/</id>
+        
+        <summary type="html">&lt;p&gt;DeepDenial was a one-day speculative political activism deepfake workshop I was invited to teach at the Hackers and Designers Summer Academy &lt;em&gt;(a program run out of the Sandberg Institute, the postgraduate programme of the Gerrit Rietveld Academie in Amsterdam)&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The workshop was designed for students of varied technical as well as non-technical backgrounds. Participants practiced extracting and organizing data in order to apply a neural network for the purpose of making &amp;quot;deepfakes&amp;quot;, or videos with swapped faces.&lt;&#x2F;p&gt;
+&lt;p&gt;In the news, deepfake technology initially came to light as it was being used to create abusive explicit content with unwilling face-swapped participants. Concerns are commonly voiced on the potential use of deepfaking for political propaganda. A central aspect of the &lt;em&gt;DeepDenial&lt;&#x2F;em&gt; workshop is the discussion of media ethics, surveillance vs sousveillance, and explorations of defensive propaganda. &lt;&#x2F;p&gt;
+&lt;p&gt;By taking a hands-on approach to learn how to process video data for machine learning programs, attendees armed themselves with improved digital literacy and developed a keen sense for discerning tell-tale signs of AI-processed content.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>a living breathing</title>
+        <published>2015-09-11T00:00:00+00:00</published>
+        <updated>2015-09-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/a-living-breathing/"/>
+        <id>https://asyaplugged.in/do/a-living-breathing/</id>
+        
+        <summary type="html">&lt;p&gt;o&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Affection Realities</title>
+        <published>2015-09-11T00:00:00+00:00</published>
+        <updated>2015-09-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/affection-realities/"/>
+        <id>https://asyaplugged.in/do/affection-realities/</id>
+        
+        <summary type="html">&lt;p&gt;image go here&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Meditation Game</title>
+        <published>2015-09-11T00:00:00+00:00</published>
+        <updated>2015-09-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/meditation-game/"/>
+        <id>https://asyaplugged.in/do/meditation-game/</id>
+        
+        <summary type="html">&lt;p&gt;image go here&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
