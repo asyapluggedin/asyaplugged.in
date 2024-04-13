@@ -2,7 +2,7 @@
 totle = "info"
 template = "you.html"
 date = "2022-07-18"
-updated = "2022-09-06"
+updated = "2024-04-12"
 description= "You – About"
 
 sort_by = "date"
@@ -26,9 +26,19 @@ weight = 3
 
 <img src="https://asyaplugged.in/assets/ditherpfp.png" alt="Portrait" width="300">
 
-I’m a Russian-American artist & writer based in Pasadena, California. Today, I work as an interface designer. I was born and (mostly) raised in Moscow, moving to California in 2014.
+I’m an interface designer & bodyhacker exploring the cybernetic interplay between human and machine. Originally from Moscow, I relocated to California in 2014 and now reside in South Pasadena.
 
-I hold a Design | Media Arts degree from UCLA. I was one of the only two interns at [Are.na](http://www.are.na/). I was "patient zero" of social justice feminism on the Russian web. I taught children how to program at UCode, and am currently at a programming retreat at the [Recurse Center](https://www.recurse.com/).
+My creative practice revolves around Quantified Self representations, temporary magnet and chip "implant" manicures, and recently, tattoos (or as I see them, dermal HCI interfaces). I also practice restorative yoga from a cybernetic, accessibility-minded perspective.
+
+As a counterculture teen blogger in Russia, I was among the earliest voices openly discussing intersectional feminism and LGBTQ+ issues online, inspiring a wave of activism that continues today. Since obtaining a Design Media Arts degree from UCLA, my career has spanned graphic design, web development, teaching programming, and a stint as a motorcycle food courier.
+
+Auxiliary pursuits include pro-bono (legal and medical) interpreting for Russian/Ukrainian immigrants and refugees, prototyping functional jewelry, and producing ambient/hyperpop musical experiments with regional vocalizations.
+
+ Ultimately, I strive to present the human form as a naturalized cyborg - a biological entity already integrated with technology that can be aesthetically and somatically reconfigured to expand personal agency.
+
+
+
+
 
 ## About this website
 
