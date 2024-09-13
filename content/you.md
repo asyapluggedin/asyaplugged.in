@@ -28,7 +28,7 @@ weight = 3
 
 I’m an interface designer & bodyhacker exploring the cybernetic interplay between human and machine. Originally from Moscow, I relocated to California in 2014 and now reside in South Pasadena.
 
-My creative practice revolves around Quantified Self representations, temporary magnet and chip "implant" manicures, and recently, tattoos (or as I see them, dermal HCI interfaces). I also practice restorative yoga from a cybernetic, accessibility-minded perspective.
+My creative practice revolves around Quantified Self representations, temporary magnet and chip "implant" manicures, and a restrorative yoga practice with a cybernetic, accessibility-minded perspective.
 
 As a counterculture teen blogger in Russia, I was among the earliest voices openly discussing intersectional feminism and LGBTQ+ issues online, inspiring a wave of activism that continues today. Since obtaining a Design Media Arts degree from UCLA, my career has spanned graphic design, web development, teaching programming, and a stint as a motorcycle food courier.
 
