@@ -5,7 +5,7 @@ updated = "2024-07-28"
 description= "normal"
 
 [taxonomies]
-tags = [""]
+tags = ["products"]
 category = ["stubs"]
 
 [extra]

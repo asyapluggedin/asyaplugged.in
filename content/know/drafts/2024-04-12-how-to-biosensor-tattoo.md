@@ -5,7 +5,7 @@ pdated = "{{date}}"
 description= ""
 
 [taxonomies]
-tags = [""]
+tags = ["bodyhacking"]
 category = ["stubs"]
 
 [extra]

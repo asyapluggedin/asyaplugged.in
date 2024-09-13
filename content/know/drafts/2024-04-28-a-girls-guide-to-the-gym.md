@@ -5,7 +5,7 @@ updated = "2024-04-28"
 description= "Text version of video essay"
 
 [taxonomies]
-tags = [""]
+tags = ["bodyhacking"]
 category = ["stubs"]
 
 [extra]

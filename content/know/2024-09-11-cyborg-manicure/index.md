@@ -5,7 +5,7 @@ updated = "2024-09-12"
 description= "The Cyborg Manicure project's interrogation of the boundaries between body and tech. NFC/RFID chips, LED stickers, magnets, and custom enhancements transform nails into an interactive, technology-enhanced post-human provocation. Trans-corporeality, now."
 
 [taxonomies]
-tags = ["journal"]
+tags = ["bodyhacking"]
 category = ["blog"]
 
 [extra]
