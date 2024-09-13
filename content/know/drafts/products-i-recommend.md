@@ -2,7 +2,7 @@
 title = "Products I Recommend"
 date = "2024-07-28"
 updated = "2024-07-28"
-description= ""
+description= "normal"
 
 [taxonomies]
 tags = [""]
