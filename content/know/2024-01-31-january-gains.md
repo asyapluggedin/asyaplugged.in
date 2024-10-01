@@ -5,7 +5,7 @@ updated = "2024-02-14"
 description= "Description"
 
 [taxonomies]
-tags = ["journal"]
+tags = ["journal","gains"]
 category = ["blog"]
 
 [extra]

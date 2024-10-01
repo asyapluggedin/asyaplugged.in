@@ -33,3 +33,7 @@ header --> topnav (top_nav)
 ## new to do
 
 - fix what appears in sidear
+
+## 10-01-2024
+
+- titles for diff pages all appear as "asya davydova lewis", not descriptive and needs to be repaired
