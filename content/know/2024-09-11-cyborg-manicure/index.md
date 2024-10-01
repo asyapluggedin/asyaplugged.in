@@ -14,7 +14,7 @@ math = true
 +++
 ## DRAFT!
 
-<img src="stub.png" alt="This Cyborg Manicure-related article is a stub. You can help Asya by messaging her on Telegram about it." >
+<img style="margin: 0px auto;" src="stub.png" alt="This Cyborg Manicure-related article is a stub. You can help Asya by messaging her on Telegram about it." >
 
 ## What is a Cyborg Manicure?
 

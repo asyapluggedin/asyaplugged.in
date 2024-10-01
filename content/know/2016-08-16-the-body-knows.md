@@ -5,7 +5,7 @@ updated = "2024-02-16"
 description= "too complicated to explain..."
 
 [taxonomies]
-tags = ["trauma, sexuality"]
+tags = ["trauma", "sexuality"]
 category = ["stubs"]
 
 [extra]

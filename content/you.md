@@ -13,7 +13,7 @@ weight = 3
 
 ## Links
 
-- [tweets](https://twitter.com/asyapluggedin)
+- [tweets](https://twitter.com/asyapyapyap)
 - [commits](https://github.com/asyapluggedin)
 - [are.na](https://www.are.na/anastasia-davydova-lewis/index)
 - [ig](https://www.instagram.com/asyapluggedin/)
