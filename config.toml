@@ -14,8 +14,10 @@ build_search_index = false
 minify_html = true
 
 # Whether to build an RSS feed
-generate_feed = true
-feed_filename = "atom.xml"
+generate_feeds = true
+# optional:
+# feed_limit = 20
+feed_filenames = ["atom.xml"]
 
 #hard_link_static = true
 
