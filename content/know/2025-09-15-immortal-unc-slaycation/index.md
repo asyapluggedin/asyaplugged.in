@@ -17,7 +17,7 @@ math = true
 I'd like to thank each and every founding team member who joined us at **Immortal UNC Slaycation**, the one and only birthday party celebrating our immortal boy Blaine O'Neill. You showed up, you showed off your personality, and now I ask one more thing of you: please show one another the photos you took in by sharing them in this [Google Drive Folder](https://drive.google.com/drive/folders/1ucbN-oxoy87O2iccLcvGIR-GqS2xRgZk?usp=sharing).
 
 <figure>
-<img style="margin: 0px auto;" src="unc.jpg" alt="yellow game board showing Enlightenment vs Toxicity with HP scale, player photos, and a big ‘WINNER’ label.">
+<img style="margin: 0px auto;" src="unc.png" alt="yellow game board showing Enlightenment vs Toxicity with HP scale, player photos, and a big ‘WINNER’ label.">
 <figcaption>Game Board with final team placements.</figcaption>
 </figure>
 
