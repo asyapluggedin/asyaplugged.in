@@ -2,7 +2,7 @@
 title = "Immortal Unc Slaycation Report"
 date = "2025-09-15"
 updated = "2025-09-16"
-description= "The gains I made in March (this time they're entirely metaphorical)"
+description= "Immortal Unc Slaycation: Post-Game Review"
 
 [taxonomies]
 tags = ["event","journal"]
@@ -12,7 +12,7 @@ category = ["blog"]
 math = true
 
 +++
-# Immortal UNC Slaycation: Post-Game Review
+# Post-Game Review
 
 I'd like to thank each and every founding team member who joined us at **Immortal UNC Slaycation**, the one and only birthday party celebrating our immortal boy Blaine O'Neill. You showed up, you showed off your personality, and now I ask one more thing of you: please show one another the photos you took in by sharing them in this [Google Drive Folder](https://drive.google.com/drive/folders/1ucbN-oxoy87O2iccLcvGIR-GqS2xRgZk?usp=sharing).
 
@@ -27,10 +27,8 @@ I'd like to thank each and every founding team member who joined us at **Immorta
   While I designed the game for 10-15 guests, upon refining the guest list, we realized that Blaine loves (and is loved by) very many people, so we ended up inviting closer to **120**. The sheer chaos of the crowd became its own kind of magic. The room buzzed with founder pitches, newfound frenemies, and absurd rituals.
 
 - **Team Dynamics**  
-  Teams like *Paige Wishart's Glam and Mutual Aid Fund* and *Wildcats* fully leaned into the satire. Despite the game master's sneaky antics with the random badge color assortment, people embodied their true "Diva" selves even within a "Vaccinated Liberal" assigned archetype. 
+  Teams like *Paige Wishart's Glam and Mutual Aid Fund* and *Wildcats* fully leaned into the satire. Despite the game master's sneaky antics with the random badge color assortment, people embodied their true "Diva" selves even within a "Vaccinated Liberal" assigned archetype.
   
-  Watching people adopt archetypes (diva, tyrant, perfectionist, etc.) with improv flair created natural comedy without needing heavy mechanics.
-
 - **Conference Implosion**  
   The DIY badges, intake forms, concierge texts and shuttle service brought the whole thing into “psychotic over-engineered tech wellness clusterfuck" territory. Every little detail ended up contributing to the goal of critiquing commodified wellness culture, from the Fry's Electronics shopping basket full of liposomal vitamin C and looney bin socks, to the RPG dice that got thrown out of the game after only two rolls. 
 
