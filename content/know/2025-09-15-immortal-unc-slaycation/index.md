@@ -12,7 +12,7 @@ category = ["blog"]
 math = true
 
 +++
-# Post-Game Review
+# Post-Conference Report
 
 I'd like to thank each and every founding team member who joined us at **Immortal UNC Slaycation**, the one and only birthday party celebrating our immortal boy Blaine O'Neill. You showed up, you showed off your personality, and now I ask one more thing of you: please show one another the photos you took in by sharing them in this [Google Drive Folder](https://drive.google.com/drive/folders/1ucbN-oxoy87O2iccLcvGIR-GqS2xRgZk?usp=sharing).
 
@@ -42,4 +42,4 @@ Shout out to [Benjamin](https://www.instagram.com/mocsabnimajneb/), my sexy inte
 
 ## Closing Thoughts
 
-Despite the chaos, *Immortal UNC Slaycation* delivered: guests' truest natures were exposed, the dogs perservered, pitches were made, roles were impeccably played, and I learned that sometimes the most important thing is watching how people want to play naturally. Next time, I'll just focus on cunty badges, a loudspeaker, and transdermal magnesium.
+Despite the chaos, *Immortal UNC Slaycation* delivered: guests' truest natures were exposed, the dogs perservered, pitches were made, roles were impeccably played, and I learned that sometimes the most important thing is watching how people want to play naturally.
