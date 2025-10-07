@@ -70,30 +70,53 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ get_url(path=config.extra.favicon | default(value='/favicon.svg') ) }}">
   <title>Asya Davydova Lewis</title>
+    <style>
+  body {
+    color:#111;
+    background:#fff;
+    line-height:1.25;
+    margin:clamp(0.5rem,2vw,1rem);
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+
+
+  }
+  main {
+  width: min(90vw, 1100px);
+  padding:clamp(0.5rem,5vw,4rem);
+  max-width: min(80vw, 1100px);
+}
+
+  h2 { color:#111; }
+  li { margin-top: 0.25rem;}
+  span { color:#c9190c; }
+
+  @media (prefers-color-scheme: dark) {
+    body { background:#191a1d; color:#d5cade; }
+    h2 { color:#d5cade; }
+    h2 span { color:#00ffff !important; }
+    a { color: #8888d4;}
+  }
+  </style>
 </head>
 <body>
-   
-    <blockquote>
-        <marquee behavior="scroll" direction="left" scrollamount="8" loop="infinite" width="100%">
-            <font face="Courier New"><h1>asya plugged in &nbsp;&nbsp;&nbsp; asya plugged in &nbsp;&nbsp;&nbsp; asya plugged in</h1></font>
-        </marquee>
+   <marquee behavior="scroll" direction="left" scrollamount="8" loop="infinite" width="100%">
+    <font face="Courier New"><h1>asya plugged in &nbsp;&nbsp;&nbsp; asya plugged in &nbsp;&nbsp;&nbsp; asya plugged in</h1></font>
+    </marquee>
        
-
+ <main>
    <h2>What Do you <span style="color:#c9190c;">Do</span>?</h2>
-  <ul>
-    <li>Game Master services, RPG development</li>
-    <li>Retreat hosting</li>
-    <li>Cybernetic yoga instruction</li>
-    <li>Software development: Front-end, Python, Rust, C#, Go, Rails</li>
-    <li>Interface design: wellness, medical, automotive, dev tools, creative tools</li>
-    <li>Misc startup consulting</li>
-    <li>User experience research</li>
-    <li>Legal and medical interpreting: Russian, Ukrainian</li>
-    <li>Microchip manicures (open for custom press-on orders)</li>
-    <li>Seeking canvases for apprentice tattoos (limited time only)</li>
-  </ul>
+ <ul>
+  <li>Interface design: laconic, limbic-friendly dashboards across wellness, medical, automotive, creative + dev tools. End-to-end product development and consulting.</li>
+  <li>Software development: React, Next.js, TypeScript, Tailwind, Vercel.</li>
+  <li>Cyborg manicure: custom press-ons, pop-ups, workshops.</li>
+  <li>Tattoo: currently booking model-rate appointments.</li>
+  <li>Experiential design: retreats, RPG development, workshops, corporate teambuilding, cyber-somatic sessions, narrative systems + immersive worldbuilding for therapeutic, educational + speculative environments.</li>
+  <li>Volunteer interpreting: Russian + Ukrainian, legal + medical contexts.</li>
+</ul>
+
  
   <h2>Who are <span style="color:#c9190c;">You</span>?</h2>
   <p>
@@ -113,7 +136,7 @@
   <p>Blog not currently live</p>
 
   <h2>What Do you <span style="color:#c9190c;">Love</span>?</h2>
-  <p>
+  <ul>
     <li>My dog <a href="https://instagram.com/pepperonechka">Pepper</a></li>
     <li>The music on my <a href="https://open.spotify.com/user/1117495726?si=TKcbbx10QnqTFTvgA1Teqg&nd=1&dlsi=71b888d93e0f43ed">Spotify playlists</a></li>
     <li>Wild strawberries, cream top matcha lattes with oat milk, soup, pkhali, khinkali</li>
@@ -123,8 +146,7 @@
     <li>Circuit bending</li>
     <li>Codependents Anonymous literature</li>
     <li>Computational Theory of Mind</li>
-
-  </p>
-</blockquote>
+  </ul>
+</main>
 </body>
 </html>
