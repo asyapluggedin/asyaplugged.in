@@ -1,0 +1,7 @@
+User-agent: Twitterbot
+Disallow: *
+
+Allow: /content
+
+User-agent: *
+Sitemap: https://asyaplugged.in/sitemap.xml
