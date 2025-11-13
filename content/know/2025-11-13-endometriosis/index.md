@@ -67,6 +67,15 @@ pain became structural in daily life: fatigue, nausea, constipation, hormonal ch
 
 # Endometriosis Excision Surgery
 
+- Ritu Salani, MD Gyn Onc - Called Dr Mehta's office on my behalf <3
+- Sukrant K. Mehta, MD (Primary Surgeon, MIGS) ABSOLUTE ICON
+- Esther Wu, MD (Surgeon 1st Assist - Resident)
+- Neil H.Sagrado, CRNA
+- John T. Chalabi, MD (Anesthesiologist)
+
+- Kathleeh H, RN
+- Sasha P, RN
+
 # So are you better now?
 
 Do I feel better than I did at the start of 2025? Absolutely. I can sleep through the night with no disturbances from pain. I can eat mostly whatever I'd like. I rarely have strange sensations in my pelvis, legs, lower back or abdomen now. I am not taking NSAIDs at a rate that is dangerous to my stomach lining. I have put away my heating pad in the shape of a giant diaper and not needed to take it out of the drawer since I've recovered from surgery.
