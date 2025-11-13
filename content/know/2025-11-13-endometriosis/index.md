@@ -28,20 +28,20 @@ I was afraid to eat. My appetite completely disappeared and I didn't even want t
 
 # Care Timeline
 
-Jan 31 Online PCP
-Feb 4 Ultrasound taken
+- Jan 31 Online PCP
+- Feb 4 Ultrasound taken
 Results show lesions on both ovaries
-Feb 13 PCP issued MRI order
-Feb 14 OBGYN visit
-March 10 MRI scan
-March 18 GYN  ONC visit
-March 21 video OBGYN
-March 26th MIGS consultation
-May 13 second pelvic ultrasound
-July 30 MIGS pre-op
-August 21 MIGS excision surgery
-Sep 5 post-op appointment
-PCP visit
+- Feb 13 PCP issued MRI order
+- Feb 14 OBGYN visit
+- March 10 MRI scan
+- March 18 GYN  ONC visit
+- March 21 video OBGYN
+- March 26th MIGS consultation
+- May 13 second pelvic ultrasound
+- July 30 MIGS pre-op
+- August 21 MIGS excision surgery
+- Sep 5 post-op appointment
+- PCP visit
 
 # The BRCA Layer
 
