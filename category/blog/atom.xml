@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - blog</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/category/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-13T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/category/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>I have endometriosis.</title>
+        <published>2025-11-13T00:00:00+00:00</published>
+        <updated>2025-11-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/endometriosis/"/>
+        <id>https://asyaplugged.in/know/endometriosis/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/endometriosis/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;p&gt;I spent most of 2025 disabled from stage II deep infiltarting endometriosis.
+Endometriosis is estimated to affect 11%-15% of women aged 15-44. The condition has even been documented in men (fewer than 20 cases, but nonetheless). Widely dismissed as &amp;quot;just a bad period&amp;quot;, it is a scary inflammatory disease that spans far beyond purely gynecological medical scope. Endometriosis is a social issue, too. The stigma surrounding women&#x27;s health, lack of societal awareness, lackluster research, and overall societal expectations that ignore the reality of infradian cycles all contribute to the gaslighting and delays in appropriate care that almost all endometriosis patients experience. 
+The average diagnostic delay can be from 7 to 11 years. I didn&#x27;t realize I had endo until I was 29, but from the moment I suspected it, it only took me a 1.5 months to receive a diagnosis via MRI, and only 8 months until I was carted into the operating room while &amp;quot;Mea Culpa&amp;quot; by Engima accompanied my slow fade into anesthesiological bliss.
+I am writing this blog post with the hope that it reduces guesswork for somebody else. Whether you suspect you have endometriosis, another hormonal or pelvic issue, or whether you just know some women, work with them, or interact with people at all, learning more about the issue could be the difference between a lifetime of suffering through complications and an early intervention strategy.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;medical-timeline-summary&quot;&gt;Medical Timeline Summary&lt;&#x2F;h1&gt;
+&lt;p&gt;I was able to fast-track my progression towards an excision surgery due to several factors I will be getting into later, and here it is exactly:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 21 Period starts (weird at first, then normal)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 25 Period ends and severe pain persists&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 31  PCP online visit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 4 Ultrasound
+Results show lesions on both ovaries&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 13 PCP issued MRI order&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 14 OBGYN visit, prescribed Norethindrone&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 10 MRI scan
+DIE confirmed, lesion size confirmed, kissing ovaries imaged&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 18 GYN  ONC visit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 21 video OBGYN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 26th MIGS consultation&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;May 13 second pelvic ultrasound
+Lesion size change recorded&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;July 30 MIGS pre-op&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;August 21 MIGS excision surgery&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sep 5 post-op appointment&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;PCP visit to summarize&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;slow-collapse-is-something-wrong&quot;&gt;Slow Collapse: Is Something Wrong?&lt;&#x2F;h1&gt;
+&lt;p&gt;In November of 2024, I began to feel somewhat burnt out and lethargic. I attributed this to the stress of studying for EMT exams, but even asking my psychiatrist for beta-blockers didn&#x27;t seem to completely remediate the issue. Even with managed anxiety, I was still slowly, but surely developing some sort of anhedonia. I then had a terribly uncomfortable and painful period, which I ignored because I was trying to be functional, and I didn&#x27;t want to complicate things with my medical training beyond the student accomodations I had already requested for my auditory processing issues that already felt needlessly bureaucratic and complicated. My December period was unremarkable, so I thought all was fine. The ovaries will alternate each menstrual cycle, so I knew that I should just keep an eye out for what happens once my &amp;quot;bad&amp;quot; ovary menstruates again. 
+I would typically experience premenstrual cramps 1-2 days prior to the first day of my period (when blood appears). In January of 2025, however, I had a lot of (pre-menstrual?) pain in my lower back, which was concerning. After about a week, I finally got my period and sighed with relief that everything is fine, I&#x27;m not dying, it&#x27;s just my period. As time passed, my concerns came back: I didn&#x27;t see much blood the first day, and what I did see was abnormally dark and thick. The second day there was nothing, and only on the third day did it feel like a more normal period. What else was strange – the pain was present the entire time.
+My &amp;quot;normal-ish&amp;quot; period ended, but the pain never went away. I was in pain about 80% of the time, easing up during the day. It would come back with intensity towards the evening and keep me from falling asleep, sometimes it would wake me up at night and I wouldn&#x27;t be able to fall back asleep.&lt;&#x2F;p&gt;
+&lt;p&gt;I was afraid to eat. My appetite completely disappeared and I didn&#x27;t even want to look at fried, sweet, fatty, carb-rich, salty or spicy foods. I could only think about tea, soup and smoothies, but I no longer had any energy to cook myself soup.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;the-brca-layer-still-writing&quot;&gt;The BRCA Layer (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;oh no i also have brca
+oh yay i have a bunch of doctores that can help make this all speed up&lt;&#x2F;p&gt;
+&lt;p&gt;also i studied ems and have flexible work hours so i was able to call for cancellations a lot.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;care-timeline&quot;&gt;Care Timeline&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;pre-excision-pain-management-still-writing&quot;&gt;Pre-excision Pain Management (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;tldr TAKE NAPROXEN BABE
+pain became structural in daily life: fatigue, nausea, constipation, hormonal chaos. loss of exercise tolerance, dizziness, brain fog, POTS overlap. ambition vs chronic pain and chronic fatigue. &lt;&#x2F;p&gt;
+&lt;h1 id=&quot;endometriosis-excision-surgery&quot;&gt;Endometriosis Excision Surgery&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ritu Salani, MD Gyn Onc - Called Dr Mehta&#x27;s office on my behalf &amp;lt;3&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sukrant K. Mehta, MD (Primary Surgeon, MIGS) ABSOLUTE ICON&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Esther Wu, MD (Surgeon 1st Assist - Resident)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Neil H.Sagrado, CRNA&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;John T. Chalabi, MD (Anesthesiologist)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Kathleeh H, RN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sasha P, RN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;so-are-you-better-now&quot;&gt;So are you better now?&lt;&#x2F;h1&gt;
+&lt;p&gt;Do I feel better than I did at the start of 2025? Absolutely. I can sleep through the night with no disturbances from pain. I can eat mostly whatever I&#x27;d like. I rarely have strange sensations in my pelvis, legs, lower back or abdomen now. I am not taking NSAIDs at a rate that is dangerous to my stomach lining. I have put away my heating pad in the shape of a giant diaper and not needed to take it out of the drawer since I&#x27;ve recovered from surgery.&lt;&#x2F;p&gt;
+&lt;p&gt;But I still have endometriosis, and I always will. I still have flare days. I have naproxen in my bedside table and purse. My electric blanket is always plugged in, and I often turn on the heated seats when driving in the car. I include pelvic floor exercises in my gym routine. I regularly attend breathwork classes and have been focusing more on somatic modalities for therapeutic release. I say no to a lot of opportunities and invitations. I take a low dose of a GLP medication. I&#x27;m still in the turbulent IUD adjustment phase as I wait for my hormonal cycle to stabilize. And I am still frequenting the doctor&#x27;s office for my BRCA prevention plan and my POTS complaints. I am still learning about the intricacies of my neurodivergence and the relationship it has to my &amp;quot;physical&amp;quot; health. (I&#x27;m not a dualist. You can leave the Descartes at the door.)&lt;&#x2F;p&gt;
+&lt;p&gt;So am I better? Yes. But I&#x27;m not &amp;quot;fine&amp;quot;, and I never will be, and I don&#x27;t plan to hide that.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-others-should-know-still-writing&quot;&gt;What others should know (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;everything&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Immortal Unc Slaycation Report</title>
+        <published>2025-09-15T00:00:00+00:00</published>
+        <updated>2025-09-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/immortal-unc-slaycation/"/>
+        <id>https://asyaplugged.in/know/immortal-unc-slaycation/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/immortal-unc-slaycation/">&lt;h1 id=&quot;post-conference-report&quot;&gt;Post-Conference Report&lt;&#x2F;h1&gt;
+&lt;p&gt;I&#x27;d like to thank each and every founding team member who joined us at &lt;strong&gt;Immortal UNC Slaycation&lt;&#x2F;strong&gt;, the one and only birthday party celebrating our immortal boy Blaine O&#x27;Neill. You showed up, you showed off your personality, and now I ask one more thing of you: please show one another the photos you took in by sharing them in this &lt;a href=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;drive&#x2F;folders&#x2F;1ucbN-oxoy87O2iccLcvGIR-GqS2xRgZk?usp=sharing&quot;&gt;Google Drive Folder&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img style=&quot;margin: 0px auto;&quot; src=&quot;unc.png&quot; alt=&quot;yellow game board showing Enlightenment vs Toxicity with HP scale, player photos, and a big ‘WINNER’ label.&quot;&gt;
+&lt;figcaption&gt;Game Board with final team placements.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;enlightened-moments&quot;&gt;Enlightened Moments&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Energy&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+While I designed the game for 10-15 guests, upon refining the guest list, we realized that Blaine loves (and is loved by) very many people, so we ended up inviting closer to &lt;strong&gt;120&lt;&#x2F;strong&gt;. The sheer chaos of the crowd became its own kind of magic. The room buzzed with founder pitches, newfound frenemies, and absurd rituals.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Team Dynamics&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Teams like &lt;em&gt;Paige Wishart&#x27;s Glam and Mutual Aid Fund&lt;&#x2F;em&gt; and &lt;em&gt;Wildcats&lt;&#x2F;em&gt; fully leaned into the satire. Despite the game master&#x27;s sneaky antics with the random badge color assortment, people embodied their true &amp;quot;Diva&amp;quot; selves even within a &amp;quot;Vaccinated Liberal&amp;quot; assigned archetype.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conference Implosion&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+The DIY badges, intake forms, concierge texts and shuttle service brought the whole thing into “psychotic over-engineered tech wellness clusterfuck&amp;quot; territory. Every little detail ended up contributing to the goal of critiquing commodified wellness culture, from the Fry&#x27;s Electronics shopping basket full of liposomal vitamin C and looney bin socks, to the RPG dice that got thrown out of the game after only two rolls. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;&#x2F;h2&gt;
+&lt;p&gt;Shout out to &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;mocsabnimajneb&#x2F;&quot;&gt;Benjamin&lt;&#x2F;a&gt;, my sexy intern, and &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;n0t_u&#x2F;&quot;&gt;Miles&lt;&#x2F;a&gt;, the most graceful party host with brilliant taste in birthday cakes.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;&#x2F;h2&gt;
+&lt;p&gt;Despite the chaos, &lt;em&gt;Immortal UNC Slaycation&lt;&#x2F;em&gt; delivered: guests&#x27; truest natures were exposed, the dogs perservered, pitches were made, roles were impeccably played, and I learned that sometimes the most important thing is watching how people want to play naturally.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Zoom Captions Settings for Accessibility</title>
+        <published>2024-10-17T00:00:00+00:00</published>
+        <updated>2025-10-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/zoom-captions/"/>
+        <id>https://asyaplugged.in/know/zoom-captions/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/zoom-captions/">&lt;h2 id=&quot;why-captions-matter&quot;&gt;Why Captions Matter&lt;&#x2F;h2&gt;
+&lt;p&gt;Zoom has a built-in closed captioning function that can make meetings accessible for people with hearing and learning disabilities, but it requires meeting leaders to turn them on manually in the extended browser settings.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-1-enable-captioning-in-browser-settings&quot;&gt;Step 1: Enable Captioning in Browser Settings&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to your &lt;a href=&quot;https:&#x2F;&#x2F;zoom.us&#x2F;profile&#x2F;setting?tab=meeting&quot;&gt;Zoom Settings → Meeting tab&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Scroll all the way down to &lt;strong&gt;In Meeting (Advanced)&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Toggle &lt;strong&gt;Closed Captioning&lt;&#x2F;strong&gt;, and &lt;strong&gt;Save Captions&lt;&#x2F;strong&gt; to &lt;strong&gt;ON&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Make sure both &lt;strong&gt;Allow use of Caption API&lt;&#x2F;strong&gt; and &lt;strong&gt;Enable Live Transcription&lt;&#x2F;strong&gt; are checked — this allows subtitles to appear in a sidebar that remains visible after something is said.&lt;&#x2F;li&gt;
+&lt;li&gt;Enabling &lt;strong&gt;Save Captions&lt;&#x2F;strong&gt; is useful for post-meeting note-taking. If it is not enabled, meeting participants can still take screenshots of the sidebar, so it&#x27;s a kind gesture to toggle it on.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;img src=&quot;toggle.png&quot; alt=&quot;screenshot of zoom settings&quot; &gt;
+&lt;h3 id=&quot;step-2-turn-on-captions-during-a-meeting&quot;&gt;Step 2: Turn On Captions During a Meeting&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Once your meeting starts, click the &lt;strong&gt;CC&lt;&#x2F;strong&gt; icon in the meeting control bar.&lt;&#x2F;li&gt;
+&lt;li&gt;Select &lt;strong&gt;Enable Auto-Transcription&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+This will activate both live closed captions and a transcript sidebar. You can also save the transcript automatically if the meeting is recorded.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;img src=&quot;CC-button.png&quot; alt=&quot;screenshot of CC button in zoom window&quot; &gt;
+&lt;p&gt;Congratulations, you&#x27;re done. Now your meeting is accessible!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cyborg Manicure</title>
+        <published>2024-09-11T00:00:00+00:00</published>
+        <updated>2024-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/cyborg-manicure/"/>
+        <id>https://asyaplugged.in/know/cyborg-manicure/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/cyborg-manicure/">&lt;h2 id=&quot;draft&quot;&gt;DRAFT!&lt;&#x2F;h2&gt;
+&lt;img style=&quot;margin: 0px auto;&quot; src=&quot;stub.png&quot; alt=&quot;This Cyborg Manicure-related article is a stub. You can help Asya by messaging her on Telegram about it.&quot; &gt;
+&lt;h2 id=&quot;what-is-a-cyborg-manicure&quot;&gt;What is a Cyborg Manicure?&lt;&#x2F;h2&gt;
+&lt;p&gt;A cyborg manicure is a functional take on nail art that integrates working technology into your nails, enhancing your abilities in some manner. Tiny electronic components like microchips, LEDs, sensors, and magnets are embedded into false nails or attached to the natural nail, transforming your hand into an augmented cyborg appendage. &lt;&#x2F;p&gt;
+&lt;p&gt;You can use your hand as an electronic key, a piece of semi-permanent light-up jewelry, a magnet sensor, digital business card, or even data storage. The result lasts as long as a regular gel manicure – about 4 weeks. Cyborg manicures offer a temporary, non-invasive way to experience &amp;quot;bodyhacking&amp;quot; augmentations, and even to explore certain kinds of creative concepts that are not currently possible with subdermal or even transdermal implants. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;explants-for-everyone&quot;&gt;Explants for Everyone&lt;&#x2F;h2&gt;
+&lt;p&gt;One of the formats I work in is a pop-up salon at a conference, festival, nightclub or other type of event. At a pop-up salon, I will offer a range of simple explants on a first-come, first serve basis, one explant per client.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;NFC chips: Near-Field Communication tags can be programmed by the wearers themselves in an instant, transforming their fingers into digital business cards, art galleries, or wifi password.&lt;&#x2F;li&gt;
+&lt;li&gt;RFID chips: Radio Frequency Identification tags can store a smaller amount of data, but transport it via a further range to a reading device. Smartphones only have NFC readers, but RFIDs can be used to unlock doors, start vehicles, or log into computers. They need to be programmed using specialized equipment, like a Proxmark or a Flipper.&lt;&#x2F;li&gt;
+&lt;li&gt;LED stickers: Light Emitting Diodes are powered by paper-thin NFC antennas when brought into contact with a smartphone&#x27;s NFC reader coil. Some smartphones have stronger coils than others, resulting in a brighter light flash.&lt;&#x2F;li&gt;
+&lt;li&gt;Magnets: Powerful neodymium magnets enable the wearer to sense electromagnetic fields and pick up small metal objects. Great for an enhanced connection with your electronic hardware, magic tricks, and getting stuck to a refrigerator.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These components are attached and sealed with advanced, modern gel manicure techniques onto a prepped nailbed, and last as long as a regular gel manicure: about four weeks. Clients are educated about their explant of choice, the world of bodyhacking, as well as aftercare best practices.&lt;&#x2F;p&gt;
+&lt;p&gt;My own first real bodyhacking experience was at a conference. I got two microchip implants, and the procedure was performed by a person who requested to stay anonymous. I received minimal aftercare instructions and knew little about the implants, and didn&#x27;t even own a proxmark or flipper, and didn&#x27;t get to program then on-site. I am still incredibly happy that I got the implants, but the experience left me feeling like there was a lot of room for improvement. The cyborg manicure is exactly that. It&#x27;s a non-invasive, 30 minute process that involves a personalized educational dialogue about functional augmentation. It&#x27;s safe, fun, and opens up low-stakes avenues for people to experiment with creative ideas, growing the community of bodyhacking cyborgs.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;creative-cyborg-collaborations&quot;&gt;Creative Cyborg Collaborations&lt;&#x2F;h2&gt;
+&lt;p&gt;In addition to the short list of explants I provide at my pop-up salons, I have been working on an extended menu of augmentations that can be incorporated into full, ten-finger manicure sets that I offer at my nail studio. My ideal projects involve designing unique functionality for performance artists, musicians, and video shoots. &lt;&#x2F;p&gt;
+&lt;p&gt;Some of the possibilities include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mechatronic Motion:&lt;&#x2F;strong&gt; Sculptural elements that spin, flap, or twitch via gesture control or regular real-life physics.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Biosensor Pigments:&lt;&#x2F;strong&gt; UV-reactive photochromic nails that remind you to put on sunscreen, thermochromic polish that reveals designs based on environmental temperature shifts, and a date rape drug-detecting polish that changes color when dipped into a drink spiked with common incapacitating substances.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Fluids:&lt;&#x2F;strong&gt; Using the &amp;quot;aquarium nails&amp;quot; technique, I can encapsulate dyes, small mobile magnets, and even ferrofluid into XL length nail extensions.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Displays:&lt;&#x2F;strong&gt; While there are still some challenges with powering small displays on the nails, I offer custom lenticular print nails that can shift images and display a short .gif type animation on the nails.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I&#x27;m also very interested in projects involving record player needles, breadboard components, small speakers and microphones, and any other electronic components that could be useful to temporarily fashion to a person&#x27;s body for performance art purposes.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;discuss-demo&quot;&gt;Discuss &amp;amp; Demo&lt;&#x2F;h2&gt;
+&lt;p&gt;I am always excited to speak about my work and the cultural implications of elective cyborgization. I give talks contextualizing the cyborg manicure within the history of transhumanism, body-hacking, and orthotic devices. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;asya-how-did-you-become-a-manicurist&quot;&gt;Asya, how did you become a manicurist??&lt;&#x2F;h2&gt;
+&lt;p&gt;In early 2024, I decided to get my Body Arts Practitioner license, hoping to explore the potential of biosensor tattoo inks. I read a paper called &amp;quot;The Dermal Abyss&amp;quot; and got so excited about the potential of introducing the public to body modification practices via a medical procedure. I also, honestly speaking, was not impressed with the aesthetics that I saw in the tattoo proofs of concept in that paper (or similar research projects on the same topic) and felt like I could offer a contribution to the aesthetic lingua franca of medical tattooing that balances respect for the ritualistic historical background of tattooing as a practice, and the very necessary paradigmatic shifts necessary to shift the medical industry out of it&#x27;s cold, clinical and Foucauldian present into a future where the &amp;quot;care&amp;quot; aspect of &amp;quot;medical care&amp;quot; is felt by all patients.&lt;&#x2F;p&gt;
+&lt;p&gt;Passing the Blood-Borne Pathogens exam was easy, but tackling the issue of safety, efficacy and ultimately functionality of something like biosensing tattoo ink was far from it. While I apprenticed as a tattoo artist, and passionately searched for a PMU &#x2F; medical tattoo apprenticeship or course, I realized that my own bodyhacking practice – my microchip implants – weren&#x27;t all that different from tattoos, which are basically just ink implants. I felt dizzy thinking about all the risks associated with subdermal implantation, especially of smaller (even if encapsulated) particles like ink, and felt the urge to experiment in a safer, temporary, external manner, but without fully getting into the territory of wearables. &lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s why I pivoted my body modification practice to nails. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;manicures-and-safety&quot;&gt;Manicures and Safety&lt;&#x2F;h2&gt;
+&lt;p&gt;While manicures are external to the body, and grow out after four weeks, they still carry certain risks with them, which I am passionate about educating people on just as much as the way the technology I adhere to their nails works.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acrylate Monomer&lt;&#x2F;li&gt;
+&lt;li&gt;Gel &amp;quot;allergies&amp;quot;, the risk of DIY gel manicures&lt;&#x2F;li&gt;
+&lt;li&gt;PPE, glove permeability&lt;&#x2F;li&gt;
+&lt;li&gt;Bacterial, blood-borne pathogen risks&lt;&#x2F;li&gt;
+&lt;li&gt;Disinfection and sterilization of instruments&lt;&#x2F;li&gt;
+&lt;li&gt;UV light risks&lt;&#x2F;li&gt;
+&lt;li&gt;Dust particles&lt;&#x2F;li&gt;
+&lt;li&gt;Dry manicure controversy&lt;&#x2F;li&gt;
+&lt;li&gt;Hand soak manicure dangers&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>February Gains</title>
+        <published>2024-03-01T00:00:00+00:00</published>
+        <updated>2024-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/february-gains/"/>
+        <id>https://asyaplugged.in/know/february-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/february-gains/">&lt;h2 id=&quot;february-progress&quot;&gt;February Progress&lt;&#x2F;h2&gt;
+&lt;p&gt;I set some intentions at the beginning of the month, so it is now time to compare them with my actual accomplishments. I tried to set varied intentions so that there would be areas to look towards for improvement &#x2F; appreciation other than simple scale numbers. &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Intention&lt;&#x2F;th&gt;&lt;th&gt;Accomplishment&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;continue recomp progress&lt;&#x2F;td&gt;&lt;td&gt;lost muscle, then regained it (evened out arms tho) however i did lose ~4 lbs of fat&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;bench the 45 or 35 bar&lt;&#x2F;td&gt;&lt;td&gt;benching 45lbs for reps, up to 9 reps now.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;improve vo2 max w cardio&lt;&#x2F;td&gt;&lt;td&gt;slacking. did some stairmaster, did some kettlebell swings, felt like dying, gave up.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;80-135 protein &#x2F; day&lt;&#x2F;td&gt;&lt;td&gt;above 100g except for 4 intermittent fasting days&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;save $ on protein shakes by buying protein powder&lt;&#x2F;td&gt;&lt;td&gt;bought boba tea protein milk tea no caffeine, also bought trader joes collagen peptides... stopped buying so many rebbls and auras, haven&#x27;t done the math but the viebs are all right :)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;figure out calorie tracking for recomp&lt;&#x2F;td&gt;&lt;td&gt;paying $12&#x2F;mo for Macrofactor so I don&#x27;t have to worry about this (aiming for a deficit of around 200 tho)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;settle on 6-month training split&lt;&#x2F;td&gt;&lt;td&gt;got it!! just added delts in ;)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;settle on 6-month nutritional plan&lt;&#x2F;td&gt;&lt;td&gt;see above 200 cal deficit – committing to a light cut until ~august.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;nutrition-reflections&quot;&gt;Nutrition Reflections&lt;&#x2F;h2&gt;
+&lt;figure style=&quot;width:60%; margin: 0 auto;&quot;&gt;
+&lt;img src=&quot;feb-protein.jpeg&quot; alt=&quot;apple health protein intake for feb 2024&quot; &gt;
+&lt;figcaption&gt;Apple Health, data imported via Macrofactor.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I switched from the Spelt nutrition tracker to Macrofactor, which was going to be fine... except my silly mind decided to argue with Macrofactor&#x27;s original estimation of my TDEE (~1800 cal) and instead I input ~1600 cal, which pushed the app to suggest I eat around 1250-1350 cal a day. I really shouldn&#x27;t have followed this suggestion, because predictably, I lost way too much weight, including muscle, in that one week. Feb 11-17 I averaged 1,281 calories, which caused my bodyweight to drop from a pretty constant fluctuation of 159-161 lbs down to 156-157 lbs (and today I&#x27;m at 155-154). The problem was that my muscle mass (as measured by Withings, so bodyweight minus bone and fat) fell from ~98 to 95 lbs, which only in this last week has recuperated back up to 97. Thankfully the numbers for fat have slid down from ~58 to ~55 lbs, and today I&#x27;m actually down at ~53 lbs.&lt;&#x2F;p&gt;
+&lt;p&gt;I stopped buying an ungodly amount of Rebbl protein shakes (and GT&#x27;s aura collagen teas), thank god – and got myself a cheap little protein shaker bottle from GNC that has two sections for powders, as well as a little pill compartment as well. This shaker bottle has had a huge impact on my daily routines – not only do I now have a simple set of directions to follow in order to ensure I get my protein and pre-workout in, but I also have the added bonus of a habit stack that supports my morning and evening supplement intake, improving my consistency with nootropic supplementation, i.e. really strengthening my confidence and commitment to the biohacker &#x2F; bodyhacker identities I have at times felt like I wasn&#x27;t doing enough to deserve.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;training-reflections&quot;&gt;Training Reflections&lt;&#x2F;h2&gt;
+&lt;p&gt;This month I pursued personal training at my gym with the explicit goal of evaluating my chosen split and ensuring proper form on all exercises. I also have been reading (with a highlighter marker, so actually reading!) Starting Strength by Mark Rippetoe. I&#x27;ve also been soliciting harsh criticism from my brother as well as cranky internet friends. And finally, I&#x27;ve been thinking about Yoga Teacher Training, which prompted me to pay a few visits to the Sivananda Yoga Vedanta center here in Los Angeles.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;january-30&quot;&gt;January 30&lt;&#x2F;h3&gt;
+&lt;p&gt;This day was planned as my glute day, so we started with some &lt;strong&gt;Romanian deadlifts&lt;&#x2F;strong&gt;, on which I struggled with my grip strength, and was advised to perform farmer carries to improve in that area. I was then advised to superset in a 60s &lt;strong&gt;plank&lt;&#x2F;strong&gt;, which made me realize my split was ignoring core muscles.
+Next up were &lt;strong&gt;hip thrusts&lt;&#x2F;strong&gt;, which seemed to require no comments.
+Since the assembly &#x2F; disassembly of the barbell for RDLs and hip thrusts takes like 15 minutes of it&#x27;s own, the only exercise we had time left over for were dumbbell &lt;strong&gt;lunges&lt;&#x2F;strong&gt;. I had struggled with the movement pattern the week prior so I was advised to use TRX handles to lunge in a straight line. I was able to add dumbbells after getting used to the balancing aspect of the movement pattern, and realized the exercise is somewhat challenging due to it elevating my heart rate. Especially this becomes problematic for an exercise where you work the right and left side of your body separately – by the time I had to switch to my lazy leg, my heart rate was 10-15 bpm higher than when I started with my stronger leg.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-6&quot;&gt;February 6&lt;&#x2F;h3&gt;
+&lt;p&gt;Finishing up the glute day, I struggled out some &lt;strong&gt;lying leg curls&lt;&#x2F;strong&gt;, then moved onto &lt;strong&gt;hyperextensions&lt;&#x2F;strong&gt; using a 25 lb plate. I was advised to hold the top position for a few seconds to increase the challenge. Later, I opted to progressive overload by using a 30lb dumbbell, and increasing the weight, but with a dumbbell and not a plate which is somewhat awkward to hold. Despite some form videos online saying to slightly bend at the knees, my trainer agreed with me that cue seems odd &#x2F; impossible, so I opted to focus on keeping toes pointed away from one another and slightly rounding the back in order to make the movement more glute-focused. &lt;&#x2F;p&gt;
+&lt;p&gt;Next, I jumped into a hip machine superset: &lt;strong&gt;hip abductor&lt;&#x2F;strong&gt; and &lt;strong&gt;hip adductor&lt;&#x2F;strong&gt;. My left abductor seemed to work a lot less than my right, so to solve for this I was advised to place a foam pad in between my knee and the machine pad – to force my left legs movement range to start a little earlier than on my right side. This strategy helped with feeling both sides engage somewhat equally. Hopefully they even out soon and I don&#x27;t have to make all these adjustments anymore.&lt;&#x2F;p&gt;
+&lt;p&gt;I have a record of doing some bench press reps, seated chest press machine, as well as a superset of dumbbell arnold press + seated overhead press, but my memory is kind of hazy on all these.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-13&quot;&gt;February 13&lt;&#x2F;h3&gt;
+&lt;p&gt;Chest dips, triceps extension, triceps pushdown, incline chest fly&lt;&#x2F;p&gt;
+&lt;p&gt;glute kickback, nautilus glute drive, single leg nautilus glute drive.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-20&quot;&gt;February 20&lt;&#x2F;h3&gt;
+&lt;p&gt;upper pull
+chin up
+seated row
+lat pulldown
+incline curl
+bent over one arm row
+hammer curl&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-27&quot;&gt;February 27&lt;&#x2F;h3&gt;
+&lt;p&gt;squat
+squat with band
+standing calf raise
+leg extension&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;march-5&quot;&gt;March 5&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;leg press&lt;&#x2F;li&gt;
+&lt;li&gt;bulgarian split squat&lt;&#x2F;li&gt;
+&lt;li&gt;lateral raise&lt;&#x2F;li&gt;
+&lt;li&gt;reverse fly (rear delt machine)&lt;&#x2F;li&gt;
+&lt;li&gt;cable crunch form?&lt;&#x2F;li&gt;
+&lt;li&gt;updated split review (volume, order, etc)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;march-intentions&quot;&gt;March Intentions&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;do more yoga&lt;&#x2F;li&gt;
+&lt;li&gt;plan yoga teacher training&lt;&#x2F;li&gt;
+&lt;li&gt;learn how to squat properly&lt;&#x2F;li&gt;
+&lt;li&gt;continue gym consistency&lt;&#x2F;li&gt;
+&lt;li&gt;continue diet consistency&lt;&#x2F;li&gt;
+&lt;li&gt;buy another scale, another hairbrush, more toe socks&lt;&#x2F;li&gt;
+&lt;li&gt;add to gains blog posts weekly vs monthly to track progress closer&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;post-march-etc-intentions&quot;&gt;Post-March... etc... Intentions.&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;start bringing my functional goals into the horizon: calisthenics and breaking (did this stop being cool when I turned 11 though?)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Fixing Equinox</title>
+        <published>2024-02-08T00:00:00+00:00</published>
+        <updated>2024-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/fixing-equinox/"/>
+        <id>https://asyaplugged.in/know/drafts/fixing-equinox/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/fixing-equinox/">&lt;p&gt;Blog Text&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How I would run a Nail Salon</title>
+        <published>2024-02-08T00:00:00+00:00</published>
+        <updated>2024-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/how-i-would-run-a-nail-salon/"/>
+        <id>https://asyaplugged.in/know/drafts/how-i-would-run-a-nail-salon/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/how-i-would-run-a-nail-salon/">&lt;p&gt;Blog Text&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nutrition Pinterest Aesthetics</title>
+        <published>2024-02-08T00:00:00+00:00</published>
+        <updated>2024-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/nutrition-pinterest-aesthetics/"/>
+        <id>https://asyaplugged.in/know/drafts/nutrition-pinterest-aesthetics/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/nutrition-pinterest-aesthetics/">&lt;p&gt;Blog Text&lt;&#x2F;p&gt;
+&lt;p&gt;testing deplpyment&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Summer Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/summer-gains/"/>
+        <id>https://asyaplugged.in/know/drafts/summer-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/summer-gains/">&lt;p&gt;what i did this summer&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>January Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/january-gains/"/>
+        <id>https://asyaplugged.in/know/january-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/january-gains/">&lt;p&gt;While it may be a little on-the-nose to start a personal accountability blog series in a January, it just so happened that I got extraordinarily motivated this recent December 2023 by my little brother. I locked in, as he&#x27;d say, and as a result, saw some exciting changes on my smart scale:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.3 lbs muscle growth&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;7.5 lbs fat loss&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Aside from these encouraging metrics, I also have some personal achievements to be proud of:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;left smith machine in the past, committing to balancing that barbell!&lt;&#x2F;li&gt;
+&lt;li&gt;went from DB bench press to short bar ;)&lt;&#x2F;li&gt;
+&lt;li&gt;ate 60-90g protein &#x2F; day &lt;&#x2F;li&gt;
+&lt;li&gt;settled on a gym uniform that feels cute&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I think it&#x27;s important to mention that the progress from this January isn&#x27;t fair to characterize as progress just from one single month. Over the years that I&#x27;ve held various gym memberships and worked towards having a solid fitness routine, I&#x27;ve experimented with a plethora of strategies and approaches, and made a lot of mistakes along the way. These mistakes were vital for me to make, without them I wouldn&#x27;t have all the information I do today. In general, I don&#x27;t think that most people take the time to honor the hard work of the &amp;quot;bumbling fool&amp;quot; period we all go through when focused on a specific goal. &lt;&#x2F;p&gt;
+&lt;p&gt;My own &amp;quot;bumbling fool&amp;quot; era was rife with confusions about cardio vs strength, workout split questions, figuring out how to choose a PT, should I sync my workouts to my cycle, which gym do I prefer going to, getting over gym shyness, how to use machines, exercise form, exercise form, proper attire, injury prevention, and so on and so forth. &lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s still plenty that I&#x27;m clueless about, and that&#x27;s what the actionable goal tracking is about. While sometimes numbers on the scale may not move (but recomp is occurring), sometimes even bodycomp numbers won&#x27;t move either – so by focusing on celebrating what I&#x27;ve actually done and learned in each month of my committed fitness journey should theoretically prevent me from losing wind in my sails if I hit a plateau when it comes to my quantitative goals.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;february-intentions&quot;&gt;February Intentions&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;continue recomp progress (not something I am confident I can control very well)&lt;&#x2F;li&gt;
+&lt;li&gt;bench the regular bar, even the smallest sets, or the 35lb training bar&lt;&#x2F;li&gt;
+&lt;li&gt;improve VO2 max via kettlebell swings or other cardio after each training session&lt;&#x2F;li&gt;
+&lt;li&gt;eat 80-135g protein &#x2F; day&lt;&#x2F;li&gt;
+&lt;li&gt;spend less money on vegan protein shakes from the grocery store and try some protein powders for homemade protein shakes&lt;&#x2F;li&gt;
+&lt;li&gt;find my comfort zone with calorie tracking for more control over recomp progress&lt;&#x2F;li&gt;
+&lt;li&gt;settle on a 6-month training split&lt;&#x2F;li&gt;
+&lt;li&gt;settle on a 6-month nutritional goal&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Depending on how well my February accomplishments align with these intentions, I&#x27;d like March&#x2F;April to start bringing my functional goals into the horizon: calisthenics and breaking.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>March Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/march-gains/"/>
+        <id>https://asyaplugged.in/know/march-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/march-gains/">&lt;h4 id=&quot;overall-impressions-of-progress&quot;&gt;Overall impressions of progress&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;overall-impressions-from-the-month&quot;&gt;Overall impressions from the month&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve been bringing my food scale to more places with me, and it&#x27;s not always easy to convince people to mind their business. In particular older women tend to project some sort of eating disorder onto my behavior, even though I am eating the exact same amount (if not more) than other women that are eating in the same situation. I realize that it&#x27;s not common to see a young woman tracking her macros in a healthy manner, so I understand where the assumption (and accompanying concerns &#x2F; performative sighing) is coming from, but nonetheless it&#x27;s a frustrating experience to have over and over again. &lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve been enjoying using Macrofactor so much that I&#x27;m willing to deal with the potential judgement or misunderstanding from people so that I can ensure that I am tracking accurately. Being in a muscle-sparing cut means that I have to be precise about my caloric deficit, and cannot go below a 400-500 calorie deficit. Given the amount of exercise that I&#x27;m doing, and the process of my body recomposition, my infradian rhythms and all the other variables that influence my total energy expenditure, I&#x27;d rather not take neither a &amp;quot;set it and forget it&amp;quot; to my caloric goals, or an guesstimation-based approach to my nutrition tracking. &lt;&#x2F;p&gt;
+&lt;p&gt;So far I know I&#x27;ve lost ~6 lbs fat (from 58 down to 50, according to my Withings scale) from the beginning of the year and stayed relatively stable wrt muscle which is a much slower rate of recomp progress than reported in my January gains post, but is a speed I&#x27;m also pleased with as it&#x27;s not extreme, there hasn&#x27;t been significant muscle loss, and I&#x27;m able to keep up with my progressive overload training program.&lt;&#x2F;p&gt;
+&lt;p&gt;I think it&#x27;s time I consider my diet + training a &amp;quot;cut&amp;quot; and not a recomp anymore. For the last week of March, I went on a trip and took a break from training – but not from my diet :P. I was surprised by how much strength progress I lost – I assume it wouldn&#x27;t be so drastic if I controlled for preworkout intake, menstrual cycle phase, electrolyte balance etc, but still  – my biceps could only handle half the reps on the same weight as the last time I had been in the gym!!&lt;&#x2F;p&gt;
+&lt;p&gt;During my trip, I also visited a yoga ashram, which probably should be it&#x27;s own blog post.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;training-with-experts&quot;&gt;Training with experts&lt;&#x2F;h3&gt;
+&lt;p&gt;I finished up my weekly split safety overview PT sessions with my trainer Mikey, and luckily enough recieved a birthday present from my partner of six Pilates sessions :P. I also found out that another trainer I&#x27;ve been hoping to work with left my gym, but thankfully I had his IG before he bolted so I&#x27;ll still be able to hit him up for private training (dude was the exact level of nerdy and precise when it came to form that I feel I really need for certain exercises)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;metrics&quot;&gt;Metrics&lt;&#x2F;h3&gt;
+&lt;p&gt;nutrition and measurement stats go here&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;Honestly, I feel like I have a lot more goals than when I originally started out – and that&#x27;s saying a lot, bc I had a nutzo amount of goals and aspirations at the start of January. I wanted to get into breakdancing, work towards competing as a bikini model, and do cardio – things I am not thinking about at all right now (ha-ha, even the cardio...) Now I&#x27;m focused on things like the best cues for the exercises in my program, balancing out right &#x2F; left, posterior chain bias on full body exercises, protein, over-analyzing my skeletal specificities, and not getting mad at people who break water bottle code at the gym. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;april-goals&quot;&gt;April Goals&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;post my split on this blog&lt;&#x2F;li&gt;
+&lt;li&gt;do hip opening stretches more often&lt;&#x2F;li&gt;
+&lt;li&gt;attend yoga classes at the gym at least 1x&#x2F;week&lt;&#x2F;li&gt;
+&lt;li&gt;pair every workout with either ab exercises, stairmaster, or yoga &#x2F; pilates.&lt;&#x2F;li&gt;
+&lt;li&gt;do one of the above on rest days&lt;&#x2F;li&gt;
+&lt;li&gt;scam the gym parking lot by remembering to un-park after a timer goes off&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Feeling Like a Space</title>
+        <published>2022-11-15T00:00:00+00:00</published>
+        <updated>2022-11-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/feeling-like-a-space/"/>
+        <id>https://asyaplugged.in/know/drafts/feeling-like-a-space/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/feeling-like-a-space/">&lt;h3 id=&quot;hf-and-what-feeling-like-a-space-is-like&quot;&gt;hf and what feeling like a space is like&lt;&#x2F;h3&gt;
+&lt;p&gt;The 2015 &lt;a href=&quot;https:&#x2F;&#x2F;academic.oup.com&#x2F;jcmc&#x2F;article&#x2F;20&#x2F;3&#x2F;241&#x2F;4067543&quot;&gt;Homuncular Flexibility&lt;&#x2F;a&gt; paper recently resurfaced from a &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;DilettanteryPod&#x2F;status&#x2F;1590386231707406345&quot;&gt;trending post&lt;&#x2F;a&gt; on Twitter. I&#x27;d like to think that tweeting out the words HOLY SHIT and a link to a paper about something like, I don&#x27;t know, &lt;a href=&quot;https:&#x2F;&#x2F;arena-attachments.s3.amazonaws.com&#x2F;17066439&#x2F;7ae33aaff0f3aef21bdcd9ff7b424d8a.pdf?1656706134&quot;&gt;deep image reconsctruction from fMRI imaging of brain activity&lt;&#x2F;a&gt; would have a similarly mass-exciting result, but I digress. The discussion around the human ability to learn how to control and sense bodies very different from their own prompted me to think about the way in which we have learned to embody digital spaces, which are of course very different from physical spaces.&lt;&#x2F;p&gt;
+&lt;p&gt;Websites and screen-based interfaces produce the sensation&lt;&#x2F;p&gt;
+&lt;p&gt;the 3D metaverse is still in its relatively early stages, &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;else&quot;&gt;else&lt;&#x2F;h3&gt;
+&lt;p&gt;tools are interpreted by the brain as an extension of the human body.
+haptic feedback, color schemes, &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;work-arounds-affordances&quot;&gt;work-arounds, affordances&lt;&#x2F;h3&gt;
+&lt;p&gt;Self regulation via peripheral attention management. &lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m sure you&#x27;ve seen this recent video trend you&#x27;re shown footage of eye catching gaming footage with an unrelated story is&lt;&#x2F;p&gt;
+&lt;p&gt;Once I heard a &amp;quot;focus hack&amp;quot; where you put a makeup pallette on your workdesk and allow yourself to rest your gaze on it instead of reaching for your phone and getting sucked into an endless-scrolling distraction trap.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;feeling-like-a-language-feeling-like-an-era&quot;&gt;feeling like a language, feeling like an era&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Everything is Boring: Robin Arnott on Meditation &amp; Gaming</title>
+        <published>2022-08-18T00:00:00+00:00</published>
+        <updated>2022-09-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/everything-is-boring/"/>
+        <id>https://asyaplugged.in/know/everything-is-boring/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/everything-is-boring/">&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;n94J-9YxZPc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;I experienced a rather significant personal paradigm shift after Robin Arnott&#x27;s presentation &amp;quot;Everything is Boring&amp;quot; at the BDYHAX conference on February 24th, 2019. I have several versions of hand-written notes on it, and have spent countless late nights gesticulating on and on about the premise, so I figured to publish my notes (something between an inaccurate summary and personal comments) and suavely drop a hyperlink any time the itch to transmute this paradigm strikes, instead of acting like &lt;a href=&quot;https:&#x2F;&#x2F;knowyourmeme.com&#x2F;memes&#x2F;pepe-silvia&quot;&gt;this&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;The talk focuses on the issue at the center of the wellness-meditation economy: everything is boring. Using a psychological framework from Ken Wilber, it analyzes the wellness economy&#x27;s own relative &amp;quot;health&amp;quot;, and demonstrates that both wellness and successful consumer interfaces have a much stronger connection to passion-based areas like entertainment, music and gaming, rather than mass infrastructure like medicine or workforce training.&lt;&#x2F;p&gt;
+&lt;p&gt;Robin: if you&#x27;re reading this, please respond to my emails – I would love to have access to the slides from this talk. It&#x27;s great that there&#x27;s now a video recording available, but I am struggling to find the proper chart images the talk is based on.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;Arnott is the CEO and cofounder of Andromeda Entertainment, a gaming publishing company focused on titles that draw inspiration from wellness, i.e. games that enrich players lives in meaningful ways, rather than just baiting and distracting them.&lt;&#x2F;p&gt;
+&lt;p&gt;He has spoken quite a bit about game design as a mechanism for transcendence, but this talk focuses on Ken Wilber&#x27;s Integral Theory – a psychological theory that can be used not only for understanding oneself and the people around us, but also understanding trends in culture learning how to aid the psychological developments of culture at large.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;integral-psychology&quot;&gt;Integral Psychology&lt;&#x2F;h2&gt;
+&lt;p&gt;Arnott believes one of the main issues with health technologies and the way we treat our bodies is it that it can be pretty joyless, boring and uninspiring. Analyzing current paradigms of health technologies, health economies, and our relationship with our body as a whole through the frame of Integral psychology offers some not-so-boring steps forward.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;images.squarespace-cdn.com&#x2F;content&#x2F;v1&#x2F;51a0ef99e4b0673a4c034ab8&#x2F;1373221911253-I9CKMOFPCM86G3TNULLF&#x2F;Screen-Shot-2013-03-29-at-7.07.30-PM.png&quot; alt=&quot;integral theory map&quot;&gt;
+&lt;figcaption&gt;Figure 1. Ken Wilber&#x27;s Integral Psychology theory map.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Figure 2. &amp;quot;Stages of Consciousness&amp;quot; map.&lt;&#x2F;p&gt;
+&lt;p&gt;Arnott highlights three color-coded stages as separate paradigms from each of them:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;orange paradigm: bureaucratic, scientific, evidence based&lt;&#x2F;li&gt;
+&lt;li&gt;green paradigm: decentralized, pluralistic, postmodern, egalitarian&lt;&#x2F;li&gt;
+&lt;li&gt;teal paradigm: integrated, evolving the present moment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;have-you-ever-lied&quot;&gt;Have you ever lied?&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s say, you tell some huge lie, for example you have been cheating on your partner and you don&#x27;t tell them the truth. What are the consequences of this lie? How does it make you feel? How much does it affect other decisions you make? Your entire life becomes predicated on this one lie. You lose confidence in your decision-making and your actions. You cannot build a life on top of a foundation comprised of a lie.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;medical-economy&quot;&gt;Medical Economy&lt;&#x2F;h2&gt;
+&lt;p&gt;The medical economy operates on the social lie that the medical system has the answer to overcoming death. The orange medical system maintains the lie that YOU SHOULD NOT DIE.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;medical-gaze&quot;&gt;Medical Gaze&lt;&#x2F;h3&gt;
+&lt;p&gt;This argument reminds me of the &amp;quot;medical gaze&amp;quot;, the practice of objectifying the body of the patient as separate from their personal identity, coined by Michel Foucault&#x27;s in &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;The_Birth_of_the_Clinic&quot;&gt;&amp;quot;Birth of the Clinic&amp;quot;&lt;&#x2F;a&gt;, which interrogates the dehumanization foundational to modern medicine, as well as the reasons why the scientific advances in medicine and healthcare have not succeeded in abolishing sickness and resolving the problems of humanity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-green-paradigm-in-the-wellness-economy&quot;&gt;The green paradigm in the wellness economy&lt;&#x2F;h2&gt;
+&lt;p&gt;The wellness paradigm of meditation apps with their condescending &amp;quot;nudge&amp;quot; notifications, &amp;quot;should&amp;quot;-ing you, is also predicated on a lie. It condescends and infantilizes users under the false pretense that
+SOMETHING IS WRONG WITH YOU.
+You need to &amp;quot;get better&amp;quot;. If you miss a day, you are a failure. Your habits are pathologized when they do not serve the app&#x27;s interests of high user engagement and retention.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, how often do you pick up your phone to use a self-improvement app? How much time per day do you spend on this app category? There&#x27;s mounds of UX research showing that this app category does not perform well in the screen time olympics. 
+But what apps do you gravitate towards when you want to feel better? Spotify. Candy Crush. Snapchat. Tiktok.&lt;&#x2F;p&gt;
+&lt;p&gt;Have you ever gone to a concert &amp;amp; felt spiritually transformed?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ux-as-infantilization&quot;&gt;UX as Infantilization&lt;&#x2F;h3&gt;
+&lt;p&gt;Arnott&#x27;s focus on &amp;quot;condescending infantilism&amp;quot; reminds me of Jesse Baron&#x27;s essay &lt;a href=&quot;https:&#x2F;&#x2F;reallifemag.com&#x2F;the-babysitters-club&#x2F;&quot;&gt;&amp;quot;The Babysitters Club&amp;quot;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-teal-paradigm-in-the-next-economy-of-health&quot;&gt;The teal paradigm in the next economy of health&lt;&#x2F;h2&gt;
+&lt;p&gt;The next economy of health is based in joy and transformation.
+Body - Mind is an expression of Truth.
+Music, entertainment, and socializing are healing economy models.
+They do not have a &amp;quot;should quality and your soul is open to them.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Medicine&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Wellness&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;A new modality&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Identity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;individual&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;pluralistic data point in global database&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;spirit&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Achievement&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;systematization&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;access&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;integrated wisdom&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Relationship to Body&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;mechanical&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;purging trauma&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;maladaptive body patterns begin to dissolve&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visiting Apex Electronics Surplus</title>
+        <published>2022-08-13T00:00:00+00:00</published>
+        <updated>2022-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/apex-visit/"/>
+        <id>https://asyaplugged.in/know/drafts/apex-visit/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/apex-visit/">&lt;p&gt;This Friday I visited Apex Electronics Surplus in Sun Valley, CA.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;so-much-stuff&quot;&gt;So much stuff!&lt;&#x2F;h2&gt;
+&lt;p&gt;It was cool. I was very excited by the sheer size of the store and amount of available items, so I recorded a birthday wish for my little brother in one of the aisles. My little brother was the driving force behing my inspiration for &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;know&#x2F;drafts&#x2F;apex-visit&#x2F;savefrys.com&#x2F;&quot;&gt;savefrys.com&lt;&#x2F;a&gt;, so it only felt appropriate to record a message at an electronics surplus store.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-thoughts&quot;&gt;The Thoughts&lt;&#x2F;h2&gt;
+&lt;p&gt;Reminded me of Claire L. Evans&#x27; blog post &lt;a href=&quot;https:&#x2F;&#x2F;www.uncubemagazine.com&#x2F;blog&#x2F;12291851&quot;&gt;Does Future Fact Depend on Present Fiction&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Make Telegram Stickers</title>
+        <published>2022-08-13T00:00:00+00:00</published>
+        <updated>2022-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/"/>
+        <id>https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/">&lt;p&gt;This Friday I visited Apex Electronics Surplus in Sun Valley, CA.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;week-1&quot;&gt;Week 1&lt;&#x2F;h2&gt;
+&lt;p&gt;The first &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#x27;t communicate by sharing memory, share memory by communicating.&lt;&#x2F;p&gt; —
+&lt;cite&gt;Rob Pike&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;..&#x2F;assets&#x2F;test.png&quot; alt=&quot;Image Backgorund&quot; &#x2F;&gt; 
+&lt;img src=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;know&#x2F;drafts&#x2F;telegram-sticker-tutorial&#x2F;&quot; alt=&quot;Another Media&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;plchldr.co&#x2F;i&#x2F;1280x720?bg=2ecc40&quot; alt=&quot;Media CDN&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;{% hint style=&amp;quot;warning&amp;quot; %} 123 {% endhint %}&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#x27;s
+&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;&#x2F;a&gt; during Gopherfest,
+November 18, 2015.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Recurse Center Report: Half Batch</title>
+        <published>2022-08-05T00:00:00+00:00</published>
+        <updated>2022-08-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/recurse-center-report-1/"/>
+        <id>https://asyaplugged.in/know/recurse-center-report-1/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/recurse-center-report-1/">&lt;p&gt;This Friday marks the mid-point of my batch at the Recurse Center&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. I am in a 12 week batch, meaning I have completed 30 out of 60 days of the programming retreat. I already feel like a different person and a better programmer than when I started, and figured that it could be helpful for others to hear about my experience.&lt;&#x2F;p&gt;
+&lt;p&gt;Because I intended to do a 12 week retreat from the very start, I will say that I was a little lax with planning my time to be at maximum efficiency. My main goal for the retreat was proving to myself that I enjoy regular programming and learning new things, even if they look very much strange, and feel very much challenging.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;weekly-reports&quot;&gt;Weekly Reports&lt;&#x2F;h2&gt;
+&lt;p&gt;At Recurse, batch members are encouraged to post text check-ins in their respective Zulip streams. Thanks to this practice, I have been able to track and share my progress, as well as stay accountable to myself and learn from the obstacles blocking my workflows.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;week-1&quot;&gt;Week 1&lt;&#x2F;h3&gt;
+&lt;p&gt;I decided to excuse myself from the requirement of writing any code in the first week, as it is quite an overwhelming and social week, but in retrospect I wish I had challenged myself a bit more, and at least refactored some code in the project that I applied to RC with, so that I could present it during Friday presentations. However, I did:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;work on &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;do&#x2F;sunshine-act&#x2F;&quot;&gt;sunshine act&lt;&#x2F;a&gt; pen and paper RPG game&lt;&#x2F;li&gt;
+&lt;li&gt;write short bios of everyone so i could remember peoples names and personalities&lt;&#x2F;li&gt;
+&lt;li&gt;experimented with check-in formatting&lt;&#x2F;li&gt;
+&lt;li&gt;make a &lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;anastasia-davydova-lewis&#x2F;recurse-center-2022&quot;&gt;master channel on are.na&lt;&#x2F;a&gt; for all my RC batch related research&lt;&#x2F;li&gt;
+&lt;li&gt;attend a pairing workshop&lt;&#x2F;li&gt;
+&lt;li&gt;made ~1 new friend.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;week-2&quot;&gt;Week 2&lt;&#x2F;h3&gt;
+&lt;p&gt;I became a lot more comfortable with all the RC software, so I set out to program every day. Despite such a clear intention, I only commited code on 3 of the 5 days, as I ended up feeling quite drained by the frequent &amp;quot;coffee chats&amp;quot;, planning to work on other people&#x27;s projects, and attending the social events.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;attended the &amp;quot;Building your volutional muscles&amp;quot; workshop, enjoyed it very much&lt;&#x2F;li&gt;
+&lt;li&gt;started learning &lt;code&gt;Go&lt;&#x2F;code&gt; for my TUI game, ascii tarot&lt;&#x2F;li&gt;
+&lt;li&gt;got sidetracked from learning &lt;code&gt;Go&lt;&#x2F;code&gt; with elektronika project bc of embedded meeing&lt;&#x2F;li&gt;
+&lt;li&gt;attended the creative coding, but failed at my task because of updated browser permissions issues in &lt;code&gt;p5.js&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;had a coffee chat with a career center staff member&lt;&#x2F;li&gt;
+&lt;li&gt;presented&lt;&#x2F;li&gt;
+&lt;li&gt;made ~6 new friends!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;&#x2F;h3&gt;
+&lt;p&gt;Learning Go felt a little out of left field, so I decided to spin up a &amp;quot;quick and dirty&amp;quot; static website. The theme I chose to base it off of was anything but quick to work with, however it did prove to make for some quite dirty coding work. Ultimately, I was pleased with my 4&#x2F;5 daily commits, as well as the fact that I didn&#x27;t have to poke around the Go reference documents for a short while.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;learned about &lt;code&gt;SQL&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;started working with &lt;code&gt;Zola&lt;&#x2F;code&gt; and the karzok theme, &lt;code&gt;npm&lt;&#x2F;code&gt; became the bane of my existence&lt;&#x2F;li&gt;
+&lt;li&gt;met with a staff member to discuss time management and my struggle with &amp;quot;doing other peoples homework&amp;quot; instead of focusing on my own work&lt;&#x2F;li&gt;
+&lt;li&gt;attended the &amp;quot;Balancing learning generously with your own work&amp;quot; workshop - really loved it&lt;&#x2F;li&gt;
+&lt;li&gt;attended the &amp;quot;feelings check-in&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;made ~4 new friends.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;week-4&quot;&gt;Week 4&lt;&#x2F;h3&gt;
+&lt;p&gt;Attending the weekly intentions and reflections meetings was quite phenomenal. In general, I find intentionality incredibly meaningful and valuable in my own routine, so sharing such a practice with fellow Recursers changed my entire experience. I felt a lot closer to the community, and struggled less with accountability.&lt;&#x2F;p&gt;
+&lt;p&gt;Another big change was replacing my coffee chat bot with the pairing bot. I noticed that the daily chit-chat meetings spawned by the coffee chat bot took a lot of energy out of me, but didn&#x27;t translate into a sense of satisfaction with how much I was learning programming or making progress on a project, be it mine or someone elses. Switching up the bots helped a lot, as I could at the very least look at somebody else&#x27;s code and ask about their goals at RC, rather than talk about our outside hobbies for an hour.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;started attending weekly intentions and reflections&lt;&#x2F;li&gt;
+&lt;li&gt;presented during career panel&lt;&#x2F;li&gt;
+&lt;li&gt;replaced coffee chat bot with pairing bot&lt;&#x2F;li&gt;
+&lt;li&gt;shipped my personal website&lt;&#x2F;li&gt;
+&lt;li&gt;paired with people on their projects, which was very rewarding.&lt;&#x2F;li&gt;
+&lt;li&gt;got some excellent pointers on Go from someone who has worked at the Go team&lt;&#x2F;li&gt;
+&lt;li&gt;had a meeting with the career center&lt;&#x2F;li&gt;
+&lt;li&gt;made ~4 new friends.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;week-5&quot;&gt;Week 5&lt;&#x2F;h3&gt;
+&lt;p&gt;This was the week I realized I needed to quickly make friends with everyone from the previous batch, which was ending the following week. I wish I had been more organized about my interactions with other people, as that&#x27;s really one of the most valuable aspects of RC. Even if you do not work on something together, it&#x27;s nice to at least get to know each other a little.&lt;&#x2F;p&gt;
+&lt;p&gt;I also set out to have a &amp;quot;solo&amp;quot; day where I wouldn&#x27;t attend any meetings or events, and just focus on some deep work. This was a good idea, and helped me feel more in control of my productivity.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;paired a bit&lt;&#x2F;li&gt;
+&lt;li&gt;made progress on my website&lt;&#x2F;li&gt;
+&lt;li&gt;went to the gym a lot&lt;&#x2F;li&gt;
+&lt;li&gt;did some leetcode problems&lt;&#x2F;li&gt;
+&lt;li&gt;strengthened ~2 of my existing RC friendships.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;week-6&quot;&gt;Week 6&lt;&#x2F;h3&gt;
+&lt;p&gt;There is a long-standing tradition at RC to write &amp;quot;niceties&amp;quot; to members of the ending batch. I had 42 Recursers to write them for, as well as some extra for staff, which took a lot of time and effort. In the process I realized there were different types of Recursers – the very socially active, the more heads-down ultra-productive ones, the ones that host specialized events, and the ones that don&#x27;t participate in the community very much. I realized that despite my own feelings about my subpar progress, I myself was a relatively successful Recurser, as I made the retreat&#x27;s experience inspiring and fun for other members. Writing the niceties helped me reconsider my own goals and expectations of myself. I stopped worrying about completing a specific amount of leetcode problems or github commits, and decided to focus more on positively contributing to the experience of those currently at RC.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;completed niceties&lt;&#x2F;li&gt;
+&lt;li&gt;made checkin and reflection templates for obsidian&lt;&#x2F;li&gt;
+&lt;li&gt;began tinkering in hardware discussion groups&lt;&#x2F;li&gt;
+&lt;li&gt;quit the google ux certificate coursera course bc didn&#x27;t have the patience to learn things i already know for $30&#x2F;mo&lt;&#x2F;li&gt;
+&lt;li&gt;finally a successful creative coding project&lt;&#x2F;li&gt;
+&lt;li&gt;wrote blog post for incoming batch as i decided to host creative coding going forward&lt;&#x2F;li&gt;
+&lt;li&gt;made ~4 new friends!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;takeaways&quot;&gt;Takeaways&lt;&#x2F;h2&gt;
+&lt;p&gt;In these six weeks, the accomplishment I am most proud of is a sense of confidence in my ability to program, and my identity as a programmer. So many of my friends will sometimes say that they are not qualified for a project because they have limited experience programming – I cannot imagine doing this myself anymore. I would rather let the hardware say &amp;quot;no!&amp;quot; to me by breaking, than to say no to it first myself. I&#x27;ve learned that the only way to tackle the unknown is with curiosity – it is best friends with bravery anyway, so bravery will swiftly follow wherever curiousity goes.&lt;&#x2F;p&gt;
+&lt;p&gt;Concrete accomplishments, however:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gave two talks&lt;&#x2F;li&gt;
+&lt;li&gt;Got a lot better at git&lt;&#x2F;li&gt;
+&lt;li&gt;Mastered templating in Obsidian&lt;&#x2F;li&gt;
+&lt;li&gt;Configured my VSCode dev environment to work well with remote collaborative versioning workflows&lt;&#x2F;li&gt;
+&lt;li&gt;Shipped a static website&lt;&#x2F;li&gt;
+&lt;li&gt;Learned a lot of new things about JavaScript, Sass, Go, Rust, Tera, SQL, and shaders.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I&#x27;m very grateful for the chance to make so many new friends, too. Next week, the incoming batch will arrive. I am excited to show them around and host some events. I do not at all feel ready to take a senior post, but nonetheless I am curious how it will go in any event.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;What is the Recurse Center? You&#x27;d probably learn best from their own &lt;a href=&quot;https:&#x2F;&#x2F;www.recurse.com&#x2F;&quot;&gt;website&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Creative Coding at RC</title>
+        <published>2022-08-04T00:00:00+00:00</published>
+        <updated>2022-08-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/rc-creative-coding/"/>
+        <id>https://asyaplugged.in/know/rc-creative-coding/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/rc-creative-coding/">&lt;h2 id=&quot;introduction-credits&quot;&gt;Introduction &amp;amp; Credits&lt;&#x2F;h2&gt;
+&lt;p&gt;Welcome to the guide for the Creative Coding Meetup at the Virtual Recurse Center.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;The meetup was started by &lt;a href=&quot;http:&#x2F;&#x2F;rfong.github.io&#x2F;&quot;&gt;Ray Fong&lt;&#x2F;a&gt;, then led by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aturley&quot;&gt;Andrew Joseph Turley&lt;&#x2F;a&gt;, who passed the torch to &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Plasma-Vortex&quot;&gt;Howard Halim&lt;&#x2F;a&gt;, who finally passed it to me.&lt;&#x2F;p&gt;
+&lt;p&gt;However, the &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;224779-creative-coding&quot;&gt;creative-coding&lt;&#x2F;a&gt; Zulip stream has messages going all the way back to February 20, with the first one from &lt;a href=&quot;https:&#x2F;&#x2F;solsarratea.world&#x2F;&quot;&gt;Sol Sarratea&lt;&#x2F;a&gt;. We now coordinate in another stream, &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;19042-397-Bridge&#x2F;topic&#x2F;Creative.20Coding.20Meetup&quot;&gt;Creative Coding Meetup&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-happens-at-creative-coding&quot;&gt;What happens at Creative Coding?&lt;&#x2F;h2&gt;
+&lt;p&gt;Each week a random prompt is picked, then we spend 90 minutes making something and meet back up to share what we made. Don&#x27;t worry about perfectionism, just come have fun.
+Here are some of the generators we have used to produce creative prompts:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;stoney.sb.org&#x2F;eno&#x2F;oblique.html&quot;&gt;Oblique Strategies&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;jacob4&#x2F;full&#x2F;EVqeWM&quot;&gt;Random Shakespeare Quote Generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;perchance.org&#x2F;emoji&quot;&gt;perchance Random Emoji Generator&lt;&#x2F;a&gt; (set amount to 3, check &amp;quot;unique?&amp;quot; box)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can use whatever language or tools you are comfortable or uncomfortable with.&lt;&#x2F;p&gt;
+&lt;p&gt;Creativity manifests in different ways, so don&#x27;t feel restricted to making something visual, &amp;quot;artistic&amp;quot;, or even related to the chosen prompt. This is the place to make whatever your heart and mind desires!&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some common choices:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;editor.p5js.org&#x2F;&quot;&gt;editor.p5js.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;&quot;&gt;codepen.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.shadertoy.com&#x2F;&quot;&gt;shadertoy.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;glitch.com&#x2F;&quot;&gt;glitch.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arcade.makecode.com&#x2F;&quot;&gt;arcade.makecode.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Coordinate in the &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;19042-397-Bridge&#x2F;topic&#x2F;Creative.20Coding.20Meetup&quot;&gt;Creative Coding Zulip topic&lt;&#x2F;a&gt;.
+Showing off your work is encouraged!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;&#x2F;h2&gt;
+&lt;p&gt;I am leisurely amalgamating a lot of materials on an &lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;anastasia-davydova-lewis&#x2F;creative-coding-for-all&quot;&gt;Are.na page, creative-coding-for-all.&lt;&#x2F;a&gt; Feel free to add to it! I also have some more structured resources to peruse here:
+&lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;misc-inspiration&quot;&gt;Misc Inspiration&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;paytonturnage.com&#x2F;writing&#x2F;generating-art-with-haskell&#x2F;&quot;&gt;Generative Art with Haskell&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;experiments.withgoogle.com&#x2F;collection&#x2F;chrome&quot;&gt;Chrome Experiments&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;css-resources&quot;&gt;CSS Resources&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;colorffy.com&#x2F;text-gradient-generator&quot;&gt;CSS text gradient generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shadows.brumm.af&#x2F;&quot;&gt;CSS box shadow generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;9elements.github.io&#x2F;fancy-border-radius&#x2F;&quot;&gt;9elements – Fancy border radius generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;haikei.app&#x2F;&quot;&gt;Haikei – SVG generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;haikei.app&#x2F;&quot;&gt;Mesh Gradients by CSS Hero&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;min-max-calculator.9elements.com&#x2F;&quot;&gt;9elements – Fluid Typography without media queries via min-max value&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ui.glass&#x2F;generator&#x2F;&quot;&gt;Glassmorphism generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ml-art-resources&quot;&gt;ML Art Resources&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kadenze &lt;a href=&quot;https:&#x2F;&#x2F;www.kadenze.com&#x2F;courses&#x2F;creative-applications-of-deep-learning-with-tensorflow&#x2F;info&quot;&gt;Creative Applications of Deep Learning with TensorFlow&lt;&#x2F;a&gt; class&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;some-ucla-design-media-class-websites-with-their-own-resource-reference-collections&quot;&gt;Some UCLA Design | Media Class Websites with their own resource &#x2F; reference collections&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;pkmital.com&#x2F;home&#x2F;2021&#x2F;09&#x2F;01&#x2F;ucla-course-on-cultural-appropriation-with-machine-learning&#x2F;&quot;&gt;Cultural Appropriation with Machine Learning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;172&#x2F;?page_id=101&quot;&gt;Interactive Animation in Unity3D&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lmccart.github.io&#x2F;DMA171-disability-design-web&#x2F;#resources&quot;&gt;Disability, Design, and the Web&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;289-2&#x2F;&quot;&gt;50 Years of Software Artists: Plotter Drawings to Non-fungible Tokens&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;152&#x2F;resources&quot;&gt;Tangible Media&lt;&#x2F;a&gt; – intro to working creatively with electronics.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Winter21&#x2F;28&#x2F;&quot;&gt;Interactivity&lt;&#x2F;a&gt; – intro Processing class taught by Casey Reas, co-creator of Processing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall19&#x2F;161&#x2F;#resources&quot;&gt;Network Media&lt;&#x2F;a&gt; – html+css+js+p5.js taught by Lauren McCarthy, creator of p5.js.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I recommend checking out the &lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;?cTerm=Winter&amp;amp;cYear=2021&quot;&gt;past versions of core DMA classes&lt;&#x2F;a&gt;, as each one has its own website with varying resource lists.
+&lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;history-context-of-media-art-generative-art-creative-coding&quot;&gt;History, Context of Media Art, Generative Art, Creative Coding&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;anastasia-davydova-lewis&#x2F;ucla-dma101-design-media-arts&quot;&gt;My Are.na class materials archive from the Media Art 101 class&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;When the Machine Made Art: The Troubled History of Computer Art&amp;quot;, by Grant D. Taylor&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Creative Code: Aesthetics + Computation&amp;quot; by John Maeda&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Generative Design&amp;quot; by Benedikt Groß, Hartmut Bohnacker, Julia Laub&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;misc-creative-coders-and-their-work&quot;&gt;misc creative coders and their work&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Vera_Moln%C3%A1r&quot;&gt;Vera Molnár&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Harold Cohen&#x27;s AARON&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20161103091706&#x2F;http:&#x2F;&#x2F;silverbuffalo.org&#x2F;NAA-NativeIT.html&quot;&gt;Silver Buffalo on Native American IT&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blacktransarchive.com&#x2F;&quot;&gt;The Black Trans Archive&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20020323214647&#x2F;http:&#x2F;&#x2F;neutralground.sk.ca&#x2F;artistprojects&#x2F;spiderlanguage&#x2F;index.html&quot;&gt;Spider Language&lt;&#x2F;a&gt; – a First Nations contemporary art web&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;super-sad-googles.glitch.me&#x2F;&quot;&gt;super sad googles&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;facework.app&#x2F;&quot;&gt;facework.app&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;295790&#x2F;Never_Alone_Kisima_Ingitchuna&#x2F;&quot;&gt;Never Alone on Steam&lt;&#x2F;a&gt; inspired by Donna Haraway&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.dukeupress.edu&#x2F;staying-with-the-trouble&quot;&gt;Staying with the Trouble: Making Kin in the Chthulucene&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.damonzucconi.com&#x2F;&quot;&gt;Damon Zucconi&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;brutalistwebsites.com&#x2F;&quot;&gt;Brutalist Websites&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lynnandtonic.com&#x2F;&quot;&gt;Lynn Fisher&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;a-website-is-a-room.net&#x2F;&quot;&gt;a website is a room&lt;&#x2F;a&gt; archive of websites exploring the browser as a space&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.werkplaatstypografie.org&#x2F;#vitrine:https:&#x2F;&#x2F;www.werkplaatstypografie.org&#x2F;vitrine&#x2F;archive&#x2F;&quot;&gt;Werkplaatz Typographie Vitrine Archive&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x20xx.com&#x2F;&quot;&gt;x20xx.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;want-to-contribute-to-this-guide&quot;&gt;Want to contribute to this guide?&lt;&#x2F;h2&gt;
+&lt;p&gt;Submit &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;asyaplugged.in&#x2F;blob&#x2F;main&#x2F;content&#x2F;know&#x2F;2022-08-04-rc-creative-coding.md&quot;&gt;a pull request in the github repo&lt;&#x2F;a&gt; for this blog.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World: Welcome to Asya&#x27;s blog</title>
+        <published>2022-07-11T00:00:00+00:00</published>
+        <updated>2022-07-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/hello-world/"/>
+        <id>https://asyaplugged.in/know/hello-world/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/hello-world/">&lt;p&gt;Hello, and welcome to my website, specifically my blog.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;what-s-going-on-with-the-whole-do-you-know-love-thing&quot;&gt;What&#x27;s going on with the whole &amp;quot;do you know love&amp;quot; thing?&lt;&#x2F;h2&gt;
+&lt;p&gt;So, when I was first learning programming, I made a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;process&quot;&gt;game&lt;&#x2F;a&gt; in Processing. I wanted to make a peculiar online psychology quiz, so one of the questions was &amp;quot;Do you know love?&amp;quot; with the only answer being an hard-to-click &amp;quot;YES&amp;quot;. I was inspired by Lacan&#x27;s contention that jouissance is a phenomenon unknowable to humans, but as I needed some sort of &amp;quot;click&amp;quot; interaction to trigger the next question screen, I asked the question not about jouissance, but rather something more people are familiar with: love.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;assets&#x2F;process-love-level.png&quot; alt=&quot;Level Image&quot; width=&quot;300&quot;&gt;
+&lt;p&gt;Shortly thereafter, I put the graphic from that quiz on the splash page of my old website, &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20220000000000*&#x2F;http:&#x2F;&#x2F;xnast.asia&#x2F;&quot;&gt;xnast.asia&lt;&#x2F;a&gt;. You could only enter the website if you successfully clicked &amp;quot;YES&amp;quot;. This was back in 2016. In 2022, I decided to make the website that you are currently on. I knew I wanted to have four different sections:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;info &#x2F; about me&lt;&#x2F;li&gt;
+&lt;li&gt;portfolio &#x2F; work case studies&lt;&#x2F;li&gt;
+&lt;li&gt;blog&lt;&#x2F;li&gt;
+&lt;li&gt;page of things that i love&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I had an epiphany while gathering the inspiration and ideas for the design and development of &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;&quot;&gt;asyaplugged.in&lt;&#x2F;a&gt; that I could articulate the menu of my new website with the splash page title of my previous website, just like so:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;nav&lt;&#x2F;th&gt;&lt;th&gt;question&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;portfolio&lt;&#x2F;td&gt;&lt;td&gt;do&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;about&lt;&#x2F;td&gt;&lt;td&gt;you&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;blog&lt;&#x2F;td&gt;&lt;td&gt;know&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;things i love&lt;&#x2F;td&gt;&lt;td&gt;love&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;I&#x27;d be interested in hearing from you what you think about this articulation, whether it was confusing for you, etc.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-does-asyapluggedin-mean-what-happened-to-xnastasia&quot;&gt;What does asyapluggedin mean? What happened to xnastasia?&lt;&#x2F;h2&gt;
+&lt;p&gt;Someday I will write a separate post about the permutations of my identity &#x2F; avatar &#x2F; sense of self, but until then, this brief explanation will have to suffice.&lt;&#x2F;p&gt;
+&lt;p&gt;I felt that the &lt;em&gt;xnast.asia&lt;&#x2F;em&gt; url and &lt;em&gt;xnastasia&lt;&#x2F;em&gt; username was too hard to pronounce, and had a little bit of a pornographic vibe. Every time people typed &amp;quot;x...n...a...s...t...&amp;quot; into a search bar, I would never be the first thing to auto-populate the field. I&#x27;ve still held onto the url and most of the usernames, but once I came up with &lt;em&gt;asyapluggedin&lt;&#x2F;em&gt; I was so happy to swap all my online pointers to that.&lt;&#x2F;p&gt;
+&lt;p&gt;My father has had the username mattpluggedin for the longest time, and so the &amp;quot;plugged in&amp;quot; username always made me feel nostalgic for the whole early internet &#x2F; dotcom boom era, which plays a significant role in a lot my work. But I never thought to inherit the username before I came across the sci-fi book &amp;quot;The Girl That Was Plugged In&amp;quot;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, which also is the title of an episode of sci-fi TV series &amp;quot;Welcome to Paradox&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;do-you-have-an-rss-feed-can-i-tell-you-if-something-is-broken-or-typoed&quot;&gt;Do you have an RSS feed? Can I tell you if something is broken or typoed?&lt;&#x2F;h2&gt;
+&lt;p&gt;Yes and yes. You can access the RSS feed for my blog via &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;know&#x2F;atom.xml&quot;&gt;asyaplugged.in&#x2F;know&#x2F;atom.xml&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I would also be very happy to hear any feedback on my blog or really, any aspect of the entire website. You can make a pull request on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;asyaplugged.in&quot;&gt;github&lt;&#x2F;a&gt;, where my website is hosted, or just send me a message on whichever platform you prefer.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;I learned about this book from Dr. Teddy Pozo&#x27;s UCLA Game Lab Teledildonics lecture from Spring 2021.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DeepDenial</title>
+        <published>2018-07-10T00:00:00+00:00</published>
+        <updated>2018-07-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/deepdenial/"/>
+        <id>https://asyaplugged.in/do/deepdenial/</id>
+        
+        <summary type="html">&lt;p&gt;DeepDenial was a one-day speculative political activism deepfake workshop I was invited to teach at the Hackers and Designers Summer Academy &lt;em&gt;(a program run out of the Sandberg Institute, the postgraduate programme of the Gerrit Rietveld Academie in Amsterdam)&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The workshop was designed for students of varied technical as well as non-technical backgrounds. Participants practiced extracting and organizing data in order to apply a neural network for the purpose of making &amp;quot;deepfakes&amp;quot;, or videos with swapped faces.&lt;&#x2F;p&gt;
+&lt;p&gt;In the news, deepfake technology initially came to light as it was being used to create abusive explicit content with unwilling face-swapped participants. Concerns are commonly voiced on the potential use of deepfaking for political propaganda. A central aspect of the &lt;em&gt;DeepDenial&lt;&#x2F;em&gt; workshop is the discussion of media ethics, surveillance vs sousveillance, and explorations of defensive propaganda. &lt;&#x2F;p&gt;
+&lt;p&gt;By taking a hands-on approach to learn how to process video data for machine learning programs, attendees armed themselves with improved digital literacy and developed a keen sense for discerning tell-tale signs of AI-processed content.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
