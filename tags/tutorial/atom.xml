@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - tutorial</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/tags/tutorial/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-21T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/tags/tutorial/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Zoom Captions Settings for Accessibility</title>
+        <published>2024-10-17T00:00:00+00:00</published>
+        <updated>2025-10-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/zoom-captions/"/>
+        <id>https://asyaplugged.in/know/zoom-captions/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/zoom-captions/">&lt;h2 id=&quot;why-captions-matter&quot;&gt;Why Captions Matter&lt;&#x2F;h2&gt;
+&lt;p&gt;Zoom has a built-in closed captioning function that can make meetings accessible for people with hearing and learning disabilities, but it requires meeting leaders to turn them on manually in the extended browser settings.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-1-enable-captioning-in-browser-settings&quot;&gt;Step 1: Enable Captioning in Browser Settings&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to your &lt;a href=&quot;https:&#x2F;&#x2F;zoom.us&#x2F;profile&#x2F;setting?tab=meeting&quot;&gt;Zoom Settings → Meeting tab&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Scroll all the way down to &lt;strong&gt;In Meeting (Advanced)&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Toggle &lt;strong&gt;Closed Captioning&lt;&#x2F;strong&gt;, and &lt;strong&gt;Save Captions&lt;&#x2F;strong&gt; to &lt;strong&gt;ON&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Make sure both &lt;strong&gt;Allow use of Caption API&lt;&#x2F;strong&gt; and &lt;strong&gt;Enable Live Transcription&lt;&#x2F;strong&gt; are checked — this allows subtitles to appear in a sidebar that remains visible after something is said.&lt;&#x2F;li&gt;
+&lt;li&gt;Enabling &lt;strong&gt;Save Captions&lt;&#x2F;strong&gt; is useful for post-meeting note-taking. If it is not enabled, meeting participants can still take screenshots of the sidebar, so it&#x27;s a kind gesture to toggle it on.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;img src=&quot;toggle.png&quot; alt=&quot;screenshot of zoom settings&quot; &gt;
+&lt;h3 id=&quot;step-2-turn-on-captions-during-a-meeting&quot;&gt;Step 2: Turn On Captions During a Meeting&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Once your meeting starts, click the &lt;strong&gt;CC&lt;&#x2F;strong&gt; icon in the meeting control bar.&lt;&#x2F;li&gt;
+&lt;li&gt;Select &lt;strong&gt;Enable Auto-Transcription&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+This will activate both live closed captions and a transcript sidebar. You can also save the transcript automatically if the meeting is recorded.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;img src=&quot;CC-button.png&quot; alt=&quot;screenshot of CC button in zoom window&quot; &gt;
+&lt;p&gt;Congratulations, you&#x27;re done. Now your meeting is accessible!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Make Telegram Stickers</title>
+        <published>2022-08-13T00:00:00+00:00</published>
+        <updated>2022-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/"/>
+        <id>https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/telegram-sticker-tutorial/">&lt;p&gt;This Friday I visited Apex Electronics Surplus in Sun Valley, CA.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;week-1&quot;&gt;Week 1&lt;&#x2F;h2&gt;
+&lt;p&gt;The first &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#x27;t communicate by sharing memory, share memory by communicating.&lt;&#x2F;p&gt; —
+&lt;cite&gt;Rob Pike&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;..&#x2F;assets&#x2F;test.png&quot; alt=&quot;Image Backgorund&quot; &#x2F;&gt; 
+&lt;img src=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;know&#x2F;drafts&#x2F;telegram-sticker-tutorial&#x2F;&quot; alt=&quot;Another Media&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;plchldr.co&#x2F;i&#x2F;1280x720?bg=2ecc40&quot; alt=&quot;Media CDN&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;{% hint style=&amp;quot;warning&amp;quot; %} 123 {% endhint %}&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#x27;s
+&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;&#x2F;a&gt; during Gopherfest,
+November 18, 2015.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

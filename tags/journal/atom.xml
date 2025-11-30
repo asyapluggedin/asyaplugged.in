@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - journal</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/tags/journal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-13T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/tags/journal/atom.xml</id>
+    <entry xml:lang="en">
+        <title>I have endometriosis.</title>
+        <published>2025-11-13T00:00:00+00:00</published>
+        <updated>2025-11-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/endometriosis/"/>
+        <id>https://asyaplugged.in/know/endometriosis/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/endometriosis/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;p&gt;I spent most of 2025 disabled from stage II deep infiltarting endometriosis.
+Endometriosis is estimated to affect 11%-15% of women aged 15-44. The condition has even been documented in men (fewer than 20 cases, but nonetheless). Widely dismissed as &amp;quot;just a bad period&amp;quot;, it is a scary inflammatory disease that spans far beyond purely gynecological medical scope. Endometriosis is a social issue, too. The stigma surrounding women&#x27;s health, lack of societal awareness, lackluster research, and overall societal expectations that ignore the reality of infradian cycles all contribute to the gaslighting and delays in appropriate care that almost all endometriosis patients experience. 
+The average diagnostic delay can be from 7 to 11 years. I didn&#x27;t realize I had endo until I was 29, but from the moment I suspected it, it only took me a 1.5 months to receive a diagnosis via MRI, and only 8 months until I was carted into the operating room while &amp;quot;Mea Culpa&amp;quot; by Engima accompanied my slow fade into anesthesiological bliss.
+I am writing this blog post with the hope that it reduces guesswork for somebody else. Whether you suspect you have endometriosis, another hormonal or pelvic issue, or whether you just know some women, work with them, or interact with people at all, learning more about the issue could be the difference between a lifetime of suffering through complications and an early intervention strategy.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;medical-timeline-summary&quot;&gt;Medical Timeline Summary&lt;&#x2F;h1&gt;
+&lt;p&gt;I was able to fast-track my progression towards an excision surgery due to several factors I will be getting into later, and here it is exactly:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 21 Period starts (weird at first, then normal)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 25 Period ends and severe pain persists&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Jan 31  PCP online visit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 4 Ultrasound
+Results show lesions on both ovaries&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 13 PCP issued MRI order&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Feb 14 OBGYN visit, prescribed Norethindrone&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 10 MRI scan
+DIE confirmed, lesion size confirmed, kissing ovaries imaged&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 18 GYN  ONC visit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 21 video OBGYN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;March 26th MIGS consultation&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;May 13 second pelvic ultrasound
+Lesion size change recorded&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;July 30 MIGS pre-op&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;August 21 MIGS excision surgery&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sep 5 post-op appointment&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;PCP visit to summarize&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;slow-collapse-is-something-wrong&quot;&gt;Slow Collapse: Is Something Wrong?&lt;&#x2F;h1&gt;
+&lt;p&gt;In November of 2024, I began to feel somewhat burnt out and lethargic. I attributed this to the stress of studying for EMT exams, but even asking my psychiatrist for beta-blockers didn&#x27;t seem to completely remediate the issue. Even with managed anxiety, I was still slowly, but surely developing some sort of anhedonia. I then had a terribly uncomfortable and painful period, which I ignored because I was trying to be functional, and I didn&#x27;t want to complicate things with my medical training beyond the student accomodations I had already requested for my auditory processing issues that already felt needlessly bureaucratic and complicated. My December period was unremarkable, so I thought all was fine. The ovaries will alternate each menstrual cycle, so I knew that I should just keep an eye out for what happens once my &amp;quot;bad&amp;quot; ovary menstruates again. 
+I would typically experience premenstrual cramps 1-2 days prior to the first day of my period (when blood appears). In January of 2025, however, I had a lot of (pre-menstrual?) pain in my lower back, which was concerning. After about a week, I finally got my period and sighed with relief that everything is fine, I&#x27;m not dying, it&#x27;s just my period. As time passed, my concerns came back: I didn&#x27;t see much blood the first day, and what I did see was abnormally dark and thick. The second day there was nothing, and only on the third day did it feel like a more normal period. What else was strange – the pain was present the entire time.
+My &amp;quot;normal-ish&amp;quot; period ended, but the pain never went away. I was in pain about 80% of the time, easing up during the day. It would come back with intensity towards the evening and keep me from falling asleep, sometimes it would wake me up at night and I wouldn&#x27;t be able to fall back asleep.&lt;&#x2F;p&gt;
+&lt;p&gt;I was afraid to eat. My appetite completely disappeared and I didn&#x27;t even want to look at fried, sweet, fatty, carb-rich, salty or spicy foods. I could only think about tea, soup and smoothies, but I no longer had any energy to cook myself soup.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;the-brca-layer-still-writing&quot;&gt;The BRCA Layer (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;oh no i also have brca
+oh yay i have a bunch of doctores that can help make this all speed up&lt;&#x2F;p&gt;
+&lt;p&gt;also i studied ems and have flexible work hours so i was able to call for cancellations a lot.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;care-timeline&quot;&gt;Care Timeline&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;pre-excision-pain-management-still-writing&quot;&gt;Pre-excision Pain Management (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;tldr TAKE NAPROXEN BABE
+pain became structural in daily life: fatigue, nausea, constipation, hormonal chaos. loss of exercise tolerance, dizziness, brain fog, POTS overlap. ambition vs chronic pain and chronic fatigue. &lt;&#x2F;p&gt;
+&lt;h1 id=&quot;endometriosis-excision-surgery&quot;&gt;Endometriosis Excision Surgery&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ritu Salani, MD Gyn Onc - Called Dr Mehta&#x27;s office on my behalf &amp;lt;3&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sukrant K. Mehta, MD (Primary Surgeon, MIGS) ABSOLUTE ICON&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Esther Wu, MD (Surgeon 1st Assist - Resident)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Neil H.Sagrado, CRNA&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;John T. Chalabi, MD (Anesthesiologist)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Kathleeh H, RN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sasha P, RN&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;so-are-you-better-now&quot;&gt;So are you better now?&lt;&#x2F;h1&gt;
+&lt;p&gt;Do I feel better than I did at the start of 2025? Absolutely. I can sleep through the night with no disturbances from pain. I can eat mostly whatever I&#x27;d like. I rarely have strange sensations in my pelvis, legs, lower back or abdomen now. I am not taking NSAIDs at a rate that is dangerous to my stomach lining. I have put away my heating pad in the shape of a giant diaper and not needed to take it out of the drawer since I&#x27;ve recovered from surgery.&lt;&#x2F;p&gt;
+&lt;p&gt;But I still have endometriosis, and I always will. I still have flare days. I have naproxen in my bedside table and purse. My electric blanket is always plugged in, and I often turn on the heated seats when driving in the car. I include pelvic floor exercises in my gym routine. I regularly attend breathwork classes and have been focusing more on somatic modalities for therapeutic release. I say no to a lot of opportunities and invitations. I take a low dose of a GLP medication. I&#x27;m still in the turbulent IUD adjustment phase as I wait for my hormonal cycle to stabilize. And I am still frequenting the doctor&#x27;s office for my BRCA prevention plan and my POTS complaints. I am still learning about the intricacies of my neurodivergence and the relationship it has to my &amp;quot;physical&amp;quot; health. (I&#x27;m not a dualist. You can leave the Descartes at the door.)&lt;&#x2F;p&gt;
+&lt;p&gt;So am I better? Yes. But I&#x27;m not &amp;quot;fine&amp;quot;, and I never will be, and I don&#x27;t plan to hide that.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-others-should-know-still-writing&quot;&gt;What others should know (still writing...)&lt;&#x2F;h1&gt;
+&lt;p&gt;everything&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Immortal Unc Slaycation Report</title>
+        <published>2025-09-15T00:00:00+00:00</published>
+        <updated>2025-09-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/immortal-unc-slaycation/"/>
+        <id>https://asyaplugged.in/know/immortal-unc-slaycation/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/immortal-unc-slaycation/">&lt;h1 id=&quot;post-conference-report&quot;&gt;Post-Conference Report&lt;&#x2F;h1&gt;
+&lt;p&gt;I&#x27;d like to thank each and every founding team member who joined us at &lt;strong&gt;Immortal UNC Slaycation&lt;&#x2F;strong&gt;, the one and only birthday party celebrating our immortal boy Blaine O&#x27;Neill. You showed up, you showed off your personality, and now I ask one more thing of you: please show one another the photos you took in by sharing them in this &lt;a href=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;drive&#x2F;folders&#x2F;1ucbN-oxoy87O2iccLcvGIR-GqS2xRgZk?usp=sharing&quot;&gt;Google Drive Folder&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img style=&quot;margin: 0px auto;&quot; src=&quot;unc.png&quot; alt=&quot;yellow game board showing Enlightenment vs Toxicity with HP scale, player photos, and a big ‘WINNER’ label.&quot;&gt;
+&lt;figcaption&gt;Game Board with final team placements.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;enlightened-moments&quot;&gt;Enlightened Moments&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Energy&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+While I designed the game for 10-15 guests, upon refining the guest list, we realized that Blaine loves (and is loved by) very many people, so we ended up inviting closer to &lt;strong&gt;120&lt;&#x2F;strong&gt;. The sheer chaos of the crowd became its own kind of magic. The room buzzed with founder pitches, newfound frenemies, and absurd rituals.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Team Dynamics&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Teams like &lt;em&gt;Paige Wishart&#x27;s Glam and Mutual Aid Fund&lt;&#x2F;em&gt; and &lt;em&gt;Wildcats&lt;&#x2F;em&gt; fully leaned into the satire. Despite the game master&#x27;s sneaky antics with the random badge color assortment, people embodied their true &amp;quot;Diva&amp;quot; selves even within a &amp;quot;Vaccinated Liberal&amp;quot; assigned archetype.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conference Implosion&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+The DIY badges, intake forms, concierge texts and shuttle service brought the whole thing into “psychotic over-engineered tech wellness clusterfuck&amp;quot; territory. Every little detail ended up contributing to the goal of critiquing commodified wellness culture, from the Fry&#x27;s Electronics shopping basket full of liposomal vitamin C and looney bin socks, to the RPG dice that got thrown out of the game after only two rolls. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;&#x2F;h2&gt;
+&lt;p&gt;Shout out to &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;mocsabnimajneb&#x2F;&quot;&gt;Benjamin&lt;&#x2F;a&gt;, my sexy intern, and &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;n0t_u&#x2F;&quot;&gt;Miles&lt;&#x2F;a&gt;, the most graceful party host with brilliant taste in birthday cakes.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;&#x2F;h2&gt;
+&lt;p&gt;Despite the chaos, &lt;em&gt;Immortal UNC Slaycation&lt;&#x2F;em&gt; delivered: guests&#x27; truest natures were exposed, the dogs perservered, pitches were made, roles were impeccably played, and I learned that sometimes the most important thing is watching how people want to play naturally.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>why-emt</title>
+        <published>2024-10-01T00:00:00+00:00</published>
+        <updated>2024-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/why-emt/"/>
+        <id>https://asyaplugged.in/know/drafts/why-emt/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/why-emt/">&lt;p&gt;I found myself in the Pasadena EMS Academy, sticking out like a sore thumb&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>February Gains</title>
+        <published>2024-03-01T00:00:00+00:00</published>
+        <updated>2024-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/february-gains/"/>
+        <id>https://asyaplugged.in/know/february-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/february-gains/">&lt;h2 id=&quot;february-progress&quot;&gt;February Progress&lt;&#x2F;h2&gt;
+&lt;p&gt;I set some intentions at the beginning of the month, so it is now time to compare them with my actual accomplishments. I tried to set varied intentions so that there would be areas to look towards for improvement &#x2F; appreciation other than simple scale numbers. &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Intention&lt;&#x2F;th&gt;&lt;th&gt;Accomplishment&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;continue recomp progress&lt;&#x2F;td&gt;&lt;td&gt;lost muscle, then regained it (evened out arms tho) however i did lose ~4 lbs of fat&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;bench the 45 or 35 bar&lt;&#x2F;td&gt;&lt;td&gt;benching 45lbs for reps, up to 9 reps now.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;improve vo2 max w cardio&lt;&#x2F;td&gt;&lt;td&gt;slacking. did some stairmaster, did some kettlebell swings, felt like dying, gave up.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;80-135 protein &#x2F; day&lt;&#x2F;td&gt;&lt;td&gt;above 100g except for 4 intermittent fasting days&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;save $ on protein shakes by buying protein powder&lt;&#x2F;td&gt;&lt;td&gt;bought boba tea protein milk tea no caffeine, also bought trader joes collagen peptides... stopped buying so many rebbls and auras, haven&#x27;t done the math but the viebs are all right :)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;figure out calorie tracking for recomp&lt;&#x2F;td&gt;&lt;td&gt;paying $12&#x2F;mo for Macrofactor so I don&#x27;t have to worry about this (aiming for a deficit of around 200 tho)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;settle on 6-month training split&lt;&#x2F;td&gt;&lt;td&gt;got it!! just added delts in ;)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;settle on 6-month nutritional plan&lt;&#x2F;td&gt;&lt;td&gt;see above 200 cal deficit – committing to a light cut until ~august.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;nutrition-reflections&quot;&gt;Nutrition Reflections&lt;&#x2F;h2&gt;
+&lt;figure style=&quot;width:60%; margin: 0 auto;&quot;&gt;
+&lt;img src=&quot;feb-protein.jpeg&quot; alt=&quot;apple health protein intake for feb 2024&quot; &gt;
+&lt;figcaption&gt;Apple Health, data imported via Macrofactor.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I switched from the Spelt nutrition tracker to Macrofactor, which was going to be fine... except my silly mind decided to argue with Macrofactor&#x27;s original estimation of my TDEE (~1800 cal) and instead I input ~1600 cal, which pushed the app to suggest I eat around 1250-1350 cal a day. I really shouldn&#x27;t have followed this suggestion, because predictably, I lost way too much weight, including muscle, in that one week. Feb 11-17 I averaged 1,281 calories, which caused my bodyweight to drop from a pretty constant fluctuation of 159-161 lbs down to 156-157 lbs (and today I&#x27;m at 155-154). The problem was that my muscle mass (as measured by Withings, so bodyweight minus bone and fat) fell from ~98 to 95 lbs, which only in this last week has recuperated back up to 97. Thankfully the numbers for fat have slid down from ~58 to ~55 lbs, and today I&#x27;m actually down at ~53 lbs.&lt;&#x2F;p&gt;
+&lt;p&gt;I stopped buying an ungodly amount of Rebbl protein shakes (and GT&#x27;s aura collagen teas), thank god – and got myself a cheap little protein shaker bottle from GNC that has two sections for powders, as well as a little pill compartment as well. This shaker bottle has had a huge impact on my daily routines – not only do I now have a simple set of directions to follow in order to ensure I get my protein and pre-workout in, but I also have the added bonus of a habit stack that supports my morning and evening supplement intake, improving my consistency with nootropic supplementation, i.e. really strengthening my confidence and commitment to the biohacker &#x2F; bodyhacker identities I have at times felt like I wasn&#x27;t doing enough to deserve.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;training-reflections&quot;&gt;Training Reflections&lt;&#x2F;h2&gt;
+&lt;p&gt;This month I pursued personal training at my gym with the explicit goal of evaluating my chosen split and ensuring proper form on all exercises. I also have been reading (with a highlighter marker, so actually reading!) Starting Strength by Mark Rippetoe. I&#x27;ve also been soliciting harsh criticism from my brother as well as cranky internet friends. And finally, I&#x27;ve been thinking about Yoga Teacher Training, which prompted me to pay a few visits to the Sivananda Yoga Vedanta center here in Los Angeles.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;january-30&quot;&gt;January 30&lt;&#x2F;h3&gt;
+&lt;p&gt;This day was planned as my glute day, so we started with some &lt;strong&gt;Romanian deadlifts&lt;&#x2F;strong&gt;, on which I struggled with my grip strength, and was advised to perform farmer carries to improve in that area. I was then advised to superset in a 60s &lt;strong&gt;plank&lt;&#x2F;strong&gt;, which made me realize my split was ignoring core muscles.
+Next up were &lt;strong&gt;hip thrusts&lt;&#x2F;strong&gt;, which seemed to require no comments.
+Since the assembly &#x2F; disassembly of the barbell for RDLs and hip thrusts takes like 15 minutes of it&#x27;s own, the only exercise we had time left over for were dumbbell &lt;strong&gt;lunges&lt;&#x2F;strong&gt;. I had struggled with the movement pattern the week prior so I was advised to use TRX handles to lunge in a straight line. I was able to add dumbbells after getting used to the balancing aspect of the movement pattern, and realized the exercise is somewhat challenging due to it elevating my heart rate. Especially this becomes problematic for an exercise where you work the right and left side of your body separately – by the time I had to switch to my lazy leg, my heart rate was 10-15 bpm higher than when I started with my stronger leg.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-6&quot;&gt;February 6&lt;&#x2F;h3&gt;
+&lt;p&gt;Finishing up the glute day, I struggled out some &lt;strong&gt;lying leg curls&lt;&#x2F;strong&gt;, then moved onto &lt;strong&gt;hyperextensions&lt;&#x2F;strong&gt; using a 25 lb plate. I was advised to hold the top position for a few seconds to increase the challenge. Later, I opted to progressive overload by using a 30lb dumbbell, and increasing the weight, but with a dumbbell and not a plate which is somewhat awkward to hold. Despite some form videos online saying to slightly bend at the knees, my trainer agreed with me that cue seems odd &#x2F; impossible, so I opted to focus on keeping toes pointed away from one another and slightly rounding the back in order to make the movement more glute-focused. &lt;&#x2F;p&gt;
+&lt;p&gt;Next, I jumped into a hip machine superset: &lt;strong&gt;hip abductor&lt;&#x2F;strong&gt; and &lt;strong&gt;hip adductor&lt;&#x2F;strong&gt;. My left abductor seemed to work a lot less than my right, so to solve for this I was advised to place a foam pad in between my knee and the machine pad – to force my left legs movement range to start a little earlier than on my right side. This strategy helped with feeling both sides engage somewhat equally. Hopefully they even out soon and I don&#x27;t have to make all these adjustments anymore.&lt;&#x2F;p&gt;
+&lt;p&gt;I have a record of doing some bench press reps, seated chest press machine, as well as a superset of dumbbell arnold press + seated overhead press, but my memory is kind of hazy on all these.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-13&quot;&gt;February 13&lt;&#x2F;h3&gt;
+&lt;p&gt;Chest dips, triceps extension, triceps pushdown, incline chest fly&lt;&#x2F;p&gt;
+&lt;p&gt;glute kickback, nautilus glute drive, single leg nautilus glute drive.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-20&quot;&gt;February 20&lt;&#x2F;h3&gt;
+&lt;p&gt;upper pull
+chin up
+seated row
+lat pulldown
+incline curl
+bent over one arm row
+hammer curl&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;february-27&quot;&gt;February 27&lt;&#x2F;h3&gt;
+&lt;p&gt;squat
+squat with band
+standing calf raise
+leg extension&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;march-5&quot;&gt;March 5&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;leg press&lt;&#x2F;li&gt;
+&lt;li&gt;bulgarian split squat&lt;&#x2F;li&gt;
+&lt;li&gt;lateral raise&lt;&#x2F;li&gt;
+&lt;li&gt;reverse fly (rear delt machine)&lt;&#x2F;li&gt;
+&lt;li&gt;cable crunch form?&lt;&#x2F;li&gt;
+&lt;li&gt;updated split review (volume, order, etc)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;march-intentions&quot;&gt;March Intentions&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;do more yoga&lt;&#x2F;li&gt;
+&lt;li&gt;plan yoga teacher training&lt;&#x2F;li&gt;
+&lt;li&gt;learn how to squat properly&lt;&#x2F;li&gt;
+&lt;li&gt;continue gym consistency&lt;&#x2F;li&gt;
+&lt;li&gt;continue diet consistency&lt;&#x2F;li&gt;
+&lt;li&gt;buy another scale, another hairbrush, more toe socks&lt;&#x2F;li&gt;
+&lt;li&gt;add to gains blog posts weekly vs monthly to track progress closer&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;post-march-etc-intentions&quot;&gt;Post-March... etc... Intentions.&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;start bringing my functional goals into the horizon: calisthenics and breaking (did this stop being cool when I turned 11 though?)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Summer Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/drafts/summer-gains/"/>
+        <id>https://asyaplugged.in/know/drafts/summer-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/drafts/summer-gains/">&lt;p&gt;what i did this summer&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>January Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/january-gains/"/>
+        <id>https://asyaplugged.in/know/january-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/january-gains/">&lt;p&gt;While it may be a little on-the-nose to start a personal accountability blog series in a January, it just so happened that I got extraordinarily motivated this recent December 2023 by my little brother. I locked in, as he&#x27;d say, and as a result, saw some exciting changes on my smart scale:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.3 lbs muscle growth&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;7.5 lbs fat loss&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Aside from these encouraging metrics, I also have some personal achievements to be proud of:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;left smith machine in the past, committing to balancing that barbell!&lt;&#x2F;li&gt;
+&lt;li&gt;went from DB bench press to short bar ;)&lt;&#x2F;li&gt;
+&lt;li&gt;ate 60-90g protein &#x2F; day &lt;&#x2F;li&gt;
+&lt;li&gt;settled on a gym uniform that feels cute&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I think it&#x27;s important to mention that the progress from this January isn&#x27;t fair to characterize as progress just from one single month. Over the years that I&#x27;ve held various gym memberships and worked towards having a solid fitness routine, I&#x27;ve experimented with a plethora of strategies and approaches, and made a lot of mistakes along the way. These mistakes were vital for me to make, without them I wouldn&#x27;t have all the information I do today. In general, I don&#x27;t think that most people take the time to honor the hard work of the &amp;quot;bumbling fool&amp;quot; period we all go through when focused on a specific goal. &lt;&#x2F;p&gt;
+&lt;p&gt;My own &amp;quot;bumbling fool&amp;quot; era was rife with confusions about cardio vs strength, workout split questions, figuring out how to choose a PT, should I sync my workouts to my cycle, which gym do I prefer going to, getting over gym shyness, how to use machines, exercise form, exercise form, proper attire, injury prevention, and so on and so forth. &lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s still plenty that I&#x27;m clueless about, and that&#x27;s what the actionable goal tracking is about. While sometimes numbers on the scale may not move (but recomp is occurring), sometimes even bodycomp numbers won&#x27;t move either – so by focusing on celebrating what I&#x27;ve actually done and learned in each month of my committed fitness journey should theoretically prevent me from losing wind in my sails if I hit a plateau when it comes to my quantitative goals.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;february-intentions&quot;&gt;February Intentions&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;continue recomp progress (not something I am confident I can control very well)&lt;&#x2F;li&gt;
+&lt;li&gt;bench the regular bar, even the smallest sets, or the 35lb training bar&lt;&#x2F;li&gt;
+&lt;li&gt;improve VO2 max via kettlebell swings or other cardio after each training session&lt;&#x2F;li&gt;
+&lt;li&gt;eat 80-135g protein &#x2F; day&lt;&#x2F;li&gt;
+&lt;li&gt;spend less money on vegan protein shakes from the grocery store and try some protein powders for homemade protein shakes&lt;&#x2F;li&gt;
+&lt;li&gt;find my comfort zone with calorie tracking for more control over recomp progress&lt;&#x2F;li&gt;
+&lt;li&gt;settle on a 6-month training split&lt;&#x2F;li&gt;
+&lt;li&gt;settle on a 6-month nutritional goal&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Depending on how well my February accomplishments align with these intentions, I&#x27;d like March&#x2F;April to start bringing my functional goals into the horizon: calisthenics and breaking.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>March Gains</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/march-gains/"/>
+        <id>https://asyaplugged.in/know/march-gains/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/march-gains/">&lt;h4 id=&quot;overall-impressions-of-progress&quot;&gt;Overall impressions of progress&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;overall-impressions-from-the-month&quot;&gt;Overall impressions from the month&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve been bringing my food scale to more places with me, and it&#x27;s not always easy to convince people to mind their business. In particular older women tend to project some sort of eating disorder onto my behavior, even though I am eating the exact same amount (if not more) than other women that are eating in the same situation. I realize that it&#x27;s not common to see a young woman tracking her macros in a healthy manner, so I understand where the assumption (and accompanying concerns &#x2F; performative sighing) is coming from, but nonetheless it&#x27;s a frustrating experience to have over and over again. &lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve been enjoying using Macrofactor so much that I&#x27;m willing to deal with the potential judgement or misunderstanding from people so that I can ensure that I am tracking accurately. Being in a muscle-sparing cut means that I have to be precise about my caloric deficit, and cannot go below a 400-500 calorie deficit. Given the amount of exercise that I&#x27;m doing, and the process of my body recomposition, my infradian rhythms and all the other variables that influence my total energy expenditure, I&#x27;d rather not take neither a &amp;quot;set it and forget it&amp;quot; to my caloric goals, or an guesstimation-based approach to my nutrition tracking. &lt;&#x2F;p&gt;
+&lt;p&gt;So far I know I&#x27;ve lost ~6 lbs fat (from 58 down to 50, according to my Withings scale) from the beginning of the year and stayed relatively stable wrt muscle which is a much slower rate of recomp progress than reported in my January gains post, but is a speed I&#x27;m also pleased with as it&#x27;s not extreme, there hasn&#x27;t been significant muscle loss, and I&#x27;m able to keep up with my progressive overload training program.&lt;&#x2F;p&gt;
+&lt;p&gt;I think it&#x27;s time I consider my diet + training a &amp;quot;cut&amp;quot; and not a recomp anymore. For the last week of March, I went on a trip and took a break from training – but not from my diet :P. I was surprised by how much strength progress I lost – I assume it wouldn&#x27;t be so drastic if I controlled for preworkout intake, menstrual cycle phase, electrolyte balance etc, but still  – my biceps could only handle half the reps on the same weight as the last time I had been in the gym!!&lt;&#x2F;p&gt;
+&lt;p&gt;During my trip, I also visited a yoga ashram, which probably should be it&#x27;s own blog post.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;training-with-experts&quot;&gt;Training with experts&lt;&#x2F;h3&gt;
+&lt;p&gt;I finished up my weekly split safety overview PT sessions with my trainer Mikey, and luckily enough recieved a birthday present from my partner of six Pilates sessions :P. I also found out that another trainer I&#x27;ve been hoping to work with left my gym, but thankfully I had his IG before he bolted so I&#x27;ll still be able to hit him up for private training (dude was the exact level of nerdy and precise when it came to form that I feel I really need for certain exercises)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;metrics&quot;&gt;Metrics&lt;&#x2F;h3&gt;
+&lt;p&gt;nutrition and measurement stats go here&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;Honestly, I feel like I have a lot more goals than when I originally started out – and that&#x27;s saying a lot, bc I had a nutzo amount of goals and aspirations at the start of January. I wanted to get into breakdancing, work towards competing as a bikini model, and do cardio – things I am not thinking about at all right now (ha-ha, even the cardio...) Now I&#x27;m focused on things like the best cues for the exercises in my program, balancing out right &#x2F; left, posterior chain bias on full body exercises, protein, over-analyzing my skeletal specificities, and not getting mad at people who break water bottle code at the gym. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;april-goals&quot;&gt;April Goals&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;post my split on this blog&lt;&#x2F;li&gt;
+&lt;li&gt;do hip opening stretches more often&lt;&#x2F;li&gt;
+&lt;li&gt;attend yoga classes at the gym at least 1x&#x2F;week&lt;&#x2F;li&gt;
+&lt;li&gt;pair every workout with either ab exercises, stairmaster, or yoga &#x2F; pilates.&lt;&#x2F;li&gt;
+&lt;li&gt;do one of the above on rest days&lt;&#x2F;li&gt;
+&lt;li&gt;scam the gym parking lot by remembering to un-park after a timer goes off&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
