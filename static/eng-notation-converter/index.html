@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering Notation ✨</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff0f3 0%, #f0eeff 50%, #e8f4f8 100%);
+    font-family: 'Georgia', serif;
+    padding: 2rem 1rem;
+  }
+
+  .app-wrap { max-width: 680px; margin: 0 auto; }
+
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5c4a6e;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    color: #9b8aaa;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .tabs { display: none; }
+
+  .card {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow: 0 4px 24px rgba(92,74,110,0.08);
+  }
+
+  .section-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #b8a8c8;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .prefix-grid { display: flex; flex-direction: column; gap: 0.4rem; }
+
+  .prefix-row {
+    display: grid;
+    grid-template-columns: 36px 28px 80px 1fr;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    transition: transform 0.15s;
+  }
+  .prefix-row:hover { transform: translateX(4px); }
+  .prefix-row.base-row { border: 2px dashed #d4c5e2; }
+
+  .prefix-emoji { font-size: 1.1rem; text-align: center; }
+  .prefix-symbol {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #5c4a6e;
+    text-align: center;
+  }
+  .prefix-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.82rem;
+    color: #7a6a8a;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .prefix-exp {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+    color: #9b8aaa;
+  }
+
+  .rules-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+  .rule-card {
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1.5px solid;
+  }
+  .rule-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .rule-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: #6a5a7a;
+  }
+  .rule-example {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.72rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    color: #5c4a6e;
+    font-weight: 700;
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d4c5e2, transparent);
+    margin: 1rem 0;
+  }
+
+  .converter-wrap { display: flex; flex-direction: column; gap: 1rem; }
+
+  .input-row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  .num-input {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    border: 2px solid #d4c5e2;
+    background: rgba(255,255,255,0.8);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: #5c4a6e;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .num-input:focus { border-color: #9b8aaa; }
+
+  .unit-select {
+    padding: 0.7rem 0.8rem;
+    border-radius: 12px;
+    border: 2px solid #d4c5e2;
+    background: rgba(255,255,255,0.8);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #5c4a6e;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .convert-btn {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(135deg, #7c6a9e, #9b8aaa);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+  }
+  .convert-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .convert-btn:active { transform: translateY(0); }
+
+  .result-box {
+    padding: 1.2rem;
+    border-radius: 14px;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+    display: none;
+  }
+  .result-box.visible { display: block; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .result-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #9b8aaa;
+    margin-bottom: 0.5rem;
+  }
+  .result-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5c4a6e;
+  }
+  .result-prefix-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    color: #9b8aaa;
+    margin-top: 0.3rem;
+  }
+
+  .error-box {
+    display: none;
+    padding: 1rem;
+    background: #fff0f3;
+    border-radius: 14px;
+    text-align: center;
+    color: #c47a8a;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+  }
+  .error-box.visible { display: block; }
+
+  .quick-ref {
+    background: #f8f0ff;
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+  }
+  .quick-ref-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.78rem;
+    color: #7a6a8a;
+    line-height: 1.9;
+  }
+
+  .never-write {
+    background: #f8f0ff;
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+  }
+  .never-write-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    color: #7a6a8a;
+    line-height: 1.8;
+  }
+
+  .panel { display: block; }
+
+  .footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+    color: #c4b4d4;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+<div class="app-wrap">
+  <div class="title">Engineering Notation</div>
+  <div class="subtitle">reference & converter</div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('poster', this)">📋 Reference</button>
+    <button class="tab" onclick="switchTab('converter', this)">✨ Converter</button>
+  </div>
+
+  <!-- RAW → ENG -->
+  <div class="card">
+    <div class="section-label">⬇️ raw number → engineering notation</div>
+    <div class="converter-wrap">
+      <div class="input-row">
+        <input class="num-input" id="numInput" type="number" placeholder="e.g. 0.0015"
+          onkeydown="if(event.key==='Enter') convert()">
+        <select class="unit-select" id="unitSelect">
+          <option>Ω</option><option>V</option><option>A</option>
+          <option>W</option><option>Hz</option><option>F</option><option>H</option>
+        </select>
+      </div>
+      <button class="convert-btn" onclick="convert()">Convert ✨</button>
+      <div class="result-box" id="resultBox">
+        <div class="result-label">engineering notation</div>
+        <div class="result-value" id="resultValue"></div>
+        <div class="result-prefix-name" id="resultPrefix"></div>
+      </div>
+      <div class="error-box" id="errorBox">💔 please enter a valid number!</div>
+    </div>
+  </div>
+
+  <!-- ENG → RAW -->
+  <div class="card">
+    <div class="section-label">⬆️ engineering notation → raw number</div>
+    <div class="converter-wrap">
+      <div class="input-row">
+        <input class="num-input" id="engInput" type="number" placeholder="e.g. 5.012"
+          onkeydown="if(event.key==='Enter') convertBack()">
+        <select class="unit-select" id="prefixSelect">
+          <option value="1e12">T</option>
+          <option value="1e9">G</option>
+          <option value="1e6">M</option>
+          <option value="1e3">k</option>
+          <option value="1" selected>(none)</option>
+          <option value="1e-3">m</option>
+          <option value="1e-6">μ</option>
+          <option value="1e-9">n</option>
+          <option value="1e-12">p</option>
+        </select>
+        <select class="unit-select" id="unitSelect2">
+          <option>Ω</option><option>V</option><option>A</option>
+          <option>W</option><option>Hz</option><option>F</option><option>H</option>
+        </select>
+      </div>
+      <button class="convert-btn" onclick="convertBack()">Convert back ✨</button>
+      <div class="result-box" id="resultBox2">
+        <div class="result-label">raw value</div>
+        <div class="result-value" id="resultValue2"></div>
+        <div class="result-prefix-name" id="resultPrefix2"></div>
+      </div>
+      <div class="error-box" id="errorBox2">💔 please enter a valid number!</div>
+    </div>
+  </div>
+
+  <!-- QUICK REFERENCE -->
+  <div class="card">
+    <div class="quick-ref">
+      <div class="section-label" style="margin-bottom:0.4rem;">quick reference</div>
+      <div class="quick-ref-text">
+        3 decimal places left → <strong style="color:#5c4a6e;">kilo (k)</strong><br>
+        6 decimal places left → <strong style="color:#5c4a6e;">mega (M)</strong><br>
+        3 decimal places right → <strong style="color:#5c4a6e;">milli (m)</strong><br>
+        6 places right → <strong style="color:#5c4a6e;">micro (μ)</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- PREFIX TABLE -->
+  <div class="card">
+    <div class="section-label">prefix table</div>
+    <div class="prefix-grid">
+      <div class="prefix-row" style="background:#b8b8e080">
+        <div class="prefix-emoji">⭐</div>
+        <div class="prefix-symbol">T</div>
+        <div class="prefix-name">tera</div>
+        <div class="prefix-exp">10<sup>12</sup> = 1,000,000,000,000</div>
+      </div>
+      <div class="prefix-row" style="background:#c9c9e880">
+        <div class="prefix-emoji">🌙</div>
+        <div class="prefix-symbol">G</div>
+        <div class="prefix-name">giga</div>
+        <div class="prefix-exp">10<sup>9</sup> = 1,000,000,000</div>
+      </div>
+      <div class="prefix-row" style="background:#d8d8f080">
+        <div class="prefix-emoji">🔮</div>
+        <div class="prefix-symbol">M</div>
+        <div class="prefix-name">mega</div>
+        <div class="prefix-exp">10<sup>6</sup> = 1,000,000</div>
+      </div>
+      <div class="prefix-row" style="background:#e8e8f080">
+        <div class="prefix-emoji">💜</div>
+        <div class="prefix-symbol">k</div>
+        <div class="prefix-name">kilo</div>
+        <div class="prefix-exp">10<sup>3</sup> = 1,000</div>
+      </div>
+      <div class="prefix-row base-row">
+        <div class="prefix-emoji">✨</div>
+        <div class="prefix-symbol">—</div>
+        <div class="prefix-name">base</div>
+        <div class="prefix-exp">10<sup>0</sup> &nbsp; Ω &nbsp; V &nbsp; A</div>
+      </div>
+      <div class="prefix-row" style="background:#fae1dd80">
+        <div class="prefix-emoji">🌺</div>
+        <div class="prefix-symbol">m</div>
+        <div class="prefix-name">milli</div>
+        <div class="prefix-exp">10<sup>-3</sup> = 1/1,000</div>
+      </div>
+      <div class="prefix-row" style="background:#fde2e480">
+        <div class="prefix-emoji">🌷</div>
+        <div class="prefix-symbol">μ</div>
+        <div class="prefix-name">micro</div>
+        <div class="prefix-exp">10<sup>-6</sup> = 1/1,000,000</div>
+      </div>
+      <div class="prefix-row" style="background:#fcd5ce80">
+        <div class="prefix-emoji">🍑</div>
+        <div class="prefix-symbol">n</div>
+        <div class="prefix-name">nano</div>
+        <div class="prefix-exp">10<sup>-9</sup> = 1/1,000,000,000</div>
+      </div>
+      <div class="prefix-row" style="background:#f9c6d080">
+        <div class="prefix-emoji">🌸</div>
+        <div class="prefix-symbol">p</div>
+        <div class="prefix-name">pico</div>
+        <div class="prefix-exp">10<sup>-12</sup> = 1/1,000,000,000,000</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GOLDEN RULES -->
+  <div class="card">
+    <div class="section-label">the golden rules</div>
+    <div class="rules-grid">
+      <div class="rule-card" style="background:#fff0f3; border-color:#f9c6d0;">
+        <div class="rule-title" style="color:#c47a8a;">⬅️ Too Big</div>
+        <div class="rule-text">More than 3 digits before the decimal? Move decimal <strong>left</strong></div>
+        <div class="rule-example">0.0015 A → 1.5 mA</div>
+      </div>
+      <div class="rule-card" style="background:#f0eeff; border-color:#c9c9e8;">
+        <div class="rule-title" style="color:#7c6a9e;">➡️ Too Small</div>
+        <div class="rule-text">Starts with 0.something? Move decimal <strong>right</strong></div>
+        <div class="rule-example">0.942 V → 942 mV</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="never-write">
+      <div class="section-label" style="margin-bottom:0.5rem;">never write 0.something — always convert!</div>
+      <div class="never-write-text">
+        <span style="color:#c47a8a;">✗</span> 0.005 A &nbsp;&nbsp;
+        <span style="color:#5c4a6e; font-weight:700;">✓</span> 5 mA<br>
+        <span style="color:#c47a8a;">✗</span> 0.991 kΩ &nbsp;&nbsp;
+        <span style="color:#5c4a6e; font-weight:700;">✓</span> 991 Ω<br>
+        <span style="color:#c47a8a;">✗</span> 1500 Ω &nbsp;&nbsp;
+        <span style="color:#5c4a6e; font-weight:700;">✓</span> 1.5 kΩ
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">ELTN-130 · made with 🌸 · engineering notation helper</div>
+</div>
+
+<script>
+  const prefixes = [
+    { exp: 12,  symbol: "T", name: "tera",  factor: 1e12,  color: "#b8b8e0", emoji: "⭐" },
+    { exp: 9,   symbol: "G", name: "giga",  factor: 1e9,   color: "#c9c9e8", emoji: "🌙" },
+    { exp: 6,   symbol: "M", name: "mega",  factor: 1e6,   color: "#d8d8f0", emoji: "🔮" },
+    { exp: 3,   symbol: "k", name: "kilo",  factor: 1e3,   color: "#e8e8f0", emoji: "💜" },
+    { exp: 0,   symbol: "",  name: "base",  factor: 1,     color: "#f8edeb", emoji: "✨", base: true },
+    { exp: -3,  symbol: "m", name: "milli", factor: 1e-3,  color: "#fae1dd", emoji: "🌺" },
+    { exp: -6,  symbol: "μ", name: "micro", factor: 1e-6,  color: "#fde2e4", emoji: "🌷" },
+    { exp: -9,  symbol: "n", name: "nano",  factor: 1e-9,  color: "#fcd5ce", emoji: "🍑" },
+    { exp: -12, symbol: "p", name: "pico",  factor: 1e-12, color: "#f9c6d0", emoji: "🌸" },
+  ];
+
+  function convert() {
+    const input = parseFloat(document.getElementById('numInput').value);
+    const unit = document.getElementById('unitSelect').value;
+    const resultBox = document.getElementById('resultBox');
+    const errorBox = document.getElementById('errorBox');
+
+    resultBox.classList.remove('visible');
+    errorBox.classList.remove('visible');
+
+    if (isNaN(input)) {
+      errorBox.classList.add('visible');
+      return;
+    }
+
+    const abs = Math.abs(input);
+    const sign = input < 0 ? "-" : "";
+
+    let best = prefixes.find(p => p.base);
+    for (const p of prefixes) {
+      const converted = abs / p.factor;
+      if (converted >= 1 && converted < 1000) {
+        best = p;
+        break;
+      }
+    }
+
+    const converted = abs / best.factor;
+    const rounded = parseFloat(converted.toPrecision(4));
+    const suffix = best.symbol ? `${best.symbol}${unit}` : unit;
+
+    document.getElementById('resultValue').textContent = `${sign}${rounded} ${suffix}`;
+
+    if (!best.base) {
+      document.getElementById('resultPrefix').innerHTML =
+        `${best.emoji} ${best.name} prefix (10<sup>${best.exp}</sup>)`;
+    } else {
+      document.getElementById('resultPrefix').textContent = '';
+    }
+
+    resultBox.style.background = best.color + "60";
+    // re-trigger animation
+    resultBox.classList.remove('visible');
+    void resultBox.offsetWidth;
+    resultBox.classList.add('visible');
+  }
+
+  function convertBack() {
+    const input = parseFloat(document.getElementById('engInput').value);
+    const factor = parseFloat(document.getElementById('prefixSelect').value);
+    const unit = document.getElementById('unitSelect2').value;
+    const resultBox = document.getElementById('resultBox2');
+    const errorBox = document.getElementById('errorBox2');
+
+    resultBox.classList.remove('visible');
+    errorBox.classList.remove('visible');
+
+    if (isNaN(input)) {
+      errorBox.classList.add('visible');
+      return;
+    }
+
+    const raw = input * factor;
+
+    // format nicely — avoid ugly floating point
+    let display;
+    if (Math.abs(raw) >= 0.001 && Math.abs(raw) < 1e13) {
+      display = parseFloat(raw.toPrecision(6)).toString();
+    } else {
+      display = raw.toExponential(4);
+    }
+
+    document.getElementById('resultValue2').textContent = `${display} ${unit}`;
+
+    const prefixName = prefixes.find(p => Math.abs(p.factor - factor) < factor * 1e-9);
+    if (prefixName && !prefixName.base) {
+      document.getElementById('resultPrefix2').innerHTML =
+        `${prefixName.emoji} was ${prefixName.name} prefix → multiplied by ${factor}`;
+    } else {
+      document.getElementById('resultPrefix2').textContent = 'no prefix — value unchanged';
+    }
+
+    resultBox.style.background = prefixName ? prefixName.color + "60" : "#f8edeb60";
+    resultBox.classList.remove('visible');
+    void resultBox.offsetWidth;
+    resultBox.classList.add('visible');
+  }
+</script>
+</body>
+</html>
