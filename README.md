@@ -1,10 +1,9 @@
 # asyaplugged.in
 
-this is the repository for my personal website.
+[asyaplugged.in](https://asyaplugged.in/) is the personal portfolio/blog for me, Anastasia Davydova Lewis. It's a static site built with Zola (Tera templates + SCSS), with vanilla JS, Inter + JetBrains Mono fonts, and Google Analytics + Statcounter. 
 
-you can visit it [here, at asyaplugged.in](https://asyaplugged.in/).
 
-## archiveplugged.in
+## archivepluggedin
 
 you can check out the previous repo (from before i understood how git branching works) [here](https://github.com/asyapluggedin/archiveplugged.in).
 
