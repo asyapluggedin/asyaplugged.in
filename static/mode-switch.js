@@ -1,7 +1,11 @@
+function get_theme() {
+  var saved = localStorage.getItem("theme");
+  set_theme(saved || "light");
+}
+
 function set_theme(mode) {
   if ("light" !== mode && "black" !== mode) {
-    mode = "light"; // Set a default theme if an invalid mode is provided
-    console.log("invalid theme mode: " + mode);
+    mode = "light";
   }
   document.body.dataset.theme = mode;
   localStorage.setItem("theme", mode);

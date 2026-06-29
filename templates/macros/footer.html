@@ -4,16 +4,15 @@
 <!-- footer in the page -->
 {% macro footer() %}
 {% if config.extra.version and not config.extra.footer %}
- <script>
-    fetch('{{ config.extra.version | safe }}')
-          .then((response) => {
-            return response.json();
-          })
-          .then((data) => {
-            let version_name = data.name;
-            let html_url = data.html_url;
-                   version.innerHTML = `<a href='${html_url}'>${version_name}</a>`;
-          });
+<script>
+  fetch('{{ config.extra.version | safe }}')
+    .then((response) => response.json())
+    .then((data) => {
+      var el = document.getElementById('version');
+      if (el && data.name && data.html_url) {
+        el.innerHTML = '<a href="' + data.html_url + '">' + data.name + '</a>';
+      }
+    });
 </script>
 {%endif%}
 <footer>
@@ -37,6 +36,7 @@
       <li><a href="https://github.com/asyapluggedin">Anastasia Davydova Lewis</a></li>
       <li><br></li>
       <li>Built with <a href="https://www.getzola.org/themes/karzok/">Zola</a></li>
+      <li><span id="version"></span></li>
     </ul>
   </div>
 

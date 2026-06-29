@@ -10,8 +10,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="referrer" content="no-referrer">
         <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="red">
-
         {% if config.description %}
         <meta name="description" content="{{ config.description }}">
         {% endif %}
@@ -53,7 +51,7 @@
 </head>
 <body>
     <script>
-      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+      document.body.dataset.theme = localStorage.getItem("theme") || "light";
     </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP2E6WPB16"></script>
@@ -83,11 +81,8 @@
        <script src="{{ get_url(path='search_index.'~ lang ~'.js') | safe }}" defer></script>
       {% if config.extra.assets_url %}
         <script src="{{ config.extra.assets_url }}/search.js" defer></script>
-        <script src="{{ config.extra.assets_url }}/mode-switch.js"></script>
       {% else %}
-      <script src="{{ get_url(path='mode-switch.js') | safe }}"></script>
         <script src="{{ get_url(path="search.js") | safe }}" defer></script>
-
       {% endif %}
     {% endif%}
 </body>
