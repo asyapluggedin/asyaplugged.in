@@ -1,67 +1,57 @@
 {% extends "head.html" %}
 
-{% block styles %} 
-    {{macros::styles(file='know.css') }} 
+{% block styles %}
+    {{ macros::styles(file='know.css') }}
 {% endblock styles %}
 
-{% block htmltitle%} 
-    {{ macros::title_or_last(component=section) }} - {{ config.title }} 
-{%endblock htmltitle %}
-{% block title %} 
-    {{macros::title_or_last(component=section) }} 
+{% block htmltitle %}
+    {{ macros::title_or_last(component=section) }} - {{ config.title }}
+{% endblock htmltitle %}
+
+{% block title %}
+    {{ macros::title_or_last(component=section) }}
 {% endblock title %}
 
-{% block math%} 
+{% block math %}
     {{ macros::math() }}
 {% endblock math %}
 
 {% block content %}
-    <section>
-        <div class="tab">
-            
-        {% set categories = get_taxonomy(kind="category") %} <!-- fetches all categories as a taxonomy object from Zola -->
-        {% for cat in categories.items %} 
-        <!-- categories.items refers to the list of category items within that taxonomy. 
-            each cat in the loop represents a single category item, from which we can access properties like cat.name -->
-        <button  class="tablinks" onclick="toggleCategory(event, '{{ cat.name }}')"><a>{{ cat.name }}</a></button>
+{% set categories = get_taxonomy(kind="category") %}
+<section>
+    <div class="tab">
+        <button class="tablinks" onclick="toggleCategory(event, 'all')"><a>all</a></button>
+        {% for cat in categories.items %}
+        <button class="tablinks" onclick="toggleCategory(event, '{{ cat.name }}')"><a>{{ cat.name }}</a></button>
         {% endfor %}
         <script>
             toggleCategory = function(evt, catName) {
-                // Declare all variables
                 var i, tabcontent, tablinks;
-            
-                // Get all elements with class="tabcontent" and hide them
                 tabcontent = document.getElementsByClassName("tabcontent");
                 for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
+                    tabcontent[i].style.display = "none";
                 }
-            
-                // Get all elements with class="tablinks" and remove the class "active"
                 tablinks = document.getElementsByClassName("tablinks");
                 for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
-            
-                // Show the current tab and add an "active" class to the button that opened the tab
                 document.getElementById(catName).style.display = "block";
                 evt.currentTarget.className += " active";
             }
-          // document.getElementsByClassName("tabcontent")[0].style.display = "block";
         </script>
-        </div>
+    </div>
 
-         <!-- Initialization Script -->
-        <script>
+    <script>
         window.onload = function() {
             var tablinks = document.getElementsByClassName("tablinks");
             if (tablinks.length > 0) {
-                // Simulate a click on the first tab link
                 tablinks[0].click();
             }
         };
-        </script>
+    </script>
 
-    <div id="blog" class="tabcontent">
+    {# all tab — every page #}
+    <div id="all" class="tabcontent">
         <table>
             <thead>
                 <tr>
@@ -70,42 +60,33 @@
                     <th scope="col" class="col-tags">Tags</th>
                 </tr>
             </thead>
-        
-             <tbody>
+            <tbody>
                 {% for page in section.pages %}
-                {% if page.taxonomies.category %}
-                {% if "blog" in page.taxonomies.category %}
                 <tr>
-                    <!-- date -->
+                    <td>{% if page.date %}<time>{{ page.date }}</time>{% endif %}</td>
                     <td>
-                        {% if page.date %}
-                    <time> {{page.date}} </time>
-                    {% endif %}
+                        <a href="{{ page.permalink }}">
+                            <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
+                        </a>
                     </td>
-                <!-- title -->
-                <td>
-                    <a href="{{ page.permalink }}">
-                        <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
-                    </a>
-                    </td> 
-                    <!-- tags -->
                     <td>
                         {% if page.taxonomies.tags %}
                             {% for tag in page.taxonomies.tags %}
-                            <a class="onetag" href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
+                            <a class="onetag" href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">
                                 <span>{{ tag }}</span>
                             </a>
                             {% endfor %}
                         {% endif %}
                     </td>
                 </tr>
-                {% endif %} {% endif %}
                 {% endfor %}
             </tbody>
-         </table>
+        </table>
     </div>
 
-    <div id="essays" class="tabcontent">
+    {# per-category tabs — auto-generated from taxonomy #}
+    {% for cat in categories.items %}
+    <div id="{{ cat.name }}" class="tabcontent">
         <table>
             <thead>
                 <tr>
@@ -114,87 +95,32 @@
                     <th scope="col" class="col-tags">Tags</th>
                 </tr>
             </thead>
-        
-             <tbody>
+            <tbody>
                 {% for page in section.pages %}
-                {% if page.taxonomies.category %}
-                {% if "essays" in page.taxonomies.category %}
-                    <tr>
-                        <!-- date -->
-                        <td>
-                            {% if page.date %}
-                        <time> {{page.date}} </time>
-                        {% endif %}
-                        </td>
-                    <!-- title -->
-                    <td>
-                        <a href="{{ page.permalink }}">
-                            <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
-                        </a>
-                        </td> 
-                        <!-- tags -->
-                        <td>
-                            {% if page.taxonomies.tags %}
-                                {% for tag in page.taxonomies.tags %}
-                                <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
-                                    <span>{{ tag }}</span>
-                                </a>
-                                {% endfor %}
-                                
-                            {% endif %}
-                        </td>
-                    </tr>
-                {% endif %}  {% endif %}
-                {% endfor %}
-            </tbody>
-         </table>
-    </div>
-    <div id="stubs" class="tabcontent">
-        <table>
-            <thead>
+                {% if page.taxonomies.category and cat.name in page.taxonomies.category %}
                 <tr>
-                    <th scope="col" class="col-date">Date</th>
-                    <th scope="col" class="col-title">Title</th>
-                    <th scope="col" class="col-tags">Tags</th>
-                </tr>
-            </thead>
-        
-             <tbody>
-                {% for page in section.pages %}
-                {% if page.taxonomies.category %}
-                {% if "stubs" in page.taxonomies.category %}
-                    <tr>
-                        <!-- date -->
-                        <td>
-                            {% if page.date %}
-                        <time> {{page.date}} </time>
-                        {% endif %}
-                        </td>
-                    <!-- title -->
+                    <td>{% if page.date %}<time>{{ page.date }}</time>{% endif %}</td>
                     <td>
                         <a href="{{ page.permalink }}">
                             <span>{{ macros::title_or_last(component=page, offset=0) }}</span>
                         </a>
-                        </td> 
-                        <!-- tags -->
-                        <td>
-                            {% if page.taxonomies.tags %}
-                                {% for tag in page.taxonomies.tags %}
-                                <a href="{{get_taxonomy_url(kind='tags', name=tag) | safe}}">
-                                    <span>{{ tag }}</span>
-                                </a>
-                                {% endfor %}
-                                
-                            {% endif %}
-                        </td>
-                    </tr>
-                {% endif %}  {% endif %}
+                    </td>
+                    <td>
+                        {% if page.taxonomies.tags %}
+                            {% for tag in page.taxonomies.tags %}
+                            <a class="onetag" href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">
+                                <span>{{ tag }}</span>
+                            </a>
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %}
                 {% endfor %}
             </tbody>
-         </table>
+        </table>
     </div>
+    {% endfor %}
+
 </section>
-    
 {% endblock content %}
-
-
