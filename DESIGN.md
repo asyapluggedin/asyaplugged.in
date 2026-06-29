@@ -801,3 +801,154 @@ For text-only cards (no feature image), the fallback `<span>` title is already i
 | WCAG AA contrast for all text | Accessibility is not optional |
 | `data-theme="black"` (not "dark") | Matches existing JS and CSS selectors |
 | No inline `style=` for theme colors | Inline styles override CSS variables and break theming |
+
+---
+
+## 2026-06-28 — visual design refactor notes
+
+### primary diagnosis
+
+the current site feels visually inconsistent not because it is too strange, but because it mixes three partially incompatible languages:
+- documentation shell inherited from karzok
+- hacker / terminal color treatment
+- speculative / editorial embellishments
+
+result: the site can read as customized docs chrome rather than a fully authored visual system.
+
+---
+
+### what is working
+
+- text-forward architecture
+- strong underlying information design
+- dark mode identity
+- inter + jetbrains mono as ui / technical baseline
+- clear thematic territory: clinical, technical, speculative, personal
+
+---
+
+### what feels wrong
+
+#### 1. too much chrome, not enough authority
+sidebars, toc, borders, metadata, and title all compete for attention with the actual prose.
+
+**rule:** content must be the center of gravity; scaffolding should recede.
+
+#### 2. title treatment is under-supported
+page titles are trying to act like display typography, but the surrounding system still behaves like a documentation theme.
+
+**rule:** if the title is expressive, everything around it must become quieter.
+
+#### 3. metadata bubble is the wrong object
+the rounded metadata capsule is too decorative and too loud. it interrupts trust and does not match the underlying rectangular documentation shell.
+
+**replace with:**
+- flat metadata row
+- ledger-style stacked lines
+- muted status labels in mono or small caps
+
+#### 4. sidebars are too loud
+left sidebar and right toc are too bright and dense relative to their utility.
+
+**rule:** side rails are support systems, not co-stars.
+
+#### 5. line weights are inconsistent
+borders, dividers, and highlighted containers do not feel like members of one calibrated family.
+
+**rule:** use only two line weights:
+- 1px structural rule
+- 2px emphasis rule, used sparingly
+
+#### 6. font-weight hierarchy is weak
+too many interface elements speak at similar volume.
+
+**rule:** compress the weight scale:
+- 400 body, nav, sidebar
+- 500 active / metadata labels
+- 700 section headings
+- special display treatment only for page title
+
+#### 7. font roles are unclear
+inter is doing too much labor: ui, prose, and attempted display expression.
+
+**rule:** separate roles:
+- inter for ui + prose
+- jetbrains mono for code, labels, status, taxonomy, tiny interface text
+- one display serif or editorial face for page titles only
+
+#### 8. accent color is over-broadcast
+bright cyan on black is memorable, but currently too many elements use it at full intensity.
+
+**rule:** brightest accent color should be rare.
+use subdued accent values for rails and borders; reserve vivid cyan for:
+- active states
+- hovered links
+- title or section accents
+- selective emphasis only
+
+#### 9. spacing is not doing enough hierarchy work
+visual hierarchy currently depends too much on color and outline objects.
+
+**rule:** use spacing before ornament.
+increase separation between:
+- title and metadata
+- metadata and opening paragraph
+- article column and side rails
+
+---
+
+### concrete page-level changes
+
+#### article page
+- remove rounded metadata bubble
+- replace with flat metadata block above article
+- reduce sidebar and toc contrast
+- make prose column the strongest visual field
+- tighten heading system so only the page title feels ceremonial
+- use subtler divider lines throughout
+
+#### sidebar
+- dim non-active items
+- show deeper hierarchy via indentation and spacing, not brightness
+- reduce density on single-post pages if possible
+
+#### toc
+- reduce font size slightly
+- reduce contrast of inactive items
+- highlight active section only
+
+#### title system
+- keep one distinct title voice
+- use it only for h1 / article title
+- do not reuse it for nav, metadata, or section headings
+
+#### color system
+- keep black background and cyan identity in dark mode
+- soften default ui cyan
+- preserve brightest cyan for emphasis only
+- ensure prose remains easier to read than navigation chrome
+
+---
+
+### non-negotiable design principles going forward
+
+- prose first
+- scaffolding second
+- one expressive move per page, not five
+- no decorative containers for secondary information
+- no new line weights beyond the defined scale
+- no new font roles beyond ui / mono / display
+- no full-intensity accent on low-priority interface elements
+
+---
+
+### desired perception shift
+
+move from:
+"interesting hacker / body-tech blog with docs theme remnants"
+
+toward:
+"disciplined artist-engineer publication platform with technical credibility"
+
+the goal is not to become less distinctive.
+the goal is to make every eccentricity look deliberate, calm, and publishable.
