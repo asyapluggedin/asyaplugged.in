@@ -90,6 +90,21 @@ five sections: `/` (home), `/do` (portfolio), `/you` (about), `/know` (blog w/ t
 
 ---
 
+### visual design refactor — 2026-06-28
+
+- flattened metadata bubble: removed blob border-radius, replaced with 1px `$dark1` top border
+- h2–h6 headings now `var(--blogtext)`; only `.title` retains accent color — heading hierarchy now clear
+- `.title` size increased 1.75rem → 2rem, bottom margin 1.25rem → 2rem
+- metadata (`.sections`) now JetBrains Mono, 0.8rem, `$dark1` — reads as status text
+- spacing before prose increased (metadata margin-bottom 1rem → 2.5rem)
+- fixed `line-height: 1.3rem` (broken fixed value) → `1.6` ratio
+- fixed invalid `box-shadow: 2px solid` on `<pre>` → `2px 2px 0 var(--foreground)`
+- sidebar default link color dimmed to `$dark1`; accent reserved for active/hover border only
+- toc inactive items dimmed to `$dark1`; font sizes tightened (14→13px, children 13→12px)
+- toc section label now mono, uppercase, letter-spaced
+
+---
+
 ### top 5 to fix — remaining
 - `templates/head.html:31` — references `topnav.css` which doesn't exist as a separate compiled file
 - `templates/do.html:19` — remove `snorksnorrrk` placeholder text
