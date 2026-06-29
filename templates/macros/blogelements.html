@@ -147,7 +147,7 @@
     <span class="margin-left-1rem">Category:  </span>
     {% for category in page.taxonomies.category %}
       <li>
-        <a href="{{ get_taxonomy_url(kind='categories', name=category) | safe }}">
+        <a href="{{ get_taxonomy_url(kind='category', name=category) | safe }}">
         <span>{{ category }}</span>
         </a>
       </li>
@@ -162,7 +162,7 @@
     <span>Category: </span>
     {% for category in page.extra.category %}
       <li>
-        <a href="{{ get_taxonomy_url(kind='categories', name=category) | safe }}">
+        <a href="{{ get_taxonomy_url(kind='category', name=category) | safe }}">
         <span>{{ category }}</span>
         </a>
       </li>
