@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - teaching</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/tags/teaching/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-07-10T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/tags/teaching/atom.xml</id>
+    <entry xml:lang="en">
+        <title>DeepDenial</title>
+        <published>2018-07-10T00:00:00+00:00</published>
+        <updated>2018-07-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/do/deepdenial/"/>
+        <id>https://asyaplugged.in/do/deepdenial/</id>
+        
+        <summary type="html">&lt;p&gt;DeepDenial was a one-day speculative political activism deepfake workshop I was invited to teach at the Hackers and Designers Summer Academy &lt;em&gt;(a program run out of the Sandberg Institute, the postgraduate programme of the Gerrit Rietveld Academie in Amsterdam)&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The workshop was designed for students of varied technical as well as non-technical backgrounds. Participants practiced extracting and organizing data in order to apply a neural network for the purpose of making &amp;quot;deepfakes&amp;quot;, or videos with swapped faces.&lt;&#x2F;p&gt;
+&lt;p&gt;In the news, deepfake technology initially came to light as it was being used to create abusive explicit content with unwilling face-swapped participants. Concerns are commonly voiced on the potential use of deepfaking for political propaganda. A central aspect of the &lt;em&gt;DeepDenial&lt;&#x2F;em&gt; workshop is the discussion of media ethics, surveillance vs sousveillance, and explorations of defensive propaganda. &lt;&#x2F;p&gt;
+&lt;p&gt;By taking a hands-on approach to learn how to process video data for machine learning programs, attendees armed themselves with improved digital literacy and developed a keen sense for discerning tell-tale signs of AI-processed content.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

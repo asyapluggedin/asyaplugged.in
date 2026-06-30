@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - creative-coding</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/tags/creative-coding/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-08-04T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/tags/creative-coding/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Creative Coding at RC</title>
+        <published>2022-08-04T00:00:00+00:00</published>
+        <updated>2022-08-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/rc-creative-coding/"/>
+        <id>https://asyaplugged.in/know/rc-creative-coding/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/rc-creative-coding/">&lt;h2 id=&quot;introduction-credits&quot;&gt;Introduction &amp;amp; Credits&lt;&#x2F;h2&gt;
+&lt;p&gt;Welcome to the guide for the Creative Coding Meetup at the Virtual Recurse Center.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;The meetup was started by &lt;a href=&quot;http:&#x2F;&#x2F;rfong.github.io&#x2F;&quot;&gt;Ray Fong&lt;&#x2F;a&gt;, then led by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aturley&quot;&gt;Andrew Joseph Turley&lt;&#x2F;a&gt;, who passed the torch to &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Plasma-Vortex&quot;&gt;Howard Halim&lt;&#x2F;a&gt;, who finally passed it to me.&lt;&#x2F;p&gt;
+&lt;p&gt;However, the &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;224779-creative-coding&quot;&gt;creative-coding&lt;&#x2F;a&gt; Zulip stream has messages going all the way back to February 20, with the first one from &lt;a href=&quot;https:&#x2F;&#x2F;solsarratea.world&#x2F;&quot;&gt;Sol Sarratea&lt;&#x2F;a&gt;. We now coordinate in another stream, &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;19042-397-Bridge&#x2F;topic&#x2F;Creative.20Coding.20Meetup&quot;&gt;Creative Coding Meetup&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-happens-at-creative-coding&quot;&gt;What happens at Creative Coding?&lt;&#x2F;h2&gt;
+&lt;p&gt;Each week a random prompt is picked, then we spend 90 minutes making something and meet back up to share what we made. Don&#x27;t worry about perfectionism, just come have fun.
+Here are some of the generators we have used to produce creative prompts:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;stoney.sb.org&#x2F;eno&#x2F;oblique.html&quot;&gt;Oblique Strategies&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;jacob4&#x2F;full&#x2F;EVqeWM&quot;&gt;Random Shakespeare Quote Generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;perchance.org&#x2F;emoji&quot;&gt;perchance Random Emoji Generator&lt;&#x2F;a&gt; (set amount to 3, check &amp;quot;unique?&amp;quot; box)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can use whatever language or tools you are comfortable or uncomfortable with.&lt;&#x2F;p&gt;
+&lt;p&gt;Creativity manifests in different ways, so don&#x27;t feel restricted to making something visual, &amp;quot;artistic&amp;quot;, or even related to the chosen prompt. This is the place to make whatever your heart and mind desires!&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some common choices:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;editor.p5js.org&#x2F;&quot;&gt;editor.p5js.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;&quot;&gt;codepen.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.shadertoy.com&#x2F;&quot;&gt;shadertoy.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;glitch.com&#x2F;&quot;&gt;glitch.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arcade.makecode.com&#x2F;&quot;&gt;arcade.makecode.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Coordinate in the &lt;a href=&quot;https:&#x2F;&#x2F;recurse.zulipchat.com&#x2F;#narrow&#x2F;stream&#x2F;19042-397-Bridge&#x2F;topic&#x2F;Creative.20Coding.20Meetup&quot;&gt;Creative Coding Zulip topic&lt;&#x2F;a&gt;.
+Showing off your work is encouraged!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;&#x2F;h2&gt;
+&lt;p&gt;I am leisurely amalgamating a lot of materials on an &lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;anastasia-davydova-lewis&#x2F;creative-coding-for-all&quot;&gt;Are.na page, creative-coding-for-all.&lt;&#x2F;a&gt; Feel free to add to it! I also have some more structured resources to peruse here:
+&lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;misc-inspiration&quot;&gt;Misc Inspiration&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;paytonturnage.com&#x2F;writing&#x2F;generating-art-with-haskell&#x2F;&quot;&gt;Generative Art with Haskell&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;experiments.withgoogle.com&#x2F;collection&#x2F;chrome&quot;&gt;Chrome Experiments&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;css-resources&quot;&gt;CSS Resources&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;colorffy.com&#x2F;text-gradient-generator&quot;&gt;CSS text gradient generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shadows.brumm.af&#x2F;&quot;&gt;CSS box shadow generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;9elements.github.io&#x2F;fancy-border-radius&#x2F;&quot;&gt;9elements – Fancy border radius generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;haikei.app&#x2F;&quot;&gt;Haikei – SVG generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;haikei.app&#x2F;&quot;&gt;Mesh Gradients by CSS Hero&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;min-max-calculator.9elements.com&#x2F;&quot;&gt;9elements – Fluid Typography without media queries via min-max value&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ui.glass&#x2F;generator&#x2F;&quot;&gt;Glassmorphism generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ml-art-resources&quot;&gt;ML Art Resources&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kadenze &lt;a href=&quot;https:&#x2F;&#x2F;www.kadenze.com&#x2F;courses&#x2F;creative-applications-of-deep-learning-with-tensorflow&#x2F;info&quot;&gt;Creative Applications of Deep Learning with TensorFlow&lt;&#x2F;a&gt; class&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;some-ucla-design-media-class-websites-with-their-own-resource-reference-collections&quot;&gt;Some UCLA Design | Media Class Websites with their own resource &#x2F; reference collections&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;pkmital.com&#x2F;home&#x2F;2021&#x2F;09&#x2F;01&#x2F;ucla-course-on-cultural-appropriation-with-machine-learning&#x2F;&quot;&gt;Cultural Appropriation with Machine Learning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;172&#x2F;?page_id=101&quot;&gt;Interactive Animation in Unity3D&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lmccart.github.io&#x2F;DMA171-disability-design-web&#x2F;#resources&quot;&gt;Disability, Design, and the Web&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;289-2&#x2F;&quot;&gt;50 Years of Software Artists: Plotter Drawings to Non-fungible Tokens&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall21&#x2F;152&#x2F;resources&quot;&gt;Tangible Media&lt;&#x2F;a&gt; – intro to working creatively with electronics.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Winter21&#x2F;28&#x2F;&quot;&gt;Interactivity&lt;&#x2F;a&gt; – intro Processing class taught by Casey Reas, co-creator of Processing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;Fall19&#x2F;161&#x2F;#resources&quot;&gt;Network Media&lt;&#x2F;a&gt; – html+css+js+p5.js taught by Lauren McCarthy, creator of p5.js.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I recommend checking out the &lt;a href=&quot;https:&#x2F;&#x2F;classes.dma.ucla.edu&#x2F;?cTerm=Winter&amp;amp;cYear=2021&quot;&gt;past versions of core DMA classes&lt;&#x2F;a&gt;, as each one has its own website with varying resource lists.
+&lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;history-context-of-media-art-generative-art-creative-coding&quot;&gt;History, Context of Media Art, Generative Art, Creative Coding&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;anastasia-davydova-lewis&#x2F;ucla-dma101-design-media-arts&quot;&gt;My Are.na class materials archive from the Media Art 101 class&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;When the Machine Made Art: The Troubled History of Computer Art&amp;quot;, by Grant D. Taylor&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Creative Code: Aesthetics + Computation&amp;quot; by John Maeda&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Generative Design&amp;quot; by Benedikt Groß, Hartmut Bohnacker, Julia Laub&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;misc-creative-coders-and-their-work&quot;&gt;misc creative coders and their work&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Vera_Moln%C3%A1r&quot;&gt;Vera Molnár&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Harold Cohen&#x27;s AARON&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20161103091706&#x2F;http:&#x2F;&#x2F;silverbuffalo.org&#x2F;NAA-NativeIT.html&quot;&gt;Silver Buffalo on Native American IT&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blacktransarchive.com&#x2F;&quot;&gt;The Black Trans Archive&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20020323214647&#x2F;http:&#x2F;&#x2F;neutralground.sk.ca&#x2F;artistprojects&#x2F;spiderlanguage&#x2F;index.html&quot;&gt;Spider Language&lt;&#x2F;a&gt; – a First Nations contemporary art web&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;super-sad-googles.glitch.me&#x2F;&quot;&gt;super sad googles&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;facework.app&#x2F;&quot;&gt;facework.app&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;295790&#x2F;Never_Alone_Kisima_Ingitchuna&#x2F;&quot;&gt;Never Alone on Steam&lt;&#x2F;a&gt; inspired by Donna Haraway&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.dukeupress.edu&#x2F;staying-with-the-trouble&quot;&gt;Staying with the Trouble: Making Kin in the Chthulucene&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.damonzucconi.com&#x2F;&quot;&gt;Damon Zucconi&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;brutalistwebsites.com&#x2F;&quot;&gt;Brutalist Websites&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lynnandtonic.com&#x2F;&quot;&gt;Lynn Fisher&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;a-website-is-a-room.net&#x2F;&quot;&gt;a website is a room&lt;&#x2F;a&gt; archive of websites exploring the browser as a space&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.werkplaatstypografie.org&#x2F;#vitrine:https:&#x2F;&#x2F;www.werkplaatstypografie.org&#x2F;vitrine&#x2F;archive&#x2F;&quot;&gt;Werkplaatz Typographie Vitrine Archive&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x20xx.com&#x2F;&quot;&gt;x20xx.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;want-to-contribute-to-this-guide&quot;&gt;Want to contribute to this guide?&lt;&#x2F;h2&gt;
+&lt;p&gt;Submit &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;asyaplugged.in&#x2F;blob&#x2F;main&#x2F;content&#x2F;know&#x2F;2022-08-04-rc-creative-coding.md&quot;&gt;a pull request in the github repo&lt;&#x2F;a&gt; for this blog.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
