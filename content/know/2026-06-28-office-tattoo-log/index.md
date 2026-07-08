@@ -1,6 +1,6 @@
 +++
-title = "Office Tattoo Log — [piece name]"
-date = "2026-06-28"
+title = "modern primitives"
+date = "2026-06-29"
 description = ""
 
 [taxonomies]
@@ -12,21 +12,26 @@ math = false
 
 +++
 
-appointment date:
-client:
-placement:
-session type: new / touch-up / cover / fill
-focus: linework / packing / color blend / cover-up / scar / speed / stamina
-duration:
+appointment date: june 29 2026
+skin: 45y.o., sun damage
+placement: posterior left lower quadrant
+start time: 10:30 PM
+end time: 
 
 ## specs
 
-- machine:
-- needles:
-- voltage / settings:
-- inks:
-- wrap:
-- products used:
+- machine: mast flip
+- needles: 
+	- kwadron 35/9RLMT
+	- MAST 1207RL
+	- MAST 1009RM
+	- CHEYENNE 7RL 0.30 SLT
+	- 1203RLLX3
+- voltage:
+- stroke: 3.6 to 3.8
+- inks: Dynamic BLK + WD1 (1 drop)
+- wrap: cling wrap
+- products used: Inkeeze Green Glide, Water, Green Soap
 
 ## skin that day
 
