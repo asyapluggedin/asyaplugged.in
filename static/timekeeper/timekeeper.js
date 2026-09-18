@@ -1,4 +1,4 @@
-const KEY = 'timekeeper.v1';
+const KEY = 'timekeeper.v1.0';
 const THEME_KEY = 'theme';
 
 const store = JSON.parse(localStorage.getItem(KEY) || '{}');
@@ -7,7 +7,7 @@ const detectedZone =
   Intl.DateTimeFormat().resolvedOptions().timeZone ||
   'UTC';
 
-store.zones ||= [detectedZone];
+store.zones ||= [detectedZone, 'UTC'];
 store.alerts ||= [15, 5, 1];
 store.history ||= [];
 
@@ -25,8 +25,9 @@ const zoneOptions = [
   ['Los Angeles, United States — Pacific Time', 'America/Los_Angeles', 'los angeles la san francisco california pacific usa united states'],
   ['Phoenix, United States — Mountain Time', 'America/Phoenix', 'phoenix arizona mountain usa united states'],
   ['Denver, United States — Mountain Time', 'America/Denver', 'denver colorado mountain usa united states'],
-  ['Chicago, United States — Central Time', 'America/Chicago', 'chicago illinois terre haute indiana central usa united states'],
+  ['Chicago, United States — Central Time', 'America/Chicago', 'chicago illinois central usa united states'],
   ['New York, United States — Eastern Time', 'America/New_York', 'new york ny eastern usa united states'],
+  ['Terre Haute, United States — Eastern Time', 'America/Indiana/Indianapolis', 'terre haute indiana eastern usa united states'],
   ['Anchorage, United States — Alaska Time', 'America/Anchorage', 'anchorage alaska usa united states'],
   ['Honolulu, United States — Hawaii Time', 'Pacific/Honolulu', 'honolulu hawaii usa united states'],
   ['Vancouver, Canada — Pacific Time', 'America/Vancouver', 'vancouver canada british columbia pacific'],
@@ -105,27 +106,28 @@ function optionLabel(zone) {
   return `${label} (${offset(zone)})`;
 }
 
-function dateLine(date, zone) {
-  return new Intl.DateTimeFormat(undefined, {
+function formatDateTime(date, zone) {
+  const d = new Intl.DateTimeFormat(undefined, {
     timeZone: zone,
     month: 'numeric',
     day: 'numeric',
     year: 'numeric',
   }).format(date);
-}
 
-function timeLine(date, zone) {
-  return new Intl.DateTimeFormat(undefined, {
+  const t = new Intl.DateTimeFormat(undefined, {
     timeZone: zone,
     hour: 'numeric',
     minute: '2-digit',
     second: '2-digit',
     timeZoneName: 'short',
   }).format(date);
+
+  return { d, t };
 }
 
 function fullTime(date, zone) {
-  return `${dateLine(date, zone)} ${timeLine(date, zone)}`;
+  const { d, t } = formatDateTime(date, zone);
+  return `${d} ${t}`;
 }
 
 function durationSeconds() {
@@ -145,10 +147,7 @@ function proposedEnd() {
 
 function ensureAudio() {
   if (!audioContext) {
-    const AudioContextClass =
-      window.AudioContext || window.webkitAudioContext;
-
-    audioContext = new AudioContextClass();
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
   }
 
   if (audioContext.state === 'suspended') {
@@ -158,61 +157,82 @@ function ensureAudio() {
   return audioContext;
 }
 
-function tone(
-  frequency,
-  at,
-  duration = 0.16,
-  volume = 0.18,
-  type = 'triangle'
-) {
-  const context = ensureAudio();
+function tone(frequency, at, duration, volume) {
+  const ctx = ensureAudio();
+  const oscillator = ctx.createOscillator();
+  const gain = ctx.createGain();
 
-  const oscillator = context.createOscillator();
-  const gain = context.createGain();
-
-  oscillator.type = type;
+  oscillator.type = 'sine';
   oscillator.frequency.setValueAtTime(frequency, at);
 
   gain.gain.setValueAtTime(0.0001, at);
   gain.gain.exponentialRampToValueAtTime(volume, at + 0.012);
   gain.gain.exponentialRampToValueAtTime(0.0001, at + duration);
 
-  oscillator.connect(gain).connect(context.destination);
+  oscillator.connect(gain).connect(ctx.destination);
 
   oscillator.start(at);
   oscillator.stop(at + duration + 0.02);
 }
 
-function playBeepCount(count) {
-  const context = ensureAudio();
-  const beeps = Math.min(Math.max(1, count), 20);
+const sound = {
+  // Chime: low, slow decay — tens place
+  chime(count) {
+    const ctx = ensureAudio();
+    for (let i = 0; i < count; i++) {
+      tone(396, ctx.currentTime + i * 0.6, 1.5, 0.2);
+    }
+  },
 
-  for (let index = 0; index < beeps; index += 1) {
-    tone(880, context.currentTime + index * 0.27);
-  }
-}
+  // Pip: higher, short — ones place; frequency rises as minutes decrease
+  pip(count, minutes) {
+    const ctx = ensureAudio();
+    const freq = 639 + (10 - Math.min(minutes, 10)) * 9;
+    for (let i = 0; i < count; i++) {
+      tone(freq, ctx.currentTime + i * 0.333, 0.2, 0.18);
+    }
+  },
 
-function playFinalPhrase() {
-  const context = ensureAudio();
+  // Base-10 grammar: chimes = tens, pips = ones
+  reminderAlert(minutes) {
+    const ctx = ensureAudio();
+    const chimes = Math.floor(minutes / 10);
+    const pips = minutes % 10;
+    let t = ctx.currentTime;
 
-  tone(880, context.currentTime, 0.16, 0.2, 'sine');
-  tone(660, context.currentTime + 0.23, 0.16, 0.2, 'sine');
-  tone(880, context.currentTime + 0.46, 0.22, 0.2, 'sine');
-}
+    for (let i = 0; i < chimes; i++) {
+      tone(396, t, 1.5, 0.2);
+      t += 0.6;
+    }
 
-function startFinalAlert() {
-  if (finalAlertInterval) return;
+    if (chimes > 0 && pips > 0) t += 0.2;
 
-  playFinalPhrase();
-  finalAlertInterval = setInterval(playFinalPhrase, 2000);
-}
+    const pipFreq = 639 + (10 - Math.min(minutes, 10)) * 9;
+    for (let i = 0; i < pips; i++) {
+      tone(pipFreq, t, 0.2, 0.18);
+      t += 0.333;
+    }
+  },
 
-function stopFinalAlert() {
-  if (!finalAlertInterval) return;
+  playEndPhrase() {
+    const ctx = ensureAudio();
+    tone(880, ctx.currentTime, 0.16, 0.2);
+    tone(660, ctx.currentTime + 0.23, 0.16, 0.2);
+    tone(880, ctx.currentTime + 0.46, 0.22, 0.2);
+  },
 
-  clearInterval(finalAlertInterval);
-  finalAlertInterval = null;
-}
+  startEndSignal() {
+    if (finalAlertInterval) return;
+    this.playEndPhrase();
+    finalAlertInterval = setInterval(() => this.playEndPhrase(), 2000);
+  },
+
+  stopEndSignal() {
+    if (!finalAlertInterval) return;
+    clearInterval(finalAlertInterval);
+    finalAlertInterval = null;
+  },
+};
 
 function flashAlert() {
   const timer = $('timer');
@@ -220,23 +240,14 @@ function flashAlert() {
   timer.classList.add('alert');
 
   setTimeout(() => {
-    const active =
-      store.active &&
-      new Date(store.active.finalEnd) > new Date();
-
-    if (active) {
-      timer.classList.remove('alert');
-    }
+    timer.classList.remove('alert');
   }, 1600);
 }
 
 function renderTimeCell(cell, date, zone) {
+  const { d, t } = formatDateTime(date, zone);
   cell.className = 'time-cell';
-
-  cell.innerHTML = `
-    <span class="date">${dateLine(date, zone)}</span>
-    <span class="time">${timeLine(date, zone)}</span>
-  `;
+  cell.innerHTML = `<span class="date">${d}</span><span class="time">${t}</span>`;
 }
 
 function zonePicker(zone, index) {
@@ -246,7 +257,7 @@ function zonePicker(zone, index) {
 
   wrapper.className = 'zone-cell';
 
-  input.type = 'search';
+  input.type = 'text';
   input.className = 'zone-search';
   input.autocomplete = 'off';
   input.value = optionLabel(zone);
@@ -261,18 +272,18 @@ function zonePicker(zone, index) {
   function drawResults(query) {
     const normalized = query.toLowerCase().trim();
 
-    const matches = normalized
-      ? zoneOptions.filter(([label, id, searchTerms]) => {
-          const searchable =
-            `${label} ${id} ${searchTerms}`.toLowerCase();
+    if (!normalized) {
+      list.innerHTML = '';
+      return;
+    }
 
-          return searchable.includes(normalized);
-        })
-      : zoneOptions.slice(0, 8);
+    const matches = zoneOptions.filter(([label, id, searchTerms]) => {
+      return `${label} ${id} ${searchTerms}`.toLowerCase().includes(normalized);
+    });
 
     list.innerHTML = '';
 
-    matches.slice(0, 10).forEach(([label, id]) => {
+    matches.forEach(([label, id]) => {
       const item = document.createElement('li');
       const button = document.createElement('button');
 
@@ -292,7 +303,6 @@ function zonePicker(zone, index) {
 
   input.onfocus = () => {
     input.select();
-    drawResults('');
   };
 
   input.oninput = () => {
@@ -382,7 +392,7 @@ function updateDuration() {
   store.seconds = Number($('seconds').value || 0);
 
   save();
-  renderTable();
+  updateTimesOnly();
 }
 
 function updateTimesOnly() {
@@ -413,21 +423,39 @@ function renderAlerts() {
 }
 
 function addAlert() {
-  const entered = prompt('Alert time in minutes:', '3');
-  const minutes = Number(entered);
-
+  const minutes = Number($('alertInput').value);
   const valid =
     Number.isFinite(minutes) &&
     minutes > 0 &&
     !store.alerts.includes(minutes);
 
-  if (!valid) return;
+  if (valid) {
+    store.alerts.push(minutes);
+    store.alerts.sort((first, second) => second - first);
+    save();
+    renderAlerts();
+    $('alertInput').value = '';
+  } else {
+    const btn = $('addAlert');
+    btn.classList.add('error');
+    setTimeout(() => btn.classList.remove('error'), 800);
+  }
+}
 
-  store.alerts.push(minutes);
-  store.alerts.sort((first, second) => second - first);
+function removeAlert() {
+  const minutes = Number($('alertInput').value);
+  const index = store.alerts.indexOf(minutes);
 
-  save();
-  renderAlerts();
+  if (index !== -1) {
+    store.alerts.splice(index, 1);
+    save();
+    renderAlerts();
+    $('alertInput').value = '';
+  } else {
+    const btn = $('removeAlert');
+    btn.classList.add('error');
+    setTimeout(() => btn.classList.remove('error'), 800);
+  }
 }
 
 function selectedAlerts() {
@@ -438,13 +466,12 @@ function selectedAlerts() {
 }
 
 function start() {
-  ensureAudio();
-  playBeepCount(1);
+  sound.chime(1);
 
   const totalSeconds = durationSeconds();
   const startedAt = new Date();
 
-  stopFinalAlert();
+  sound.stopEndSignal();
 
   store.active = {
     started: startedAt.toISOString(),
@@ -493,8 +520,11 @@ function updateActive() {
     .map((zone) => `Ends ${fullTime(end, zone)}`)
     .join('\n');
 
+  const totalSeconds = active.originalSeconds + active.addedSeconds;
+
   active.alerts.forEach((minutes) => {
     const shouldPlay =
+      minutes * 60 < totalSeconds &&
       remaining <= minutes * 60 &&
       !active.played.includes(minutes);
 
@@ -503,7 +533,7 @@ function updateActive() {
     active.played.push(minutes);
 
     save();
-    playBeepCount(minutes);
+    sound.reminderAlert(minutes);
     flashAlert();
   });
 
@@ -511,7 +541,7 @@ function updateActive() {
     active.finalAlertPlayed = true;
 
     save();
-    startFinalAlert();
+    sound.startEndSignal();
   }
 }
 
@@ -541,18 +571,6 @@ function endTask() {
 
   const delta = Math.round((endedAt - finalEnd) / 1000);
 
-  const originalMinutes = active.originalSeconds / 60;
-
-  const grace = Math.min(
-    10,
-    Math.max(2, originalMinutes * 0.2)
-  );
-
-  const outcome =
-    delta <= grace * 60
-      ? 'SUCCESS'
-      : 'FAILURE';
-
   store.history.unshift({
     started: active.started,
     ended: endedAt.toISOString(),
@@ -563,8 +581,6 @@ function endTask() {
     finalEnd: active.finalEnd,
     zones: active.zones,
     delta,
-    grace,
-    outcome,
   });
 
   store.active = null;
@@ -572,22 +588,19 @@ function endTask() {
   save();
 
   clearInterval(interval);
-  stopFinalAlert();
+  sound.stopEndSignal();
 
   $('timer').className = '';
 
   renderHistory();
 
-  $('result').textContent = [
-    `Result: ${deltaText(delta)}`,
-    `Outcome: ${outcome}`,
-  ].join('\n');
+  $('result').textContent = `Result: ${deltaText(delta)}`;
 }
 
 function addFive() {
   if (!store.active) return;
 
-  stopFinalAlert();
+  sound.stopEndSignal();
 
   $('timer').className = '';
 
@@ -602,32 +615,38 @@ function addFive() {
   updateActive();
 }
 
+function zoneLabel(zone) {
+  const found = zoneOptions.find((option) => option[1] === zone);
+  if (!found) return zone;
+  return found[0]
+    .split(' — ')[0]
+    .replace('United States', 'USA')
+    .replace('United Kingdom', 'UK');
+}
+
 function historyText() {
   return store.history
     .map((entry) => {
+      const startDate = new Date(entry.started);
+      const endDate = new Date(entry.ended);
+
       const zoneTimes = entry.zones
         .map((zone) => {
-          const start = fullTime(
-            new Date(entry.started),
-            zone
-          );
-
-          const end = fullTime(
-            new Date(entry.ended),
-            zone
-          );
-
-          return `${zone}: ${start} → ${end}`;
+          const start = formatDateTime(startDate, zone);
+          const end = formatDateTime(endDate, zone);
+          const timeRange = start.d === end.d
+            ? `${start.d}  ${start.t} → ${end.t}`
+            : `${start.d} ${start.t} → ${end.d} ${end.t}`;
+          return `${zoneLabel(zone)}: ${timeRange}`;
         })
-        .join(' | ');
+        .join('\n');
 
       const details = [
         `Plan: ${planText(entry.originalSeconds)}`,
-        `Added: ${planText(entry.addedSeconds)}`,
-        `Final: ${planText(entry.finalSeconds)}`,
+        entry.addedSeconds ? `Added: ${planText(entry.addedSeconds)}` : null,
+        entry.addedSeconds ? `Final: ${planText(entry.finalSeconds)}` : null,
         `Result: ${deltaText(entry.delta)}`,
-        entry.outcome,
-      ].join(' | ');
+      ].filter(Boolean).join(' | ');
 
       return `${zoneTimes}\n${details}`;
     })
@@ -663,11 +682,10 @@ $('addZone').onclick = () => {
 };
 
 $('addAlert').onclick = addAlert;
+$('removeAlert').onclick = removeAlert;
+$('alertInput').onkeydown = (e) => { if (e.key === 'Enter') addAlert(); };
 
-$('testSound').onclick = () => {
-  ensureAudio();
-  playFinalPhrase();
-};
+$('testSound').onclick = () => sound.playEndPhrase();
 
 $('startBtn').onclick = start;
 $('endBtn').onclick = endTask;
@@ -680,6 +698,13 @@ $('copyHistory').onclick = async () => {
 };
 
 $('exportHistory').onclick = downloadHistory;
+
+$('clearHistory').onclick = () => {
+  if (!store.history.length) return;
+  store.history = [];
+  save();
+  renderHistory();
+};
 
 setupTheme();
 
@@ -696,3 +721,4 @@ if (store.active) {
 }
 
 setInterval(updateTimesOnly, 1000);
+

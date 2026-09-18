@@ -40,6 +40,7 @@
     input[type="number"] { width: 58px; background: var(--field); border: 1px solid var(--line); padding: 4px; }
     button { color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: 5px 8px; cursor: pointer; }
     button:hover { color: var(--bg); background: var(--ink); }
+    button.error { color: #fff; background: var(--red); border-color: var(--red); }
     .toggle { display: grid; place-items: center; width: 34px; height: 34px; padding: 4px; border: 0; background: transparent; }
     .toggle:hover { color: var(--ink); background: transparent; }
     .toggle .svg { display: grid; place-items: center; }
@@ -96,7 +97,7 @@
   <div>
     <strong>Alerts</strong>
     <div id="alerts" class="alerts"></div>
-    <div class="button-row"><button id="addAlert">+ Add alert</button><button id="testSound">Test sound</button></div>
+    <div class="button-row"><input id="alertInput" type="number" min="1" placeholder="min"><button id="addAlert">+ Add alert</button><button id="removeAlert">− Remove alert</button><button id="testSound">Test sound</button></div>
   </div>
 
   <div class="button-row"><button id="startBtn">Start Timekeeper</button></div>
@@ -110,8 +111,9 @@
 
   <h2>Local History Log</h2>
   <textarea id="history" readonly></textarea>
-  <div class="button-row"><button id="copyHistory">Copy to clipboard</button><button id="exportHistory">Export history .txt</button></div>
+  <div class="button-row"><button id="copyHistory">Copy to clipboard</button><button id="exportHistory">Export history .txt</button><button id="clearHistory">Clear history</button></div>
   <p class="small">History is stored only in this browser.</p>
+
   <script src="./timekeeper.js"></script>
 </body>
 </html>
