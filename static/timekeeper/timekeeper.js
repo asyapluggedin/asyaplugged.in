@@ -176,20 +176,23 @@ function tone(frequency, at, duration, volume) {
 }
 
 const sound = {
-  // Chime: low, slow decay — tens place
-  chime(count) {
+  // Chime: low, short decay — tens place. Returns time after last tone.
+  chime(count, at) {
     const ctx = ensureAudio();
+    const t = at ?? ctx.currentTime;
     for (let i = 0; i < count; i++) {
-      tone(396, ctx.currentTime + i * 0.6, 1.5, 0.2);
+      tone(396, t + i * 0.7, 0.45, 0.2);
     }
+    return t + count * 0.7;
   },
 
   // Pip: higher, short — ones place; frequency rises as minutes decrease
-  pip(count, minutes) {
+  pip(count, minutes, at) {
     const ctx = ensureAudio();
+    const t = at ?? ctx.currentTime;
     const freq = 639 + (10 - Math.min(minutes, 10)) * 9;
     for (let i = 0; i < count; i++) {
-      tone(freq, ctx.currentTime + i * 0.333, 0.2, 0.18);
+      tone(freq, t + i * 0.333, 0.2, 0.18);
     }
   },
 
@@ -200,18 +203,9 @@ const sound = {
     const pips = minutes % 10;
     let t = ctx.currentTime;
 
-    for (let i = 0; i < chimes; i++) {
-      tone(396, t, 1.5, 0.2);
-      t += 0.6;
-    }
-
+    if (chimes > 0) t = this.chime(chimes, t);
     if (chimes > 0 && pips > 0) t += 0.2;
-
-    const pipFreq = 639 + (10 - Math.min(minutes, 10)) * 9;
-    for (let i = 0; i < pips; i++) {
-      tone(pipFreq, t, 0.2, 0.18);
-      t += 0.333;
-    }
+    if (pips > 0) this.pip(pips, minutes, t);
   },
 
   playEndPhrase() {
@@ -332,52 +326,36 @@ function renderTable() {
     const row = document.createElement('tr');
     const isFirstRow = index === 0;
 
-    row.innerHTML = isFirstRow
-      ? `
-        <td>
-          <input id="hours" type="number" min="0" value="${store.hours}">
-        </td>
-        <td>
-          <input id="minutes" type="number" min="0" value="${store.minutes}">
-        </td>
-        <td>
-          <input id="seconds" type="number" min="0" max="59" value="${store.seconds}">
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      `
-      : `
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="row-actions"></td>
-      `;
+    const hoursCell = document.createElement('td');
+    const minutesCell = document.createElement('td');
+    const secondsCell = document.createElement('td');
+    const zoneCell = document.createElement('td');
+    const startCell = document.createElement('td');
+    const endCell = document.createElement('td');
+    const actionCell = document.createElement('td');
 
-    row.children[3].appendChild(zonePicker(zone, index));
-
-    renderTimeCell(row.children[4], now, zone);
-    renderTimeCell(row.children[5], end, zone);
-
-    if (!isFirstRow) {
+    if (isFirstRow) {
+      hoursCell.innerHTML = `<input id="hours" type="number" min="0" value="${store.hours}">`;
+      minutesCell.innerHTML = `<input id="minutes" type="number" min="0" value="${store.minutes}">`;
+      secondsCell.innerHTML = `<input id="seconds" type="number" min="0" max="59" value="${store.seconds}">`;
+    } else {
+      actionCell.className = 'row-actions';
       const remove = document.createElement('button');
-
       remove.textContent = '−';
       remove.title = 'Remove time zone';
-
       remove.onclick = () => {
         store.zones.splice(index, 1);
         save();
         renderTable();
       };
-
-      row.lastElementChild.appendChild(remove);
+      actionCell.appendChild(remove);
     }
 
+    zoneCell.appendChild(zonePicker(zone, index));
+    renderTimeCell(startCell, now, zone);
+    renderTimeCell(endCell, end, zone);
+
+    row.append(hoursCell, minutesCell, secondsCell, zoneCell, startCell, endCell, actionCell);
     body.appendChild(row);
   });
 
@@ -701,24 +679,42 @@ $('exportHistory').onclick = downloadHistory;
 
 $('clearHistory').onclick = () => {
   if (!store.history.length) return;
+
+  const confirmed = confirm(
+    'Clear all locally stored Timekeeper history?'
+  );
+
+  if (!confirmed) return;
+
   store.history = [];
   save();
   renderHistory();
 };
+
+function restoreActiveTimer() {
+  if (!store.active) return;
+
+  const scheduledEnd = new Date(store.active.finalEnd);
+  const ageMs = Date.now() - scheduledEnd.getTime();
+  const staleAfterMs = 30 * 60 * 1000;
+
+  if (ageMs > staleAfterMs) {
+    store.active = null;
+    save();
+    return;
+  }
+
+  $('activeSection').classList.remove('hidden');
+  updateActive();
+  interval = setInterval(updateActive, 250);
+}
 
 setupTheme();
 
 renderTable();
 renderAlerts();
 renderHistory();
-
-if (store.active) {
-  $('activeSection').classList.remove('hidden');
-
-  updateActive();
-
-  interval = setInterval(updateActive, 250);
-}
+restoreActiveTimer();
 
 setInterval(updateTimesOnly, 1000);
 
