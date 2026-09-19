@@ -3,23 +3,58 @@
 @import 'macros/topnav';
 @import 'macros/footer';
 
+// ── palette primitives — never referenced by components ───
 :root {
-  --black: #080808;
-  --white: #faf9f5;
-  --light2: #bbbbbb;
-  --light3: #dddddd;
-  --light4: #5E5E5E;
-  --twitterborder: #2F3336;
-  --blackhover: #101010;
-  --green: #2ecc40;
-  --red: #FF0101;
-  --teal: #40FFF4;
-  --red4: #DB1414;
-  --redhover: #ffc4c4;
-  --tealhover: #0E3535;
-  --pinkhover: #FC32FC;
+  --palette-red:        #db1414;
+  --palette-red-wash:   #ffc4c4;
+  --palette-teal:       #40fff4;
+  --palette-teal-wash:  #0e3535;
+  --palette-near-black: #080808;
+  --palette-warm-white: #faf9f5;
+  --palette-gray-line:  #777777;
+  --palette-gray-mid:   #555555;
+  --palette-gray-dark:  #333333;
 
-  // --green: #2ecc40; 383FFF; 0001FF;
+  // semantic defaults (light)
+  --background: var(--palette-warm-white);
+  --text:       #2f3336;
+  --text-muted: var(--palette-gray-mid);
+  --line:       var(--palette-gray-line);
+  --hovercolor: var(--palette-red-wash);
+  --accent:     var(--palette-red);
+}
+
+body[data-theme="light"] {
+  --background: var(--palette-warm-white);
+  --text:       #111111;
+  --text-muted: #706d67;
+  --line:       #c9c5bd;
+  --hovercolor: var(--palette-red-wash);
+  --accent:     var(--palette-red);
+}
+
+body[data-theme="dark"] {
+  --background: var(--palette-near-black);
+  --text:       var(--palette-warm-white);
+  --text-muted: #aaa69e;
+  --line:       #484641;
+  --hovercolor: var(--palette-teal-wash);
+  --accent:     var(--palette-teal);
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    --background: var(--palette-near-black);
+    --text:       var(--palette-warm-white);
+    --text-muted: #aaa69e;
+    --line:       #484641;
+    --hovercolor: var(--palette-teal-wash);
+    --accent:     var(--palette-teal);
+  }
+}
+
+body {
+  background: var(--background);
 }
 
 * {
@@ -31,74 +66,21 @@ html {
   font-family: 'Inter';
   font-size: 16px;
 }
+
 a {
   text-decoration: none;
-  color: var(--foreground);
+  color: var(--accent);
   &:hover {
-    color: var(--foreground);
+    color: var(--accent);
   }
 }
+
 ul {
   list-style: none;
 }
 
 img {
   max-width: 100%;
-}
-
-body[data-theme="dark"] {
-    --background: var(--black);
-    --foreground: var(--teal);
-    --blogtext: var(--white);
-    --hovercolor: var(--tealhover);
-    --page: #151515;
-    --text: #f1eee7;
-    --text-muted: #aaa69e;
-    --line: #484641;
-    --accent: #5cd8d0;
-    --accent-wash: #173c3a;
-}
-
-body[data-theme="light"] {
-    --foreground: var(--red4);
-    --background: var(--white);
-    --blogtext: var(--black);
-    --hovercolor: var(--redhover);
-    --page: #faf9f5;
-    --text: #111111;
-    --text-muted: #706d67;
-    --line: #c9c5bd;
-    --accent: #9f1021;
-    --accent-wash: #f3dfe0;
-}
-
-body {
-    background: var(--background);
-    //--foreground: var(--red4);
-    --foreground: var( --twitterborder);
-    --background: var(--white);
-    //--blogtext: var(--black);
-    --hovercolor: var(--blackhover);
-    --page: #faf9f5;
-    --text: #111111;
-    --text-muted: #706d67;
-    --line: #c9c5bd;
-    --accent: #9f1021;
-    --accent-wash: #f3dfe0;
-}
-
-@media (prefers-color-scheme: dark) {
-body:not([data-theme="light"]) {
-    --background: var(--black);
-    --foreground: var(--teal);
-    --blogtext: var(--white);
-    --page: #151515;
-    --text: #f1eee7;
-    --text-muted: #aaa69e;
-    --line: #484641;
-    --accent: #5cd8d0;
-    --accent-wash: #173c3a;
-}
 }
 
 // flex space between basic styles
@@ -131,7 +113,7 @@ THIS IS WHERE THE SPLASH PAGE CODE LIVES
 #circle {
  position: relative;
  background: transparent;
- border: 2px solid var(--foreground);
+ border: 2px solid var(--accent);
  height: 0;
  width: 15%;
  padding-bottom: 15%;
@@ -147,15 +129,12 @@ THIS IS WHERE THE SPLASH PAGE CODE LIVES
  font-size: 26px;
 
  text-decoration: none;
- color: var(--foreground);
+ color: var(--accent);
  -webkit-animation: myOrbit 5s linear infinite; /* Chrome, Safari 5 */
     -moz-animation: myOrbit 5s linear infinite; /* Firefox 5-15 */
       -o-animation: myOrbit 5s linear infinite; /* Opera 12+ */
-         animation: myOrbit 5s linear infinite; /* Chrome, Firefox 16+, 
+         animation: myOrbit 5s linear infinite; /* Chrome, Firefox 16+,
                                                    IE 10+, Safari 5 */
- 
- 
- 
 }
 
 #counter {
@@ -172,8 +151,6 @@ transform: translate(-50%, 0%);
 }
 
 @media (max-width: 1000px) {
-
-
   #circle {
     padding: 10%;
     box-sizing: border-box;
@@ -183,11 +160,9 @@ transform: translate(-50%, 0%);
     left: 0;
     font-size: 20px;
   }
-
 }
 
 @media (max-width: 600px) {
-  
   #circle {
     padding: 20%;
   }

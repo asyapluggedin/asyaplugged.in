@@ -25,7 +25,7 @@ article {
   padding: 3.5rem;
   max-width: 75em;
   // overflow-x: auto;
-  color: var(--blogtext);
+  color: var(--text);
   background: var(--background);
   .title {
     margin: 0 0 1rem;
@@ -46,28 +46,28 @@ article {
     margin-bottom: 0.25rem;
   }
   a {
-    color: var(--foreground); //green
+    color: var(--accent); //green
     &:hover {
-      color: var(--foreground);
-      border-bottom: var(--foreground) solid 1px;
+      color: var(--accent);
+      border-bottom: var(--accent) solid 1px;
     }
   }
   blockquote {
     margin-left: 0;
     margin-right: 0;
-    color: $dark1;
+    color: var(--text-muted);
     padding-left: 10px;
-    border-left: 3px solid $dark1;
+    border-left: 3px solid var(--line);
     sup {
       padding-left: 0.25rem;
     }
     a {
-      border-bottom: 1px solid var(--foreground);
+      border-bottom: 1px solid var(--accent);
     }
   }
   .footnote-definition {
     margin-top: 0.5rem;
-    border-top: 1px solid $dark1;
+    border-top: 1px solid var(--line);
     sup {
       padding-top: 1rem;
       display: inline-block;
@@ -89,7 +89,7 @@ article {
     overflow-x: auto;
     td,
     th {
-      border: 1px solid $dark1;
+      border: 1px solid var(--line);
       background-color: var(--background);
       padding: 5px 14px;
     }
@@ -102,7 +102,7 @@ article {
   }
   code {
     font-family: 'JetBrains Mono';
-    color: var(--blogtext);
+    color: var(--text);
     font-size: 85%;
     background-color: transparent !important;
   }
@@ -125,7 +125,7 @@ article {
     display: inline-block;
     padding: 4px 5px;
     font-size: 1.125rem;
-    box-shadow: inset $light2 0px -1px 0;
+    box-shadow: inset var(--accent) 0px -1px 0;
     vertical-align: middle;
     border-radius: 2px;
   }
@@ -133,7 +133,7 @@ article {
     height: auto;
     max-width: 70%;
     padding: 0%;
-    border:var(--foreground) 1px solid;
+    border:var(--accent) 1px solid;
     text-align: center;
   }
   }
@@ -154,7 +154,7 @@ article {
     // grid-template-columns: repeat(5, 1fr);
     }
     li {
-        border: var(--foreground) solid 1px;
+        border: var(--accent) solid 1px;
         padding: 0.5em;
     }
     li:hover {
@@ -184,7 +184,7 @@ article {
     padding-top: 1em;
   }
   time {
-    color: var(--blogtext);
+    color: var(--text);
   }
 }
 

@@ -12,7 +12,7 @@ body[data-theme="dark"] > header > nav > ul > li > button.toggle {
         display: none;
     }
     svg.toggle-light {
-        color: var(--foreground);
+        color: var(--accent);
         display: block
     }
 }
@@ -22,7 +22,7 @@ body:not([data-theme="dark"]) > header > nav > ul > li > button.toggle {
         display: none;
     }
     svg.toggle-black {
-        color: var(--foreground);
+        color: var(--accent);
         display: block
     }
 }
@@ -31,9 +31,9 @@ body:not([data-theme="dark"]) > header > nav > ul > li > button.toggle {
 header {
   height: 42px;
   border-bottom: 0.1rem solid;
-  border-color: var(--foreground);
+  border-color: var(--accent);
   width: 100%;
-  color: var(--foreground);
+  color: var(--accent);
   background: var(--background);
   .logotype {
     max-height: 2rem;
@@ -60,19 +60,19 @@ header {
       .active {
         padding-bottom: 3px;
         border-bottom: 2px solid;
-        border-color: var(--foreground);
+        border-color: var(--accent);
       }
     }
     .vector {
       display: flex;
       margin-top: 0.2em;
-      border: 1px solid var(--foreground);
+      border: 1px solid var(--accent);
       &:hover {
-        color: var(--foreground);
+        color: var(--accent);
         background: var(--background);
       }
       span:hover {
-        color: var(--foreground);
+        color: var(--accent);
         background: var(--background);
       }
       span.svg:hover {
@@ -82,14 +82,14 @@ header {
   }
   a {
     span {
-      color: var(--foreground);
+      color: var(--accent);
     }
     span.svg {
       display: flex;
       padding: 3px 3px;
     }
     span:hover {
-      color: var(--foreground);
+      color: var(--accent);
     }
   }
   li.separator {
@@ -97,7 +97,7 @@ header {
   }
   li.separator::before {
     content: '';
-    border-left: 1px solid var(--foreground);
+    border-left: 1px solid var(--line);
     margin-right: 1rem;
   }
   form {
@@ -126,11 +126,11 @@ header {
       display: flex;
       left: -16px;
       border: 1px solid;
-      border-color: var(--foreground);
+      border-color: var(--accent);
       }
       
     input {
-      color: var(--foreground);
+      color: var(--text);
       background: var(--background);
       padding: 4px 4px;
       border: none;
@@ -147,7 +147,7 @@ header {
    // width: 32rem;
         padding-bottom: 3px;
         border-bottom: 2px solid;
-        border-color: var(--foreground);
+        border-color: var(--accent);
     } */
   }
 }
@@ -163,7 +163,7 @@ header {
   & a {
     display: flex;
     padding: 0.75rem;
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--line);
   }
 
   & span:first-child {

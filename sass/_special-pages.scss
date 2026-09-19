@@ -1,6 +1,6 @@
 .welcome {
   padding-top: 2em;
-  color: var(--foreground);
+  color: var(--accent);
   display: grid;
   grid-template-rows: 1fr 0.5fr;
   justify-items: center;
@@ -36,7 +36,7 @@
 }
 
 .error {
-  color: var(--foreground);
+  color: var(--accent);
   grid-template-rows: 0.1fr 0.1fr 0.1fr;
   grid-template-columns: inherit;
   grid-gap: inherit;

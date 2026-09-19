@@ -2,15 +2,15 @@ main > nav {
   padding-left: 0;
   max-height: 100vh;
   background: var(--background);
-  color: $dark1;
-  border-right: 1px solid $dark1;
+  color: var(--text-muted);
+  border-right: 1px solid var(--line);
   font-size: 14px;
 
   li {
     margin-left: 0.5rem;
     margin-top: 1em;
     a {
-      color: $dark1;
+      color: var(--text-muted);
       margin-top: 1em;
       padding-right: 0.5rem;
     }
@@ -45,14 +45,14 @@ main > nav {
       transition: 0.2s ease-in-out;
     }
     &:hover {
-      color: var(--foreground);
+      color: var(--accent);
       border-right: none;
     }
   }
   ul.subsection {
     padding-left: 0.5em;
     margin-top: 1em;
-    color: $dark3;
+    color: var(--text-muted);
     li {
       display: flex;
       text-align: left;
@@ -67,11 +67,11 @@ main > nav {
   }
   li.active,
   li:hover {
-    color: var(--blogtext);
-    border-right: 1px solid var(--foreground);
+    color: var(--text);
+    border-right: 1px solid var(--accent);
   }
   a.active {
-    color: var(--blogtext);
+    color: var(--text);
   }
 }
 
@@ -81,7 +81,7 @@ main > nav {
     .active,
     li:hover,
     a:hover {
-      color: var(--foreground);
+      color: var(--accent);
       border: none;
     }
   }

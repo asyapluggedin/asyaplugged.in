@@ -2,12 +2,8 @@
 
 @import 'special-pages';
 
-body[data-theme="dark"] > section a {
-    border: 2px solid $teal;
-}
-
-body:not([data-theme="dark"]) > section a {
-    border: 2px solid var(--foreground);
+section a {
+    border: 2px solid var(--accent);
 }
 
 
@@ -26,7 +22,7 @@ section {
   a {
     display: block;
     position: relative;
-    color: var(--foreground);
+    color: var(--accent);
     background-size: cover;
     background-color: var(--background);
     text-decoration: none;
@@ -50,18 +46,18 @@ section {
       transform: translate(-50%, -50%);
       font-size: 20px;
       // margin-bottom: 10px;
-     color: var(--foreground);
+     color: var(--accent);
     }
     & div {
       opacity: 0;
       transform: translateY(40px);
       transition: transform 0.4s, opacity 0.4s;
-      color: var(--foreground);
+      color: var(--accent);
     }
     &:hover div {
       opacity: 1;
       transform: translateY(0);
-      color: var(--foreground);
+      color: var(--accent);
     }
     & time,
     p {
@@ -72,8 +68,8 @@ section {
     }
   }
   & a:hover {
-    outline: 1px solid var(--foreground);
-    box-shadow: 0px 0px 5px 5px var(--foreground);
+    outline: 1px solid var(--accent);
+    box-shadow: 0px 0px 5px 5px var(--accent);
 
     span {
     transform: scale(-1,-1) translate(50%, -65%);

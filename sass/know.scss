@@ -3,11 +3,11 @@
 @import 'special-pages';
 
 /*body[data-theme="black"] > section a {
-    border: 2px solid $teal;
+    border: 2px solid var(--accent);
 }
 
 body:not([data-theme="dark"]) > section a {
-    border: 2px solid var(--foreground);
+    border: 2px solid var(--accent);
 }*/
 
 /* Style the tab */
@@ -17,7 +17,7 @@ body:not([data-theme="dark"]) > section a {
   height:39.3px;
   //height:2.5rem;
   background-color: var(--background);
-  border-bottom: 1px solid var(--foreground);
+  border-bottom: 1px solid var(--accent);
   padding-top: 15px;
   padding-bottom: 0px;
 
@@ -31,15 +31,15 @@ body:not([data-theme="dark"]) > section a {
     //outline: none;
     //cursor: pointer;
     margin: 0 1rem;
-    color:  var(--foreground);
+    color:  var(--accent);
     //align-items: flex-end;
     //writing-mode: sideways-lr;
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--accent);
     padding: 2px 5px;
   }
 
   button a {
-    //border: 1px solid var(--foreground);
+    //border: 1px solid var(--accent);
     //padding: 2px 5px;
     width: 175px;
     text-align: center;
@@ -69,7 +69,7 @@ body:not([data-theme="dark"]) > section a {
 
 table {
     margin: 1rem auto;
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--accent);
     // border-top: none;
     border-spacing: 0;
     // table-layout: fixed;
@@ -115,7 +115,7 @@ table {
         margin-right: -.25rem;
       }
       span:hover {
-      background-color: var(--foreground);
+      background-color: var(--accent);
       color: var(--background);
       }
     }

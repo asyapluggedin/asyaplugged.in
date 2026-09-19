@@ -22,13 +22,13 @@ footer {
   // padding-bottom: 0.25rem;
   background-color: var(--background);
   border-top: 1px solid;
-  border-color: var(--foreground);
+  border-color: var(--accent);
   font-size: 16px;
-  color: var(--foreground);
+  color: var(--accent);
 
   display: grid;
   grid-template-columns: repeat(6,1fr);
-  //background-color: var(--foreground);
+  //background-color: var(--accent);
   div {
     grid-gap: 0px;
     padding: 15px;
@@ -66,7 +66,7 @@ li {
     
     & a:hover{
       color: var(--background);
-      background-color: var(--foreground);
+      background-color: var(--accent);
     }
   }
   span {
@@ -77,14 +77,14 @@ li {
     &:hover{
       
       border-bottom: 2px solid;
-      border-color: var(--foreground);
+      border-color: var(--accent);
     }
     
   }
 
   svg {
     width: 1.25rem;
-    fill: var(--foreground);
+    fill: var(--accent);
   }
   
 }

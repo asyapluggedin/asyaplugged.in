@@ -20,7 +20,7 @@ article {
   max-width: calc(100% - 5rem);
   //  calc (100% - 700px)
   // overflow-x: auto;
-  color: var(--blogtext);
+  color: var(--text);
   background: var(--background);
   //font-family: 'Jjannon';
   
@@ -28,7 +28,7 @@ article {
     margin: 0 auto 2rem auto;
     font-size: 2rem;
     font-family: 'Jjannon';
-    color: var(--foreground);
+    color: var(--accent);
     text-align: center;
     letter-spacing: -0.01em;
   }
@@ -38,7 +38,7 @@ article {
     margin-bottom: 1.25rem;
   }
   h1,h2,h3,h4,h5,h6 {
-    color: var(--blogtext);
+    color: var(--text);
     font-weight: 700;
   }
 
@@ -49,28 +49,28 @@ article {
     line-height: 1.6;
   }
   a {
-    color: var(--foreground); //green
+    color: var(--accent); //green
     &:hover {
-      color: var(--foreground);
-      border-bottom: var(--foreground) solid 1px;
+      color: var(--accent);
+      border-bottom: var(--accent) solid 1px;
     }
   }
   blockquote {
     margin-left: 0;
     margin-right: 0;
-    color: $dark1;
+    color: var(--text-muted);
     padding-left: 10px;
-    border-left: 3px solid $dark1;
+    border-left: 3px solid var(--line);
     sup {
       padding-left: 0.25rem;
     }
     a {
-      border-bottom: 1px solid var(--foreground);
+      border-bottom: 1px solid var(--accent);
     }
   }
   .footnote-definition {
     margin-top: 0.5rem;
-    border-top: 1px solid $dark1;
+    border-top: 1px solid var(--line);
     sup {
       padding-top: 1rem;
       display: inline-block;
@@ -89,11 +89,11 @@ article {
     //margin: 1.25rem auto 0 auto;
     width: 100%;
     max-width: 100vw;
-    color: var(--blogtext);
+    color: var(--text);
     // border-collapse: collapse;
     // table{border-spacing: 0}
     //border-style: hidden; /* hide standard table (collapsed) border */
-    //box-shadow: 0 0 0 1px var(--blogtext);
+    //box-shadow: 0 0 0 1px var(--text);
     -webkit-border-radius: 10px;
     //border: 2px;
     -moz-border-radius: 10px;
@@ -104,7 +104,7 @@ article {
 
    
     td,th {
-      border: 1px solid $dark1;
+      border: 1px solid var(--line);
       background-color: var(--background);
       padding: 8px 10px;
       margin: 0 auto;
@@ -126,18 +126,18 @@ article {
   
   pre {
     margin-top: 1rem;
-    box-shadow: 2px 2px 0 var(--foreground);
+    box-shadow: 2px 2px 0 var(--accent);
     padding: 8px;
     overflow-x: auto;
   }
   code {
     font-family: 'JetBrains Mono';
-    color: var(--blogtext);
+    color: var(--text);
     font-size: 95%;
     // background-color: transparent !important;
     background-color: var(--hovercolor) !important;
     padding: 0rem .15rem;
-    border: .5px var(--foreground) solid;
+    border: .5px var(--line) solid;
     border-radius: 3px;
 
   }
@@ -160,7 +160,7 @@ article {
     display: inline-block;
     padding: 4px 5px;
     font-size: 1.125rem;
-    box-shadow: inset $light2 0px -1px 0;
+    box-shadow: inset var(--accent) 0px -1px 0;
     vertical-align: middle;
     border-radius: 2px;
   }
@@ -172,7 +172,7 @@ article {
   
     max-width: 70%;
     //padding: calc(-10px);
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--line);
     border-radius: 15px;
     margin: 0 auto;
     text-align: center;
@@ -226,7 +226,7 @@ article {
 
 details {
   border: none;
-  border-top: 1px solid $dark1;
+  border-top: 1px solid var(--line);
   border-radius: 0;
   padding: .5rem 0;
   margin: 0 0 2.5rem;
@@ -246,7 +246,7 @@ summary {
   list-style: none;
   display: block;
   cursor: pointer;
-  color: $dark1;
+  color: var(--text-muted);
 }
 
 summary::-webkit-details-marker {
@@ -261,7 +261,7 @@ details[open] summary {
 .sections {
   font-size: .8rem;
   font-family: 'JetBrains Mono', monospace;
-  color: $dark1;
+  color: var(--text-muted);
   display: flex;
   padding-left: 0;
   margin: .1rem 0 .1rem 0;
@@ -285,7 +285,7 @@ details[open] summary {
     padding-top: 1em;
   }
   time {
-    color: $dark1;
+    color: var(--text-muted);
   }
   .margin-left-1rem {
     margin-left: 1rem;
@@ -297,16 +297,16 @@ nav.navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid $dark1;
+  border-top: 1px solid var(--line);
   padding-top: 1.5rem;
   a {
-    color: var(--blogtext);
+    color: var(--text);
     &:hover {
-      color: var(--foreground); //green
+      color: var(--accent); //green
       border: none;
     }
     & span:hover {
-      border-bottom: 1px solid $dark1;
+      border-bottom: 1px solid var(--line);
     }
     & svg {
         position: relative;
