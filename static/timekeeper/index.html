@@ -68,6 +68,7 @@
     #activeSection .button-row { justify-content: center; }
     .small { font-size: 13px; color: var(--muted); }
     #result { margin: 10px 0; font-family: "Courier New", Courier, monospace; font-size: 14px; white-space: pre-wrap; text-align: center; }
+    .table-scroll { overflow-x: auto; }
     @media (max-width: 680px) {
       body { padding: 0 10px 36px; }
       table { font-size: 12px; }
@@ -89,10 +90,12 @@
     </button>
   </div>
 
-  <table>
-    <thead><tr><th>Hours</th><th>Minutes</th><th>Seconds</th><th>Time zone</th><th>Start time</th><th>End time</th><th></th></tr></thead>
-    <tbody id="zoneRows"></tbody>
-  </table>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Hours</th><th>Minutes</th><th>Seconds</th><th>Time zone</th><th>Start time</th><th>End time</th><th></th></tr></thead>
+      <tbody id="zoneRows"></tbody>
+    </table>
+  </div>
 
   <div class="button-row"><button id="addZone">+ Add time zone</button></div>
 
