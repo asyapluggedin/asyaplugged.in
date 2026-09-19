@@ -459,6 +459,8 @@ function selectedAlerts() {
 function start() {
   sound.chime(1);
 
+  $('resumeBtn').classList.add('hidden');
+
   const totalSeconds = durationSeconds();
   const startedAt = new Date();
 
@@ -563,7 +565,8 @@ function endTask() {
   const endedAt = new Date();
   const finalEnd = new Date(active.finalEnd);
 
-  const delta = Math.round((endedAt - finalEnd) / 1000);
+  const originalEnd = new Date(new Date(active.started).getTime() + active.originalSeconds * 1000);
+  const delta = Math.round((endedAt - originalEnd) / 1000);
 
   store.history.unshift({
     started: active.started,
@@ -590,6 +593,41 @@ function endTask() {
   renderHistory();
 
   $('result').textContent = `Result: ${deltaText(delta)}`;
+
+  $('resumeBtn').classList.toggle('hidden', finalEnd <= endedAt);
+}
+
+function resumeTimer() {
+  const last = store.history[0];
+  if (!last) return;
+
+  const finalEnd = new Date(last.finalEnd);
+  if (finalEnd <= new Date()) return;
+
+  store.history.shift();
+
+  store.active = {
+    started: last.started,
+    originalSeconds: last.originalSeconds,
+    addedSeconds: last.addedSeconds,
+    finalEnd: last.finalEnd,
+    zones: last.zones,
+    alerts: store.alerts.slice(),
+    played: [],
+    finalAlertPlayed: false,
+  };
+
+  save();
+
+  $('resumeBtn').classList.add('hidden');
+  $('result').textContent = '';
+  $('timer').className = '';
+  document.title = 'Timekeeper';
+
+  renderHistory();
+  updateActive();
+  clearInterval(interval);
+  interval = setInterval(updateActive, 250);
 }
 
 function addFive() {
@@ -600,10 +638,10 @@ function addFive() {
   $('timer').className = '';
 
   store.active.finalEnd = new Date(
-    new Date(store.active.finalEnd).getTime() + 300000
+    new Date(store.active.finalEnd).getTime() + 60000
   ).toISOString();
 
-  store.active.addedSeconds += 300;
+  store.active.addedSeconds += 60;
   store.active.finalAlertPlayed = false;
 
   save();
@@ -639,7 +677,6 @@ function historyText() {
       const details = [
         `Plan: ${planText(entry.originalSeconds)}`,
         entry.addedSeconds ? `Added: ${planText(entry.addedSeconds)}` : null,
-        entry.addedSeconds ? `Final: ${planText(entry.finalSeconds)}` : null,
         `Result: ${deltaText(entry.delta)}`,
       ].filter(Boolean).join(' | ');
 
@@ -685,6 +722,7 @@ $('testSound').onclick = () => sound.playEndPhrase();
 $('startBtn').onclick = start;
 $('endBtn').onclick = endTask;
 $('addFiveBtn').onclick = addFive;
+$('resumeBtn').onclick = resumeTimer;
 
 $('copyHistory').onclick = async () => {
   await navigator.clipboard.writeText(
