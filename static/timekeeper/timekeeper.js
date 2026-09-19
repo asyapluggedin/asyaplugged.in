@@ -501,12 +501,17 @@ function updateActive() {
   const timer = $('timer');
 
   const abs = Math.abs(remaining);
-  const display = remaining < 0
-    ? `−${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
+  const digits = remaining < 0
+    ? `${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
     : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}`;
 
-  timer.textContent = display;
-  document.title = `${display} — Timekeeper`;
+  if (remaining < 0) {
+    timer.innerHTML = `<span class="sign">−</span>${digits}`;
+  } else {
+    timer.textContent = digits;
+  }
+
+  document.title = `${remaining < 0 ? '−' : ''}${digits} Timekeeper - Asya`;
 
   timer.classList.toggle('end', remaining <= 0);
 
