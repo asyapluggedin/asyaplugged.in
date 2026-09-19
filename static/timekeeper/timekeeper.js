@@ -71,13 +71,7 @@ function setTheme(theme) {
 function setupTheme() {
   const savedTheme = localStorage.getItem(THEME_KEY);
 
-  const systemTheme = matchMedia(
-    '(prefers-color-scheme: dark)'
-  ).matches
-    ? 'dark'
-    : 'light';
-
-  setTheme(savedTheme || systemTheme);
+  setTheme(savedTheme || 'light');
 
   $('themeToggle').onclick = () => {
     const current = document.documentElement.dataset.theme;
@@ -176,7 +170,6 @@ function tone(frequency, at, duration, volume) {
 }
 
 const sound = {
-  // Chime: low, short decay — tens place. Returns time after last tone.
   chime(count, at) {
     const ctx = ensureAudio();
     const t = at ?? ctx.currentTime;
@@ -186,7 +179,6 @@ const sound = {
     return t + count * 0.7;
   },
 
-  // Pip: higher, short — ones place; frequency rises as minutes decrease
   pip(count, minutes, at) {
     const ctx = ensureAudio();
     const t = at ?? ctx.currentTime;
@@ -196,7 +188,7 @@ const sound = {
     }
   },
 
-  // Base-10 grammar: chimes = tens, pips = ones
+
   reminderAlert(minutes) {
     const ctx = ensureAudio();
     const chimes = Math.floor(minutes / 10);

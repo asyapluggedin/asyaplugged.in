@@ -23,8 +23,8 @@ body:not([data-theme="dark"]) > section a {
 
   button:first-child {
     margin-left: 3rem;
-  } 
-  
+  }
+
   button {
     background-color: transparent;
     float: left;
@@ -74,7 +74,7 @@ table {
     border-spacing: 0;
     // table-layout: fixed;
     width: 95%;
-    color: var(--foreground);
+    color: var(--text);
 
     th {
             padding: 1rem 1rem .5rem 1rem;
@@ -98,7 +98,7 @@ table {
     }
 
     .onetag ~ .onetag::before {
-      content:', '; 
+      content:', ';
     }
     }
 
