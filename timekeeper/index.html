@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>timekeeper - asyapluggedin</title>
+  <style>
+    :root {
+      --bg: #faf9f5;
+      --ink: #111111;
+      --muted: #646464;
+      --line: #111111;
+      --field: #ffffff;
+      --head: #efede7;
+      --hover: #e4e1d9;
+      --red: #b31422;
+      --final: #671024;
+    }
+    [data-theme="dark"] {
+      --bg: #111111;
+      --ink: #f7f5ee;
+      --muted: #b7b4aa;
+      --line: #f7f5ee;
+      --field: #181818;
+      --head: #242424;
+      --hover: #303030;
+      --red: #ff6c75;
+      --final: #ff8a93;
+    }
+    * { box-sizing: border-box; }
+    body { max-width: 860px; margin: 24px auto; padding: 0 16px 48px; font: 16px/1.35 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--bg); transition: background .15s, color .15s; }
+    h1 { margin: 0; font-size: 32px; line-height: 1; font-weight: normal; }
+    h2 { font-size: 18px; margin: 30px 0 8px; font-weight: normal; }
+    .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); padding-bottom: 9px; }
+    .mono, input, button, textarea { font-family: "Courier New", Courier, monospace; }
+    table { width: 100%; border-collapse: collapse; margin: 0 0 14px; font-size: 14px; }
+    th, td { padding: 7px; border: 1px solid var(--line); text-align: left; vertical-align: middle; }
+    th { font-family: "Courier New", Courier, monospace; font-weight: bold; background: var(--head); }
+    input, button, textarea { font-size: 14px; color: var(--ink); }
+    input[type="number"] { width: 58px; background: var(--field); border: 1px solid var(--line); padding: 4px; }
+    button { color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: 5px 8px; cursor: pointer; }
+    button:hover { color: var(--bg); background: var(--ink); }
+    button.error { color: #fff; background: var(--red); border-color: var(--red); }
+    .toggle { display: grid; place-items: center; width: 34px; height: 34px; padding: 4px; border: 0; background: transparent; }
+    .toggle:hover { color: var(--ink); background: transparent; }
+    .toggle .svg { display: grid; place-items: center; }
+    .toggle svg { width: 24px; height: 24px; display: none; }
+    [data-theme="light"] .toggle-light, [data-theme="dark"] .toggle-black { display: block; }
+    .zone-search { width: 100%; min-width: 170px; color: var(--ink); background: var(--field); border: 1px solid var(--line); padding: 4px; }
+    .zone-results { position: absolute; z-index: 1; width: min(460px, calc(100vw - 48px)); margin: 3px 0 0; padding: 0; list-style: none; border: 1px solid var(--line); background: var(--field); max-height: 220px; overflow: auto; }
+    .zone-results:empty { display: none; }
+    .zone-results button { display: block; width: 100%; border: 0; border-bottom: 1px solid var(--line); background: var(--field); padding: 7px 8px; text-align: left; font-size: 13px; }
+    .zone-results button:hover, .zone-results button:focus { color: var(--ink); background: var(--hover); }
+    .zone-cell { position: relative; }
+    .time-cell { white-space: nowrap; line-height: 1.25; }
+    .time-cell .date { display: block; }
+    .time-cell .time { display: block; font-family: "Courier New", Courier, monospace; }
+    .row-actions { white-space: nowrap; }
+    .alerts { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; font-family: "Courier New", Courier, monospace; font-size: 14px; }
+    .alerts label { white-space: nowrap; }
+    .hidden { display: none; }
+    #timer { font-family: monospace; font-size: clamp(96px, 25vw, 240px); line-height: .85; font-weight: normal; letter-spacing: -.11em; margin: 38px 0 18px; text-align: center; transition: color .12s; }
+    #timer.alert { color: var(--red); }
+    #timer.end { color: var(--final); }
+    #timerMeta { margin: 0 0 12px; white-space: pre-line; text-align: center; font-size: 14px; }
+    #history { width: 100%; min-height: 190px; resize: vertical; color: var(--ink); background: var(--field); border: 1px solid var(--line); padding: 8px; line-height: 1.4; }
+    .button-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
+    #activeSection .button-row { justify-content: center; }
+    .small { font-size: 13px; color: var(--muted); }
+    #result { margin: 10px 0; font-family: "Courier New", Courier, monospace; font-size: 14px; white-space: pre-wrap; text-align: center; }
+    .table-scroll { overflow-x: auto; }
+    @media (max-width: 680px) {
+      body { padding: 0 10px 36px; }
+      table { font-size: 12px; }
+      th, td { padding: 5px; }
+      .zone-search { min-width: 140px; }
+    }
+  </style>
+  <script data-goatcounter="https://asyapluggedin.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <div class="top">
+    <h1>Timekeeper</h1>
+    <button aria-label="Toggle mode" class="toggle vector" id="themeToggle" type="button">
+      <span class="svg">
+        <svg viewBox="0 0 32 32" class="toggle-light" fill="currentColor" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><title>asleep</title><path d="M13.5025,5.4136A15.0755,15.0755,0,0,0,25.096,23.6082a11.1134,11.1134,0,0,1-7.9749,3.3893c-.1385,0-.2782.0051-.4178,0A11.0944,11.0944,0,0,1,13.5025,5.4136M14.98,3a1.0024,1.0024,0,0,0-.1746.0156A13.0959,13.0959,0,0,0,16.63,28.9973c.1641.006.3282,0,.4909,0a13.0724,13.0724,0,0,0,10.702-5.5556,1.0094,1.0094,0,0,0-.7833-1.5644A13.08,13.08,0,0,1,15.8892,4.38,1.0149,1.0149,0,0,0,14.98,3Z"></path></svg>
+        <svg viewBox="0 0 32 32" class="toggle-black" fill="currentColor" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><title>asleep_black</title><path d="M14.98,3a1.0024,1.0024,0,0,0-.1746.0156A13.0959,13.0959,0,0,0,16.63,28.9973c.1641.006.3282,0,.4909,0a13.0724,13.0724,0,0,0,10.702-5.5556,1.0094,1.0094,0,0,0-.7833-1.5644A13.08,13.08,0,0,1,15.8892,4.38,1.0149,1.0149,0,0,0,14.98,3Z"></path></svg>
+      </span>
+    </button>
+  </div>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Hours</th><th>Minutes</th><th>Seconds</th><th>Time zone</th><th>Start time</th><th>End time</th><th></th></tr></thead>
+      <tbody id="zoneRows"></tbody>
+    </table>
+  </div>
+
+  <div class="button-row"><button id="addZone">+ Add time zone</button></div>
+
+  <div>
+    <strong>Alerts</strong>
+    <div id="alerts" class="alerts"></div>
+    <div class="button-row"><input id="alertInput" type="number" min="1" placeholder="min"><button id="addAlert">+ Add alert</button><button id="removeAlert">− Remove alert</button><button id="testSound">Test sound</button></div>
+  </div>
+
+  <div class="button-row"><button id="startBtn">Start Timekeeper</button></div>
+
+  <section id="activeSection" class="hidden">
+    <div id="timer">0:00</div>
+    <div id="timerMeta"></div>
+    <div class="button-row"><button id="endBtn">End</button><button id="addFiveBtn">Add 1 Minute</button><button id="resumeBtn" class="hidden">Resume</button></div>
+    <div id="result"></div>
+  </section>
+
+  <h2>Local History Log</h2>
+  <textarea id="history" readonly></textarea>
+  <div class="button-row"><button id="copyHistory">Copy to clipboard</button><button id="exportHistory">Export history .txt</button><button id="clearHistory">Clear history</button></div>
+  <p class="small">History is stored only in this browser.</p>
+
+  <script src="/timekeeper/timekeeper.js"></script>
+</body>
+</html>
