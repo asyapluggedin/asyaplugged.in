@@ -501,9 +501,12 @@ function updateActive() {
 
   const timer = $('timer');
 
-  timer.textContent = `${Math.floor(remaining / 60)}:${String(
+  const display = `${Math.floor(remaining / 60)}:${String(
     remaining % 60
   ).padStart(2, '0')}`;
+
+  timer.textContent = display;
+  document.title = `${display} — Timekeeper`;
 
   timer.classList.toggle('end', remaining === 0);
 
@@ -513,7 +516,7 @@ function updateActive() {
 
   const totalSeconds = active.originalSeconds + active.addedSeconds;
 
-  active.alerts.forEach((minutes) => {
+  store.alerts.forEach((minutes) => {
     const shouldPlay =
       minutes * 60 < totalSeconds &&
       remaining <= minutes * 60 &&
@@ -582,6 +585,7 @@ function endTask() {
   sound.stopEndSignal();
 
   $('timer').className = '';
+  document.title = 'Timekeeper';
 
   renderHistory();
 
