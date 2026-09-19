@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Asya Davydova Lewis - writing</title>
+    <subtitle> </subtitle>
+    <link rel="self" type="application/atom+xml" href="https://asyaplugged.in/tags/writing/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://asyaplugged.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-07-11T00:00:00+00:00</updated>
+    <id>https://asyaplugged.in/tags/writing/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Hello World: Welcome to Asya&#x27;s blog</title>
+        <published>2022-07-11T00:00:00+00:00</published>
+        <updated>2022-07-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://asyaplugged.in/know/hello-world/"/>
+        <id>https://asyaplugged.in/know/hello-world/</id>
+        
+        <content type="html" xml:base="https://asyaplugged.in/know/hello-world/">&lt;p&gt;Hello, and welcome to my website, specifically my blog.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;what-s-going-on-with-the-whole-do-you-know-love-thing&quot;&gt;What&#x27;s going on with the whole &amp;quot;do you know love&amp;quot; thing?&lt;&#x2F;h2&gt;
+&lt;p&gt;So, when I was first learning programming, I made a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;process&quot;&gt;game&lt;&#x2F;a&gt; in Processing. I wanted to make a peculiar online psychology quiz, so one of the questions was &amp;quot;Do you know love?&amp;quot; with the only answer being an hard-to-click &amp;quot;YES&amp;quot;. I was inspired by Lacan&#x27;s contention that jouissance is a phenomenon unknowable to humans, but as I needed some sort of &amp;quot;click&amp;quot; interaction to trigger the next question screen, I asked the question not about jouissance, but rather something more people are familiar with: love.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;assets&#x2F;process-love-level.png&quot; alt=&quot;Level Image&quot; width=&quot;300&quot;&gt;
+&lt;p&gt;Shortly thereafter, I put the graphic from that quiz on the splash page of my old website, &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20220000000000*&#x2F;http:&#x2F;&#x2F;xnast.asia&#x2F;&quot;&gt;xnast.asia&lt;&#x2F;a&gt;. You could only enter the website if you successfully clicked &amp;quot;YES&amp;quot;. This was back in 2016. In 2022, I decided to make the website that you are currently on. I knew I wanted to have four different sections:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;info &#x2F; about me&lt;&#x2F;li&gt;
+&lt;li&gt;portfolio &#x2F; work case studies&lt;&#x2F;li&gt;
+&lt;li&gt;blog&lt;&#x2F;li&gt;
+&lt;li&gt;page of things that i love&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I had an epiphany while gathering the inspiration and ideas for the design and development of &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;&quot;&gt;asyaplugged.in&lt;&#x2F;a&gt; that I could articulate the menu of my new website with the splash page title of my previous website, just like so:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;nav&lt;&#x2F;th&gt;&lt;th&gt;question&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;portfolio&lt;&#x2F;td&gt;&lt;td&gt;do&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;about&lt;&#x2F;td&gt;&lt;td&gt;you&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;blog&lt;&#x2F;td&gt;&lt;td&gt;know&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;things i love&lt;&#x2F;td&gt;&lt;td&gt;love&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;I&#x27;d be interested in hearing from you what you think about this articulation, whether it was confusing for you, etc.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-does-asyapluggedin-mean-what-happened-to-xnastasia&quot;&gt;What does asyapluggedin mean? What happened to xnastasia?&lt;&#x2F;h2&gt;
+&lt;p&gt;Someday I will write a separate post about the permutations of my identity &#x2F; avatar &#x2F; sense of self, but until then, this brief explanation will have to suffice.&lt;&#x2F;p&gt;
+&lt;p&gt;I felt that the &lt;em&gt;xnast.asia&lt;&#x2F;em&gt; url and &lt;em&gt;xnastasia&lt;&#x2F;em&gt; username was too hard to pronounce, and had a little bit of a pornographic vibe. Every time people typed &amp;quot;x...n...a...s...t...&amp;quot; into a search bar, I would never be the first thing to auto-populate the field. I&#x27;ve still held onto the url and most of the usernames, but once I came up with &lt;em&gt;asyapluggedin&lt;&#x2F;em&gt; I was so happy to swap all my online pointers to that.&lt;&#x2F;p&gt;
+&lt;p&gt;My father has had the username mattpluggedin for the longest time, and so the &amp;quot;plugged in&amp;quot; username always made me feel nostalgic for the whole early internet &#x2F; dotcom boom era, which plays a significant role in a lot my work. But I never thought to inherit the username before I came across the sci-fi book &amp;quot;The Girl That Was Plugged In&amp;quot;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, which also is the title of an episode of sci-fi TV series &amp;quot;Welcome to Paradox&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;do-you-have-an-rss-feed-can-i-tell-you-if-something-is-broken-or-typoed&quot;&gt;Do you have an RSS feed? Can I tell you if something is broken or typoed?&lt;&#x2F;h2&gt;
+&lt;p&gt;Yes and yes. You can access the RSS feed for my blog via &lt;a href=&quot;https:&#x2F;&#x2F;asyaplugged.in&#x2F;know&#x2F;atom.xml&quot;&gt;asyaplugged.in&#x2F;know&#x2F;atom.xml&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I would also be very happy to hear any feedback on my blog or really, any aspect of the entire website. You can make a pull request on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asyapluggedin&#x2F;asyaplugged.in&quot;&gt;github&lt;&#x2F;a&gt;, where my website is hosted, or just send me a message on whichever platform you prefer.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;I learned about this book from Dr. Teddy Pozo&#x27;s UCLA Game Lab Teledildonics lecture from Spring 2021.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>
