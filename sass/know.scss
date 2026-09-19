@@ -96,6 +96,7 @@ table {
 
     a {
       width:min-content;
+      color: var(--text);
     }
 
     .onetag ~ .onetag::before {
@@ -114,10 +115,6 @@ table {
     tr {
       span {
         margin-right: -.25rem;
-      }
-      span:hover {
-      background-color: var(--accent);
-      color: var(--background);
       }
     }
 }

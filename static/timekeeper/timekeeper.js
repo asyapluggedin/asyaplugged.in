@@ -255,11 +255,29 @@ function zonePicker(zone, index) {
 
   list.className = 'zone-results';
 
+  function positionList() {
+    const rect = input.getBoundingClientRect();
+    list.style.position = 'fixed';
+    list.style.top = (rect.bottom + 3) + 'px';
+    list.style.left = rect.left + 'px';
+    list.style.width = rect.width + 'px';
+    list.style.margin = '0';
+  }
+
+  function resetListPosition() {
+    list.style.position = '';
+    list.style.top = '';
+    list.style.left = '';
+    list.style.width = '';
+    list.style.margin = '';
+  }
+
   function drawResults(query) {
     const normalized = query.toLowerCase().trim();
 
     if (!normalized) {
       list.innerHTML = '';
+      resetListPosition();
       return;
     }
 
@@ -285,6 +303,8 @@ function zonePicker(zone, index) {
       item.appendChild(button);
       list.appendChild(item);
     });
+
+    positionList();
   }
 
   input.onfocus = () => {
@@ -298,6 +318,7 @@ function zonePicker(zone, index) {
   input.onblur = () => {
     setTimeout(() => {
       list.innerHTML = '';
+      resetListPosition();
       input.value = optionLabel(store.zones[index]);
     }, 150);
   };
