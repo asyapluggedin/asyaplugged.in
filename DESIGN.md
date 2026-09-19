@@ -52,7 +52,7 @@ tokens:
     blogtext:    "#080808"   # body copy in articles
     hovercolor:  "#ffc4c4"   # hover / active backgrounds
 
-  # Dark theme  (body[data-theme="black"])
+  # Dark theme  (body[data-theme="dark"])
   dark:
     background:  "#080808"
     foreground:  "#40FFF4"
@@ -183,7 +183,7 @@ themes:
     toggle_icon: ".toggle-black"  # moon outline shown in light mode
 
   dark:
-    data_attr:  'body[data-theme="black"]'
+    data_attr:  'body[data-theme="dark"]'
     background: "#080808"
     foreground: "#40FFF4"   # teal
     blogtext:   "#ffffff"
@@ -191,9 +191,9 @@ themes:
     toggle_icon: ".toggle-light"  # moon filled shown in dark mode
 
   persistence: "localStorage key: 'theme'"
-  valid_values: ["light", "black"]
+  valid_values: ["light", "dark"]
   default:     "light"
-  toggle_behavior: "binary — light ↔ black, no system-preference default after first visit"
+  toggle_behavior: "binary — light ↔ dark, no system-preference default after first visit"
 ```
 
 ---
@@ -379,7 +379,7 @@ Note: `$dark1 = #777777` is an SCSS variable, not a CSS custom property. It does
 - **Don't** introduce new hex colors without adding them as CSS custom properties on `:root` first.
 - **Don't** use `skyblue` (hardcoded in `.you li:hover`) — replace with `var(--hovercolor)` for theme consistency.
 - **Don't** use red or teal as background fills for large areas — they are accent/foreground only.
-- **Don't** add `!important` overrides for theme colors. Use specificity via `body[data-theme="black"]` selectors instead.
+- **Don't** add `!important` overrides for theme colors. Use specificity via `body[data-theme="dark"]` selectors instead.
 
 ---
 
@@ -641,11 +641,11 @@ Used on article pages to collapse post metadata (word count, reading time, tags)
 ```
 This runs synchronously and sets `data-theme` before the browser paints. Result: no flash of unstyled/wrong-theme content.
 
-**Step 2 — CSS responds** to `body[data-theme="light"]` and `body[data-theme="black"]` selectors (defined in `index.scss`, duplicated with minor variations in each page's SCSS).
+**Step 2 — CSS responds** to `body[data-theme="light"]` and `body[data-theme="dark"]` selectors (defined in `index.scss`, duplicated with minor variations in each page's SCSS).
 
 **Step 3 — JS toggle** (`mode-switch.js`):
 - `get_theme()`: reads `localStorage` and calls `set_theme()`. Called on load.
-- `set_theme(mode)`: validates mode is `"light"` or `"black"`, sets `document.body.dataset.theme`, writes to `localStorage`.
+- `set_theme(mode)`: validates mode is `"light"` or `"dark"`, sets `document.body.dataset.theme`, writes to `localStorage`.
 - `toggle_theme()`: reads current from `localStorage`, flips to opposite.
 - All elements with class `toggle` get a click listener.
 
@@ -654,9 +654,7 @@ This runs synchronously and sets `data-theme` before the browser paints. Result:
 | Theme | `data-theme` value | Foreground | Background |
 |---|---|---|---|
 | Light | `"light"` | Red `#DB1414` | White `#ffffff` |
-| Dark | `"black"` | Teal `#40FFF4` | Near-black `#080808` |
-
-**"black" not "dark":** The attribute value is `"black"`, not `"dark"`. This is non-obvious. All CSS selectors and JS logic must use `"black"`.
+| Dark | `"dark"` | Teal `#40FFF4` | Near-black `#080808` |
 
 ### System preference (`prefers-color-scheme`)
 
@@ -670,7 +668,7 @@ This runs synchronously and sets `data-theme` before the browser paints. Result:
   }
 }
 ```
-This activates only if `data-theme` is not `"light"` — i.e., on first load before any JS runs, if system is dark. After `get_theme()` fires, `data-theme` is always set to either `"light"` or `"black"`, bypassing this fallback.
+This activates only if `data-theme` is not `"light"` — i.e., on first load before any JS runs, if system is dark. After `get_theme()` fires, `data-theme` is always set to either `"light"` or `"dark"`, bypassing this fallback.
 
 **Canonical behavior going forward:** The system-preference media query is a pre-JS safety net, not the primary mechanism. Once JS loads, the `localStorage` value controls everything. The inline `<script>` in `<body>` ensures this is always the case even on first visit (defaulting to `"light"`).
 
@@ -733,7 +731,7 @@ The live `index.html` is a self-contained HTML file, not a Zola template. It has
 ---
 
 ### 7. Duplicate theme variable definitions across SCSS files
-`body[data-theme="black"]` and `body[data-theme="light"]` variable blocks are redefined in `index.scss`, `you.scss`, `love.scss`, and `_article.scss` with subtle differences. This creates maintenance risk.
+`body[data-theme="dark"]` and `body[data-theme="light"]` variable blocks are redefined in `index.scss`, `you.scss`, `love.scss`, and `_article.scss` with subtle differences. This creates maintenance risk.
 
 **Intended behavior:** Define theme tokens exactly once in `index.scss` (the base stylesheet loaded on all pages). Remove all duplicate `body[data-theme]` blocks from page-specific SCSS. Code-block background overrides (`article > pre`) are the only legitimate per-page theme addition.
 
@@ -753,10 +751,8 @@ The live `index.html` is a self-contained HTML file, not a Zola template. It has
 
 ---
 
-### 10. Inconsistent `do.scss` theme border selector
-`do.scss:6` targets `body:not([data-theme="dark"])` — but "dark" is not a valid theme value (the dark theme is `"black"`). This rule never matches the intended condition.
-
-**Intended behavior:** Change to `body:not([data-theme="black"])` to correctly target the light theme.
+### 10. ~~Inconsistent `do.scss` theme border selector~~ (resolved)
+`do.scss` and `section.scss` previously mixed `"black"` and `"dark"` as theme values. The dark theme attribute value has been renamed from `"black"` to `"dark"` across all SCSS, JS, and documentation.
 
 ---
 
@@ -777,7 +773,7 @@ The live `index.html` is a self-contained HTML file, not a Zola template. It has
 
 1. **Check existing tokens first.** Use `var(--foreground)`, `var(--background)`, `var(--hovercolor)`, `var(--blogtext)`. Do not introduce new hex values for border or text colors.
 2. **Use the border idiom.** Prefer `border: 1px solid var(--foreground)` over background fills. The design language is lines, not blocks.
-3. **Test both themes.** Set `localStorage.setItem("theme", "black")` in DevTools and reload to verify dark mode. Check that no hardcoded colors appear.
+3. **Test both themes.** Set `localStorage.setItem("theme", "dark")` in DevTools and reload to verify dark mode. Check that no hardcoded colors appear.
 4. **No JS dependencies for layout.** Structure must be readable without JavaScript. Interactions (hover reveals, tab switching) are progressive enhancement only.
 
 ### Introducing new card types
@@ -799,7 +795,7 @@ For text-only cards (no feature image), the fallback `<span>` title is already i
 | Inter for all non-home-page text | Consistency and loading budget |
 | `max-width` on prose containers | Readability — never let lines exceed ~65ch |
 | WCAG AA contrast for all text | Accessibility is not optional |
-| `data-theme="black"` (not "dark") | Matches existing JS and CSS selectors |
+| `data-theme="dark"` | Matches JS and CSS selectors |
 | No inline `style=` for theme colors | Inline styles override CSS variables and break theming |
 
 ---

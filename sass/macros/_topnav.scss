@@ -7,7 +7,7 @@ header > nav > ul > li .toggle {
     }
 }
 
-body[data-theme="black"] > header > nav > ul > li > button.toggle {
+body[data-theme="dark"] > header > nav > ul > li > button.toggle {
     svg:not(.toggle-light) {
         display: none;
     }
@@ -17,7 +17,7 @@ body[data-theme="black"] > header > nav > ul > li > button.toggle {
     }
 }
 
-body:not([data-theme="black"]) > header > nav > ul > li > button.toggle {
+body:not([data-theme="dark"]) > header > nav > ul > li > button.toggle {
     svg:not(.toggle-black) {
         display: none;
     }

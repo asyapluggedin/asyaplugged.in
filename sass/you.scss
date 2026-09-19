@@ -13,7 +13,7 @@ body[data-theme="light"] {
 }
 
 @media (prefers-color-scheme: light) {
-  body:not([data-theme="black"]) {
+  body:not([data-theme="dark"]) {
     article > pre {
       background-color: #f6f7f6 !important;
     }
