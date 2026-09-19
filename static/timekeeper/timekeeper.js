@@ -1,3 +1,5 @@
+// Store
+
 const KEY = 'timekeeper.v1.0';
 const THEME_KEY = 'theme';
 
@@ -16,6 +18,8 @@ const $ = (id) => document.getElementById(id);
 let interval;
 let audioContext;
 let finalAlertInterval = null;
+
+// Data
 
 const zoneOptions = [
   ['Los Angeles, United States — Pacific Time', 'America/Los_Angeles', 'los angeles la san francisco california pacific usa united states'],
@@ -55,25 +59,10 @@ const zoneOptions = [
   ['Auckland, New Zealand — New Zealand Time', 'Pacific/Auckland', 'auckland new zealand nz'],
 ];
 
+// Utilities
+
 function save() {
   localStorage.setItem(KEY, JSON.stringify(store));
-}
-
-function setTheme(theme) {
-  document.documentElement.dataset.theme = theme;
-  localStorage.setItem(THEME_KEY, theme);
-}
-
-function setupTheme() {
-  const savedTheme = localStorage.getItem(THEME_KEY);
-
-  setTheme(savedTheme || 'light');
-
-  $('themeToggle').onclick = () => {
-    const current = document.documentElement.dataset.theme;
-
-    setTheme(current === 'dark' ? 'light' : 'dark');
-  };
 }
 
 function offset(zone, date = new Date()) {
@@ -94,6 +83,15 @@ function optionLabel(zone) {
   const label = found ? found[0] : zone;
 
   return `${label} (${offset(zone)})`;
+}
+
+function zoneLabel(zone) {
+  const found = zoneOptions.find((option) => option[1] === zone);
+  if (!found) return zone;
+  return found[0]
+    .split(' — ')[0]
+    .replace('United States', 'USA')
+    .replace('United Kingdom', 'UK');
 }
 
 function formatDateTime(date, zone) {
@@ -125,15 +123,29 @@ function durationSeconds() {
   const minutes = Number($('minutes')?.value || 0);
   const seconds = Number($('seconds')?.value || 0);
 
-  return Math.max(
-    1,
-    hours * 3600 + minutes * 60 + seconds
-  );
+  return Math.max(1, hours * 3600 + minutes * 60 + seconds);
 }
 
 function proposedEnd() {
   return new Date(Date.now() + durationSeconds() * 1000);
 }
+
+function deltaText(seconds) {
+  const sign = seconds < 0 ? '−' : '+';
+  const absolute = Math.abs(seconds);
+
+  return `${sign}${Math.floor(absolute / 60)}:${String(absolute % 60).padStart(2, '0')}`;
+}
+
+function planText(seconds) {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const remainingSeconds = seconds % 60;
+
+  return `${hours}h ${minutes}m ${remainingSeconds}s`;
+}
+
+// Audio
 
 function ensureAudio() {
   if (!audioContext) {
@@ -215,14 +227,12 @@ const sound = {
   },
 };
 
+// Rendering
+
 function flashAlert() {
   const timer = $('timer');
-
   timer.classList.add('alert');
-
-  setTimeout(() => {
-    timer.classList.remove('alert');
-  }, 1600);
+  setTimeout(() => timer.classList.remove('alert'), 1600);
 }
 
 function renderTimeCell(cell, date, zone) {
@@ -243,10 +253,7 @@ function zonePicker(zone, index) {
   input.autocomplete = 'off';
   input.value = optionLabel(zone);
 
-  input.setAttribute(
-    'aria-label',
-    `Time zone ${index + 1}`
-  );
+  input.setAttribute('aria-label', `Time zone ${index + 1}`);
 
   list.className = 'zone-results';
 
@@ -259,16 +266,12 @@ function zonePicker(zone, index) {
     list.style.margin = '0';
   }
 
-  function resetListPosition() {
-    list.removeAttribute('style');
-  }
-
   function drawResults(query) {
     const normalized = query.toLowerCase().trim();
 
     if (!normalized) {
       list.innerHTML = '';
-      resetListPosition();
+      list.removeAttribute('style');
       return;
     }
 
@@ -298,18 +301,14 @@ function zonePicker(zone, index) {
     positionList();
   }
 
-  input.onfocus = () => {
-    input.select();
-  };
+  input.onfocus = () => input.select();
 
-  input.oninput = () => {
-    drawResults(input.value);
-  };
+  input.oninput = () => drawResults(input.value);
 
   input.onblur = () => {
     setTimeout(() => {
       list.innerHTML = '';
-      resetListPosition();
+      list.removeAttribute('style');
       input.value = optionLabel(store.zones[index]);
     }, 150);
   };
@@ -440,6 +439,11 @@ function removeAlert() {
   }
 }
 
+function renderHistory() {
+  $('history').value = historyText();
+}
+
+// Timer
 
 function start() {
   if (store.active) {
@@ -448,27 +452,23 @@ function start() {
     );
     if (!confirmed) return;
     clearInterval(interval);
-    sound.stopEndSignal();
     store.active = null;
   }
 
+  sound.stopEndSignal();
   sound.chime(1);
 
   $('resumeBtn').classList.add('hidden');
+  $('silenceBtn').classList.remove('active');
 
   const totalSeconds = durationSeconds();
   const startedAt = new Date();
-
-  sound.stopEndSignal();
-  $('silenceBtn').classList.remove('active');
 
   store.active = {
     started: startedAt.toISOString(),
     originalSeconds: totalSeconds,
     addedSeconds: 0,
-    finalEnd: new Date(
-      startedAt.getTime() + totalSeconds * 1000
-    ).toISOString(),
+    finalEnd: new Date(startedAt.getTime() + totalSeconds * 1000).toISOString(),
     zones: [...store.zones],
     played: [],
     finalAlertPlayed: false,
@@ -480,10 +480,9 @@ function start() {
   $('activeButtons').classList.remove('hidden');
   $('result').textContent = '';
 
-  updateActive();
-
   clearInterval(interval);
   interval = setInterval(updateActive, 250);
+  updateActive();
 }
 
 function updateActive() {
@@ -491,16 +490,14 @@ function updateActive() {
 
   const active = store.active;
   const end = new Date(active.finalEnd);
-
   const remaining = Math.ceil((end - Date.now()) / 1000);
-
-  const timer = $('timer');
-
   const abs = Math.abs(remaining);
+
   const digits = remaining < 0
     ? `${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
     : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}`;
 
+  const timer = $('timer');
   timer.textContent = '';
   if (remaining < 0) {
     const sign = document.createElement('span');
@@ -530,7 +527,6 @@ function updateActive() {
     if (!shouldPlay) return;
 
     active.played.push(minutes);
-
     save();
     sound.reminderAlert(minutes);
     flashAlert();
@@ -538,27 +534,9 @@ function updateActive() {
 
   if (remaining <= 0 && !active.finalAlertPlayed) {
     active.finalAlertPlayed = true;
-
     save();
     sound.startEndSignal();
   }
-}
-
-function deltaText(seconds) {
-  const sign = seconds < 0 ? '−' : '+';
-  const absolute = Math.abs(seconds);
-
-  return `${sign}${Math.floor(absolute / 60)}:${String(
-    absolute % 60
-  ).padStart(2, '0')}`;
-}
-
-function planText(seconds) {
-  const hours = Math.floor(seconds / 3600);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const remainingSeconds = seconds % 60;
-
-  return `${hours}h ${minutes}m ${remainingSeconds}s`;
 }
 
 function endTask() {
@@ -567,7 +545,6 @@ function endTask() {
   const active = store.active;
   const endedAt = new Date();
   const finalEnd = new Date(active.finalEnd);
-
   const originalEnd = new Date(new Date(active.started).getTime() + active.originalSeconds * 1000);
   const delta = Math.round((endedAt - originalEnd) / 1000);
 
@@ -582,7 +559,6 @@ function endTask() {
   });
 
   store.active = null;
-
   save();
 
   clearInterval(interval);
@@ -594,9 +570,7 @@ function endTask() {
   document.title = 'Timekeeper';
 
   renderHistory();
-
   $('result').textContent = `Result: ${deltaText(delta)}`;
-
   $('resumeBtn').classList.toggle('hidden', finalEnd <= endedAt);
 }
 
@@ -627,9 +601,9 @@ function resumeTimer() {
   document.title = 'Timekeeper';
 
   renderHistory();
-  updateActive();
   clearInterval(interval);
   interval = setInterval(updateActive, 250);
+  updateActive();
 }
 
 function addTime(seconds) {
@@ -650,14 +624,32 @@ function addTime(seconds) {
   updateActive();
 }
 
-function zoneLabel(zone) {
-  const found = zoneOptions.find((option) => option[1] === zone);
-  if (!found) return zone;
-  return found[0]
-    .split(' — ')[0]
-    .replace('United States', 'USA')
-    .replace('United Kingdom', 'UK');
+function restoreActiveTimer() {
+  if (!store.active) return;
+
+  const scheduledEnd = new Date(store.active.finalEnd);
+  const ageMs = Date.now() - scheduledEnd.getTime();
+  const staleAfterMs = 30 * 60 * 1000;
+
+  if (ageMs > staleAfterMs) {
+    store.active = null;
+    save();
+    return;
+  }
+
+  // Overdue sessions re-present a muted visual alert after reload.
+  // Sound only resumes by explicit user action (Add time resets finalAlertPlayed).
+  if (ageMs > 0 && !store.active.finalAlertPlayed) {
+    store.active.finalAlertPlayed = true;
+    save();
+  }
+
+  $('activeSection').classList.remove('hidden');
+  updateActive();
+  interval = setInterval(updateActive, 250);
 }
+
+// History
 
 function historyText() {
   return store.history
@@ -687,33 +679,43 @@ function historyText() {
     .join('\n\n');
 }
 
-function renderHistory() {
-  $('history').value = historyText();
-}
-
 function downloadHistory() {
   const text = historyText() || 'No history.';
-
-  const file = new Blob([text], {
-    type: 'text/plain',
-  });
-
+  const file = new Blob([text], { type: 'text/plain' });
   const link = document.createElement('a');
 
   link.href = URL.createObjectURL(file);
   link.download = 'timekeeper-history.txt';
-
   link.click();
 
   URL.revokeObjectURL(link.href);
 }
 
-$('addZone').onclick = () => {
-  store.zones.push('UTC');
+// Theme
 
-  save();
-  renderTable();
-};
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  localStorage.setItem(THEME_KEY, theme);
+}
+
+function setupTheme() {
+  setTheme(localStorage.getItem(THEME_KEY) || 'light');
+
+  $('themeToggle').onclick = () => {
+    setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+  };
+}
+
+// Init
+
+setupTheme();
+renderTable();
+renderAlerts();
+renderHistory();
+restoreActiveTimer();
+setInterval(updateTimesOnly, 1000);
+
+$('addZone').onclick = () => { store.zones.push('UTC'); save(); renderTable(); };
 
 $('addAlert').onclick = addAlert;
 $('removeAlert').onclick = removeAlert;
@@ -745,58 +747,13 @@ $('addFiveMinsBtn').onclick = () => addTime(300);
 $('resumeBtn').onclick = resumeTimer;
 
 $('copyHistory').onclick = async () => {
-  await navigator.clipboard.writeText(
-    $('history').value
-  );
+  await navigator.clipboard.writeText($('history').value);
 };
-
 $('exportHistory').onclick = downloadHistory;
-
 $('clearHistory').onclick = () => {
   if (!store.history.length) return;
-
-  const confirmed = confirm(
-    'Clear all locally stored Timekeeper history?'
-  );
-
-  if (!confirmed) return;
-
+  if (!confirm('Clear all locally stored Timekeeper history?')) return;
   store.history = [];
   save();
   renderHistory();
 };
-
-function restoreActiveTimer() {
-  if (!store.active) return;
-
-  const scheduledEnd = new Date(store.active.finalEnd);
-  const ageMs = Date.now() - scheduledEnd.getTime();
-  const staleAfterMs = 30 * 60 * 1000;
-
-  if (ageMs > staleAfterMs) {
-    store.active = null;
-    save();
-    return;
-  }
-
-  // Overdue sessions re-present a muted visual alert after reload.
-  // Sound only resumes by explicit user action (Add time resets finalAlertPlayed).
-  if (ageMs > 0 && !store.active.finalAlertPlayed) {
-    store.active.finalAlertPlayed = true;
-    save();
-  }
-
-  $('activeSection').classList.remove('hidden');
-  updateActive();
-  interval = setInterval(updateActive, 250);
-}
-
-setupTheme();
-
-renderTable();
-renderAlerts();
-renderHistory();
-restoreActiveTimer();
-
-setInterval(updateTimesOnly, 1000);
-
