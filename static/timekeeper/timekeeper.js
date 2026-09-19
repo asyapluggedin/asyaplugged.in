@@ -3,11 +3,7 @@ const THEME_KEY = 'theme';
 
 const store = JSON.parse(localStorage.getItem(KEY) || '{}');
 
-const detectedZone =
-  Intl.DateTimeFormat().resolvedOptions().timeZone ||
-  'UTC';
-
-store.zones ||= [detectedZone, 'UTC'];
+store.zones ||= [Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC', 'UTC'];
 store.alerts ||= [15, 5, 1];
 store.history ||= [];
 
@@ -188,7 +184,6 @@ const sound = {
     }
   },
 
-
   reminderAlert(minutes) {
     const ctx = ensureAudio();
     const chimes = Math.floor(minutes / 10);
@@ -265,11 +260,7 @@ function zonePicker(zone, index) {
   }
 
   function resetListPosition() {
-    list.style.position = '';
-    list.style.top = '';
-    list.style.left = '';
-    list.style.width = '';
-    list.style.margin = '';
+    list.removeAttribute('style');
   }
 
   function drawResults(query) {
@@ -449,12 +440,6 @@ function removeAlert() {
   }
 }
 
-function selectedAlerts() {
-  return [...document.querySelectorAll('#alerts input:checked')]
-    .map((checkbox) => {
-      return store.alerts[Number(checkbox.dataset.index)];
-    });
-}
 
 function start() {
   if (store.active) {
@@ -485,7 +470,6 @@ function start() {
       startedAt.getTime() + totalSeconds * 1000
     ).toISOString(),
     zones: [...store.zones],
-    alerts: selectedAlerts(),
     played: [],
     finalAlertPlayed: false,
   };
@@ -592,8 +576,6 @@ function endTask() {
     ended: endedAt.toISOString(),
     originalSeconds: active.originalSeconds,
     addedSeconds: active.addedSeconds,
-    finalSeconds:
-      active.originalSeconds + active.addedSeconds,
     finalEnd: active.finalEnd,
     zones: active.zones,
     delta,
@@ -633,7 +615,6 @@ function resumeTimer() {
     addedSeconds: last.addedSeconds,
     finalEnd: last.finalEnd,
     zones: last.zones,
-    alerts: store.alerts.slice(),
     played: [],
     finalAlertPlayed: false,
   };
@@ -651,38 +632,18 @@ function resumeTimer() {
   interval = setInterval(updateActive, 250);
 }
 
-function addFive() {
+function addTime(seconds) {
   if (!store.active) return;
 
   sound.stopEndSignal();
   $('silenceBtn').classList.remove('active');
-
   $('timer').className = '';
 
   store.active.finalEnd = new Date(
-    new Date(store.active.finalEnd).getTime() + 60000
+    new Date(store.active.finalEnd).getTime() + seconds * 1000
   ).toISOString();
 
-  store.active.addedSeconds += 60;
-  store.active.finalAlertPlayed = false;
-
-  save();
-  updateActive();
-}
-
-function addFiveMins() {
-  if (!store.active) return;
-
-  sound.stopEndSignal();
-  $('silenceBtn').classList.remove('active');
-
-  $('timer').className = '';
-
-  store.active.finalEnd = new Date(
-    new Date(store.active.finalEnd).getTime() + 300000
-  ).toISOString();
-
-  store.active.addedSeconds += 300;
+  store.active.addedSeconds += seconds;
   store.active.finalAlertPlayed = false;
 
   save();
@@ -779,8 +740,8 @@ $('silenceBtn').onclick = () => {
   }
 };
 $('endBtn').onclick = endTask;
-$('addFiveBtn').onclick = addFive;
-$('addFiveMinsBtn').onclick = addFiveMins;
+$('addFiveBtn').onclick = () => addTime(60);
+$('addFiveMinsBtn').onclick = () => addTime(300);
 $('resumeBtn').onclick = resumeTimer;
 
 $('copyHistory').onclick = async () => {

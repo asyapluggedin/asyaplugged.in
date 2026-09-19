@@ -8,7 +8,7 @@
   :root {
     --bg: #faf9f5;
     --ink: #111;
-    --muted: #646464;
+
     --line: #111;
     --field: #fff;
     --head: #efede7;
@@ -20,7 +20,7 @@
   [data-theme="dark"] {
     --bg: #111;
     --ink: #f7f5ee;
-    --muted: #b7b4aa;
+
     --line: #f7f5ee;
     --field: #181818;
     --head: #242424;
@@ -29,7 +29,7 @@
     --final: #ff8a93;
   }
   * { box-sizing: border-box; }
-  body { max-width: 860px; margin: 24px auto; padding: 0 16px 48px; font: 16px/1.35 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--bg); transition: background .15s, color .15s; }
+  body { max-width: 860px; margin: 24px auto; padding: 0 16px 48px; font: 14px/1 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--bg); transition: background .15s, color .15s; }
   h1 { margin: 0; font-size: 32px; line-height: 1; font-weight: normal; }
   h2 { margin: 30px 0 8px; font-size: 18px; font-weight: normal; }
   .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
@@ -68,7 +68,7 @@
   #history { width: 100%; min-height: 190px; padding: 8px; resize: vertical; line-height: 1.4; }
   .button-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
   #activeSection .button-row { justify-content: center; }
-  .small { color: var(--muted); font-size: 13px; }
+
   #result { margin: 10px 0; white-space: pre-wrap; text-align: center; font-size: 14px; }
   .table-scroll { overflow-x: auto; }
   @media (max-width: 680px) {
@@ -119,7 +119,7 @@
   <h2>Local History Log</h2>
   <textarea id="history" readonly></textarea>
   <div class="button-row"><button id="copyHistory">Copy to clipboard</button><button id="exportHistory">Export history .txt</button><button id="clearHistory">Clear history</button></div>
-  <p class="small">History is stored only in this browser.</p>
+  <p>History is stored only in this browser.</p>
 
   <script src="/timekeeper/timekeeper.js"></script>
 </body>
