@@ -784,6 +784,13 @@ function restoreActiveTimer() {
     return;
   }
 
+  // Overdue sessions re-present a muted visual alert after reload.
+  // Sound only resumes by explicit user action (Add time resets finalAlertPlayed).
+  if (ageMs > 0 && !store.active.finalAlertPlayed) {
+    store.active.finalAlertPlayed = true;
+    save();
+  }
+
   $('activeSection').classList.remove('hidden');
   updateActive();
   interval = setInterval(updateActive, 250);
