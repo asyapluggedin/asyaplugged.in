@@ -457,6 +457,16 @@ function selectedAlerts() {
 }
 
 function start() {
+  if (store.active) {
+    const confirmed = confirm(
+      'A timer is already running. Starting a new one will discard it without saving. Continue?'
+    );
+    if (!confirmed) return;
+    clearInterval(interval);
+    sound.stopEndSignal();
+    store.active = null;
+  }
+
   sound.chime(1);
 
   $('resumeBtn').classList.add('hidden');
@@ -465,6 +475,7 @@ function start() {
   const startedAt = new Date();
 
   sound.stopEndSignal();
+  $('silenceBtn').classList.remove('active');
 
   store.active = {
     started: startedAt.toISOString(),
@@ -482,6 +493,7 @@ function start() {
   save();
 
   $('activeSection').classList.remove('hidden');
+  $('activeButtons').classList.remove('hidden');
   $('result').textContent = '';
 
   updateActive();
@@ -517,6 +529,7 @@ function updateActive() {
   document.title = `${remaining < 0 ? '−' : ''}${digits} Timekeeper - Asya`;
 
   timer.classList.toggle('end', remaining <= 0);
+  $('silenceBtn').classList.toggle('irrelevant', remaining > 0);
 
   $('timerMeta').textContent = active.zones
     .map((zone) => `Ends ${fullTime(end, zone)}`)
@@ -592,8 +605,10 @@ function endTask() {
 
   clearInterval(interval);
   sound.stopEndSignal();
+  $('silenceBtn').classList.remove('active');
 
   $('timer').className = '';
+  $('activeButtons').classList.add('hidden');
   document.title = 'Timekeeper';
 
   renderHistory();
@@ -640,6 +655,7 @@ function addFive() {
   if (!store.active) return;
 
   sound.stopEndSignal();
+  $('silenceBtn').classList.remove('active');
 
   $('timer').className = '';
 
@@ -658,6 +674,7 @@ function addFiveMins() {
   if (!store.active) return;
 
   sound.stopEndSignal();
+  $('silenceBtn').classList.remove('active');
 
   $('timer').className = '';
 
@@ -744,7 +761,23 @@ $('alertInput').onkeydown = (e) => { if (e.key === 'Enter') addAlert(); };
 $('testSound').onclick = () => sound.playEndPhrase();
 
 $('startBtn').onclick = start;
-$('silenceBtn').onclick = () => sound.stopEndSignal();
+$('silenceBtn').onclick = () => {
+  const btn = $('silenceBtn');
+  if (btn.classList.contains('irrelevant')) {
+    btn.classList.add('error');
+    setTimeout(() => btn.classList.remove('error'), 800);
+    return;
+  }
+  if (btn.classList.contains('active')) {
+    btn.classList.remove('active');
+    if (store.active && Date.now() >= new Date(store.active.finalEnd).getTime()) {
+      sound.startEndSignal();
+    }
+  } else {
+    btn.classList.add('active');
+    sound.stopEndSignal();
+  }
+};
 $('endBtn').onclick = endTask;
 $('addFiveBtn').onclick = addFive;
 $('addFiveMinsBtn').onclick = addFiveMins;

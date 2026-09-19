@@ -5,78 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>timekeeper - asyapluggedin</title>
   <style>
-    :root {
-      --bg: #faf9f5;
-      --ink: #111111;
-      --muted: #646464;
-      --line: #111111;
-      --field: #ffffff;
-      --head: #efede7;
-      --hover: #e4e1d9;
-      --red: #b31422;
-      --final: #671024;
-    }
-    [data-theme="dark"] {
-      --bg: #111111;
-      --ink: #f7f5ee;
-      --muted: #b7b4aa;
-      --line: #f7f5ee;
-      --field: #181818;
-      --head: #242424;
-      --hover: #303030;
-      --red: #ff6c75;
-      --final: #ff8a93;
-    }
-    * { box-sizing: border-box; }
-    body { max-width: 860px; margin: 24px auto; padding: 0 16px 48px; font: 16px/1.35 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--bg); transition: background .15s, color .15s; }
-    h1 { margin: 0; font-size: 32px; line-height: 1; font-weight: normal; }
-    h2 { font-size: 18px; margin: 30px 0 8px; font-weight: normal; }
-    .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); padding-bottom: 9px; }
-    .mono, input, button, textarea { font-family: "Courier New", Courier, monospace; }
-    table { width: 100%; border-collapse: collapse; margin: 0 0 14px; font-size: 14px; }
-    th, td { padding: 7px; border: 1px solid var(--line); text-align: left; vertical-align: middle; }
-    th { font-family: "Courier New", Courier, monospace; font-weight: bold; background: var(--head); }
-    input, button, textarea { font-size: 14px; color: var(--ink); }
-    input[type="number"] { width: 58px; background: var(--field); border: 1px solid var(--line); padding: 4px; }
-    button { color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: 5px 8px; cursor: pointer; }
-    button:hover { color: var(--bg); background: var(--ink); }
-    button.error { color: #fff; background: var(--red); border-color: var(--red); }
-    .toggle { display: grid; place-items: center; width: 34px; height: 34px; padding: 4px; border: 0; background: transparent; }
-    .toggle:hover { color: var(--ink); background: transparent; }
-    .toggle .svg { display: grid; place-items: center; }
-    .toggle svg { width: 24px; height: 24px; display: none; }
-    [data-theme="light"] .toggle-light, [data-theme="dark"] .toggle-black { display: block; }
-    .zone-search { width: 100%; min-width: 170px; color: var(--ink); background: var(--field); border: 1px solid var(--line); padding: 4px; }
-    .zone-results { position: absolute; z-index: 1; width: min(460px, calc(100vw - 48px)); margin: 3px 0 0; padding: 0; list-style: none; border: 1px solid var(--line); background: var(--field); max-height: 220px; overflow: auto; }
-    .zone-results:empty { display: none; }
-    .zone-results button { display: block; width: 100%; border: 0; border-bottom: 1px solid var(--line); background: var(--field); padding: 7px 8px; text-align: left; font-size: 13px; }
-    .zone-results button:hover, .zone-results button:focus { color: var(--ink); background: var(--hover); }
-    .zone-cell { position: relative; }
-    .time-cell { white-space: nowrap; line-height: 1.25; }
-    .time-cell .date { display: block; }
-    .time-cell .time { display: block; font-family: "Courier New", Courier, monospace; }
-    .row-actions { white-space: nowrap; }
-    .alerts { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; font-family: "Courier New", Courier, monospace; font-size: 14px; }
-    .alerts label { white-space: nowrap; }
-    .hidden { display: none; }
-    #timer { font-family: monospace; font-size: clamp(96px, 25vw, 240px); line-height: .85; font-weight: normal; letter-spacing: -.11em; margin: 38px 0 18px; text-align: center; transition: color .12s; }
-    #timer .sign { letter-spacing: .05em; }
-    #timer.alert { color: var(--red); }
-    #timer.end { color: var(--final); }
-    #timerMeta { margin: 0 0 12px; white-space: pre-line; text-align: center; font-size: 14px; }
-    #history { width: 100%; min-height: 190px; resize: vertical; color: var(--ink); background: var(--field); border: 1px solid var(--line); padding: 8px; line-height: 1.4; }
-    .button-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
-    #activeSection .button-row { justify-content: center; }
-    .small { font-size: 13px; color: var(--muted); }
-    #result { margin: 10px 0; font-family: "Courier New", Courier, monospace; font-size: 14px; white-space: pre-wrap; text-align: center; }
-    .table-scroll { overflow-x: auto; }
-    @media (max-width: 680px) {
-      body { padding: 0 10px 36px; }
-      table { font-size: 12px; }
-      th, td { padding: 5px; }
-      .zone-search { min-width: 140px; }
-    }
-  </style>
+  :root {
+    --bg: #faf9f5;
+    --ink: #111;
+    --muted: #646464;
+    --line: #111;
+    --field: #fff;
+    --head: #efede7;
+    --hover: #e4e1d9;
+    --red: #b31422;
+    --final: #671024;
+    --mono: "Courier New", Courier, monospace;
+  }
+  [data-theme="dark"] {
+    --bg: #111;
+    --ink: #f7f5ee;
+    --muted: #b7b4aa;
+    --line: #f7f5ee;
+    --field: #181818;
+    --head: #242424;
+    --hover: #303030;
+    --red: #ff6c75;
+    --final: #ff8a93;
+  }
+  * { box-sizing: border-box; }
+  body { max-width: 860px; margin: 24px auto; padding: 0 16px 48px; font: 16px/1.35 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--bg); transition: background .15s, color .15s; }
+  h1 { margin: 0; font-size: 32px; line-height: 1; font-weight: normal; }
+  h2 { margin: 30px 0 8px; font-size: 18px; font-weight: normal; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
+  .mono, input, button, textarea, th, .time-cell .time, #result { font-family: var(--mono); }
+  table { width: 100%; margin: 0 0 14px; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 7px; border: 1px solid var(--line); text-align: left; vertical-align: middle; }
+  th { font-weight: bold; background: var(--head); }
+  input, button, textarea { color: inherit; font-size: 14px; }
+  input[type="number"], .zone-search, #history { color: inherit; background: var(--field); border: 1px solid var(--line); }
+  input[type="number"] { width: 58px; padding: 4px; }
+  button { padding: 5px 8px; background: var(--bg); border: 1px solid var(--line); cursor: pointer; }
+  button:hover { color: var(--bg); background: var(--ink); }
+  button.active { color: var(--bg); background: var(--ink); }
+  button.error { color: #fff; background: var(--red); border-color: var(--red); }
+  button.irrelevant:hover { color: #fff; background: var(--red); border-color: var(--red); }
+  .toggle { display: grid; place-items: center; width: 34px; height: 34px; padding: 4px; border: 0; background: transparent; }
+  .toggle:hover { color: var(--ink); background: transparent; }
+  .toggle .svg { display: grid; place-items: center; }
+  .toggle svg { display: none; width: 24px; height: 24px; }
+  [data-theme="light"] .toggle-light, [data-theme="dark"] .toggle-black { display: block; }
+  .zone-search { width: 100%; min-width: 170px; padding: 4px; }
+  .zone-results { position: absolute; z-index: 1; width: min(460px, calc(100vw - 48px)); max-height: 220px; margin: 3px 0 0; padding: 0; overflow: auto; list-style: none; border: 1px solid var(--line); background: var(--field); }
+  .zone-results:empty { display: none; }
+  .zone-results button { display: block; width: 100%; padding: 7px 8px; border: 0; border-bottom: 1px solid var(--line); background: var(--field); text-align: left; font-size: 13px; }
+  .zone-results button:hover, .zone-results button:focus { color: var(--ink); background: var(--hover); }
+  .zone-cell { position: relative; }
+  .time-cell, .row-actions { white-space: nowrap; }
+  .time-cell { line-height: 1.25; }
+  .time-cell .date, .time-cell .time { display: block; }
+  .hidden { display: none !important; }
+  #timer { margin: 38px 0 18px; font: normal clamp(96px, 25vw, 240px)/.85 monospace; letter-spacing: -.11em; text-align: center; transition: color .12s; }
+  #timer .sign { letter-spacing: .05em; }
+  #timer.alert { color: var(--red); }
+  #timer.end { color: var(--final); }
+  #timerMeta { margin: 0 0 12px; white-space: pre-line; text-align: center; font-size: 14px; }
+  #history { width: 100%; min-height: 190px; padding: 8px; resize: vertical; line-height: 1.4; }
+  .button-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
+  #activeSection .button-row { justify-content: center; }
+  .small { color: var(--muted); font-size: 13px; }
+  #result { margin: 10px 0; white-space: pre-wrap; text-align: center; font-size: 14px; }
+  .table-scroll { overflow-x: auto; }
+  @media (max-width: 680px) {
+    body { padding: 0 10px 36px; }
+    table { font-size: 12px; }
+    th, td { padding: 5px; }
+    .zone-search { min-width: 140px; }
+  }
+</style>
   <script data-goatcounter="https://asyapluggedin.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -101,8 +102,8 @@
   <div class="button-row"><button id="addZone">+ Add time zone</button></div>
 
   <div>
-    <strong>Alerts</strong>
-    <div id="alerts" class="alerts"></div>
+    <h2>Alerts</h2>
+    <div id="alerts"></div>
     <div class="button-row"><input id="alertInput" type="number" min="1" placeholder="min"><button id="addAlert">+ Add alert</button><button id="removeAlert">− Remove alert</button><button id="testSound">Test sound</button></div>
   </div>
 
@@ -111,7 +112,7 @@
   <section id="activeSection" class="hidden">
     <div id="timer">0:00</div>
     <div id="timerMeta"></div>
-    <div class="button-row"><button id="silenceBtn">Silence</button><button id="endBtn">End</button><button id="addFiveBtn">Add 1 Minute</button><button id="addFiveMinsBtn">Add 5 Minutes</button><button id="resumeBtn" class="hidden">Resume</button></div>
+    <div id="activeButtons" class="button-row"><button id="silenceBtn">Silence</button><button id="endBtn">End</button><button id="addFiveBtn">Add 1 Minute</button><button id="addFiveMinsBtn">Add 5 Minutes</button><button id="resumeBtn" class="hidden">Resume</button></div>
     <div id="result"></div>
   </section>
 
