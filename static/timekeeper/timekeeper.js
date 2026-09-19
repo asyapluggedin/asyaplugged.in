@@ -496,21 +496,19 @@ function updateActive() {
   const active = store.active;
   const end = new Date(active.finalEnd);
 
-  const remaining = Math.max(
-    0,
-    Math.ceil((end - Date.now()) / 1000)
-  );
+  const remaining = Math.ceil((end - Date.now()) / 1000);
 
   const timer = $('timer');
 
-  const display = `${Math.floor(remaining / 60)}:${String(
-    remaining % 60
-  ).padStart(2, '0')}`;
+  const abs = Math.abs(remaining);
+  const display = remaining < 0
+    ? `−${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
+    : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}`;
 
   timer.textContent = display;
   document.title = `${display} — Timekeeper`;
 
-  timer.classList.toggle('end', remaining === 0);
+  timer.classList.toggle('end', remaining <= 0);
 
   $('timerMeta').textContent = active.zones
     .map((zone) => `Ends ${fullTime(end, zone)}`)
@@ -533,7 +531,7 @@ function updateActive() {
     flashAlert();
   });
 
-  if (remaining === 0 && !active.finalAlertPlayed) {
+  if (remaining <= 0 && !active.finalAlertPlayed) {
     active.finalAlertPlayed = true;
 
     save();
@@ -588,6 +586,8 @@ function endTask() {
   sound.stopEndSignal();
 
   $('timer').className = '';
+  $('silenceBtn').classList.add('hidden');
+  $('addFiveMinsBtn').classList.add('hidden');
   document.title = 'Timekeeper';
 
   renderHistory();
@@ -642,6 +642,24 @@ function addFive() {
   ).toISOString();
 
   store.active.addedSeconds += 60;
+  store.active.finalAlertPlayed = false;
+
+  save();
+  updateActive();
+}
+
+function addFiveMins() {
+  if (!store.active) return;
+
+  sound.stopEndSignal();
+
+  $('timer').className = '';
+
+  store.active.finalEnd = new Date(
+    new Date(store.active.finalEnd).getTime() + 300000
+  ).toISOString();
+
+  store.active.addedSeconds += 300;
   store.active.finalAlertPlayed = false;
 
   save();
@@ -720,8 +738,10 @@ $('alertInput').onkeydown = (e) => { if (e.key === 'Enter') addAlert(); };
 $('testSound').onclick = () => sound.playEndPhrase();
 
 $('startBtn').onclick = start;
+$('silenceBtn').onclick = () => sound.stopEndSignal();
 $('endBtn').onclick = endTask;
 $('addFiveBtn').onclick = addFive;
+$('addFiveMinsBtn').onclick = addFiveMins;
 $('resumeBtn').onclick = resumeTimer;
 
 $('copyHistory').onclick = async () => {
