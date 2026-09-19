@@ -505,11 +505,14 @@ function updateActive() {
     ? `${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
     : `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}`;
 
+  timer.textContent = '';
   if (remaining < 0) {
-    timer.innerHTML = `<span class="sign">−</span>${digits}`;
-  } else {
-    timer.textContent = digits;
+    const sign = document.createElement('span');
+    sign.className = 'sign';
+    sign.textContent = '−';
+    timer.appendChild(sign);
   }
+  timer.appendChild(document.createTextNode(digits));
 
   document.title = `${remaining < 0 ? '−' : ''}${digits} Timekeeper - Asya`;
 
@@ -591,8 +594,6 @@ function endTask() {
   sound.stopEndSignal();
 
   $('timer').className = '';
-  $('silenceBtn').classList.add('hidden');
-  $('addFiveMinsBtn').classList.add('hidden');
   document.title = 'Timekeeper';
 
   renderHistory();
